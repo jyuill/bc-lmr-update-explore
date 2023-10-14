@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>lmr-explore</title>
+<title>LMR Explore - All</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -108,7 +108,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">lmr-explore</h1>
+<h1 class="title">LMR Explore - All</h1>
 </div>
 
 
@@ -123,15 +123,175 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 </header>
 
-<section id="quarto" class="level2">
-<h2 class="anchored" data-anchor-id="quarto">Quarto</h2>
-<p>Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <a href="https://quarto.org" class="uri">https://quarto.org</a>. Better be more</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
+
+</div>
+<div class="cell">
+
+</div>
+<div class="cell">
+
+</div>
+<section id="bc-ldb-liquor-market-review-data" class="level2">
+<h2 class="anchored" data-anchor-id="bc-ldb-liquor-market-review-data">BC LDB Liquor Market Review Data</h2>
+<section id="intro-what-is-this" class="level3">
+<h3 class="anchored" data-anchor-id="intro-what-is-this">Intro: What is this?</h3>
+<p>BC Liquor Distribution Board releases its ‘Liquor Market Review’ of market statistics on a quarterly basis. The reports are made available to the public through <a href="https://www.bcldb.com/publications/liquor-market-review">BC LDB website</a>.</p>
+<p>The reports are published in PDF format, providing data for the most recent quarter as well as previous four quarters, to allow for quarterly comparison back to same quarter of previous here.</p>
+<p>Data here is extracted and compiled from reports going back to June 2015. This allows for more complete exploration and analysis of the data.</p>
+</section>
+</section>
+<section id="trend-overview" class="level2">
+<h2 class="anchored" data-anchor-id="trend-overview">TREND OVERVIEW</h2>
+<section id="all-categories" class="level3">
+<h3 class="anchored" data-anchor-id="all-categories">All Categories</h3>
+<section id="annual" class="level4">
+<h4 class="anchored" data-anchor-id="annual">Annual</h4>
+<blockquote class="blockquote">
+<h4 id="sales" class="anchored">$ Sales</h4>
+</blockquote>
+<p>What are the annual trends in total sales in recent years?</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># get full years for comparison</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>drop_yr <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">2015</span>,<span class="dv">2023</span>) <span class="do">## drop partial yrs for simplicity</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>trend_yr <span class="ot">&lt;-</span> lmr_data <span class="sc">%&gt;%</span> <span class="fu">filter</span>(cyr<span class="sc">&gt;</span>drop_yr[<span class="dv">1</span>] <span class="sc">&amp;</span> cyr<span class="sc">&lt;</span>drop_yr[<span class="dv">2</span>]) <span class="sc">%&gt;%</span> </span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(cyr) <span class="sc">%&gt;%</span> <span class="fu">summarize</span>(<span class="at">netsales=</span><span class="fu">sum</span>(netsales),</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>                              <span class="at">litres=</span><span class="fu">sum</span>(litres))</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co"># add % chg YoY, $/l</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>trend_yr <span class="ot">&lt;-</span> trend_yr <span class="sc">%&gt;%</span> <span class="fu">mutate</span>(</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  <span class="at">pc_chg_sales=</span>netsales<span class="sc">/</span><span class="fu">lag</span>(netsales)<span class="sc">-</span><span class="dv">1</span>,</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>  <span class="at">pc_chg_litres=</span>litres<span class="sc">/</span><span class="fu">lag</span>(litres)<span class="sc">-</span><span class="dv">1</span>,</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>  <span class="at">dollar_per_litre=</span>netsales<span class="sc">/</span>litres</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>ch_title <span class="ot">&lt;-</span> <span class="st">"Net Sales $ Trends - All Categories"</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>trend_yr <span class="sc">%&gt;%</span> <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x=</span><span class="fu">as.factor</span>(cyr), <span class="at">y=</span><span class="fu">as.numeric</span>(netsales)))<span class="sc">+</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>()<span class="sc">+</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">labels=</span><span class="fu">comma_format</span>(<span class="at">prefix=</span><span class="st">"$"</span>, <span class="at">scale=</span><span class="fl">1e-9</span>,<span class="at">suffix=</span><span class="st">"B"</span>), <span class="at">expand=</span><span class="fu">expansion</span>(<span class="at">mult=</span><span class="fu">c</span>(<span class="dv">0</span>,<span class="fl">0.1</span>)))<span class="sc">+</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title=</span>ch_title,<span class="at">y=</span><span class="st">""</span>,<span class="at">x=</span><span class="st">""</span>)<span class="sc">+</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_classic</span>()<span class="sc">+</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">axis.ticks.x =</span> <span class="fu">element_blank</span>()) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="lmr-explore_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
+<p>What is YoY % change?</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># chart % chg sales YoY</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>ch_title <span class="ot">&lt;-</span> <span class="st">"Net Sales: Year-over-Year % change"</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>trend_yr <span class="sc">%&gt;%</span> <span class="fu">filter</span>(cyr<span class="sc">!=</span><span class="fu">min</span>(cyr)) <span class="sc">%&gt;%</span> </span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x=</span><span class="fu">as.factor</span>(cyr), <span class="at">y=</span>pc_chg_sales))<span class="sc">+</span><span class="fu">geom_col</span>()<span class="sc">+</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">labels=</span><span class="fu">percent_format</span>(), <span class="at">expand=</span><span class="fu">expansion</span>(<span class="at">mult=</span><span class="fu">c</span>(<span class="dv">0</span>,<span class="fl">0.1</span>)))<span class="sc">+</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title=</span>ch_title,<span class="at">y=</span><span class="st">""</span>,<span class="at">x=</span><span class="st">""</span>)<span class="sc">+</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>   <span class="fu">theme</span>(<span class="at">axis.ticks.x =</span> <span class="fu">element_blank</span>()) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="lmr-explore_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<blockquote class="blockquote">
+<h4 id="volume-litres" class="anchored">Volume (Litres)</h4>
+</blockquote>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>ch_title <span class="ot">&lt;-</span> <span class="st">"Litre Volume Trends - All Categories"</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>trend_yr <span class="sc">%&gt;%</span> </span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x=</span><span class="fu">as.factor</span>(cyr), <span class="at">y=</span><span class="fu">as.numeric</span>(litres)))<span class="sc">+</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>()<span class="sc">+</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">labels=</span><span class="fu">comma_format</span>(<span class="at">scale=</span><span class="fl">1e-6</span>,<span class="at">suffix=</span><span class="st">"M"</span>), <span class="at">expand=</span><span class="fu">expansion</span>(<span class="at">mult=</span><span class="fu">c</span>(<span class="dv">0</span>,<span class="fl">0.1</span>)))<span class="sc">+</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title=</span>ch_title,<span class="at">y=</span><span class="st">""</span>,<span class="at">x=</span><span class="st">""</span>)<span class="sc">+</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_classic</span>()<span class="sc">+</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">axis.ticks.x =</span> <span class="fu">element_blank</span>()) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="lmr-explore_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># chart % chg liters YoY</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>ch_title <span class="ot">&lt;-</span> <span class="st">"Litre Vol.: Year-over-Year % change"</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>trend_yr <span class="sc">%&gt;%</span> <span class="fu">filter</span>(cyr<span class="sc">!=</span><span class="fu">min</span>(cyr)) <span class="sc">%&gt;%</span> </span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x=</span><span class="fu">as.factor</span>(cyr), <span class="at">y=</span>pc_chg_litres))<span class="sc">+</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>()<span class="sc">+</span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">labels=</span><span class="fu">percent_format</span>(), <span class="at">expand=</span><span class="fu">expansion</span>(<span class="at">mult=</span><span class="fu">c</span>(<span class="fl">0.1</span>,<span class="fl">0.1</span>)))<span class="sc">+</span></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_hline</span>(<span class="at">yintercept=</span><span class="dv">0</span>)<span class="sc">+</span></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title=</span>ch_title,<span class="at">y=</span><span class="st">""</span>,<span class="at">x=</span><span class="st">""</span>)<span class="sc">+</span></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>   <span class="fu">theme</span>(<span class="at">axis.ticks.x =</span> <span class="fu">element_blank</span>()) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="lmr-explore_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<blockquote class="blockquote">
+<h4 id="litre" class="anchored">$/Litre</h4>
+</blockquote>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># chart $/ltr</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>ch_title <span class="ot">&lt;-</span> <span class="st">"$/Litre Trends - All Categories"</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>trend_yr <span class="sc">%&gt;%</span> </span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x=</span><span class="fu">as.factor</span>(cyr), <span class="at">y=</span>dollar_per_litre))<span class="sc">+</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>()<span class="sc">+</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">labels=</span><span class="fu">label_comma</span>(<span class="at">prefix=</span><span class="st">"$"</span>, <span class="at">accuracy=</span><span class="fl">0.01</span>), <span class="at">expand=</span><span class="fu">expansion</span>(<span class="at">mult=</span><span class="fu">c</span>(<span class="dv">0</span>,<span class="fl">0.1</span>)))<span class="sc">+</span></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title=</span>ch_title,<span class="at">y=</span><span class="st">""</span>,<span class="at">x=</span><span class="st">""</span>)<span class="sc">+</span></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_classic</span>()<span class="sc">+</span></span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">axis.ticks.x =</span> <span class="fu">element_blank</span>()) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="lmr-explore_files/figure-html/unnamed-chunk-9-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+</section>
+<section id="quarterly" class="level4">
+<h4 class="anchored" data-anchor-id="quarterly">Quarterly</h4>
+<p>What are the quarterly trends in total sales in recent years?</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>trend_ttl <span class="ot">&lt;-</span> lmr_data <span class="sc">%&gt;%</span> <span class="fu">group_by</span>(fy_qtr, start_qtr_dt) <span class="sc">%&gt;%</span> <span class="fu">summarize</span>(<span class="at">netsales=</span><span class="fu">sum</span>(netsales),</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>            <span class="at">litres=</span><span class="fu">sum</span>(litres))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>`summarise()` has grouped output by 'fy_qtr'. You can override using the
+`.groups` argument.</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>trend_ttl <span class="sc">%&gt;%</span> <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x=</span>start_qtr_dt, <span class="at">y=</span><span class="fu">as.numeric</span>(netsales)))<span class="sc">+</span><span class="fu">geom_col</span>()<span class="sc">+</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_x_date</span>(<span class="at">breaks=</span>trend_ttl<span class="sc">$</span>start_qtr_dt, <span class="at">date_labels=</span><span class="st">"%b %Y"</span>)<span class="sc">+</span></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">labels=</span><span class="fu">comma_format</span>(<span class="at">prefix=</span><span class="st">"$"</span>, <span class="at">scale=</span><span class="fl">1e-6</span>,<span class="at">suffix=</span><span class="st">"M"</span>), <span class="at">expand=</span><span class="fu">expansion</span>(<span class="at">mult=</span><span class="fu">c</span>(<span class="dv">0</span>,<span class="fl">0.1</span>)))<span class="sc">+</span></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title=</span><span class="st">"Net Sales $ Trends - All Categories"</span>,<span class="at">y=</span><span class="st">""</span>,<span class="at">x=</span><span class="st">""</span>)<span class="sc">+</span></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_classic</span>()<span class="sc">+</span></span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">axis.text.x=</span><span class="fu">element_text</span>(<span class="at">hjust=</span><span class="dv">0</span>, <span class="at">vjust=</span><span class="fl">0.5</span>, <span class="at">angle=</span><span class="dv">90</span>),</span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>        <span class="at">axis.ticks.x =</span> <span class="fu">element_blank</span>()) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="lmr-explore_files/figure-html/unnamed-chunk-10-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>What are the quarterly trends in volume sales in recent years?</p>
+<p>What are trends in $/liter - all categories?</p>
+</section>
+</section>
+<section id="by-major-category" class="level3">
+<h3 class="anchored" data-anchor-id="by-major-category">By Major Category</h3>
+<p>What are the quarterly trends by major category in recent years?</p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="lmr-explore_files/figure-html/unnamed-chunk-11-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>What are patterns in % breakdown by major category?</p>
+<div class="cell">
+
+</div>
+<p>What is the quarterly % chg by major category?</p>
+<p>What is the annual % chg by major category?</p>
+<p>What is % change in YoY quarter by major category?</p>
+<p>What are trends in $/liter by category?</p>
+</section>
+</section>
+<section id="beer" class="level2">
+<h2 class="anchored" data-anchor-id="beer">Beer</h2>
+</section>
+<section id="refreshment-beverages" class="level2">
+<h2 class="anchored" data-anchor-id="refreshment-beverages">Refreshment Beverages</h2>
+</section>
+<section id="spirits" class="level2">
+<h2 class="anchored" data-anchor-id="spirits">Spirits</h2>
+</section>
+<section id="wine" class="level2">
+<h2 class="anchored" data-anchor-id="wine">Wine</h2>
 </section>
 
 </main>
