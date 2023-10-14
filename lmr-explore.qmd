@@ -1,7 +1,10 @@
 ---
-title: "LMR Explore - All"
+title: "Exploration: BC LDB Liquor Market Review Data"
 format: html
 editor: visual
+execute: 
+  echo: false
+  warning: false
 ---
 
 ```{r}
@@ -19,23 +22,27 @@ theme_set(theme_classic())
 
 ```{r}
 #| echo: FALSE
-source('credo.R')
-# local server
-#con <- dbConnect(RMariaDB::MariaDB(), user='root', password=mypwd, dbname='bcbg')
-# aws
-con_aws <- dbConnect(RMariaDB::MariaDB(),
-                   host=endpt,
-                   user='admin',
-                   password=apwd,
-                   port=aport)
-lmr_data <- dbGetQuery(con_aws, "SELECT * FROM bcbg.tblLDB_lmr lmr
-                       LEFT JOIN bcbg.tblLDB_quarter qtr ON lmr.fy_qtr=qtr.fy_qtr;")
-
-dbDisconnect(con_aws)
+# if no data available - fetch
+if(exists('lmr_data')){
+  lmr_data <- lmr_data
+} else { # get from MySQL database on AWS
+    source('credo.R')
+    # local server
+    #con <- dbConnect(RMariaDB::MariaDB(), user='root', password=mypwd, dbname='bcbg')
+    # aws
+    con_aws <- dbConnect(RMariaDB::MariaDB(),
+                       host=endpt,
+                       user='admin',
+                       password=apwd,
+                       port=aport)
+    lmr_data <- dbGetQuery(con_aws, "SELECT * FROM bcbg.tblLDB_lmr lmr
+                           LEFT JOIN bcbg.tblLDB_quarter qtr ON lmr.fy_qtr=qtr.fy_qtr;")
+    
+    dbDisconnect(con_aws)
+}
 ```
 
 ```{r}
-#| echo: FALSE
 # clean-up
 lmr_data <- lmr_data %>% select(-fy_qtr..8)
 lmr_data <- lmr_data %>% mutate(
@@ -46,11 +53,9 @@ lmr_data <- lmr_data %>% mutate(
 )
 ```
 
-## BC LDB Liquor Market Review Data
+## Intro: What is this?
 
-### Intro: What is this?
-
-BC Liquor Distribution Board releases its 'Liquor Market Review' of market statistics on a quarterly basis. The reports are made available to the public through [BC LDB website](https://www.bcldb.com/publications/liquor-market-review).
+BC Liquor Distribution Board releases its '**Liquor Market Review**' of market statistics on a quarterly basis. The reports are made available to the public through [BC LDB website](https://www.bcldb.com/publications/liquor-market-review).
 
 The reports are published in PDF format, providing data for the most recent quarter as well as previous four quarters, to allow for quarterly comparison back to same quarter of previous here.
 
@@ -58,11 +63,9 @@ Data here is extracted and compiled from reports going back to June 2015. This a
 
 ## TREND OVERVIEW
 
-### All Categories
+### Annual: All Categories
 
-#### Annual
-
-> #### \$ Sales
+#### \$ Sales
 
 What are the annual trends in total sales in recent years?
 
@@ -93,6 +96,8 @@ trend_yr %>% ggplot(aes(x=as.factor(cyr), y=as.numeric(netsales)))+
   theme(axis.ticks.x = element_blank()) 
 ```
 
+Annual revenue for BC LDB has been steadily increasing.
+
 What is YoY % change?
 
 ```{r}
@@ -103,8 +108,10 @@ trend_yr %>% filter(cyr!=min(cyr)) %>%
   scale_y_continuous(labels=percent_format(), expand=expansion(mult=c(0,0.1)))+
   labs(title=ch_title,y="",x="")+
    theme(axis.ticks.x = element_blank()) 
-  
+    
 ```
+
+The biggest YoY change was 2020: pandemic time! Prior to 2020, annual increases were slowing down.
 
 > #### Volume (Litres)
 
@@ -113,11 +120,14 @@ ch_title <- "Litre Volume Trends - All Categories"
 trend_yr %>% 
   ggplot(aes(x=as.factor(cyr), y=as.numeric(litres)))+
   geom_col()+
+  geom_hline(yintercept=mean(trend_yr$litres), linetype='dotted')+
   scale_y_continuous(labels=comma_format(scale=1e-6,suffix="M"), expand=expansion(mult=c(0,0.1)))+
   labs(title=ch_title,y="",x="")+
   theme_classic()+
   theme(axis.ticks.x = element_blank()) 
 ```
+
+Litre volume has remained relatively steady, with a peak during the 2020 pandemic. Volumes are slowing down, although 2022 still above 2019.
 
 ```{r}
 # chart % chg liters YoY
@@ -130,6 +140,8 @@ trend_yr %>% filter(cyr!=min(cyr)) %>%
   labs(title=ch_title,y="",x="")+
    theme(axis.ticks.x = element_blank()) 
 ```
+
+Biggest year-over-year jump of \~4% in 2020, with declines accelerating from 2021 to 2022.
 
 > #### \$/Litre
 
@@ -145,6 +157,8 @@ trend_yr %>%
   theme(axis.ticks.x = element_blank()) 
 ```
 
+With relatively flat litre volume sales, the increase in dollar volume is driven by increase in \$ of revenue per litre.
+
 ```{r}
 # chart % chg $/liters YoY
 ch_title <- "$/Litre: Year-over-Year % change"
@@ -156,7 +170,34 @@ trend_yr %>% filter(cyr!=min(cyr)) %>%
    theme(axis.ticks.x = element_blank()) 
 ```
 
-#### Quarterly
+Dollar per litre increases have been fairly steady, around 2%, until 2021. This corresponds with overall increase in inflation, accelerating through 2021 and 2022.
+
+### Annual: By Major Category
+
+```{r}
+# annual data by category
+drop_yr <- c(2015,2023) ## drop partial yrs for simplicity
+trend_yr_cat <- lmr_data %>% filter(cyr>drop_yr[1] & cyr<drop_yr[2]) %>% group_by(cyr, cat_type) %>% summarize(
+  netsales=sum(netsales),
+  litres=sum(litres)
+)
+trend_yr_cat <- trend_yr_cat %>% mutate(
+  dollar_per_litre=netsales/litres
+)
+trend_yr_cat$cat_type <- factor(trend_yr_cat$cat_type)
+```
+
+```{r}
+# annual sales by category (stack)
+ch_title <- "Net Sales by Categorgy"
+trend_yr_cat %>% ggplot(aes(x=as.factor(cyr), y=as.integer(netsales), fill=cat_type))+
+  geom_col()+
+  scale_y_continuous(labels=label_comma(prefix="$", scale=1e-9,suffix="B"), expand=expansion(mult = c(0,0.1)))+
+  labs(title=ch_title, x="",y="")+
+  theme(axis.ticks.x = element_blank())
+```
+
+## Quarterly
 
 What are the quarterly trends in total sales in recent years?
 

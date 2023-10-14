@@ -1,5 +1,9 @@
 project:
   title: "lmr-explore"
 
+toc: true
+number-sections: false
+echo: false
+
 editor: visual
 
