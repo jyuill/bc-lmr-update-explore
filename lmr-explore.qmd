@@ -16,7 +16,11 @@ library(scales)
 library(glue)
 library(readr) ## for easy conversion of $ characters to numeric
 library(RMariaDB) ## best way to access MySQL from R
+# set default theme
 theme_set(theme_classic())
+# set colors for major category types
+cat_type_color <- c()
+
 
 ```
 
@@ -174,28 +178,74 @@ Dollar per litre increases have been fairly steady, around 2%, until 2021. This 
 
 ### Annual: By Major Category
 
+#### \$ Sales
+
 ```{r}
 # annual data by category
 drop_yr <- c(2015,2023) ## drop partial yrs for simplicity
 trend_yr_cat <- lmr_data %>% filter(cyr>drop_yr[1] & cyr<drop_yr[2]) %>% group_by(cyr, cat_type) %>% summarize(
-  netsales=sum(netsales),
-  litres=sum(litres)
+  netsales=sum(as.numeric(netsales)),
+  litres=sum(as.numeric(litres))
+) 
+trend_yr_cat <- trend_yr_cat %>% ungroup %>% mutate(
+  dollar_per_litre=netsales/litres,
+  pc_chg_sales=netsales/lag(netsales, n=4)-1 # yoy change by category
 )
-trend_yr_cat <- trend_yr_cat %>% mutate(
-  dollar_per_litre=netsales/litres
-)
-trend_yr_cat$cat_type <- factor(trend_yr_cat$cat_type)
 ```
 
 ```{r}
 # annual sales by category (stack)
 ch_title <- "Net Sales by Categorgy"
-trend_yr_cat %>% ggplot(aes(x=as.factor(cyr), y=as.integer(netsales), fill=cat_type))+
+# order cat_type by netsales for chart
+trend_yr_cat$cat_type <- fct_reorder(trend_yr_cat$cat_type, trend_yr_cat$netsales)
+
+trend_yr_cat %>% ggplot(aes(x=as.factor(cyr), y=netsales, fill=cat_type))+
   geom_col()+
   scale_y_continuous(labels=label_comma(prefix="$", scale=1e-9,suffix="B"), expand=expansion(mult = c(0,0.1)))+
   labs(title=ch_title, x="",y="")+
   theme(axis.ticks.x = element_blank())
 ```
+
+\% breakdown
+
+```{r}
+trend_yr_cat %>% ggplot(aes(x=as.factor(cyr), y=netsales, fill=cat_type))+
+  geom_col(position='fill')+
+  scale_y_continuous(labels=percent_format(), expand=expansion(mult = c(0,0.1)))+
+  labs(title=ch_title, x="",y="")+
+  theme(axis.ticks.x = element_blank())
+```
+
+Growth: % chg
+
+```{r}
+ch_title <- "% Chg Year-over-Year by Category"
+trend_yr_cat %>% filter(cyr!=min(cyr)) %>%
+  ggplot(aes(x=as.factor(cyr), y=pc_chg_sales))+geom_col()+
+  geom_hline(yintercept = 0)+
+  facet_grid(.~cat_type)+
+  scale_y_continuous(labels=percent_format())+
+  labs(title=ch_title, x="",y="")+
+  theme(axis.text.x=element_text(hjust=0, vjust=0.5, angle=90),
+        axis.ticks.x = element_blank()) 
+  
+```
+
+line chart
+
+```{r}
+trend_yr_cat %>% filter(cyr!=min(cyr)) %>% ggplot(aes(x=as.factor(cyr), y=pc_chg_sales, color=cat_type, group=cat_type))+
+  geom_line()+
+  geom_hline(yintercept = 0)+
+  scale_y_continuous(labels=percent_format())+
+  labs(title=ch_title, x="",y="")
+```
+
+During the pandemic in 2020, Refreshment Beverages had a surge in growth, on top of already strong trend in previous years. Spirits also had a significant increase - around 10% year-over-year growth.
+
+#### Volume (Litres)
+
+#### \$/Litre
 
 ## Quarterly
 
@@ -208,7 +258,6 @@ trend_ttl %>% ggplot(aes(x=start_qtr_dt, y=as.numeric(netsales)))+geom_col()+
   scale_x_date(breaks=trend_ttl$start_qtr_dt, date_labels="%b %Y")+
   scale_y_continuous(labels=comma_format(prefix="$", scale=1e-6,suffix="M"), expand=expansion(mult=c(0,0.1)))+
   labs(title="Net Sales $ Trends - All Categories",y="",x="")+
-  theme_classic()+
   theme(axis.text.x=element_text(hjust=0, vjust=0.5, angle=90),
         axis.ticks.x = element_blank()) 
   
@@ -221,6 +270,8 @@ What are trends in \$/liter - all categories?
 ### By Major Category
 
 What are the quarterly trends by major category in recent years?
+
+#### \$ Sales
 
 ```{r}
 #| echo: FALSE
