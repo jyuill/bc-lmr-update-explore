@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Exploration: BC LDB Liquor Market Review Data</title>
+<title>Exploration: BC LDB Liquor Market Review</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -45,11 +45,17 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#intro-what-is-this" id="toc-intro-what-is-this" class="nav-link active" data-scroll-target="#intro-what-is-this">Intro: What is this?</a></li>
+  <li><a href="#intro-what-is-this" id="toc-intro-what-is-this" class="nav-link active" data-scroll-target="#intro-what-is-this">Intro: What is this?</a>
+  <ul class="collapse">
+  <li><a href="#liquor-market-review" id="toc-liquor-market-review" class="nav-link" data-scroll-target="#liquor-market-review">Liquor Market Review</a></li>
+  </ul></li>
   <li><a href="#trend-overview" id="toc-trend-overview" class="nav-link" data-scroll-target="#trend-overview">TREND OVERVIEW</a>
   <ul class="collapse">
   <li><a href="#annual-all-categories" id="toc-annual-all-categories" class="nav-link" data-scroll-target="#annual-all-categories">Annual: All Categories</a></li>
   <li><a href="#annual-by-major-category" id="toc-annual-by-major-category" class="nav-link" data-scroll-target="#annual-by-major-category">Annual: By Major Category</a></li>
+  </ul></li>
+  <li><a href="#quarterly" id="toc-quarterly" class="nav-link" data-scroll-target="#quarterly">Quarterly</a>
+  <ul class="collapse">
   <li><a href="#by-major-category" id="toc-by-major-category" class="nav-link" data-scroll-target="#by-major-category">By Major Category</a></li>
   </ul></li>
   <li><a href="#beer" id="toc-beer" class="nav-link" data-scroll-target="#beer">Beer</a></li>
@@ -63,7 +69,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Exploration: BC LDB Liquor Market Review Data</h1>
+<h1 class="title">Exploration: BC LDB Liquor Market Review</h1>
 </div>
 
 
@@ -79,19 +85,39 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <div class="cell">
-
+<div class="cell-output-display">
+<p><img src="lmr-explore_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid" width="672"></p>
 </div>
-<div class="cell">
-
+<div class="cell-output-display">
+<p><img src="lmr-explore_files/figure-html/unnamed-chunk-1-2.png" class="img-fluid" width="672"></p>
+</div>
 </div>
 <div class="cell">
 
 </div>
 <section id="intro-what-is-this" class="level2">
 <h2 class="anchored" data-anchor-id="intro-what-is-this">Intro: What is this?</h2>
-<p>BC Liquor Distribution Board releases its ‘Liquor Market Review’ of market statistics on a quarterly basis. The reports are made available to the public through <a href="https://www.bcldb.com/publications/liquor-market-review">BC LDB website</a>.</p>
+<p><strong>BC Liquor Distribution Board</strong> releases its ‘<strong>Liquor Market Review</strong>’ of market statistics on a quarterly basis. The reports are made available to the public through <a href="https://www.bcldb.com/publications/liquor-market-review">BC LDB website</a>.</p>
 <p>The reports are published in PDF format, providing data for the most recent quarter as well as previous four quarters, to allow for quarterly comparison back to same quarter of previous here.</p>
 <p>Data here is extracted and compiled from reports going back to June 2015. This allows for more complete exploration and analysis of the data.</p>
+<section id="liquor-market-review" class="level3">
+<h3 class="anchored" data-anchor-id="liquor-market-review">Liquor Market Review</h3>
+<ul>
+<li>published by BC Liquor Distribution Board every quarter.</li>
+<li>quarterly data for most recent quarter and previous four quarters.</li>
+<li><strong>Net $ sales</strong> and <strong>volume (litres)</strong> for each major beverage category.</li>
+<li>pdf format with tables and some summary charts.</li>
+<li>beverage categories:
+<ul>
+<li>Beer</li>
+<li>Refreshment beverages (ciders, coolers, etc)</li>
+<li>Spirits</li>
+<li>Wine</li>
+</ul></li>
+<li>two-levels of more granular categorization within each major category.</li>
+<li>geographical break-down of product origin, depending on category (country-level for wine).</li>
+</ul>
+</section>
 </section>
 <section id="trend-overview" class="level2">
 <h2 class="anchored" data-anchor-id="trend-overview">TREND OVERVIEW</h2>
@@ -99,10 +125,14 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="annual-all-categories">Annual: All Categories</h3>
 <section id="sales" class="level4">
 <h4 class="anchored" data-anchor-id="sales">$ Sales</h4>
-<p>What are the annual trends in total sales in recent years?</p>
+<p>What are the annual trends in total sales in recent years? (based on most recent full yr avail.)</p>
 <div class="cell">
 
 </div>
+<div class="cell">
+
+</div>
+<p>{r} ch_title &lt;- “Net Sales $ Trends - All Categories” trend_yr %&gt;% ggplot(aes(x=as.factor(cyr), y=as.numeric(netsales)))+ geom_col(fill=bar_col)+ scale_y_continuous(labels=comma_format(prefix=“$”, scale=1e-9,suffix=“B”), expand=expansion(mult=c(0,0.1)))+ labs(title=ch_title,y=““,x=”“)+ theme_classic()+ theme(axis.ticks.x = element_blank())</p>
 <div class="cell">
 <div class="cell-output-display">
 <p><img src="lmr-explore_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid" width="672"></p>
@@ -115,10 +145,10 @@ ul.task-list li input[type="checkbox"] {
 <p><img src="lmr-explore_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
-<p>The biggest YoY change was 2020: pandemic time! Prior to 2020, annual increases were slowing down.</p>
-<blockquote class="blockquote">
-<h4 id="volume-litres" class="anchored">Volume (Litres)</h4>
-</blockquote>
+<p>The biggest YoY change was 2020: pandemic time! Prior to 2020, annual increases were slowing down (while total still increasing).</p>
+</section>
+<section id="volume-litres" class="level4">
+<h4 class="anchored" data-anchor-id="volume-litres">Volume (Litres)</h4>
 <div class="cell">
 <div class="cell-output-display">
 <p><img src="lmr-explore_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid" width="672"></p>
@@ -150,30 +180,101 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="annual-by-major-category" class="level3">
 <h3 class="anchored" data-anchor-id="annual-by-major-category">Annual: By Major Category</h3>
-<p>-- QUARTERLY OR CATEGORY?</p>
-<p>-- probably category will be better</p>
-<section id="quarterly" class="level4">
-<h4 class="anchored" data-anchor-id="quarterly">Quarterly</h4>
+<section id="sales-1" class="level4">
+<h4 class="anchored" data-anchor-id="sales-1">$ Sales</h4>
+<div class="cell">
+
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="lmr-explore_files/figure-html/unnamed-chunk-12-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>Wine and beer are the largest categories, followed by spirits, with refreshment beverages as distant fourth.</p>
+<p><strong>% breakdown</strong></p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="lmr-explore_files/figure-html/unnamed-chunk-13-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>Percentage breakdown shows wine and beer with bulk of market share, BUT…fading in favour of spirits and refreshment beverages, with the latter showing strongest relative growth.</p>
+<p><strong>Growth: % chg</strong></p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="lmr-explore_files/figure-html/unnamed-chunk-14-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<div class="cell">
+
+</div>
+<p>During the pandemic in 2020, <strong>Refreshment Beverages had a surge in growth</strong>, on top of already strong trend in previous years. Spirits also had a significant increase - around 10% year-over-year growth.</p>
+<p><strong>Beer</strong> is the only category with <strong>negative growth</strong> during the period, through 2019-2021, although recovered in 2022.</p>
+</section>
+<section id="volume-litres-1" class="level4">
+<h4 class="anchored" data-anchor-id="volume-litres-1">Volume (Litres)</h4>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="lmr-explore_files/figure-html/unnamed-chunk-16-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p><strong>Beer constitutes the largest volume</strong> by far (no surprise), although has been shrinking, with <strong>growth in refreshment beverage</strong> volume.</p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="lmr-explore_files/figure-html/unnamed-chunk-17-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>Percentage breakdown highlights even further the <strong>decline in beer share of volume</strong> (still well over 50%), mostly <strong>at the expense of refreshment beverages</strong>.</p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="lmr-explore_files/figure-html/unnamed-chunk-18-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p><strong>Beer had declining volume in the most recent 5 years</strong>, although may be stabilizing. Other categories all had strongest volume growth in 2020 during the pandemic. Refreshment beverages saw decline in 2022 after 5 years of strong growth.</p>
+</section>
+<section id="litre-1" class="level4">
+<h4 class="anchored" data-anchor-id="litre-1">$/Litre</h4>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="lmr-explore_files/figure-html/unnamed-chunk-19-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="lmr-explore_files/figure-html/unnamed-chunk-20-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>$/litre vs volume and sales</p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="lmr-explore_files/figure-html/unnamed-chunk-21-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="lmr-explore_files/figure-html/unnamed-chunk-22-1.png" class="img-fluid" width="288"></p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section id="quarterly" class="level2">
+<h2 class="anchored" data-anchor-id="quarterly">Quarterly</h2>
 <p>What are the quarterly trends in total sales in recent years?</p>
 <div class="cell">
-<div class="cell-output cell-output-stderr">
-<pre><code>`summarise()` has grouped output by 'fy_qtr'. You can override using the
-`.groups` argument.</code></pre>
-</div>
 <div class="cell-output-display">
-<p><img src="lmr-explore_files/figure-html/unnamed-chunk-11-1.png" class="img-fluid" width="672"></p>
+<p><img src="lmr-explore_files/figure-html/unnamed-chunk-23-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <p>What are the quarterly trends in volume sales in recent years?</p>
 <p>What are trends in $/liter - all categories?</p>
-</section>
-</section>
 <section id="by-major-category" class="level3">
 <h3 class="anchored" data-anchor-id="by-major-category">By Major Category</h3>
 <p>What are the quarterly trends by major category in recent years?</p>
+<section id="sales-2" class="level4">
+<h4 class="anchored" data-anchor-id="sales-2">$ Sales</h4>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="lmr-explore_files/figure-html/unnamed-chunk-12-1.png" class="img-fluid" width="672"></p>
+<p><img src="lmr-explore_files/figure-html/unnamed-chunk-24-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <p>What are patterns in % breakdown by major category?</p>
@@ -186,8 +287,11 @@ ul.task-list li input[type="checkbox"] {
 <p>What are trends in $/liter by category?</p>
 </section>
 </section>
+</section>
 <section id="beer" class="level2">
 <h2 class="anchored" data-anchor-id="beer">Beer</h2>
+<p>what category are biggest declining volumes?</p>
+<p>how does $/litre compare in different categories?</p>
 </section>
 <section id="refreshment-beverages" class="level2">
 <h2 class="anchored" data-anchor-id="refreshment-beverages">Refreshment Beverages</h2>
