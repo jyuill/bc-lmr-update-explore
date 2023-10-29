@@ -454,6 +454,11 @@ Clearly there are a variety of factors at work here and not enough data to make 
 ### Overview
 
 ```{r, calc_qtr}
+# roll-up categories by qtr
+trend_ttl_qtr <- lmr_data %>% group_by(cyr, fyr, fy_qtr, qtr) %>% summarize(
+  netsales=sum(netsales),
+  litres=sum(litres)
+)
 # calculate quarterly info
 trend_qtr <- lmr_data %>% group_by(fy_qtr, start_qtr_dt, qtr) %>% 
   summarize(netsales=sum(netsales),
@@ -468,22 +473,62 @@ trend_qtr <- trend_qtr %>% ungroup() %>% mutate(
 )
 # averages
 trend_qtrs <- trend_qtr %>% group_by(qtr) %>% summarize(
+  avglitres=mean(litres),
   avg_sales_pc_chg=mean(pc_chg_sales, na.rm=TRUE),
   avg_litres_pc_chg=mean(pc_chg_litres, na.rm=TRUE)
 )
 ```
 
 ```{r}
-trend_qtr %>% ggplot(aes(x=pc_chg_sales))+
-  geom_histogram(fill=bar_col)+
-  facet_grid(qtr~.)+
-  scale_x_continuous(labels=percent_format())+
-  geom_vline(xintercept = 0, linetype='dotted')+
-  geom_vline(data=trend_qtrs, aes(xintercept=avg_sales_pc_chg), color='red', linetype='dashed')+
-  theme(strip.background = element_rect(fill = bar_col),
-        strip.text=element_text(color='white'),
-        panel.border = element_rect(fill=NA)) 
+ch_title <- "Litres Comparison by Quarter (fiscal yr*)"
+trend_ttl_qtr %>% ggplot(aes(x=qtr, y=litres, color=factor(fyr), group=fyr))+
+  geom_line()+
+  geom_point()+
+  scale_y_continuous(labels=label_comma(scale=1e-6, suffix="M"), expand=expansion(add=c(0,0.1)), limits=c(0,max(trend_ttl_qtr$litres)))+
+  labs(title=ch_title, x="", y="litres", color='fiscal yr')
+  
 ```
+
+\\\\\* BC LDB fiscal yr runs Apr - Mar, so Q1=Apr-May-Jun, and so on.
+
+-   Q2 (Jul-Aug-Sep) has highest sales, edging out Q1 (Apr-May-Jun)
+-   Q3 (Oct-Nov-Dec) sees drop, even with holidays, and then lower again for Q4 (Jan-Feb-Mar)
+
+```{r}
+# boxplot - works well but more 'technical'
+# trend_ttl_qtr %>% ggplot(aes(x=qtr, y=litres))+geom_boxplot()+
+#   scale_y_continuous(labels=label_comma(scale=1e-6, suffix="M"), expand=expansion(add=c(0,0.1)), limits=c(0,max(trend_ttl_qtr$litres)))
+```
+
+```{r}
+# % chg one quarter to next
+# histogram -> boxplot works better because relatively few samples
+# trend_qtr %>% ggplot(aes(x=pc_chg_sales))+
+#   geom_histogram(fill=bar_col)+
+#   facet_grid(qtr~.)+
+#   scale_x_continuous(labels=percent_format())+
+#   geom_vline(xintercept = 0, linetype='dotted')+
+#   geom_vline(data=trend_qtrs, aes(xintercept=avg_sales_pc_chg), color='red', linetype='dashed')+
+#   theme(strip.background = element_rect(fill = bar_col),
+#         strip.text=element_text(color='white'),
+#         panel.border = element_rect(fill=NA)) 
+```
+
+```{r}
+ch_title <- "Distribution of % Change Between Quarters"
+trend_qtr %>% ggplot(aes(y=pc_chg_sales, x=qtr))+
+  geom_boxplot(fill=bar_col)+
+  scale_y_continuous(labels=percent_format())+
+  geom_hline(yintercept = 0, linetype='dotted')+
+  labs(title=ch_title, x="",y="% chg from prev quarter")
+```
+
+-   Q1 (Apr-May-Jun) typically has well over 20% increase over previous Q4
+-   Q2 (Jul-Aug-Sep) tends to be \~5% higher that Q1.
+-   Q3 -\> doesn't look right - expect larger drop from Q2, based on other charts
+-   Q4 (Jan-Feb-Mar) is usually more that 20% drop from Q3
+
+Could be interesting to see how the overall pattern matches categories.
 
 ```{r}
 # ch_title <- "Net Sales $ Trends - All Categories, Qtrly"
@@ -496,51 +541,59 @@ trend_qtr %>% ggplot(aes(x=pc_chg_sales))+
 #         axis.ticks.x = element_blank()) 
 ```
 
-What are the quarterly trends in volume sales in recent years?
-
-What are trends in \$/liter - all categories?
-
 ### By Major Category
 
 What are the quarterly trends by major category in recent years?
 
 which categories peak in which quarters?
 
-#### \$ Sales
+#### Volume (Litres)
 
 ```{r}
-#| echo: FALSE
-#| warning: FALSE
-#| message: FALSE
-trend <- lmr_data %>% group_by(cat_type, fy_qtr, start_qtr_dt) %>% 
+# quarters at cat_type level
+trend_qtr_cat <- lmr_data %>% group_by(cyr, fyr, fy_qtr, start_qtr_dt, qtr, cat_type) %>%
   summarize(netsales=sum(netsales),
-            litres=sum(litres)) %>% filter(start_qtr_dt>'2016-04-01')
+            litres=sum(litres)
+            )
+trend_qtr_cat$cat_type <- as.factor(trend_qtr_cat$cat_type)
 
-trend %>% ggplot(aes(x=start_qtr_dt, y=as.numeric(netsales), color=cat_type))+
-  geom_line(stat='identity')+
-  scale_x_date(breaks=trend$start_qtr_dt, date_labels="%b %Y")+
-  scale_y_continuous(labels=comma)+
-  scale_color_manual(values=cat_type_color)+
-  labs(title="Net Sales $ Trends by Category",y="",x="")+
-  theme_classic()+
-  theme(axis.text.x=element_text(angle=90))
-  
-
+trend_qtrs_cat <- trend_qtr_cat %>% group_by(qtr, cat_type) %>% 
+  summarize(
+    avg_netsales=mean(netsales),
+    avg_litres=mean(litres),
+    max_litres=max(litres)
+  )
+trend_qtrs_cat$cat_type <- as.factor(trend_qtrs_cat$cat_type)
 ```
-
-What are patterns in % breakdown by major category?
 
 ```{r}
-
+ch_title <- "Comparison of Qtrly volume by Category"
+trend_qtr_cat %>% ggplot(aes(x=qtr, y=litres, color=factor(fyr), group=fyr))+
+  geom_line()+
+  geom_point()+
+  facet_grid(cat_type~., scales='free_y')+
+  scale_y_continuous(labels=label_comma(scale=1e-6, suffix="M"), 
+                     limits=c(0,NA))+
+  labs(title=ch_title, x="", color="fiscal yr", y="litres (upper limit varies)")+theme(panel.border = element_rect(fill=NA))
+  #+ theme(panel.border = element_line())
 ```
 
-What is the quarterly % chg by major category?
+-   Beer and - even more-so - refreshment beverages drop from Q1-Q2 (Apr-Sep) to Q3-Q4 (Oct-Mar).
+-   Wine, Spirits have small peak in Q3 (Oct-Dec) - holiday season.
 
-What is the annual % chg by major category?
+```{r}
+trend_qtrs_cat$cat_type <- fct_reorder(trend_qtrs_cat$cat_type, trend_qtrs_cat$avg_litres)
 
-What is % change in YoY quarter by major category?
+ch_title <- "Breakdown in Avg Litre per Qtr by Category"
+trend_qtrs_cat %>% ggplot(aes(x=qtr, y=avg_litres, fill=cat_type))+
+  geom_col(position='fill')+
+  scale_y_continuous(labels=percent_format(), expand=expansion(mult = c(0,0.1)))+
+  scale_fill_manual(values=cat_type_color)+
+  labs(title=ch_title, x="",y="")+
+  theme(axis.ticks.x = element_blank())
+```
 
-What are trends in \$/liter by category?
+Reinforcing the shifts in category by quarters - showing the bulge in % share for wine and spirits in Q3-Q4 (Sep-Mar).
 
 ## Beer
 

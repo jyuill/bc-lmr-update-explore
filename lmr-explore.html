@@ -56,6 +56,7 @@ ul.task-list li input[type="checkbox"] {
   </ul></li>
   <li><a href="#quarterly" id="toc-quarterly" class="nav-link" data-scroll-target="#quarterly">Quarterly</a>
   <ul class="collapse">
+  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a></li>
   <li><a href="#by-major-category" id="toc-by-major-category" class="nav-link" data-scroll-target="#by-major-category">By Major Category</a></li>
   </ul></li>
   <li><a href="#beer" id="toc-beer" class="nav-link" data-scroll-target="#beer">Beer</a></li>
@@ -105,7 +106,7 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>published by BC Liquor Distribution Board every quarter.</li>
 <li>quarterly data for most recent quarter and previous four quarters.</li>
-<li><strong>Net $ sales</strong> and <strong>volume (litres)</strong> for each major beverage category.</li>
+<li><strong>Net $ sales*</strong> and <strong>volume (litres)</strong> for each major beverage category.</li>
 <li>pdf format with tables and some summary charts.</li>
 <li>beverage categories:
 <ul>
@@ -116,6 +117,13 @@ ul.task-list li input[type="checkbox"] {
 </ul></li>
 <li>two-levels of more granular categorization within each major category.</li>
 <li>geographical break-down of product origin, depending on category (country-level for wine).</li>
+</ul>
+<p>Notes on ‘net $ sales’:</p>
+<ul>
+<li>the report says “<strong>Net dollar value is based on the price paid by the customer</strong> and excludes any applicable taxes.”</li>
+<li>calculating average <strong>net dollar value per litre for beverage categories gives unrealistically low numbers</strong> compared to retail prices in BC liquor stores. (<em>Beer at average $4/litre? Not even the cheapest beer on the <a href="https://www.bcliquorstores.com/product-catalogue?category=beer&amp;sort=currentPrice:desc&amp;page=1">BC Liquor Stores</a> website.</em>)</li>
+<li>there is likely additional factors related to BC LDB pricing structure, wholesaling, etc.</li>
+<li>best to <strong>consider average net dollar value per litre referred to below as relative indicator</strong>.</li>
 </ul>
 </section>
 </section>
@@ -132,17 +140,16 @@ ul.task-list li input[type="checkbox"] {
 <div class="cell">
 
 </div>
-<p>{r} ch_title &lt;- “Net Sales $ Trends - All Categories” trend_yr %&gt;% ggplot(aes(x=as.factor(cyr), y=as.numeric(netsales)))+ geom_col(fill=bar_col)+ scale_y_continuous(labels=comma_format(prefix=“$”, scale=1e-9,suffix=“B”), expand=expansion(mult=c(0,0.1)))+ labs(title=ch_title,y=““,x=”“)+ theme_classic()+ theme(axis.ticks.x = element_blank())</p>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="lmr-explore_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid" width="672"></p>
+<p><img src="lmr-explore_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <p>Annual revenue for BC LDB has been steadily increasing.</p>
 <p>What is YoY % change?</p>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="lmr-explore_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid" width="672"></p>
+<p><img src="lmr-explore_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <p>The biggest YoY change was 2020: pandemic time! Prior to 2020, annual increases were slowing down (while total still increasing).</p>
@@ -151,13 +158,13 @@ ul.task-list li input[type="checkbox"] {
 <h4 class="anchored" data-anchor-id="volume-litres">Volume (Litres)</h4>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="lmr-explore_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid" width="672"></p>
+<p><img src="lmr-explore_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <p>Litre volume has remained relatively steady, with a peak during the 2020 pandemic. Volumes are slowing down, although 2022 still above 2019.</p>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="lmr-explore_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid" width="672"></p>
+<p><img src="lmr-explore_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <p>Biggest year-over-year jump of ~4% in 2020, with declines accelerating from 2021 to 2022.</p>
@@ -166,13 +173,13 @@ ul.task-list li input[type="checkbox"] {
 </blockquote>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="lmr-explore_files/figure-html/unnamed-chunk-9-1.png" class="img-fluid" width="672"></p>
+<p><img src="lmr-explore_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <p>With relatively flat litre volume sales, the increase in dollar volume is driven by increase in $ of revenue per litre.</p>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="lmr-explore_files/figure-html/unnamed-chunk-10-1.png" class="img-fluid" width="672"></p>
+<p><img src="lmr-explore_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <p>Dollar per litre increases have been fairly steady, around 2%, until 2021. This corresponds with overall increase in inflation, accelerating through 2021 and 2022.</p>
@@ -187,21 +194,21 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="lmr-explore_files/figure-html/unnamed-chunk-12-1.png" class="img-fluid" width="672"></p>
+<p><img src="lmr-explore_files/figure-html/unnamed-chunk-9-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <p>Wine and beer are the largest categories, followed by spirits, with refreshment beverages as distant fourth.</p>
 <p><strong>% breakdown</strong></p>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="lmr-explore_files/figure-html/unnamed-chunk-13-1.png" class="img-fluid" width="672"></p>
+<p><img src="lmr-explore_files/figure-html/unnamed-chunk-10-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <p>Percentage breakdown shows wine and beer with bulk of market share, BUT…fading in favour of spirits and refreshment beverages, with the latter showing strongest relative growth.</p>
 <p><strong>Growth: % chg</strong></p>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="lmr-explore_files/figure-html/unnamed-chunk-14-1.png" class="img-fluid" width="672"></p>
+<p><img src="lmr-explore_files/figure-html/unnamed-chunk-11-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <div class="cell">
@@ -214,19 +221,19 @@ ul.task-list li input[type="checkbox"] {
 <h4 class="anchored" data-anchor-id="volume-litres-1">Volume (Litres)</h4>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="lmr-explore_files/figure-html/unnamed-chunk-16-1.png" class="img-fluid" width="672"></p>
+<p><img src="lmr-explore_files/figure-html/unnamed-chunk-13-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <p><strong>Beer constitutes the largest volume</strong> by far (no surprise), although has been shrinking, with <strong>growth in refreshment beverage</strong> volume.</p>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="lmr-explore_files/figure-html/unnamed-chunk-17-1.png" class="img-fluid" width="672"></p>
+<p><img src="lmr-explore_files/figure-html/unnamed-chunk-14-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <p>Percentage breakdown highlights even further the <strong>decline in beer share of volume</strong> (still well over 50%), mostly <strong>at the expense of refreshment beverages</strong>.</p>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="lmr-explore_files/figure-html/unnamed-chunk-18-1.png" class="img-fluid" width="672"></p>
+<p><img src="lmr-explore_files/figure-html/unnamed-chunk-15-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <p><strong>Beer had declining volume in the most recent 5 years</strong>, although may be stabilizing. Other categories all had strongest volume growth in 2020 during the pandemic. Refreshment beverages saw decline in 2022 after 5 years of strong growth.</p>
@@ -235,56 +242,102 @@ ul.task-list li input[type="checkbox"] {
 <h4 class="anchored" data-anchor-id="litre-1">$/Litre</h4>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="lmr-explore_files/figure-html/unnamed-chunk-19-1.png" class="img-fluid" width="672"></p>
+<p><img src="lmr-explore_files/figure-html/unnamed-chunk-16-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="lmr-explore_files/figure-html/unnamed-chunk-20-1.png" class="img-fluid" width="672"></p>
+<p><img src="lmr-explore_files/figure-html/unnamed-chunk-17-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <p>$/litre vs volume and sales</p>
 <div class="cell">
-<div class="cell-output-display">
-<p><img src="lmr-explore_files/figure-html/unnamed-chunk-21-1.png" class="img-fluid" width="672"></p>
+
 </div>
+<div class="cell">
+
 </div>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="lmr-explore_files/figure-html/unnamed-chunk-22-1.png" class="img-fluid" width="288"></p>
+<p><img src="lmr-explore_files/figure-html/unnamed-chunk-20-1.png" class="img-fluid" width="480"></p>
 </div>
+</div>
+<p>Different categories have different relationships between revenue per litre (a proxy for price*) and volume sales:</p>
+<ul>
+<li><strong>Beer looks like a counter-intuitive relationship where the biggest price increases are actually associated with increases, or at least smallest decreases, in volume</strong>. Price changes have been modest, so there are probably other factors involved.</li>
+<li>Refreshment beverages don’t appear to have a strong relationship between price increase and changes in volume during this period of growth, although most recently a ~6% increase in price is associated with a reversal in the growth trend and a small decrease in volume.</li>
+<li>Wine is the clearest case, in terms of different scenarios, where an average <strong>price decrease in wine of around 2.5% was associated with ~6% volume growth</strong> (top left of Wine panel) and price increases of 6+% werre associated with ~3% decline in sales volume.</li>
+</ul>
+<p>Clearly there are a variety of factors at work here and not enough data to make any solid conclusions with regard to effect of changes in net sales per litre and litre volumes sold.</p>
+<div class="cell">
+
 </div>
 </section>
 </section>
 </section>
 <section id="quarterly" class="level2">
 <h2 class="anchored" data-anchor-id="quarterly">Quarterly</h2>
-<p>What are the quarterly trends in total sales in recent years?</p>
-<div class="cell">
-<div class="cell-output-display">
-<p><img src="lmr-explore_files/figure-html/unnamed-chunk-23-1.png" class="img-fluid" width="672"></p>
-</div>
-</div>
-<p>What are the quarterly trends in volume sales in recent years?</p>
-<p>What are trends in $/liter - all categories?</p>
-<section id="by-major-category" class="level3">
-<h3 class="anchored" data-anchor-id="by-major-category">By Major Category</h3>
-<p>What are the quarterly trends by major category in recent years?</p>
-<section id="sales-2" class="level4">
-<h4 class="anchored" data-anchor-id="sales-2">$ Sales</h4>
-<div class="cell">
-<div class="cell-output-display">
-<p><img src="lmr-explore_files/figure-html/unnamed-chunk-24-1.png" class="img-fluid" width="672"></p>
-</div>
-</div>
-<p>What are patterns in % breakdown by major category?</p>
+<section id="overview" class="level3">
+<h3 class="anchored" data-anchor-id="overview">Overview</h3>
 <div class="cell">
 
 </div>
-<p>What is the quarterly % chg by major category?</p>
-<p>What is the annual % chg by major category?</p>
-<p>What is % change in YoY quarter by major category?</p>
-<p>What are trends in $/liter by category?</p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="lmr-explore_files/figure-html/unnamed-chunk-22-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>\\* BC LDB fiscal yr runs Apr - Mar, so Q1=Apr-May-Jun, and so on.</p>
+<ul>
+<li>Q2 (Jul-Aug-Sep) has highest sales, edging out Q1 (Apr-May-Jun)</li>
+<li>Q3 (Oct-Nov-Dec) sees drop, even with holidays, and then lower again for Q4 (Jan-Feb-Mar)</li>
+</ul>
+<div class="cell">
+
+</div>
+<div class="cell">
+
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="lmr-explore_files/figure-html/unnamed-chunk-25-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<ul>
+<li>Q1 (Apr-May-Jun) typically has well over 20% increase over previous Q4</li>
+<li>Q2 (Jul-Aug-Sep) tends to be ~5% higher that Q1.</li>
+<li>Q3 -&gt; doesn’t look right - expect larger drop from Q2, based on other charts</li>
+<li>Q4 (Jan-Feb-Mar) is usually more that 20% drop from Q3</li>
+</ul>
+<p>Could be interesting to see how the overall pattern matches categories.</p>
+<div class="cell">
+
+</div>
+</section>
+<section id="by-major-category" class="level3">
+<h3 class="anchored" data-anchor-id="by-major-category">By Major Category</h3>
+<p>What are the quarterly trends by major category in recent years?</p>
+<p>which categories peak in which quarters?</p>
+<section id="volume-litres-2" class="level4">
+<h4 class="anchored" data-anchor-id="volume-litres-2">Volume (Litres)</h4>
+<div class="cell">
+
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="lmr-explore_files/figure-html/unnamed-chunk-28-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<ul>
+<li>Beer and - even more-so - refreshment beverages drop from Q1-Q2 (Apr-Sep) to Q3-Q4 (Oct-Mar).</li>
+<li>Wine, Spirits have small peak in Q3 (Oct-Dec) - holiday season.</li>
+</ul>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="lmr-explore_files/figure-html/unnamed-chunk-29-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>Reinforcing the shifts in category by quarters - showing the bulge in % share for wine and spirits in Q3-Q4 (Sep-Mar).</p>
 </section>
 </section>
 </section>
