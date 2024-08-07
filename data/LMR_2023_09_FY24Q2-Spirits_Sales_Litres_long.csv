@@ -1,0 +1,121 @@
+cat_type,category,subcategory,period,litres
+Spirits,Other Spirits,Moonshine Spirits,Fiscal 2022/23 Q2,9224
+Spirits,Other Spirits,Moonshine Spirits,Fiscal 2022/23 Q3,14580
+Spirits,Other Spirits,Moonshine Spirits,Fiscal 2022/23 Q4,8025
+Spirits,Other Spirits,Moonshine Spirits,Fiscal 2023/24 Q1,14043
+Spirits,Other Spirits,Moonshine Spirits,Fiscal 2023/24 Q2,15210
+Spirits,Other Spirits,Ready to Mix Cocktails,Fiscal 2022/23 Q2,27452
+Spirits,Other Spirits,Ready to Mix Cocktails,Fiscal 2022/23 Q3,27687
+Spirits,Other Spirits,Ready to Mix Cocktails,Fiscal 2022/23 Q4,25290
+Spirits,Other Spirits,Ready to Mix Cocktails,Fiscal 2023/24 Q1,32202
+Spirits,Other Spirits,Ready to Mix Cocktails,Fiscal 2023/24 Q2,29918
+Spirits,Other Spirits,Ready to Serve Cocktails,Fiscal 2022/23 Q2,106693
+Spirits,Other Spirits,Ready to Serve Cocktails,Fiscal 2022/23 Q3,67903
+Spirits,Other Spirits,Ready to Serve Cocktails,Fiscal 2022/23 Q4,54447
+Spirits,Other Spirits,Ready to Serve Cocktails,Fiscal 2023/24 Q1,125435
+Spirits,Other Spirits,Ready to Serve Cocktails,Fiscal 2023/24 Q2,144271
+Spirits,Other Spirits,Schnapps and Akvavit,Fiscal 2022/23 Q2,917
+Spirits,Other Spirits,Schnapps and Akvavit,Fiscal 2022/23 Q3,1695
+Spirits,Other Spirits,Schnapps and Akvavit,Fiscal 2022/23 Q4,1053
+Spirits,Other Spirits,Schnapps and Akvavit,Fiscal 2023/24 Q1,1008
+Spirits,Other Spirits,Schnapps and Akvavit,Fiscal 2023/24 Q2,957
+Spirits,Rum,Amber Rum,Fiscal 2022/23 Q2,197998
+Spirits,Rum,Amber Rum,Fiscal 2022/23 Q3,301087
+Spirits,Rum,Amber Rum,Fiscal 2022/23 Q4,170572
+Spirits,Rum,Amber Rum,Fiscal 2023/24 Q1,187451
+Spirits,Rum,Amber Rum,Fiscal 2023/24 Q2,199497
+Spirits,Rum,Dark Rum,Fiscal 2022/23 Q2,89103
+Spirits,Rum,Dark Rum,Fiscal 2022/23 Q3,161230
+Spirits,Rum,Dark Rum,Fiscal 2022/23 Q4,83943
+Spirits,Rum,Dark Rum,Fiscal 2023/24 Q1,93784
+Spirits,Rum,Dark Rum,Fiscal 2023/24 Q2,87920
+Spirits,Rum,Flavoured Rum,Fiscal 2022/23 Q2,23463
+Spirits,Rum,Flavoured Rum,Fiscal 2022/23 Q3,26558
+Spirits,Rum,Flavoured Rum,Fiscal 2022/23 Q4,16225
+Spirits,Rum,Flavoured Rum,Fiscal 2023/24 Q1,17730
+Spirits,Rum,Flavoured Rum,Fiscal 2023/24 Q2,14893
+Spirits,Rum,Spiced Rum,Fiscal 2022/23 Q2,253059
+Spirits,Rum,Spiced Rum,Fiscal 2022/23 Q3,484154
+Spirits,Rum,Spiced Rum,Fiscal 2022/23 Q4,208982
+Spirits,Rum,Spiced Rum,Fiscal 2023/24 Q1,231622
+Spirits,Rum,Spiced Rum,Fiscal 2023/24 Q2,247267
+Spirits,Rum,White Rum,Fiscal 2022/23 Q2,308914
+Spirits,Rum,White Rum,Fiscal 2022/23 Q3,334035
+Spirits,Rum,White Rum,Fiscal 2022/23 Q4,239519
+Spirits,Rum,White Rum,Fiscal 2023/24 Q1,296783
+Spirits,Rum,White Rum,Fiscal 2023/24 Q2,307734
+Spirits,Tequila,Blanco/Silver Tequila,Fiscal 2022/23 Q2,211219
+Spirits,Tequila,Blanco/Silver Tequila,Fiscal 2022/23 Q3,181928
+Spirits,Tequila,Blanco/Silver Tequila,Fiscal 2022/23 Q4,147504
+Spirits,Tequila,Blanco/Silver Tequila,Fiscal 2023/24 Q1,222207
+Spirits,Tequila,Blanco/Silver Tequila,Fiscal 2023/24 Q2,236423
+Spirits,Tequila,Flavoured Tequila,Fiscal 2022/23 Q2,8405
+Spirits,Tequila,Flavoured Tequila,Fiscal 2022/23 Q3,15199
+Spirits,Tequila,Flavoured Tequila,Fiscal 2022/23 Q4,10672
+Spirits,Tequila,Flavoured Tequila,Fiscal 2023/24 Q1,17020
+Spirits,Tequila,Flavoured Tequila,Fiscal 2023/24 Q2,18476
+Spirits,Tequila,Gold Tequila,Fiscal 2022/23 Q2,252749
+Spirits,Tequila,Gold Tequila,Fiscal 2022/23 Q3,226514
+Spirits,Tequila,Gold Tequila,Fiscal 2022/23 Q4,175714
+Spirits,Tequila,Gold Tequila,Fiscal 2023/24 Q1,236152
+Spirits,Tequila,Gold Tequila,Fiscal 2023/24 Q2,231150
+Spirits,Tequila,Mezcal,Fiscal 2022/23 Q2,13414
+Spirits,Tequila,Mezcal,Fiscal 2022/23 Q3,18357
+Spirits,Tequila,Mezcal,Fiscal 2022/23 Q4,12436
+Spirits,Tequila,Mezcal,Fiscal 2023/24 Q1,17896
+Spirits,Tequila,Mezcal,Fiscal 2023/24 Q2,16816
+Spirits,Vodka,Flavoured Vodka,Fiscal 2022/23 Q2,207041
+Spirits,Vodka,Flavoured Vodka,Fiscal 2022/23 Q3,208089
+Spirits,Vodka,Flavoured Vodka,Fiscal 2022/23 Q4,155005
+Spirits,Vodka,Flavoured Vodka,Fiscal 2023/24 Q1,201063
+Spirits,Vodka,Flavoured Vodka,Fiscal 2023/24 Q2,178089
+Spirits,Vodka,Straight Vodka,Fiscal 2022/23 Q2,2223932
+Spirits,Vodka,Straight Vodka,Fiscal 2022/23 Q3,2463681
+Spirits,Vodka,Straight Vodka,Fiscal 2022/23 Q4,1918450
+Spirits,Vodka,Straight Vodka,Fiscal 2023/24 Q1,2172397
+Spirits,Vodka,Straight Vodka,Fiscal 2023/24 Q2,2244257
+Spirits,Whisky,American Whiskey,Fiscal 2022/23 Q2,64327
+Spirits,Whisky,American Whiskey,Fiscal 2022/23 Q3,105679
+Spirits,Whisky,American Whiskey,Fiscal 2022/23 Q4,69776
+Spirits,Whisky,American Whiskey,Fiscal 2023/24 Q1,70669
+Spirits,Whisky,American Whiskey,Fiscal 2023/24 Q2,70639
+Spirits,Whisky,Blended Malt Scotch Whisky,Fiscal 2022/23 Q2,2622
+Spirits,Whisky,Blended Malt Scotch Whisky,Fiscal 2022/23 Q3,2898
+Spirits,Whisky,Blended Malt Scotch Whisky,Fiscal 2022/23 Q4,4268
+Spirits,Whisky,Blended Malt Scotch Whisky,Fiscal 2023/24 Q1,3268
+Spirits,Whisky,Blended Malt Scotch Whisky,Fiscal 2023/24 Q2,3793
+Spirits,Whisky,Blended Scotch Whisky,Fiscal 2022/23 Q2,195530
+Spirits,Whisky,Blended Scotch Whisky,Fiscal 2022/23 Q3,315241
+Spirits,Whisky,Blended Scotch Whisky,Fiscal 2022/23 Q4,212672
+Spirits,Whisky,Blended Scotch Whisky,Fiscal 2023/24 Q1,233563
+Spirits,Whisky,Blended Scotch Whisky,Fiscal 2023/24 Q2,214461
+Spirits,Whisky,Bourbon Whiskey,Fiscal 2022/23 Q2,110653
+Spirits,Whisky,Bourbon Whiskey,Fiscal 2022/23 Q3,194894
+Spirits,Whisky,Bourbon Whiskey,Fiscal 2022/23 Q4,131789
+Spirits,Whisky,Bourbon Whiskey,Fiscal 2023/24 Q1,134987
+Spirits,Whisky,Bourbon Whiskey,Fiscal 2023/24 Q2,124108
+Spirits,Whisky,Canadian Whisky,Fiscal 2022/23 Q2,1021508
+Spirits,Whisky,Canadian Whisky,Fiscal 2022/23 Q3,1414380
+Spirits,Whisky,Canadian Whisky,Fiscal 2022/23 Q4,953578
+Spirits,Whisky,Canadian Whisky,Fiscal 2023/24 Q1,1083466
+Spirits,Whisky,Canadian Whisky,Fiscal 2023/24 Q2,1067146
+Spirits,Whisky,Flavoured Whisky,Fiscal 2022/23 Q2,6128
+Spirits,Whisky,Flavoured Whisky,Fiscal 2022/23 Q3,27536
+Spirits,Whisky,Flavoured Whisky,Fiscal 2022/23 Q4,10534
+Spirits,Whisky,Flavoured Whisky,Fiscal 2023/24 Q1,9403
+Spirits,Whisky,Flavoured Whisky,Fiscal 2023/24 Q2,8828
+Spirits,Whisky,Irish Whiskey,Fiscal 2022/23 Q2,134030
+Spirits,Whisky,Irish Whiskey,Fiscal 2022/23 Q3,215893
+Spirits,Whisky,Irish Whiskey,Fiscal 2022/23 Q4,153503
+Spirits,Whisky,Irish Whiskey,Fiscal 2023/24 Q1,134393
+Spirits,Whisky,Irish Whiskey,Fiscal 2023/24 Q2,134551
+Spirits,Whisky,Other Country Whisky,Fiscal 2022/23 Q2,11802
+Spirits,Whisky,Other Country Whisky,Fiscal 2022/23 Q3,30130
+Spirits,Whisky,Other Country Whisky,Fiscal 2022/23 Q4,18610
+Spirits,Whisky,Other Country Whisky,Fiscal 2023/24 Q1,18580
+Spirits,Whisky,Other Country Whisky,Fiscal 2023/24 Q2,14741
+Spirits,Whisky,Single Malt Scotch Whisky,Fiscal 2022/23 Q2,91445
+Spirits,Whisky,Single Malt Scotch Whisky,Fiscal 2022/23 Q3,218715
+Spirits,Whisky,Single Malt Scotch Whisky,Fiscal 2022/23 Q4,115625
+Spirits,Whisky,Single Malt Scotch Whisky,Fiscal 2023/24 Q1,116753
+Spirits,Whisky,Single Malt Scotch Whisky,Fiscal 2023/24 Q2,101420

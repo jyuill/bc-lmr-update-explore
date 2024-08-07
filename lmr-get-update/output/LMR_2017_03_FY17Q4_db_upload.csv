@@ -1,0 +1,851 @@
+cat_type,category,subcategory,litres,netsales,fy_qtr
+Beer,Domestic - BC Beer,Domestic - BC Commercial Beer,36097712,121194549,FY2016Q4
+Beer,Domestic - BC Beer,Domestic - BC Commercial Beer,48513234,162836804,FY2017Q1
+Beer,Domestic - BC Beer,Domestic - BC Commercial Beer,46489349,156383482,FY2017Q2
+Beer,Domestic - BC Beer,Domestic - BC Commercial Beer,40500552,136408637,FY2017Q3
+Beer,Domestic - BC Beer,Domestic - BC Commercial Beer,34685212,118087428,FY2017Q4
+Beer,Domestic - BC Beer,Domestic - BC Micro Brew Beer,4366039,19051360,FY2016Q4
+Beer,Domestic - BC Beer,Domestic - BC Micro Brew Beer,5597548,24645680,FY2017Q1
+Beer,Domestic - BC Beer,Domestic - BC Micro Brew Beer,5971699,25840980,FY2017Q2
+Beer,Domestic - BC Beer,Domestic - BC Micro Brew Beer,5178432,23493563,FY2017Q3
+Beer,Domestic - BC Beer,Domestic - BC Micro Brew Beer,5291479,23336671,FY2017Q4
+Beer,Domestic - BC Beer,Domestic - BC Regional Beer,7623508,27164307,FY2016Q4
+Beer,Domestic - BC Beer,Domestic - BC Regional Beer,10088319,36157449,FY2017Q1
+Beer,Domestic - BC Beer,Domestic - BC Regional Beer,10494913,37595779,FY2017Q2
+Beer,Domestic - BC Beer,Domestic - BC Regional Beer,9037958,32993606,FY2017Q3
+Beer,Domestic - BC Beer,Domestic - BC Regional Beer,7959950,28629835,FY2017Q4
+Beer,Domestic - Other Province Beer,Domestic - Other Province Commercial Beer,2991722,10875776,FY2016Q4
+Beer,Domestic - Other Province Beer,Domestic - Other Province Commercial Beer,5125072,18455619,FY2017Q1
+Beer,Domestic - Other Province Beer,Domestic - Other Province Commercial Beer,5305174,18575862,FY2017Q2
+Beer,Domestic - Other Province Beer,Domestic - Other Province Commercial Beer,2815682,10307025,FY2017Q3
+Beer,Domestic - Other Province Beer,Domestic - Other Province Commercial Beer,2683771,9500201,FY2017Q4
+Beer,Domestic - Other Province Beer,Domestic - Other Province Micro Brew Beer,26580,186476,FY2016Q4
+Beer,Domestic - Other Province Beer,Domestic - Other Province Micro Brew Beer,40086,266712,FY2017Q1
+Beer,Domestic - Other Province Beer,Domestic - Other Province Micro Brew Beer,39901,260430,FY2017Q2
+Beer,Domestic - Other Province Beer,Domestic - Other Province Micro Brew Beer,27045,191845,FY2017Q3
+Beer,Domestic - Other Province Beer,Domestic - Other Province Micro Brew Beer,29084,198884,FY2017Q4
+Beer,Domestic - Other Province Beer,Domestic - Other Province Regional Beer,670788,2304096,FY2016Q4
+Beer,Domestic - Other Province Beer,Domestic - Other Province Regional Beer,722172,2560056,FY2017Q1
+Beer,Domestic - Other Province Beer,Domestic - Other Province Regional Beer,697069,2514621,FY2017Q2
+Beer,Domestic - Other Province Beer,Domestic - Other Province Regional Beer,572290,2205595,FY2017Q3
+Beer,Domestic - Other Province Beer,Domestic - Other Province Regional Beer,548346,2014013,FY2017Q4
+Beer,Import Beer,Asia And South Pacific Beer,307965,1476216,FY2016Q4
+Beer,Import Beer,Asia And South Pacific Beer,380181,1816808,FY2017Q1
+Beer,Import Beer,Asia And South Pacific Beer,398285,1848068,FY2017Q2
+Beer,Import Beer,Asia And South Pacific Beer,326069,1546861,FY2017Q3
+Beer,Import Beer,Asia And South Pacific Beer,314414,1534753,FY2017Q4
+Beer,Import Beer,Europe Beer,5261180,23421426,FY2016Q4
+Beer,Import Beer,Europe Beer,6432289,28612964,FY2017Q1
+Beer,Import Beer,Europe Beer,6489254,28922726,FY2017Q2
+Beer,Import Beer,Europe Beer,5896192,26393812,FY2017Q3
+Beer,Import Beer,Europe Beer,5188477,23397861,FY2017Q4
+Beer,Import Beer,Mexico And Caribbean Beer,1436020,7442899,FY2016Q4
+Beer,Import Beer,Mexico And Caribbean Beer,2757104,13960348,FY2017Q1
+Beer,Import Beer,Mexico And Caribbean Beer,2950759,15019939,FY2017Q2
+Beer,Import Beer,Mexico And Caribbean Beer,1461929,7577561,FY2017Q3
+Beer,Import Beer,Mexico And Caribbean Beer,1364090,7203113,FY2017Q4
+Beer,Import Beer,Other Country Beer,10563,46977,FY2016Q4
+Beer,Import Beer,Other Country Beer,13473,58474,FY2017Q1
+Beer,Import Beer,Other Country Beer,12767,56119,FY2017Q2
+Beer,Import Beer,Other Country Beer,10671,48495,FY2017Q3
+Beer,Import Beer,Other Country Beer,10267,47385,FY2017Q4
+Beer,Import Beer,USA Beer,2530588,10446022,FY2016Q4
+Beer,Import Beer,USA Beer,3389012,14073717,FY2017Q1
+Beer,Import Beer,USA Beer,3667047,14998898,FY2017Q2
+Beer,Import Beer,USA Beer,2554171,10723643,FY2017Q3
+Beer,Import Beer,USA Beer,2312470,9871023,FY2017Q4
+Refreshment Beverages,Cider,Domestic Cider,2631121,10137701,FY2016Q4
+Refreshment Beverages,Cider,Domestic Cider,4480478,17076132,FY2017Q1
+Refreshment Beverages,Cider,Domestic Cider,4526562,17270791,FY2017Q2
+Refreshment Beverages,Cider,Domestic Cider,2986075,11192480,FY2017Q3
+Refreshment Beverages,Cider,Domestic Cider,2803569,10450850,FY2017Q4
+Refreshment Beverages,Cider,Import Cider,784248,3670430,FY2016Q4
+Refreshment Beverages,Cider,Import Cider,1348943,6202938,FY2017Q1
+Refreshment Beverages,Cider,Import Cider,1379408,6375166,FY2017Q2
+Refreshment Beverages,Cider,Import Cider,839322,3963514,FY2017Q3
+Refreshment Beverages,Cider,Import Cider,796974,3818464,FY2017Q4
+Refreshment Beverages,Coolers,Malt-Based Coolers,461221,2056565,FY2016Q4
+Refreshment Beverages,Coolers,Malt-Based Coolers,1231197,5217757,FY2017Q1
+Refreshment Beverages,Coolers,Malt-Based Coolers,1385812,5997194,FY2017Q2
+Refreshment Beverages,Coolers,Malt-Based Coolers,475224,2123073,FY2017Q3
+Refreshment Beverages,Coolers,Malt-Based Coolers,411637,1850363,FY2017Q4
+Refreshment Beverages,Coolers,Spirit Coolers,2647623,11745962,FY2016Q4
+Refreshment Beverages,Coolers,Spirit Coolers,6756579,28091409,FY2017Q1
+Refreshment Beverages,Coolers,Spirit Coolers,6923499,29437842,FY2017Q2
+Refreshment Beverages,Coolers,Spirit Coolers,3307938,14710981,FY2017Q3
+Refreshment Beverages,Coolers,Spirit Coolers,2990169,13294681,FY2017Q4
+Refreshment Beverages,Coolers,Wine/Fruit Coolers,131519,631556,FY2016Q4
+Refreshment Beverages,Coolers,Wine/Fruit Coolers,189648,978597,FY2017Q1
+Refreshment Beverages,Coolers,Wine/Fruit Coolers,182730,967848,FY2017Q2
+Refreshment Beverages,Coolers,Wine/Fruit Coolers,124464,653492,FY2017Q3
+Refreshment Beverages,Coolers,Wine/Fruit Coolers,106065,548273,FY2017Q4
+Spirits,Asian Spirits,China Spirits,10915,857050,FY2016Q4
+Spirits,Asian Spirits,China Spirits,9676,868542,FY2017Q1
+Spirits,Asian Spirits,China Spirits,9099,730927,FY2017Q2
+Spirits,Asian Spirits,China Spirits,10596,840592,FY2017Q3
+Spirits,Asian Spirits,China Spirits,11251,973668,FY2017Q4
+Spirits,Asian Spirits,Korea Spirits,35982,644779,FY2016Q4
+Spirits,Asian Spirits,Korea Spirits,40485,720910,FY2017Q1
+Spirits,Asian Spirits,Korea Spirits,39797,707798,FY2017Q2
+Spirits,Asian Spirits,Korea Spirits,41887,743249,FY2017Q3
+Spirits,Asian Spirits,Korea Spirits,40588,718858,FY2017Q4
+Spirits,Asian Spirits,Other Country Asian Spirits,1772,55917,FY2016Q4
+Spirits,Asian Spirits,Other Country Asian Spirits,2091,68035,FY2017Q1
+Spirits,Asian Spirits,Other Country Asian Spirits,2027,65609,FY2017Q2
+Spirits,Asian Spirits,Other Country Asian Spirits,2014,74929,FY2017Q3
+Spirits,Asian Spirits,Other Country Asian Spirits,1851,70422,FY2017Q4
+Spirits,Gin,Dry Gin,273970,7159425,FY2016Q4
+Spirits,Gin,Dry Gin,399543,10553388,FY2017Q1
+Spirits,Gin,Dry Gin,424602,11329100,FY2017Q2
+Spirits,Gin,Dry Gin,350046,9411105,FY2017Q3
+Spirits,Gin,Dry Gin,282692,7568246,FY2017Q4
+Spirits,Gin,Flavoured Gin,6381,182956,FY2016Q4
+Spirits,Gin,Flavoured Gin,12381,349008,FY2017Q1
+Spirits,Gin,Flavoured Gin,14628,410780,FY2017Q2
+Spirits,Gin,Flavoured Gin,6934,217738,FY2017Q3
+Spirits,Gin,Flavoured Gin,6125,182726,FY2017Q4
+Spirits,Gin,Other Gin,3180,137079,FY2016Q4
+Spirits,Gin,Other Gin,5042,219542,FY2017Q1
+Spirits,Gin,Other Gin,5982,261678,FY2017Q2
+Spirits,Gin,Other Gin,5458,236095,FY2017Q3
+Spirits,Gin,Other Gin,4148,177191,FY2017Q4
+Spirits,Grape and Fruit Brandy,Armagnac,676,105357,FY2016Q4
+Spirits,Grape and Fruit Brandy,Armagnac,559,69614,FY2017Q1
+Spirits,Grape and Fruit Brandy,Armagnac,741,69586,FY2017Q2
+Spirits,Grape and Fruit Brandy,Armagnac,658,74253,FY2017Q3
+Spirits,Grape and Fruit Brandy,Armagnac,545,66591,FY2017Q4
+Spirits,Grape and Fruit Brandy,Brandy,100971,2405209,FY2016Q4
+Spirits,Grape and Fruit Brandy,Brandy,94098,2238256,FY2017Q1
+Spirits,Grape and Fruit Brandy,Brandy,91503,2203164,FY2017Q2
+Spirits,Grape and Fruit Brandy,Brandy,140172,3385915,FY2017Q3
+Spirits,Grape and Fruit Brandy,Brandy,90208,2158758,FY2017Q4
+Spirits,Grape and Fruit Brandy,Cognac,18722,2353813,FY2016Q4
+Spirits,Grape and Fruit Brandy,Cognac,15495,2146048,FY2017Q1
+Spirits,Grape and Fruit Brandy,Cognac,20508,2862476,FY2017Q2
+Spirits,Grape and Fruit Brandy,Cognac,27895,2963147,FY2017Q3
+Spirits,Grape and Fruit Brandy,Cognac,17854,2408512,FY2017Q4
+Spirits,Grape and Fruit Brandy,Eau de Vie,4722,207438,FY2016Q4
+Spirits,Grape and Fruit Brandy,Eau de Vie,4932,227211,FY2017Q1
+Spirits,Grape and Fruit Brandy,Eau de Vie,5319,258488,FY2017Q2
+Spirits,Grape and Fruit Brandy,Eau de Vie,7573,354132,FY2017Q3
+Spirits,Grape and Fruit Brandy,Eau de Vie,5797,255525,FY2017Q4
+Spirits,Grape and Fruit Brandy,Grappa And Marc,1144,54430,FY2016Q4
+Spirits,Grape and Fruit Brandy,Grappa And Marc,1196,60102,FY2017Q1
+Spirits,Grape and Fruit Brandy,Grappa And Marc,1228,60816,FY2017Q2
+Spirits,Grape and Fruit Brandy,Grappa And Marc,1854,93114,FY2017Q3
+Spirits,Grape and Fruit Brandy,Grappa And Marc,1138,60448,FY2017Q4
+Spirits,Grape and Fruit Brandy,Pisco,1667,64307,FY2016Q4
+Spirits,Grape and Fruit Brandy,Pisco,2125,77873,FY2017Q1
+Spirits,Grape and Fruit Brandy,Pisco,3142,122563,FY2017Q2
+Spirits,Grape and Fruit Brandy,Pisco,1888,72245,FY2017Q3
+Spirits,Grape and Fruit Brandy,Pisco,1750,69685,FY2017Q4
+Spirits,Liqueurs,Anise And Herbal/Spice Liqueurs,189107,5387901,FY2016Q4
+Spirits,Liqueurs,Anise And Herbal/Spice Liqueurs,197104,5569235,FY2017Q1
+Spirits,Liqueurs,Anise And Herbal/Spice Liqueurs,201435,5785831,FY2017Q2
+Spirits,Liqueurs,Anise And Herbal/Spice Liqueurs,270491,7680061,FY2017Q3
+Spirits,Liqueurs,Anise And Herbal/Spice Liqueurs,202041,5770554,FY2017Q4
+Spirits,Liqueurs,Coffee And Cocoa Liqueurs,45472,1088741,FY2016Q4
+Spirits,Liqueurs,Coffee And Cocoa Liqueurs,55048,1327753,FY2017Q1
+Spirits,Liqueurs,Coffee And Cocoa Liqueurs,71379,1727608,FY2017Q2
+Spirits,Liqueurs,Coffee And Cocoa Liqueurs,136338,3402987,FY2017Q3
+Spirits,Liqueurs,Coffee And Cocoa Liqueurs,46638,1109666,FY2017Q4
+Spirits,Liqueurs,Cream/Dairy Liqueurs,206417,4919186,FY2016Q4
+Spirits,Liqueurs,Cream/Dairy Liqueurs,217648,5228738,FY2017Q1
+Spirits,Liqueurs,Cream/Dairy Liqueurs,289787,6952553,FY2017Q2
+Spirits,Liqueurs,Cream/Dairy Liqueurs,716578,17492182,FY2017Q3
+Spirits,Liqueurs,Cream/Dairy Liqueurs,193767,4653619,FY2017Q4
+Spirits,Liqueurs,Fruit Liqueurs,115115,2982934,FY2016Q4
+Spirits,Liqueurs,Fruit Liqueurs,162368,4227870,FY2017Q1
+Spirits,Liqueurs,Fruit Liqueurs,171665,4426187,FY2017Q2
+Spirits,Liqueurs,Fruit Liqueurs,183147,5136803,FY2017Q3
+Spirits,Liqueurs,Fruit Liqueurs,116829,3117262,FY2017Q4
+Spirits,Liqueurs,Nut Liqueurs,43330,1046646,FY2016Q4
+Spirits,Liqueurs,Nut Liqueurs,62101,1435664,FY2017Q1
+Spirits,Liqueurs,Nut Liqueurs,63349,1460218,FY2017Q2
+Spirits,Liqueurs,Nut Liqueurs,75261,1887605,FY2017Q3
+Spirits,Liqueurs,Nut Liqueurs,38917,973348,FY2017Q4
+Spirits,Liqueurs,Other Liqueurs,20252,497837,FY2016Q4
+Spirits,Liqueurs,Other Liqueurs,20390,538747,FY2017Q1
+Spirits,Liqueurs,Other Liqueurs,21671,595873,FY2017Q2
+Spirits,Liqueurs,Other Liqueurs,27788,734686,FY2017Q3
+Spirits,Liqueurs,Other Liqueurs,19748,497202,FY2017Q4
+Spirits,Liqueurs,Whiskey Liqueurs,44954,1339261,FY2016Q4
+Spirits,Liqueurs,Whiskey Liqueurs,41534,1231350,FY2017Q1
+Spirits,Liqueurs,Whiskey Liqueurs,52734,1508742,FY2017Q2
+Spirits,Liqueurs,Whiskey Liqueurs,70955,2159687,FY2017Q3
+Spirits,Liqueurs,Whiskey Liqueurs,42400,1272120,FY2017Q4
+Spirits,Other Spirits,Cachaca,1040,31362,FY2016Q4
+Spirits,Other Spirits,Cachaca,1309,42809,FY2017Q1
+Spirits,Other Spirits,Cachaca,1571,50678,FY2017Q2
+Spirits,Other Spirits,Cachaca,759,24764,FY2017Q3
+Spirits,Other Spirits,Cachaca,917,30019,FY2017Q4
+Spirits,Other Spirits,Flavoured Spirits,11624,547109,FY2016Q4
+Spirits,Other Spirits,Flavoured Spirits,14700,702014,FY2017Q1
+Spirits,Other Spirits,Flavoured Spirits,18846,862018,FY2017Q2
+Spirits,Other Spirits,Flavoured Spirits,17604,834187,FY2017Q3
+Spirits,Other Spirits,Flavoured Spirits,13367,634987,FY2017Q4
+Spirits,Other Spirits,Miscellaneous/Other Spirits,12837,436655,FY2016Q4
+Spirits,Other Spirits,Miscellaneous/Other Spirits,14769,502954,FY2017Q1
+Spirits,Other Spirits,Miscellaneous/Other Spirits,16193,578538,FY2017Q2
+Spirits,Other Spirits,Miscellaneous/Other Spirits,18320,717698,FY2017Q3
+Spirits,Other Spirits,Miscellaneous/Other Spirits,13176,427931,FY2017Q4
+Spirits,Other Spirits,Moonshine Spirits,4115,130731,FY2016Q4
+Spirits,Other Spirits,Moonshine Spirits,4576,145670,FY2017Q1
+Spirits,Other Spirits,Moonshine Spirits,4585,157337,FY2017Q2
+Spirits,Other Spirits,Moonshine Spirits,5630,218836,FY2017Q3
+Spirits,Other Spirits,Moonshine Spirits,3626,109472,FY2017Q4
+Spirits,Other Spirits,Ready to Mix Cocktails,26153,516208,FY2016Q4
+Spirits,Other Spirits,Ready to Mix Cocktails,35233,695285,FY2017Q1
+Spirits,Other Spirits,Ready to Mix Cocktails,36622,720675,FY2017Q2
+Spirits,Other Spirits,Ready to Mix Cocktails,25995,517344,FY2017Q3
+Spirits,Other Spirits,Ready to Mix Cocktails,23415,464141,FY2017Q4
+Spirits,Other Spirits,Ready to Serve Cocktails,11758,339078,FY2016Q4
+Spirits,Other Spirits,Ready to Serve Cocktails,26088,567707,FY2017Q1
+Spirits,Other Spirits,Ready to Serve Cocktails,33660,780833,FY2017Q2
+Spirits,Other Spirits,Ready to Serve Cocktails,26903,800179,FY2017Q3
+Spirits,Other Spirits,Ready to Serve Cocktails,15396,436246,FY2017Q4
+Spirits,Other Spirits,Schnapps and Akvavit,1623,60085,FY2016Q4
+Spirits,Other Spirits,Schnapps and Akvavit,1839,68686,FY2017Q1
+Spirits,Other Spirits,Schnapps and Akvavit,2469,95172,FY2017Q2
+Spirits,Other Spirits,Schnapps and Akvavit,3230,127022,FY2017Q3
+Spirits,Other Spirits,Schnapps and Akvavit,1198,45845,FY2017Q4
+Spirits,Rum,Amber Rum,161908,4296969,FY2016Q4
+Spirits,Rum,Amber Rum,205720,5483571,FY2017Q1
+Spirits,Rum,Amber Rum,218647,5806009,FY2017Q2
+Spirits,Rum,Amber Rum,302572,7861000,FY2017Q3
+Spirits,Rum,Amber Rum,169283,4522469,FY2017Q4
+Spirits,Rum,Dark Rum,97977,2527308,FY2016Q4
+Spirits,Rum,Dark Rum,103340,2652896,FY2017Q1
+Spirits,Rum,Dark Rum,108970,2799967,FY2017Q2
+Spirits,Rum,Dark Rum,167250,4258234,FY2017Q3
+Spirits,Rum,Dark Rum,99668,2601350,FY2017Q4
+Spirits,Rum,Flavoured Rum,7091,168901,FY2016Q4
+Spirits,Rum,Flavoured Rum,17072,408285,FY2017Q1
+Spirits,Rum,Flavoured Rum,21952,516561,FY2017Q2
+Spirits,Rum,Flavoured Rum,11943,284601,FY2017Q3
+Spirits,Rum,Flavoured Rum,8726,209054,FY2017Q4
+Spirits,Rum,Spiced Rum,206040,5737288,FY2016Q4
+Spirits,Rum,Spiced Rum,271172,7415859,FY2017Q1
+Spirits,Rum,Spiced Rum,290272,7919973,FY2017Q2
+Spirits,Rum,Spiced Rum,459962,12645574,FY2017Q3
+Spirits,Rum,Spiced Rum,197876,5591446,FY2017Q4
+Spirits,Rum,White Rum,259563,6075708,FY2016Q4
+Spirits,Rum,White Rum,337404,8026962,FY2017Q1
+Spirits,Rum,White Rum,346552,8210311,FY2017Q2
+Spirits,Rum,White Rum,381489,9018543,FY2017Q3
+Spirits,Rum,White Rum,241022,5762814,FY2017Q4
+Spirits,Tequila,Blanco/Silver Tequila,39072,1507352,FY2016Q4
+Spirits,Tequila,Blanco/Silver Tequila,66050,2438246,FY2017Q1
+Spirits,Tequila,Blanco/Silver Tequila,68219,2542249,FY2017Q2
+Spirits,Tequila,Blanco/Silver Tequila,54523,2156938,FY2017Q3
+Spirits,Tequila,Blanco/Silver Tequila,50014,1960286,FY2017Q4
+Spirits,Tequila,Flavoured Tequila,3282,132294,FY2016Q4
+Spirits,Tequila,Flavoured Tequila,5122,197884,FY2017Q1
+Spirits,Tequila,Flavoured Tequila,5402,208137,FY2017Q2
+Spirits,Tequila,Flavoured Tequila,4809,193616,FY2017Q3
+Spirits,Tequila,Flavoured Tequila,4309,176880,FY2017Q4
+Spirits,Tequila,Gold Tequila,103373,3564290,FY2016Q4
+Spirits,Tequila,Gold Tequila,155666,5314832,FY2017Q1
+Spirits,Tequila,Gold Tequila,168322,5597179,FY2017Q2
+Spirits,Tequila,Gold Tequila,128970,4630609,FY2017Q3
+Spirits,Tequila,Gold Tequila,115277,3971047,FY2017Q4
+Spirits,Tequila,Mezcal,1075,77566,FY2016Q4
+Spirits,Tequila,Mezcal,2266,147826,FY2017Q1
+Spirits,Tequila,Mezcal,1606,110682,FY2017Q2
+Spirits,Tequila,Mezcal,1801,124961,FY2017Q3
+Spirits,Tequila,Mezcal,1355,100520,FY2017Q4
+Spirits,Vodka,Flavoured Vodka,99510,2662667,FY2016Q4
+Spirits,Vodka,Flavoured Vodka,127854,3399213,FY2017Q1
+Spirits,Vodka,Flavoured Vodka,134526,3558526,FY2017Q2
+Spirits,Vodka,Flavoured Vodka,132545,3649129,FY2017Q3
+Spirits,Vodka,Flavoured Vodka,97773,2632730,FY2017Q4
+Spirits,Vodka,Straight Vodka,1630825,40390778,FY2016Q4
+Spirits,Vodka,Straight Vodka,2048829,50825874,FY2017Q1
+Spirits,Vodka,Straight Vodka,2118843,52516158,FY2017Q2
+Spirits,Vodka,Straight Vodka,2144427,53909261,FY2017Q3
+Spirits,Vodka,Straight Vodka,1642992,40826871,FY2017Q4
+Spirits,Whisky,American Whiskey,66060,1995465,FY2016Q4
+Spirits,Whisky,American Whiskey,75638,2354714,FY2017Q1
+Spirits,Whisky,American Whiskey,78898,2460703,FY2017Q2
+Spirits,Whisky,American Whiskey,96264,3127577,FY2017Q3
+Spirits,Whisky,American Whiskey,59286,1948875,FY2017Q4
+Spirits,Whisky,Blended Malt Scotch Whisky,854,71808,FY2016Q4
+Spirits,Whisky,Blended Malt Scotch Whisky,909,76779,FY2017Q1
+Spirits,Whisky,Blended Malt Scotch Whisky,814,60601,FY2017Q2
+Spirits,Whisky,Blended Malt Scotch Whisky,2141,170405,FY2017Q3
+Spirits,Whisky,Blended Malt Scotch Whisky,1472,134944,FY2017Q4
+Spirits,Whisky,Blended Scotch Whisky,223443,6342897,FY2016Q4
+Spirits,Whisky,Blended Scotch Whisky,259264,7458266,FY2017Q1
+Spirits,Whisky,Blended Scotch Whisky,245744,7088450,FY2017Q2
+Spirits,Whisky,Blended Scotch Whisky,296498,8713409,FY2017Q3
+Spirits,Whisky,Blended Scotch Whisky,217578,6238753,FY2017Q4
+Spirits,Whisky,Bourbon Whiskey,77993,2816790,FY2016Q4
+Spirits,Whisky,Bourbon Whiskey,77179,2767776,FY2017Q1
+Spirits,Whisky,Bourbon Whiskey,79464,2824776,FY2017Q2
+Spirits,Whisky,Bourbon Whiskey,101721,3881396,FY2017Q3
+Spirits,Whisky,Bourbon Whiskey,79021,2972133,FY2017Q4
+Spirits,Whisky,Canadian Whisky,920479,22710545,FY2016Q4
+Spirits,Whisky,Canadian Whisky,1017303,25159213,FY2017Q1
+Spirits,Whisky,Canadian Whisky,1141226,28638879,FY2017Q2
+Spirits,Whisky,Canadian Whisky,1364427,34353293,FY2017Q3
+Spirits,Whisky,Canadian Whisky,873517,21439543,FY2017Q4
+Spirits,Whisky,Flavoured Whisky,2001,55573,FY2016Q4
+Spirits,Whisky,Flavoured Whisky,766,18575,FY2017Q1
+Spirits,Whisky,Flavoured Whisky,1419,37533,FY2017Q2
+Spirits,Whisky,Flavoured Whisky,2595,68635,FY2017Q3
+Spirits,Whisky,Flavoured Whisky,1471,38126,FY2017Q4
+Spirits,Whisky,Irish Whiskey,81271,2729418,FY2016Q4
+Spirits,Whisky,Irish Whiskey,60802,2155405,FY2017Q1
+Spirits,Whisky,Irish Whiskey,72602,2454957,FY2017Q2
+Spirits,Whisky,Irish Whiskey,119161,4274332,FY2017Q3
+Spirits,Whisky,Irish Whiskey,96508,3432848,FY2017Q4
+Spirits,Whisky,Other Country Whisky,5188,430295,FY2016Q4
+Spirits,Whisky,Other Country Whisky,5700,442332,FY2017Q1
+Spirits,Whisky,Other Country Whisky,6998,534829,FY2017Q2
+Spirits,Whisky,Other Country Whisky,12019,954911,FY2017Q3
+Spirits,Whisky,Other Country Whisky,6303,494037,FY2017Q4
+Spirits,Whisky,Single Malt Scotch Whisky,95950,7429628,FY2016Q4
+Spirits,Whisky,Single Malt Scotch Whisky,110552,8210736,FY2017Q1
+Spirits,Whisky,Single Malt Scotch Whisky,103382,7529757,FY2017Q2
+Spirits,Whisky,Single Malt Scotch Whisky,173923,14965868,FY2017Q3
+Spirits,Whisky,Single Malt Scotch Whisky,91409,7022122,FY2017Q4
+Wine,Argentina Wine,Argentina Red Wine,607572,8653381,FY2016Q4
+Wine,Argentina Wine,Argentina Red Wine,638186,9078860,FY2017Q1
+Wine,Argentina Wine,Argentina Red Wine,571429,8409681,FY2017Q2
+Wine,Argentina Wine,Argentina Red Wine,878303,12511803,FY2017Q3
+Wine,Argentina Wine,Argentina Red Wine,644533,8925584,FY2017Q4
+Wine,Argentina Wine,Argentina Rose Wine,4437,54391,FY2016Q4
+Wine,Argentina Wine,Argentina Rose Wine,6991,90985,FY2017Q1
+Wine,Argentina Wine,Argentina Rose Wine,7524,97431,FY2017Q2
+Wine,Argentina Wine,Argentina Rose Wine,4258,55933,FY2017Q3
+Wine,Argentina Wine,Argentina Rose Wine,3659,47259,FY2017Q4
+Wine,Argentina Wine,Argentina Sparkling Wine,523,10778,FY2016Q4
+Wine,Argentina Wine,Argentina Sparkling Wine,453,9647,FY2017Q1
+Wine,Argentina Wine,Argentina Sparkling Wine,526,10723,FY2017Q2
+Wine,Argentina Wine,Argentina Sparkling Wine,1488,28090,FY2017Q3
+Wine,Argentina Wine,Argentina Sparkling Wine,517,10516,FY2017Q4
+Wine,Argentina Wine,Argentina White Wine,50716,596675,FY2016Q4
+Wine,Argentina Wine,Argentina White Wine,64051,770065,FY2017Q1
+Wine,Argentina Wine,Argentina White Wine,64659,780821,FY2017Q2
+Wine,Argentina Wine,Argentina White Wine,63338,745143,FY2017Q3
+Wine,Argentina Wine,Argentina White Wine,48938,601547,FY2017Q4
+Wine,Australia Wine,Australia Fruit and Dessert Wine,0,0,FY2016Q4
+Wine,Australia Wine,Australia Fruit and Dessert Wine,0,0,FY2017Q1
+Wine,Australia Wine,Australia Fruit and Dessert Wine,0,0,FY2017Q2
+Wine,Australia Wine,Australia Fruit and Dessert Wine,0,0,FY2017Q3
+Wine,Australia Wine,Australia Fruit and Dessert Wine,0,0,FY2017Q4
+Wine,Australia Wine,Australia Red Wine,634706,9200903,FY2016Q4
+Wine,Australia Wine,Australia Red Wine,657118,9378418,FY2017Q1
+Wine,Australia Wine,Australia Red Wine,624476,8921162,FY2017Q2
+Wine,Australia Wine,Australia Red Wine,852981,12389353,FY2017Q3
+Wine,Australia Wine,Australia Red Wine,604386,8505302,FY2017Q4
+Wine,Australia Wine,Australia Rose Wine,6634,80783,FY2016Q4
+Wine,Australia Wine,Australia Rose Wine,11918,155450,FY2017Q1
+Wine,Australia Wine,Australia Rose Wine,14681,174593,FY2017Q2
+Wine,Australia Wine,Australia Rose Wine,10440,126047,FY2017Q3
+Wine,Australia Wine,Australia Rose Wine,9085,114631,FY2017Q4
+Wine,Australia Wine,Australia Sparkling Wine,37226,481557,FY2016Q4
+Wine,Australia Wine,Australia Sparkling Wine,48315,616245,FY2017Q1
+Wine,Australia Wine,Australia Sparkling Wine,50208,632996,FY2017Q2
+Wine,Australia Wine,Australia Sparkling Wine,78756,983202,FY2017Q3
+Wine,Australia Wine,Australia Sparkling Wine,37314,492863,FY2017Q4
+Wine,Australia Wine,Australia White Wine,430317,4572286,FY2016Q4
+Wine,Australia Wine,Australia White Wine,460918,5002325,FY2017Q1
+Wine,Australia Wine,Australia White Wine,508604,5439826,FY2017Q2
+Wine,Australia Wine,Australia White Wine,511549,5389591,FY2017Q3
+Wine,Australia Wine,Australia White Wine,349604,3787519,FY2017Q4
+Wine,Austria Wine,Austria Red Wine,297,14514,FY2016Q4
+Wine,Austria Wine,Austria Red Wine,315,7938,FY2017Q1
+Wine,Austria Wine,Austria Red Wine,180,4749,FY2017Q2
+Wine,Austria Wine,Austria Red Wine,252,7550,FY2017Q3
+Wine,Austria Wine,Austria Red Wine,468,34435,FY2017Q4
+Wine,Austria Wine,Austria Rose Wine,0,0,FY2016Q4
+Wine,Austria Wine,Austria Rose Wine,0,0,FY2017Q1
+Wine,Austria Wine,Austria Rose Wine,54,1218,FY2017Q2
+Wine,Austria Wine,Austria Rose Wine,0,0,FY2017Q3
+Wine,Austria Wine,Austria Rose Wine,0,0,FY2017Q4
+Wine,Austria Wine,Austria Sparkling Wine,0,0,FY2016Q4
+Wine,Austria Wine,Austria Sparkling Wine,0,0,FY2017Q1
+Wine,Austria Wine,Austria Sparkling Wine,0,0,FY2017Q2
+Wine,Austria Wine,Austria Sparkling Wine,0,0,FY2017Q3
+Wine,Austria Wine,Austria Sparkling Wine,0,0,FY2017Q4
+Wine,Austria Wine,Austria White Wine,1813,38786,FY2016Q4
+Wine,Austria Wine,Austria White Wine,1830,39622,FY2017Q1
+Wine,Austria Wine,Austria White Wine,2031,46059,FY2017Q2
+Wine,Austria Wine,Austria White Wine,1856,43782,FY2017Q3
+Wine,Austria Wine,Austria White Wine,2386,63269,FY2017Q4
+Wine,Bulgaria Wine,Bulgaria Red Wine,1274,15822,FY2016Q4
+Wine,Bulgaria Wine,Bulgaria Red Wine,2074,22463,FY2017Q1
+Wine,Bulgaria Wine,Bulgaria Red Wine,1458,16016,FY2017Q2
+Wine,Bulgaria Wine,Bulgaria Red Wine,2892,30275,FY2017Q3
+Wine,Bulgaria Wine,Bulgaria Red Wine,1566,20897,FY2017Q4
+Wine,Bulgaria Wine,Bulgaria Sparkling Wine,0,0,FY2016Q4
+Wine,Bulgaria Wine,Bulgaria Sparkling Wine,0,0,FY2017Q1
+Wine,Bulgaria Wine,Bulgaria Sparkling Wine,0,0,FY2017Q2
+Wine,Bulgaria Wine,Bulgaria Sparkling Wine,0,0,FY2017Q3
+Wine,Bulgaria Wine,Bulgaria Sparkling Wine,0,0,FY2017Q4
+Wine,Bulgaria Wine,Bulgaria White Wine,27,305,FY2016Q4
+Wine,Bulgaria Wine,Bulgaria White Wine,27,293,FY2017Q1
+Wine,Bulgaria Wine,Bulgaria White Wine,90,1018,FY2017Q2
+Wine,Bulgaria Wine,Bulgaria White Wine,9,102,FY2017Q3
+Wine,Bulgaria Wine,Bulgaria White Wine,18,204,FY2017Q4
+Wine,Canada - BC,Canada - BC Dessert Wine,2574,111994,FY2016Q4
+Wine,Canada - BC,Canada - BC Dessert Wine,4095,188760,FY2017Q1
+Wine,Canada - BC,Canada - BC Dessert Wine,7955,389415,FY2017Q2
+Wine,Canada - BC,Canada - BC Dessert Wine,4268,206830,FY2017Q3
+Wine,Canada - BC,Canada - BC Dessert Wine,2668,128044,FY2017Q4
+Wine,Canada - BC,Canada - BC Fruit Wine,23132,511507,FY2016Q4
+Wine,Canada - BC,Canada - BC Fruit Wine,47957,1059410,FY2017Q1
+Wine,Canada - BC,Canada - BC Fruit Wine,79440,1711980,FY2017Q2
+Wine,Canada - BC,Canada - BC Fruit Wine,42503,970165,FY2017Q3
+Wine,Canada - BC,Canada - BC Fruit Wine,26468,576077,FY2017Q4
+Wine,Canada - BC,Canada - BC Ice Wine,7694,762252,FY2016Q4
+Wine,Canada - BC,Canada - BC Ice Wine,15586,1877457,FY2017Q1
+Wine,Canada - BC,Canada - BC Ice Wine,22155,2741048,FY2017Q2
+Wine,Canada - BC,Canada - BC Ice Wine,14705,1675917,FY2017Q3
+Wine,Canada - BC,Canada - BC Ice Wine,10260,1077273,FY2017Q4
+Wine,Canada - BC,Canada - BC Red Wine,3771084,42799625,FY2016Q4
+Wine,Canada - BC,Canada - BC Red Wine,4346499,54755332,FY2017Q1
+Wine,Canada - BC,Canada - BC Red Wine,4751069,65572429,FY2017Q2
+Wine,Canada - BC,Canada - BC Red Wine,5243870,64194778,FY2017Q3
+Wine,Canada - BC,Canada - BC Red Wine,3720747,45176339,FY2017Q4
+Wine,Canada - BC,Canada - BC Rose Wine,181008,1952454,FY2016Q4
+Wine,Canada - BC,Canada - BC Rose Wine,361050,5359453,FY2017Q1
+Wine,Canada - BC,Canada - BC Rose Wine,392103,5720701,FY2017Q2
+Wine,Canada - BC,Canada - BC Rose Wine,206392,2353613,FY2017Q3
+Wine,Canada - BC,Canada - BC Rose Wine,188197,2132841,FY2017Q4
+Wine,Canada - BC,Canada - BC Sparkling Wine,43425,1028745,FY2016Q4
+Wine,Canada - BC,Canada - BC Sparkling Wine,82626,1943259,FY2017Q1
+Wine,Canada - BC,Canada - BC Sparkling Wine,112212,2642702,FY2017Q2
+Wine,Canada - BC,Canada - BC Sparkling Wine,85551,2144442,FY2017Q3
+Wine,Canada - BC,Canada - BC Sparkling Wine,49919,1240672,FY2017Q4
+Wine,Canada - BC,Canada - BC White Wine,3846104,38780784,FY2016Q4
+Wine,Canada - BC,Canada - BC White Wine,5298116,58263712,FY2017Q1
+Wine,Canada - BC,Canada - BC White Wine,5781684,67364108,FY2017Q2
+Wine,Canada - BC,Canada - BC White Wine,4927506,51408124,FY2017Q3
+Wine,Canada - BC,Canada - BC White Wine,3846054,39916848,FY2017Q4
+Wine,Canada - Other,Canada - Other Dessert Wine,153,4774,FY2016Q4
+Wine,Canada - Other,Canada - Other Dessert Wine,144,4562,FY2017Q1
+Wine,Canada - Other,Canada - Other Dessert Wine,104,3284,FY2017Q2
+Wine,Canada - Other,Canada - Other Dessert Wine,176,5569,FY2017Q3
+Wine,Canada - Other,Canada - Other Dessert Wine,40,1285,FY2017Q4
+Wine,Canada - Other,Canada - Other Fruit Wine,473,25733,FY2016Q4
+Wine,Canada - Other,Canada - Other Fruit Wine,472,25394,FY2017Q1
+Wine,Canada - Other,Canada - Other Fruit Wine,482,26632,FY2017Q2
+Wine,Canada - Other,Canada - Other Fruit Wine,652,23765,FY2017Q3
+Wine,Canada - Other,Canada - Other Fruit Wine,386,13019,FY2017Q4
+Wine,Canada - Other,Canada - Other Ice Wine,15699,1197457,FY2016Q4
+Wine,Canada - Other,Canada - Other Ice Wine,11020,832870,FY2017Q1
+Wine,Canada - Other,Canada - Other Ice Wine,18469,1371069,FY2017Q2
+Wine,Canada - Other,Canada - Other Ice Wine,11958,947560,FY2017Q3
+Wine,Canada - Other,Canada - Other Ice Wine,13794,1049997,FY2017Q4
+Wine,Canada - Other,Canada - Other Red Wine,3950,100074,FY2016Q4
+Wine,Canada - Other,Canada - Other Red Wine,5681,108094,FY2017Q1
+Wine,Canada - Other,Canada - Other Red Wine,20505,234007,FY2017Q2
+Wine,Canada - Other,Canada - Other Red Wine,17390,213271,FY2017Q3
+Wine,Canada - Other,Canada - Other Red Wine,24109,242797,FY2017Q4
+Wine,Canada - Other,Canada - Other Rose Wine,9,143,FY2016Q4
+Wine,Canada - Other,Canada - Other Rose Wine,63,1001,FY2017Q1
+Wine,Canada - Other,Canada - Other Rose Wine,108,1751,FY2017Q2
+Wine,Canada - Other,Canada - Other Rose Wine,27,455,FY2017Q3
+Wine,Canada - Other,Canada - Other Rose Wine,50,803,FY2017Q4
+Wine,Canada - Other,Canada - Other Sparkling Wine,54061,337923,FY2016Q4
+Wine,Canada - Other,Canada - Other Sparkling Wine,57309,367192,FY2017Q1
+Wine,Canada - Other,Canada - Other Sparkling Wine,53278,333447,FY2017Q2
+Wine,Canada - Other,Canada - Other Sparkling Wine,101186,609490,FY2017Q3
+Wine,Canada - Other,Canada - Other Sparkling Wine,46561,314755,FY2017Q4
+Wine,Canada - Other,Canada - Other White Wine,2208,37322,FY2016Q4
+Wine,Canada - Other,Canada - Other White Wine,4833,60771,FY2017Q1
+Wine,Canada - Other,Canada - Other White Wine,18884,167391,FY2017Q2
+Wine,Canada - Other,Canada - Other White Wine,13539,131720,FY2017Q3
+Wine,Canada - Other,Canada - Other White Wine,19223,207932,FY2017Q4
+Wine,Chile Wine,Chile Fruit and Dessert Wine,156,5054,FY2016Q4
+Wine,Chile Wine,Chile Fruit and Dessert Wine,224,6926,FY2017Q1
+Wine,Chile Wine,Chile Fruit and Dessert Wine,182,5832,FY2017Q2
+Wine,Chile Wine,Chile Fruit and Dessert Wine,395,11948,FY2017Q3
+Wine,Chile Wine,Chile Fruit and Dessert Wine,136,4791,FY2017Q4
+Wine,Chile Wine,Chile Red Wine,655912,7094802,FY2016Q4
+Wine,Chile Wine,Chile Red Wine,624839,6559625,FY2017Q1
+Wine,Chile Wine,Chile Red Wine,635538,6808964,FY2017Q2
+Wine,Chile Wine,Chile Red Wine,800679,8685719,FY2017Q3
+Wine,Chile Wine,Chile Red Wine,752124,7718766,FY2017Q4
+Wine,Chile Wine,Chile Rose Wine,159,2227,FY2016Q4
+Wine,Chile Wine,Chile Rose Wine,11748,157462,FY2017Q1
+Wine,Chile Wine,Chile Rose Wine,24988,236440,FY2017Q2
+Wine,Chile Wine,Chile Rose Wine,986,12018,FY2017Q3
+Wine,Chile Wine,Chile Rose Wine,2042,20551,FY2017Q4
+Wine,Chile Wine,Chile Sparkling Wine,3167,52098,FY2016Q4
+Wine,Chile Wine,Chile Sparkling Wine,3031,50177,FY2017Q1
+Wine,Chile Wine,Chile Sparkling Wine,3122,48976,FY2017Q2
+Wine,Chile Wine,Chile Sparkling Wine,3524,60330,FY2017Q3
+Wine,Chile Wine,Chile Sparkling Wine,2415,40240,FY2017Q4
+Wine,Chile Wine,Chile White Wine,279839,2714478,FY2016Q4
+Wine,Chile Wine,Chile White Wine,333050,3231155,FY2017Q1
+Wine,Chile Wine,Chile White Wine,360896,3420548,FY2017Q2
+Wine,Chile Wine,Chile White Wine,319194,3144396,FY2017Q3
+Wine,Chile Wine,Chile White Wine,280915,2769145,FY2017Q4
+Wine,China Wine,China Fruit and Dessert Wine,0,0,FY2016Q4
+Wine,China Wine,China Fruit and Dessert Wine,0,0,FY2017Q1
+Wine,China Wine,China Fruit and Dessert Wine,0,0,FY2017Q2
+Wine,China Wine,China Fruit and Dessert Wine,0,0,FY2017Q3
+Wine,China Wine,China Fruit and Dessert Wine,0,0,FY2017Q4
+Wine,China Wine,China Red Wine,247,5308,FY2016Q4
+Wine,China Wine,China Red Wine,140,3117,FY2017Q1
+Wine,China Wine,China Red Wine,112,2514,FY2017Q2
+Wine,China Wine,China Red Wine,94,2112,FY2017Q3
+Wine,China Wine,China Red Wine,9,201,FY2017Q4
+Wine,China Wine,China White Wine,0,0,FY2016Q4
+Wine,China Wine,China White Wine,0,0,FY2017Q1
+Wine,China Wine,China White Wine,0,0,FY2017Q2
+Wine,China Wine,China White Wine,0,0,FY2017Q3
+Wine,China Wine,China White Wine,0,0,FY2017Q4
+Wine,Fortified Wine,Other Fortified Domestic Wine,152306,1129115,FY2016Q4
+Wine,Fortified Wine,Other Fortified Domestic Wine,157073,1389841,FY2017Q1
+Wine,Fortified Wine,Other Fortified Domestic Wine,155010,1728682,FY2017Q2
+Wine,Fortified Wine,Other Fortified Domestic Wine,161496,1396307,FY2017Q3
+Wine,Fortified Wine,Other Fortified Domestic Wine,130866,1000806,FY2017Q4
+Wine,Fortified Wine,Other Fortified Import Wine,31667,437602,FY2016Q4
+Wine,Fortified Wine,Other Fortified Import Wine,32214,451255,FY2017Q1
+Wine,Fortified Wine,Other Fortified Import Wine,29898,425757,FY2017Q2
+Wine,Fortified Wine,Other Fortified Import Wine,46123,673083,FY2017Q3
+Wine,Fortified Wine,Other Fortified Import Wine,31918,457660,FY2017Q4
+Wine,Fortified Wine,Port Wine,17815,576477,FY2016Q4
+Wine,Fortified Wine,Port Wine,16301,513018,FY2017Q1
+Wine,Fortified Wine,Port Wine,16345,533557,FY2017Q2
+Wine,Fortified Wine,Port Wine,39044,1248674,FY2017Q3
+Wine,Fortified Wine,Port Wine,21039,705020,FY2017Q4
+Wine,Fortified Wine,Sherry Wine,13148,223736,FY2016Q4
+Wine,Fortified Wine,Sherry Wine,11986,211959,FY2017Q1
+Wine,Fortified Wine,Sherry Wine,10544,185202,FY2017Q2
+Wine,Fortified Wine,Sherry Wine,19693,355902,FY2017Q3
+Wine,Fortified Wine,Sherry Wine,15641,276039,FY2017Q4
+Wine,Fortified Wine,Vermouth Wine,48424,474616,FY2016Q4
+Wine,Fortified Wine,Vermouth Wine,55490,533128,FY2017Q1
+Wine,Fortified Wine,Vermouth Wine,46660,461165,FY2017Q2
+Wine,Fortified Wine,Vermouth Wine,61363,596377,FY2017Q3
+Wine,Fortified Wine,Vermouth Wine,45871,469943,FY2017Q4
+Wine,France Wine,France Champagne Wine,26253,2314388,FY2016Q4
+Wine,France Wine,France Champagne Wine,32507,2832223,FY2017Q1
+Wine,France Wine,France Champagne Wine,38655,3496699,FY2017Q2
+Wine,France Wine,France Champagne Wine,67984,5980428,FY2017Q3
+Wine,France Wine,France Champagne Wine,26302,2340021,FY2017Q4
+Wine,France Wine,France Fruit and Dessert Wine,339,20356,FY2016Q4
+Wine,France Wine,France Fruit and Dessert Wine,294,17696,FY2017Q1
+Wine,France Wine,France Fruit and Dessert Wine,278,20253,FY2017Q2
+Wine,France Wine,France Fruit and Dessert Wine,950,80681,FY2017Q3
+Wine,France Wine,France Fruit and Dessert Wine,279,18512,FY2017Q4
+Wine,France Wine,France Red Wine,372813,7799988,FY2016Q4
+Wine,France Wine,France Red Wine,363555,8563405,FY2017Q1
+Wine,France Wine,France Red Wine,374622,9462543,FY2017Q2
+Wine,France Wine,France Red Wine,501618,12074271,FY2017Q3
+Wine,France Wine,France Red Wine,383829,9012987,FY2017Q4
+Wine,France Wine,France Rose Wine,29130,428704,FY2016Q4
+Wine,France Wine,France Rose Wine,119572,2072236,FY2017Q1
+Wine,France Wine,France Rose Wine,91288,1531730,FY2017Q2
+Wine,France Wine,France Rose Wine,29514,470282,FY2017Q3
+Wine,France Wine,France Rose Wine,36018,588696,FY2017Q4
+Wine,France Wine,France Sparkling Wine,25307,441092,FY2016Q4
+Wine,France Wine,France Sparkling Wine,35043,611176,FY2017Q1
+Wine,France Wine,France Sparkling Wine,35407,625148,FY2017Q2
+Wine,France Wine,France Sparkling Wine,63914,1063632,FY2017Q3
+Wine,France Wine,France Sparkling Wine,28651,505268,FY2017Q4
+Wine,France Wine,France White Wine,138435,2628948,FY2016Q4
+Wine,France Wine,France White Wine,166380,3394805,FY2017Q1
+Wine,France Wine,France White Wine,172189,3495387,FY2017Q2
+Wine,France Wine,France White Wine,175021,4078503,FY2017Q3
+Wine,France Wine,France White Wine,142932,2812670,FY2017Q4
+Wine,Georgia Wine,Georgia Red Wine,2145,39992,FY2016Q4
+Wine,Georgia Wine,Georgia Red Wine,1054,19514,FY2017Q1
+Wine,Georgia Wine,Georgia Red Wine,2742,49479,FY2017Q2
+Wine,Georgia Wine,Georgia Red Wine,4051,73222,FY2017Q3
+Wine,Georgia Wine,Georgia Red Wine,2693,49085,FY2017Q4
+Wine,Georgia Wine,Georgia White Wine,0,0,FY2016Q4
+Wine,Georgia Wine,Georgia White Wine,0,0,FY2017Q1
+Wine,Georgia Wine,Georgia White Wine,0,0,FY2017Q2
+Wine,Georgia Wine,Georgia White Wine,0,0,FY2017Q3
+Wine,Georgia Wine,Georgia White Wine,0,0,FY2017Q4
+Wine,Germany Wine,Germany Fruit and Dessert Wine,0,0,FY2016Q4
+Wine,Germany Wine,Germany Fruit and Dessert Wine,0,0,FY2017Q1
+Wine,Germany Wine,Germany Fruit and Dessert Wine,0,0,FY2017Q2
+Wine,Germany Wine,Germany Fruit and Dessert Wine,4126,23934,FY2017Q3
+Wine,Germany Wine,Germany Fruit and Dessert Wine,-1631,8974,FY2017Q4
+Wine,Germany Wine,Germany Red Wine,6060,115625,FY2016Q4
+Wine,Germany Wine,Germany Red Wine,2608,42749,FY2017Q1
+Wine,Germany Wine,Germany Red Wine,3724,52434,FY2017Q2
+Wine,Germany Wine,Germany Red Wine,3466,53528,FY2017Q3
+Wine,Germany Wine,Germany Red Wine,3314,56017,FY2017Q4
+Wine,Germany Wine,Germany Rose Wine,486,5910,FY2016Q4
+Wine,Germany Wine,Germany Rose Wine,1348,18900,FY2017Q1
+Wine,Germany Wine,Germany Rose Wine,1336,19003,FY2017Q2
+Wine,Germany Wine,Germany Rose Wine,832,11580,FY2017Q3
+Wine,Germany Wine,Germany Rose Wine,692,10527,FY2017Q4
+Wine,Germany Wine,Germany Sparkling Wine,26818,434658,FY2016Q4
+Wine,Germany Wine,Germany Sparkling Wine,42655,665958,FY2017Q1
+Wine,Germany Wine,Germany Sparkling Wine,33785,551220,FY2017Q2
+Wine,Germany Wine,Germany Sparkling Wine,89828,1355307,FY2017Q3
+Wine,Germany Wine,Germany Sparkling Wine,22761,379143,FY2017Q4
+Wine,Germany Wine,Germany White Wine,101080,1374186,FY2016Q4
+Wine,Germany Wine,Germany White Wine,92766,1269606,FY2017Q1
+Wine,Germany Wine,Germany White Wine,93966,1283918,FY2017Q2
+Wine,Germany Wine,Germany White Wine,111374,1548066,FY2017Q3
+Wine,Germany Wine,Germany White Wine,93144,1305259,FY2017Q4
+Wine,Greece Wine,Greece Red Wine,8737,100538,FY2016Q4
+Wine,Greece Wine,Greece Red Wine,10220,123077,FY2017Q1
+Wine,Greece Wine,Greece Red Wine,8598,101236,FY2017Q2
+Wine,Greece Wine,Greece Red Wine,10210,123888,FY2017Q3
+Wine,Greece Wine,Greece Red Wine,8262,107385,FY2017Q4
+Wine,Greece Wine,Greece Rose Wine,0,0,FY2016Q4
+Wine,Greece Wine,Greece Rose Wine,0,0,FY2017Q1
+Wine,Greece Wine,Greece Rose Wine,0,0,FY2017Q2
+Wine,Greece Wine,Greece Rose Wine,0,0,FY2017Q3
+Wine,Greece Wine,Greece Rose Wine,0,0,FY2017Q4
+Wine,Greece Wine,Greece White Wine,7524,81862,FY2016Q4
+Wine,Greece Wine,Greece White Wine,11233,123766,FY2017Q1
+Wine,Greece Wine,Greece White Wine,10198,114063,FY2017Q2
+Wine,Greece Wine,Greece White Wine,8406,97052,FY2017Q3
+Wine,Greece Wine,Greece White Wine,6781,79661,FY2017Q4
+Wine,Hungary Wine,Hungary Fruit and Dessert Wine,279,15160,FY2016Q4
+Wine,Hungary Wine,Hungary Fruit and Dessert Wine,250,13201,FY2017Q1
+Wine,Hungary Wine,Hungary Fruit and Dessert Wine,272,14326,FY2017Q2
+Wine,Hungary Wine,Hungary Fruit and Dessert Wine,723,37439,FY2017Q3
+Wine,Hungary Wine,Hungary Fruit and Dessert Wine,551,29674,FY2017Q4
+Wine,Hungary Wine,Hungary Red Wine,3502,42457,FY2016Q4
+Wine,Hungary Wine,Hungary Red Wine,2350,30538,FY2017Q1
+Wine,Hungary Wine,Hungary Red Wine,2247,28452,FY2017Q2
+Wine,Hungary Wine,Hungary Red Wine,3352,40754,FY2017Q3
+Wine,Hungary Wine,Hungary Red Wine,3198,38562,FY2017Q4
+Wine,Hungary Wine,Hungary Sparkling Wine,2486,32089,FY2016Q4
+Wine,Hungary Wine,Hungary Sparkling Wine,5378,65079,FY2017Q1
+Wine,Hungary Wine,Hungary Sparkling Wine,4300,51502,FY2017Q2
+Wine,Hungary Wine,Hungary Sparkling Wine,8119,97932,FY2017Q3
+Wine,Hungary Wine,Hungary Sparkling Wine,2752,35603,FY2017Q4
+Wine,Hungary Wine,Hungary White Wine,13580,138283,FY2016Q4
+Wine,Hungary Wine,Hungary White Wine,13886,148235,FY2017Q1
+Wine,Hungary Wine,Hungary White Wine,14437,143782,FY2017Q2
+Wine,Hungary Wine,Hungary White Wine,12770,135977,FY2017Q3
+Wine,Hungary Wine,Hungary White Wine,15238,147107,FY2017Q4
+Wine,Israel Wine,Israel Red Wine,1622,30978,FY2016Q4
+Wine,Israel Wine,Israel Red Wine,1398,26229,FY2017Q1
+Wine,Israel Wine,Israel Red Wine,1822,34165,FY2017Q2
+Wine,Israel Wine,Israel Red Wine,1915,35937,FY2017Q3
+Wine,Israel Wine,Israel Red Wine,1566,29738,FY2017Q4
+Wine,Israel Wine,Israel Rose Wine,56,968,FY2016Q4
+Wine,Israel Wine,Israel Rose Wine,0,0,FY2017Q1
+Wine,Israel Wine,Israel Rose Wine,274,4787,FY2017Q2
+Wine,Israel Wine,Israel Rose Wine,95,1661,FY2017Q3
+Wine,Israel Wine,Israel Rose Wine,220,3848,FY2017Q4
+Wine,Israel Wine,Israel White Wine,754,13945,FY2016Q4
+Wine,Israel Wine,Israel White Wine,1252,23062,FY2017Q1
+Wine,Israel Wine,Israel White Wine,785,14432,FY2017Q2
+Wine,Israel Wine,Israel White Wine,880,16170,FY2017Q3
+Wine,Israel Wine,Israel White Wine,736,13681,FY2017Q4
+Wine,Italy Wine,Italy Fruit and Dessert Wine,133,14270,FY2016Q4
+Wine,Italy Wine,Italy Fruit and Dessert Wine,29,3523,FY2017Q1
+Wine,Italy Wine,Italy Fruit and Dessert Wine,22,1720,FY2017Q2
+Wine,Italy Wine,Italy Fruit and Dessert Wine,84,6987,FY2017Q3
+Wine,Italy Wine,Italy Fruit and Dessert Wine,57,4789,FY2017Q4
+Wine,Italy Wine,Italy Red Wine,587550,10347955,FY2016Q4
+Wine,Italy Wine,Italy Red Wine,578816,10064570,FY2017Q1
+Wine,Italy Wine,Italy Red Wine,576128,9875947,FY2017Q2
+Wine,Italy Wine,Italy Red Wine,778073,14441022,FY2017Q3
+Wine,Italy Wine,Italy Red Wine,553550,10283244,FY2017Q4
+Wine,Italy Wine,Italy Rose Wine,11138,190372,FY2016Q4
+Wine,Italy Wine,Italy Rose Wine,10757,192267,FY2017Q1
+Wine,Italy Wine,Italy Rose Wine,18648,329332,FY2017Q2
+Wine,Italy Wine,Italy Rose Wine,12186,211995,FY2017Q3
+Wine,Italy Wine,Italy Rose Wine,10097,179803,FY2017Q4
+Wine,Italy Wine,Italy Sparkling Wine,57681,1010781,FY2016Q4
+Wine,Italy Wine,Italy Sparkling Wine,79019,1333002,FY2017Q1
+Wine,Italy Wine,Italy Sparkling Wine,74574,1298168,FY2017Q2
+Wine,Italy Wine,Italy Sparkling Wine,110922,1868473,FY2017Q3
+Wine,Italy Wine,Italy Sparkling Wine,57851,1010471,FY2017Q4
+Wine,Italy Wine,Italy White Wine,286821,3745141,FY2016Q4
+Wine,Italy Wine,Italy White Wine,384396,5008507,FY2017Q1
+Wine,Italy Wine,Italy White Wine,414188,5364339,FY2017Q2
+Wine,Italy Wine,Italy White Wine,356772,4744606,FY2017Q3
+Wine,Italy Wine,Italy White Wine,303387,3942841,FY2017Q4
+Wine,Italy Wine,Prosecco Wine,119022,2137369,FY2016Q4
+Wine,Italy Wine,Prosecco Wine,158715,2892385,FY2017Q1
+Wine,Italy Wine,Prosecco Wine,173672,3206284,FY2017Q2
+Wine,Italy Wine,Prosecco Wine,271898,5015078,FY2017Q3
+Wine,Italy Wine,Prosecco Wine,123759,2310618,FY2017Q4
+Wine,New Zealand Wine,New Zealand Fruit and Dessert Wine,11,677,FY2016Q4
+Wine,New Zealand Wine,New Zealand Fruit and Dessert Wine,0,0,FY2017Q1
+Wine,New Zealand Wine,New Zealand Fruit and Dessert Wine,0,0,FY2017Q2
+Wine,New Zealand Wine,New Zealand Fruit and Dessert Wine,0,0,FY2017Q3
+Wine,New Zealand Wine,New Zealand Fruit and Dessert Wine,0,0,FY2017Q4
+Wine,New Zealand Wine,New Zealand Red Wine,26852,580785,FY2016Q4
+Wine,New Zealand Wine,New Zealand Red Wine,29936,662592,FY2017Q1
+Wine,New Zealand Wine,New Zealand Red Wine,34709,740502,FY2017Q2
+Wine,New Zealand Wine,New Zealand Red Wine,45506,951546,FY2017Q3
+Wine,New Zealand Wine,New Zealand Red Wine,35986,727774,FY2017Q4
+Wine,New Zealand Wine,New Zealand Rose Wine,1306,24763,FY2016Q4
+Wine,New Zealand Wine,New Zealand Rose Wine,7106,131285,FY2017Q1
+Wine,New Zealand Wine,New Zealand Rose Wine,3216,58768,FY2017Q2
+Wine,New Zealand Wine,New Zealand Rose Wine,462,8480,FY2017Q3
+Wine,New Zealand Wine,New Zealand Rose Wine,7098,138679,FY2017Q4
+Wine,New Zealand Wine,New Zealand Sparkling Wine,3743,88726,FY2016Q4
+Wine,New Zealand Wine,New Zealand Sparkling Wine,4051,98998,FY2017Q1
+Wine,New Zealand Wine,New Zealand Sparkling Wine,4370,105620,FY2017Q2
+Wine,New Zealand Wine,New Zealand Sparkling Wine,6483,146605,FY2017Q3
+Wine,New Zealand Wine,New Zealand Sparkling Wine,3790,91051,FY2017Q4
+Wine,New Zealand Wine,New Zealand White Wine,411219,7335228,FY2016Q4
+Wine,New Zealand Wine,New Zealand White Wine,559000,9942677,FY2017Q1
+Wine,New Zealand Wine,New Zealand White Wine,607456,10645045,FY2017Q2
+Wine,New Zealand Wine,New Zealand White Wine,625460,11028491,FY2017Q3
+Wine,New Zealand Wine,New Zealand White Wine,370935,6735679,FY2017Q4
+Wine,Other Country Wine,Other Country Fruit and Dessert Wine,12667,191960,FY2016Q4
+Wine,Other Country Wine,Other Country Fruit and Dessert Wine,12692,187099,FY2017Q1
+Wine,Other Country Wine,Other Country Fruit and Dessert Wine,12958,182198,FY2017Q2
+Wine,Other Country Wine,Other Country Fruit and Dessert Wine,14473,208573,FY2017Q3
+Wine,Other Country Wine,Other Country Fruit and Dessert Wine,14231,214617,FY2017Q4
+Wine,Other Country Wine,Other Country Red Wine,2675,56326,FY2016Q4
+Wine,Other Country Wine,Other Country Red Wine,3657,70246,FY2017Q1
+Wine,Other Country Wine,Other Country Red Wine,4082,74826,FY2017Q2
+Wine,Other Country Wine,Other Country Red Wine,5584,100103,FY2017Q3
+Wine,Other Country Wine,Other Country Red Wine,4563,101296,FY2017Q4
+Wine,Other Country Wine,Other Country Rose Wine,68,1661,FY2016Q4
+Wine,Other Country Wine,Other Country Rose Wine,270,6660,FY2017Q1
+Wine,Other Country Wine,Other Country Rose Wine,122,2888,FY2017Q2
+Wine,Other Country Wine,Other Country Rose Wine,81,1722,FY2017Q3
+Wine,Other Country Wine,Other Country Rose Wine,144,2915,FY2017Q4
+Wine,Other Country Wine,Other Country Sparkling Wine,1148,15763,FY2016Q4
+Wine,Other Country Wine,Other Country Sparkling Wine,110,3378,FY2017Q1
+Wine,Other Country Wine,Other Country Sparkling Wine,191,6414,FY2017Q2
+Wine,Other Country Wine,Other Country Sparkling Wine,250,5443,FY2017Q3
+Wine,Other Country Wine,Other Country Sparkling Wine,164,3018,FY2017Q4
+Wine,Other Country Wine,Other Country White Wine,1510,30649,FY2016Q4
+Wine,Other Country Wine,Other Country White Wine,1870,30998,FY2017Q1
+Wine,Other Country Wine,Other Country White Wine,1904,30768,FY2017Q2
+Wine,Other Country Wine,Other Country White Wine,1706,27240,FY2017Q3
+Wine,Other Country Wine,Other Country White Wine,1867,41617,FY2017Q4
+Wine,Other Style Wine,Aperitif And Flavoured Wine,9295,129856,FY2016Q4
+Wine,Other Style Wine,Aperitif And Flavoured Wine,13053,175786,FY2017Q1
+Wine,Other Style Wine,Aperitif And Flavoured Wine,17311,206377,FY2017Q2
+Wine,Other Style Wine,Aperitif And Flavoured Wine,15171,212550,FY2017Q3
+Wine,Other Style Wine,Aperitif And Flavoured Wine,8524,125421,FY2017Q4
+Wine,Other Style Wine,Mead,426,6618,FY2016Q4
+Wine,Other Style Wine,Mead,464,9705,FY2017Q1
+Wine,Other Style Wine,Mead,341,8200,FY2017Q2
+Wine,Other Style Wine,Mead,479,13874,FY2017Q3
+Wine,Other Style Wine,Mead,183,4789,FY2017Q4
+Wine,Other Style Wine,Rice Wine,3964,55875,FY2016Q4
+Wine,Other Style Wine,Rice Wine,3687,59687,FY2017Q1
+Wine,Other Style Wine,Rice Wine,3717,45773,FY2017Q2
+Wine,Other Style Wine,Rice Wine,4014,61148,FY2017Q3
+Wine,Other Style Wine,Rice Wine,4391,70834,FY2017Q4
+Wine,Portugal Wine,Portugal Fruit and Dessert Wine,0,0,FY2016Q4
+Wine,Portugal Wine,Portugal Fruit and Dessert Wine,0,0,FY2017Q1
+Wine,Portugal Wine,Portugal Fruit and Dessert Wine,0,0,FY2017Q2
+Wine,Portugal Wine,Portugal Fruit and Dessert Wine,27,2391,FY2017Q3
+Wine,Portugal Wine,Portugal Fruit and Dessert Wine,32,1088,FY2017Q4
+Wine,Portugal Wine,Portugal Red Wine,44612,592465,FY2016Q4
+Wine,Portugal Wine,Portugal Red Wine,37772,499127,FY2017Q1
+Wine,Portugal Wine,Portugal Red Wine,37244,501507,FY2017Q2
+Wine,Portugal Wine,Portugal Red Wine,50029,691436,FY2017Q3
+Wine,Portugal Wine,Portugal Red Wine,56204,699482,FY2017Q4
+Wine,Portugal Wine,Portugal Rose Wine,13131,132737,FY2016Q4
+Wine,Portugal Wine,Portugal Rose Wine,21568,207898,FY2017Q1
+Wine,Portugal Wine,Portugal Rose Wine,19496,193472,FY2017Q2
+Wine,Portugal Wine,Portugal Rose Wine,17673,174155,FY2017Q3
+Wine,Portugal Wine,Portugal Rose Wine,16053,153535,FY2017Q4
+Wine,Portugal Wine,Portugal Sparkling Wine,0,0,FY2016Q4
+Wine,Portugal Wine,Portugal Sparkling Wine,0,0,FY2017Q1
+Wine,Portugal Wine,Portugal Sparkling Wine,45,880,FY2017Q2
+Wine,Portugal Wine,Portugal Sparkling Wine,171,4194,FY2017Q3
+Wine,Portugal Wine,Portugal Sparkling Wine,158,5017,FY2017Q4
+Wine,Portugal Wine,Portugal White Wine,20949,241885,FY2016Q4
+Wine,Portugal Wine,Portugal White Wine,45598,534439,FY2017Q1
+Wine,Portugal Wine,Portugal White Wine,57142,588401,FY2017Q2
+Wine,Portugal Wine,Portugal White Wine,28500,311020,FY2017Q3
+Wine,Portugal Wine,Portugal White Wine,21920,253652,FY2017Q4
+Wine,Sake,Japan Sake,32888,883618,FY2016Q4
+Wine,Sake,Japan Sake,33239,954081,FY2017Q1
+Wine,Sake,Japan Sake,34755,1005367,FY2017Q2
+Wine,Sake,Japan Sake,35173,1061818,FY2017Q3
+Wine,Sake,Japan Sake,36970,1123441,FY2017Q4
+Wine,Sake,Other Country Sake,2558,62611,FY2016Q4
+Wine,Sake,Other Country Sake,3046,72885,FY2017Q1
+Wine,Sake,Other Country Sake,3229,81312,FY2017Q2
+Wine,Sake,Other Country Sake,3160,72990,FY2017Q3
+Wine,Sake,Other Country Sake,2874,67382,FY2017Q4
+Wine,Sake,USA Sake,88921,745562,FY2016Q4
+Wine,Sake,USA Sake,77599,656747,FY2017Q1
+Wine,Sake,USA Sake,78890,667615,FY2017Q2
+Wine,Sake,USA Sake,92174,800892,FY2017Q3
+Wine,Sake,USA Sake,98838,835703,FY2017Q4
+Wine,South Africa Wine,South Africa Fruit and Dessert Wine,0,0,FY2016Q4
+Wine,South Africa Wine,South Africa Fruit and Dessert Wine,0,0,FY2017Q1
+Wine,South Africa Wine,South Africa Fruit and Dessert Wine,0,0,FY2017Q2
+Wine,South Africa Wine,South Africa Fruit and Dessert Wine,0,0,FY2017Q3
+Wine,South Africa Wine,South Africa Fruit and Dessert Wine,0,0,FY2017Q4
+Wine,South Africa Wine,South Africa Red Wine,118398,1419900,FY2016Q4
+Wine,South Africa Wine,South Africa Red Wine,115736,1467646,FY2017Q1
+Wine,South Africa Wine,South Africa Red Wine,125054,1473194,FY2017Q2
+Wine,South Africa Wine,South Africa Red Wine,157690,1774436,FY2017Q3
+Wine,South Africa Wine,South Africa Red Wine,120146,1403293,FY2017Q4
+Wine,South Africa Wine,South Africa Rose Wine,36,479,FY2016Q4
+Wine,South Africa Wine,South Africa Rose Wine,2386,30560,FY2017Q1
+Wine,South Africa Wine,South Africa Rose Wine,36,555,FY2017Q2
+Wine,South Africa Wine,South Africa Rose Wine,18,306,FY2017Q3
+Wine,South Africa Wine,South Africa Rose Wine,0,0,FY2017Q4
+Wine,South Africa Wine,South Africa Sparkling Wine,6259,81150,FY2016Q4
+Wine,South Africa Wine,South Africa Sparkling Wine,3256,46628,FY2017Q1
+Wine,South Africa Wine,South Africa Sparkling Wine,6557,81545,FY2017Q2
+Wine,South Africa Wine,South Africa Sparkling Wine,5727,69353,FY2017Q3
+Wine,South Africa Wine,South Africa Sparkling Wine,2888,41440,FY2017Q4
+Wine,South Africa Wine,South Africa White Wine,79286,832089,FY2016Q4
+Wine,South Africa Wine,South Africa White Wine,124402,1292286,FY2017Q1
+Wine,South Africa Wine,South Africa White Wine,111524,1146564,FY2017Q2
+Wine,South Africa Wine,South Africa White Wine,96928,1013263,FY2017Q3
+Wine,South Africa Wine,South Africa White Wine,79336,844408,FY2017Q4
+Wine,Spain Wine,Spain Fruit and Dessert Wine,0,0,FY2016Q4
+Wine,Spain Wine,Spain Fruit and Dessert Wine,0,0,FY2017Q1
+Wine,Spain Wine,Spain Fruit and Dessert Wine,0,0,FY2017Q2
+Wine,Spain Wine,Spain Fruit and Dessert Wine,0,0,FY2017Q3
+Wine,Spain Wine,Spain Fruit and Dessert Wine,18,1340,FY2017Q4
+Wine,Spain Wine,Spain Red Wine,405508,4942103,FY2016Q4
+Wine,Spain Wine,Spain Red Wine,300601,4277468,FY2017Q1
+Wine,Spain Wine,Spain Red Wine,344427,4629870,FY2017Q2
+Wine,Spain Wine,Spain Red Wine,435399,5822584,FY2017Q3
+Wine,Spain Wine,Spain Red Wine,375870,4742560,FY2017Q4
+Wine,Spain Wine,Spain Rose Wine,1708,24450,FY2016Q4
+Wine,Spain Wine,Spain Rose Wine,12365,151289,FY2017Q1
+Wine,Spain Wine,Spain Rose Wine,11636,150297,FY2017Q2
+Wine,Spain Wine,Spain Rose Wine,4436,56023,FY2017Q3
+Wine,Spain Wine,Spain Rose Wine,6470,76476,FY2017Q4
+Wine,Spain Wine,Spain Sparkling Wine,53450,852465,FY2016Q4
+Wine,Spain Wine,Spain Sparkling Wine,63701,1038362,FY2017Q1
+Wine,Spain Wine,Spain Sparkling Wine,65324,1068515,FY2017Q2
+Wine,Spain Wine,Spain Sparkling Wine,136854,2118353,FY2017Q3
+Wine,Spain Wine,Spain Sparkling Wine,45475,749220,FY2017Q4
+Wine,Spain Wine,Spain White Wine,66300,533768,FY2016Q4
+Wine,Spain Wine,Spain White Wine,22516,332865,FY2017Q1
+Wine,Spain Wine,Spain White Wine,32653,403755,FY2017Q2
+Wine,Spain Wine,Spain White Wine,34487,374055,FY2017Q3
+Wine,Spain Wine,Spain White Wine,75018,610783,FY2017Q4
+Wine,USA Wine,USA Fruit and Dessert Wine,68,963,FY2016Q4
+Wine,USA Wine,USA Fruit and Dessert Wine,754,7070,FY2017Q1
+Wine,USA Wine,USA Fruit and Dessert Wine,451,7113,FY2017Q2
+Wine,USA Wine,USA Fruit and Dessert Wine,225,4428,FY2017Q3
+Wine,USA Wine,USA Fruit and Dessert Wine,184,3288,FY2017Q4
+Wine,USA Wine,USA Red Wine,1202721,20224440,FY2016Q4
+Wine,USA Wine,USA Red Wine,1102856,20053888,FY2017Q1
+Wine,USA Wine,USA Red Wine,1133265,20686821,FY2017Q2
+Wine,USA Wine,USA Red Wine,1614013,30137439,FY2017Q3
+Wine,USA Wine,USA Red Wine,1039428,19071327,FY2017Q4
+Wine,USA Wine,USA Rose Wine,122956,908257,FY2016Q4
+Wine,USA Wine,USA Rose Wine,138332,1093363,FY2017Q1
+Wine,USA Wine,USA Rose Wine,130124,1061270,FY2017Q2
+Wine,USA Wine,USA Rose Wine,125333,1016740,FY2017Q3
+Wine,USA Wine,USA Rose Wine,122055,1047684,FY2017Q4
+Wine,USA Wine,USA Sparkling Wine,22684,311887,FY2016Q4
+Wine,USA Wine,USA Sparkling Wine,24628,379270,FY2017Q1
+Wine,USA Wine,USA Sparkling Wine,26371,405237,FY2017Q2
+Wine,USA Wine,USA Sparkling Wine,41212,632730,FY2017Q3
+Wine,USA Wine,USA Sparkling Wine,19216,284185,FY2017Q4
+Wine,USA Wine,USA White Wine,497869,6276541,FY2016Q4
+Wine,USA Wine,USA White Wine,544248,7227884,FY2017Q1
+Wine,USA Wine,USA White Wine,550162,7594518,FY2017Q2
+Wine,USA Wine,USA White Wine,549759,7512000,FY2017Q3
+Wine,USA Wine,USA White Wine,410961,5578486,FY2017Q4

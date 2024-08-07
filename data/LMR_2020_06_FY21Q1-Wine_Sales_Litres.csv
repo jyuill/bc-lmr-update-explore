@@ -1,0 +1,20 @@
+cat_type,category,subcategory,Fiscal 2019/20 Q1,Fiscal 2019/20 Q2,Fiscal 2019/20 Q3,Fiscal 2019/20 Q4,Fiscal 2020/21 Q1
+Wine,Portugal Wine,Portugal White Wine,"50,012","54,134","32,985","31,765","55,768"
+Wine,Sake,Japan Sake,"42,131","43,300","47,426","48,863","36,919"
+Wine,Sake,Other Country Sake,"3,846","4,384","3,994","3,488","3,109"
+Wine,Sake,USA Sake,"74,771","78,108","91,112","88,246","51,422"
+Wine,South Africa Wine,South Africa Fruit and Dessert Wine,0,0,0,0,0
+Wine,South Africa Wine,South Africa Red Wine,"122,324","110,331","138,668","127,665","98,249"
+Wine,South Africa Wine,South Africa Rose Wine,"13,566","4,685","1,404",459,"8,817"
+Wine,South Africa Wine,South Africa Sparkling Wine,148,162,225,364,342
+Wine,South Africa Wine,South Africa White Wine,"105,416","119,694","97,239","83,222","86,636"
+Wine,Spain Wine,Spain Fruit and Dessert Wine,233,303,434,171,216
+Wine,Spain Wine,Spain Red Wine,"426,460","359,298","454,970","397,218","428,196"
+Wine,Spain Wine,Spain Rose Wine,"22,054","38,798","22,232","38,117","53,306"
+Wine,Spain Wine,Spain Sparkling Wine,"69,303","73,703","119,411","54,127","56,728"
+Wine,Spain Wine,Spain White Wine,"81,433","74,686","71,543","65,032","69,413"
+Wine,USA Wine,USA Fruit and Dessert Wine,18,46,40,41,19
+Wine,USA Wine,USA Red Wine,"1,079,842","1,028,000","1,567,241","1,099,413","1,167,966"
+Wine,USA Wine,USA Rose Wine,"178,203","133,944","126,483","116,366","188,720"
+Wine,USA Wine,USA Sparkling Wine,"17,467","16,159","24,955","13,438","13,898"
+Wine,USA Wine,USA White Wine,"453,384","457,234","467,519","406,236","474,612"

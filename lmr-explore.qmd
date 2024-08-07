@@ -25,12 +25,12 @@ theme_set(theme_classic())
 # check rcolorbrewer palette
 #display.brewer.pal(n=8, name='Set2')
 #display.brewer.pal(n=8, name='Dark2')
-display.brewer.pal(n=9, name='YlOrRd')
+##display.brewer.pal(n=9, name='YlOrRd')
 display.brewer.pal(n=9, name='YlGnBu')
 bar_col <- brewer.pal(n=9, name='YlGnBu')[9]
 # set colors for major category types
-bpal <- brewer.pal(n=8, name='Dark2')
-cat_type_color <- c("Beer"=bpal[6], "Refresh Bev"=bpal[5], "Spirits"=bpal[7], "Wine"=bpal[4])
+#bpal <- brewer.pal(n=8, name='Dark2')
+#cat_type_color <- c("Beer"=bpal[6], "Refresh Bev"=bpal[5], "Spirits"=bpal[7], "Wine"=bpal[4])
 bpal <- brewer.pal(n=9, name="YlOrRd")
 cat_type_color <- c("Beer"=bpal[6], "Refresh Bev"=bpal[3], "Spirits"=bpal[4], "Wine"=bpal[8])
 
@@ -118,17 +118,6 @@ trend_yr <- trend_yr %>% mutate(
   dollar_per_litre=netsales/litres,
   pc_chg_d_per_l=dollar_per_litre/lag(dollar_per_litre)-1
 )
-
-```
-
-```{r}
-# ch_title <- "Net Sales $ Trends - All Categories"
-# trend_yr %>% ggplot(aes(x=as.factor(cyr), y=netsales))+
-#   geom_col(fill=bar_col)+
-#   scale_y_continuous(labels=comma_format(prefix="$", scale=1e-9,suffix="B"), expand=expansion(mult=c(0,0.1)))+
-#   labs(title=ch_title,y="",x="")+
-#   theme_classic()+
-#   theme(axis.ticks.x = element_blank()) 
 ```
 
 ```{r}
@@ -194,7 +183,7 @@ trend_yr %>% filter(cyr!=min(cyr)) %>%
 
 Biggest year-over-year jump of \~4% in 2020, with declines accelerating from 2021 to 2022.
 
-> #### \$/Litre
+### \$/Litre
 
 ```{r}
 # chart $/ltr

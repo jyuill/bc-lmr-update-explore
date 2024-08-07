@@ -4,5 +4,5 @@
 .Ruserdata
 
 credo.R
-
+.env
 /.quarto/

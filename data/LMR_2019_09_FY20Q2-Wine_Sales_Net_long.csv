@@ -1,0 +1,91 @@
+cat_type,category,subcategory,period,netsales
+Wine,Sake,Japan Sake,Fiscal 2018/19 Q2,1475918
+Wine,Sake,Japan Sake,Fiscal 2018/19 Q3,1558327
+Wine,Sake,Japan Sake,Fiscal 2018/19 Q4,1405677
+Wine,Sake,Japan Sake,Fiscal 2019/20 Q1,1371118
+Wine,Sake,Japan Sake,Fiscal 2019/20 Q2,1538556
+Wine,Sake,Other Country Sake,Fiscal 2018/19 Q2,83227
+Wine,Sake,Other Country Sake,Fiscal 2018/19 Q3,84019
+Wine,Sake,Other Country Sake,Fiscal 2018/19 Q4,84521
+Wine,Sake,Other Country Sake,Fiscal 2019/20 Q1,86621
+Wine,Sake,Other Country Sake,Fiscal 2019/20 Q2,96006
+Wine,Sake,USA Sake,Fiscal 2018/19 Q2,661681
+Wine,Sake,USA Sake,Fiscal 2018/19 Q3,793771
+Wine,Sake,USA Sake,Fiscal 2018/19 Q4,771547
+Wine,Sake,USA Sake,Fiscal 2019/20 Q1,653327
+Wine,Sake,USA Sake,Fiscal 2019/20 Q2,679113
+Wine,South Africa Wine,South Africa Fruit and Dessert Wine,Fiscal 2018/19 Q2,0
+Wine,South Africa Wine,South Africa Fruit and Dessert Wine,Fiscal 2018/19 Q3,0
+Wine,South Africa Wine,South Africa Fruit and Dessert Wine,Fiscal 2018/19 Q4,0
+Wine,South Africa Wine,South Africa Fruit and Dessert Wine,Fiscal 2019/20 Q1,0
+Wine,South Africa Wine,South Africa Fruit and Dessert Wine,Fiscal 2019/20 Q2,0
+Wine,South Africa Wine,South Africa Red Wine,Fiscal 2018/19 Q2,1441352
+Wine,South Africa Wine,South Africa Red Wine,Fiscal 2018/19 Q3,1675724
+Wine,South Africa Wine,South Africa Red Wine,Fiscal 2018/19 Q4,1479540
+Wine,South Africa Wine,South Africa Red Wine,Fiscal 2019/20 Q1,1461248
+Wine,South Africa Wine,South Africa Red Wine,Fiscal 2019/20 Q2,1299850
+Wine,South Africa Wine,South Africa Rose Wine,Fiscal 2018/19 Q2,71754
+Wine,South Africa Wine,South Africa Rose Wine,Fiscal 2018/19 Q3,5559
+Wine,South Africa Wine,South Africa Rose Wine,Fiscal 2018/19 Q4,1453
+Wine,South Africa Wine,South Africa Rose Wine,Fiscal 2019/20 Q1,137027
+Wine,South Africa Wine,South Africa Rose Wine,Fiscal 2019/20 Q2,49656
+Wine,South Africa Wine,South Africa Sparkling Wine,Fiscal 2018/19 Q2,28001
+Wine,South Africa Wine,South Africa Sparkling Wine,Fiscal 2018/19 Q3,14556
+Wine,South Africa Wine,South Africa Sparkling Wine,Fiscal 2018/19 Q4,4324
+Wine,South Africa Wine,South Africa Sparkling Wine,Fiscal 2019/20 Q1,3423
+Wine,South Africa Wine,South Africa Sparkling Wine,Fiscal 2019/20 Q2,3249
+Wine,South Africa Wine,South Africa White Wine,Fiscal 2018/19 Q2,1111788
+Wine,South Africa Wine,South Africa White Wine,Fiscal 2018/19 Q3,1219491
+Wine,South Africa Wine,South Africa White Wine,Fiscal 2018/19 Q4,1041638
+Wine,South Africa Wine,South Africa White Wine,Fiscal 2019/20 Q1,1163886
+Wine,South Africa Wine,South Africa White Wine,Fiscal 2019/20 Q2,1205157
+Wine,Spain Wine,Spain Fruit and Dessert Wine,Fiscal 2018/19 Q2,4438
+Wine,Spain Wine,Spain Fruit and Dessert Wine,Fiscal 2018/19 Q3,7153
+Wine,Spain Wine,Spain Fruit and Dessert Wine,Fiscal 2018/19 Q4,7390
+Wine,Spain Wine,Spain Fruit and Dessert Wine,Fiscal 2019/20 Q1,7985
+Wine,Spain Wine,Spain Fruit and Dessert Wine,Fiscal 2019/20 Q2,8974
+Wine,Spain Wine,Spain Red Wine,Fiscal 2018/19 Q2,4505777
+Wine,Spain Wine,Spain Red Wine,Fiscal 2018/19 Q3,5766660
+Wine,Spain Wine,Spain Red Wine,Fiscal 2018/19 Q4,4453924
+Wine,Spain Wine,Spain Red Wine,Fiscal 2019/20 Q1,4873575
+Wine,Spain Wine,Spain Red Wine,Fiscal 2019/20 Q2,4225827
+Wine,Spain Wine,Spain Rose Wine,Fiscal 2018/19 Q2,338385
+Wine,Spain Wine,Spain Rose Wine,Fiscal 2018/19 Q3,126937
+Wine,Spain Wine,Spain Rose Wine,Fiscal 2018/19 Q4,117112
+Wine,Spain Wine,Spain Rose Wine,Fiscal 2019/20 Q1,277534
+Wine,Spain Wine,Spain Rose Wine,Fiscal 2019/20 Q2,380348
+Wine,Spain Wine,Spain Sparkling Wine,Fiscal 2018/19 Q2,1180780
+Wine,Spain Wine,Spain Sparkling Wine,Fiscal 2018/19 Q3,2038439
+Wine,Spain Wine,Spain Sparkling Wine,Fiscal 2018/19 Q4,810178
+Wine,Spain Wine,Spain Sparkling Wine,Fiscal 2019/20 Q1,1162744
+Wine,Spain Wine,Spain Sparkling Wine,Fiscal 2019/20 Q2,1211094
+Wine,Spain Wine,Spain White Wine,Fiscal 2018/19 Q2,556468
+Wine,Spain Wine,Spain White Wine,Fiscal 2018/19 Q3,534862
+Wine,Spain Wine,Spain White Wine,Fiscal 2018/19 Q4,507901
+Wine,Spain Wine,Spain White Wine,Fiscal 2019/20 Q1,722917
+Wine,Spain Wine,Spain White Wine,Fiscal 2019/20 Q2,655903
+Wine,USA Wine,USA Fruit and Dessert Wine,Fiscal 2018/19 Q2,1787
+Wine,USA Wine,USA Fruit and Dessert Wine,Fiscal 2018/19 Q3,936
+Wine,USA Wine,USA Fruit and Dessert Wine,Fiscal 2018/19 Q4,426
+Wine,USA Wine,USA Fruit and Dessert Wine,Fiscal 2019/20 Q1,170
+Wine,USA Wine,USA Fruit and Dessert Wine,Fiscal 2019/20 Q2,802
+Wine,USA Wine,USA Red Wine,Fiscal 2018/19 Q2,20078652
+Wine,USA Wine,USA Red Wine,Fiscal 2018/19 Q3,29359886
+Wine,USA Wine,USA Red Wine,Fiscal 2018/19 Q4,20214792
+Wine,USA Wine,USA Red Wine,Fiscal 2019/20 Q1,21847905
+Wine,USA Wine,USA Red Wine,Fiscal 2019/20 Q2,20460003
+Wine,USA Wine,USA Rose Wine,Fiscal 2018/19 Q2,1444181
+Wine,USA Wine,USA Rose Wine,Fiscal 2018/19 Q3,1161230
+Wine,USA Wine,USA Rose Wine,Fiscal 2018/19 Q4,1038125
+Wine,USA Wine,USA Rose Wine,Fiscal 2019/20 Q1,1950084
+Wine,USA Wine,USA Rose Wine,Fiscal 2019/20 Q2,1288045
+Wine,USA Wine,USA Sparkling Wine,Fiscal 2018/19 Q2,375939
+Wine,USA Wine,USA Sparkling Wine,Fiscal 2018/19 Q3,602245
+Wine,USA Wine,USA Sparkling Wine,Fiscal 2018/19 Q4,299391
+Wine,USA Wine,USA Sparkling Wine,Fiscal 2019/20 Q1,331426
+Wine,USA Wine,USA Sparkling Wine,Fiscal 2019/20 Q2,298496
+Wine,USA Wine,USA White Wine,Fiscal 2018/19 Q2,7484748
+Wine,USA Wine,USA White Wine,Fiscal 2018/19 Q3,7048748
+Wine,USA Wine,USA White Wine,Fiscal 2018/19 Q4,5765586
+Wine,USA Wine,USA White Wine,Fiscal 2019/20 Q1,6692820
+Wine,USA Wine,USA White Wine,Fiscal 2019/20 Q2,6656594

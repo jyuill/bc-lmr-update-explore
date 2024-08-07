@@ -1,0 +1,19 @@
+cat_type,category,subcategory,Fiscal 2015/16 Q4,Fiscal 2016/17 Q1,Fiscal 2016/17 Q2,Fiscal 2016/17 Q3,Fiscal 2016/17 Q4
+Wine,Sake,Japan Sake,"$883,618","$954,081","$1,005,367","$1,061,818","$1,123,441"
+Wine,Sake,Other Country Sake,"$62,611","$72,885","$81,312","$72,990","$67,382"
+Wine,Sake,USA Sake,"$745,562","$656,747","$667,615","$800,892","$835,703"
+Wine,South Africa Wine,South Africa Fruit and Dessert Wine,$0,$0,$0,$0,$0
+Wine,South Africa Wine,South Africa Red Wine,"$1,419,900","$1,467,646","$1,473,194","$1,774,436","$1,403,293"
+Wine,South Africa Wine,South Africa Rose Wine,$479,"$30,560",$555,$306,$0
+Wine,South Africa Wine,South Africa Sparkling Wine,"$81,150","$46,628","$81,545","$69,353","$41,440"
+Wine,South Africa Wine,South Africa White Wine,"$832,089","$1,292,286","$1,146,564","$1,013,263","$844,408"
+Wine,Spain Wine,Spain Fruit and Dessert Wine,$0,$0,$0,$0,"$1,340"
+Wine,Spain Wine,Spain Red Wine,"$4,942,103","$4,277,468","$4,629,870","$5,822,584","$4,742,560"
+Wine,Spain Wine,Spain Rose Wine,"$24,450","$151,289","$150,297","$56,023","$76,476"
+Wine,Spain Wine,Spain Sparkling Wine,"$852,465","$1,038,362","$1,068,515","$2,118,353","$749,220"
+Wine,Spain Wine,Spain White Wine,"$533,768","$332,865","$403,755","$374,055","$610,783"
+Wine,USA Wine,USA Fruit and Dessert Wine,$963,"$7,070","$7,113","$4,428","$3,288"
+Wine,USA Wine,USA Red Wine,"$20,224,440","$20,053,888","$20,686,821","$30,137,439","$19,071,327"
+Wine,USA Wine,USA Rose Wine,"$908,257","$1,093,363","$1,061,270","$1,016,740","$1,047,684"
+Wine,USA Wine,USA Sparkling Wine,"$311,887","$379,270","$405,237","$632,730","$284,185"
+Wine,USA Wine,USA White Wine,"$6,276,541","$7,227,884","$7,594,518","$7,512,000","$5,578,486"

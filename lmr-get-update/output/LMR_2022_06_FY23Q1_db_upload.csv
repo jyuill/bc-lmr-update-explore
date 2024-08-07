@@ -1,0 +1,871 @@
+cat_type,category,subcategory,litres,netsales,fy_qtr
+Beer,Domestic - BC Beer,Domestic - BC Commercial Beer,36875706,129414971,FY2022Q1
+Beer,Domestic - BC Beer,Domestic - BC Commercial Beer,35266771,123665089,FY2022Q2
+Beer,Domestic - BC Beer,Domestic - BC Commercial Beer,30907380,108630190,FY2022Q3
+Beer,Domestic - BC Beer,Domestic - BC Commercial Beer,27944655,99931162,FY2022Q4
+Beer,Domestic - BC Beer,Domestic - BC Commercial Beer,34214712,124642669,FY2023Q1
+Beer,Domestic - BC Beer,Domestic - BC Micro Brew Beer,8207821,41395426,FY2022Q1
+Beer,Domestic - BC Beer,Domestic - BC Micro Brew Beer,8836325,43029928,FY2022Q2
+Beer,Domestic - BC Beer,Domestic - BC Micro Brew Beer,6771472,34145945,FY2022Q3
+Beer,Domestic - BC Beer,Domestic - BC Micro Brew Beer,6482776,32071126,FY2022Q4
+Beer,Domestic - BC Beer,Domestic - BC Micro Brew Beer,8566303,42103560,FY2023Q1
+Beer,Domestic - BC Beer,Domestic - BC Regional Beer,13581174,51256733,FY2022Q1
+Beer,Domestic - BC Beer,Domestic - BC Regional Beer,13308580,49852157,FY2022Q2
+Beer,Domestic - BC Beer,Domestic - BC Regional Beer,11758239,44349207,FY2022Q3
+Beer,Domestic - BC Beer,Domestic - BC Regional Beer,10567789,39984856,FY2022Q4
+Beer,Domestic - BC Beer,Domestic - BC Regional Beer,13798902,52498243,FY2023Q1
+Beer,Domestic - Other Province Beer,Domestic - Other Province Commercial Beer,11035881,46994831,FY2022Q1
+Beer,Domestic - Other Province Beer,Domestic - Other Province Commercial Beer,10962503,46494521,FY2022Q2
+Beer,Domestic - Other Province Beer,Domestic - Other Province Commercial Beer,7600035,32639758,FY2022Q3
+Beer,Domestic - Other Province Beer,Domestic - Other Province Commercial Beer,6678532,29080273,FY2022Q4
+Beer,Domestic - Other Province Beer,Domestic - Other Province Commercial Beer,10357363,45377415,FY2023Q1
+Beer,Domestic - Other Province Beer,Domestic - Other Province Micro Brew Beer,28223,202738,FY2022Q1
+Beer,Domestic - Other Province Beer,Domestic - Other Province Micro Brew Beer,29757,197529,FY2022Q2
+Beer,Domestic - Other Province Beer,Domestic - Other Province Micro Brew Beer,21985,152018,FY2022Q3
+Beer,Domestic - Other Province Beer,Domestic - Other Province Micro Brew Beer,13202,100512,FY2022Q4
+Beer,Domestic - Other Province Beer,Domestic - Other Province Micro Brew Beer,25509,193207,FY2023Q1
+Beer,Domestic - Other Province Beer,Domestic - Other Province Regional Beer,206978,809845,FY2022Q1
+Beer,Domestic - Other Province Beer,Domestic - Other Province Regional Beer,217704,796307,FY2022Q2
+Beer,Domestic - Other Province Beer,Domestic - Other Province Regional Beer,174793,617698,FY2022Q3
+Beer,Domestic - Other Province Beer,Domestic - Other Province Regional Beer,165113,585965,FY2022Q4
+Beer,Domestic - Other Province Beer,Domestic - Other Province Regional Beer,212748,766928,FY2023Q1
+Beer,Import Beer,Asia And South Pacific Beer,239888,1243069,FY2022Q1
+Beer,Import Beer,Asia And South Pacific Beer,254727,1397488,FY2022Q2
+Beer,Import Beer,Asia And South Pacific Beer,270570,1463254,FY2022Q3
+Beer,Import Beer,Asia And South Pacific Beer,249099,1408959,FY2022Q4
+Beer,Import Beer,Asia And South Pacific Beer,313099,1808349,FY2023Q1
+Beer,Import Beer,Europe Beer,4832013,21474864,FY2022Q1
+Beer,Import Beer,Europe Beer,4771033,21251444,FY2022Q2
+Beer,Import Beer,Europe Beer,4256283,18990817,FY2022Q3
+Beer,Import Beer,Europe Beer,3941421,18447534,FY2022Q4
+Beer,Import Beer,Europe Beer,4832342,22695273,FY2023Q1
+Beer,Import Beer,Mexico And Caribbean Beer,757252,3689701,FY2022Q1
+Beer,Import Beer,Mexico And Caribbean Beer,713914,3548843,FY2022Q2
+Beer,Import Beer,Mexico And Caribbean Beer,363156,1892636,FY2022Q3
+Beer,Import Beer,Mexico And Caribbean Beer,388696,2131294,FY2022Q4
+Beer,Import Beer,Mexico And Caribbean Beer,664559,3534009,FY2023Q1
+Beer,Import Beer,Other Country Beer,26884,117914,FY2022Q1
+Beer,Import Beer,Other Country Beer,26917,114274,FY2022Q2
+Beer,Import Beer,Other Country Beer,20945,83505,FY2022Q3
+Beer,Import Beer,Other Country Beer,8878,38683,FY2022Q4
+Beer,Import Beer,Other Country Beer,5548,26074,FY2023Q1
+Beer,Import Beer,USA Beer,444376,2078953,FY2022Q1
+Beer,Import Beer,USA Beer,313244,1580486,FY2022Q2
+Beer,Import Beer,USA Beer,292848,1417490,FY2022Q3
+Beer,Import Beer,USA Beer,301161,1381088,FY2022Q4
+Beer,Import Beer,USA Beer,413674,1910206,FY2023Q1
+Refreshment Beverages,Cider,Domestic Cider,4457564,19958133,FY2022Q1
+Refreshment Beverages,Cider,Domestic Cider,4511542,21305718,FY2022Q2
+Refreshment Beverages,Cider,Domestic Cider,2912718,13886780,FY2022Q3
+Refreshment Beverages,Cider,Domestic Cider,2758261,13105691,FY2022Q4
+Refreshment Beverages,Cider,Domestic Cider,3930140,19166287,FY2023Q1
+Refreshment Beverages,Cider,Import Cider,755612,3463889,FY2022Q1
+Refreshment Beverages,Cider,Import Cider,707932,3280722,FY2022Q2
+Refreshment Beverages,Cider,Import Cider,569902,2630838,FY2022Q3
+Refreshment Beverages,Cider,Import Cider,509870,2523172,FY2022Q4
+Refreshment Beverages,Cider,Import Cider,697586,3391183,FY2023Q1
+Refreshment Beverages,Coolers,Malt-Based Coolers,476866,2262289,FY2022Q1
+Refreshment Beverages,Coolers,Malt-Based Coolers,352961,1692000,FY2022Q2
+Refreshment Beverages,Coolers,Malt-Based Coolers,166856,768426,FY2022Q3
+Refreshment Beverages,Coolers,Malt-Based Coolers,94618,485224,FY2022Q4
+Refreshment Beverages,Coolers,Malt-Based Coolers,233473,1139112,FY2023Q1
+Refreshment Beverages,Coolers,Spirit Coolers,22796328,104595796,FY2022Q1
+Refreshment Beverages,Coolers,Spirit Coolers,21742999,100408434,FY2022Q2
+Refreshment Beverages,Coolers,Spirit Coolers,13181739,62229416,FY2022Q3
+Refreshment Beverages,Coolers,Spirit Coolers,12193297,59521562,FY2022Q4
+Refreshment Beverages,Coolers,Spirit Coolers,20145987,97211496,FY2023Q1
+Refreshment Beverages,Coolers,Wine/Fruit Coolers,365580,2289845,FY2022Q1
+Refreshment Beverages,Coolers,Wine/Fruit Coolers,341893,2202314,FY2022Q2
+Refreshment Beverages,Coolers,Wine/Fruit Coolers,188952,1310117,FY2022Q3
+Refreshment Beverages,Coolers,Wine/Fruit Coolers,212984,1439983,FY2022Q4
+Refreshment Beverages,Coolers,Wine/Fruit Coolers,311472,2034549,FY2023Q1
+Spirits,Asian Spirits,China Spirits,13005,661151,FY2022Q1
+Spirits,Asian Spirits,China Spirits,16673,1685262,FY2022Q2
+Spirits,Asian Spirits,China Spirits,22233,2245161,FY2022Q3
+Spirits,Asian Spirits,China Spirits,19890,1413830,FY2022Q4
+Spirits,Asian Spirits,China Spirits,17646,1705567,FY2023Q1
+Spirits,Asian Spirits,Korea Spirits,49369,852624,FY2022Q1
+Spirits,Asian Spirits,Korea Spirits,60901,1055474,FY2022Q2
+Spirits,Asian Spirits,Korea Spirits,72988,1253054,FY2022Q3
+Spirits,Asian Spirits,Korea Spirits,64477,1133764,FY2022Q4
+Spirits,Asian Spirits,Korea Spirits,75469,1361164,FY2023Q1
+Spirits,Asian Spirits,Other Country Asian Spirits,2860,127591,FY2022Q1
+Spirits,Asian Spirits,Other Country Asian Spirits,3298,139250,FY2022Q2
+Spirits,Asian Spirits,Other Country Asian Spirits,4555,193085,FY2022Q3
+Spirits,Asian Spirits,Other Country Asian Spirits,3932,189455,FY2022Q4
+Spirits,Asian Spirits,Other Country Asian Spirits,3896,166510,FY2023Q1
+Spirits,Gin,Dry Gin,490723,14919052,FY2022Q1
+Spirits,Gin,Dry Gin,512592,15702217,FY2022Q2
+Spirits,Gin,Dry Gin,474339,14967132,FY2022Q3
+Spirits,Gin,Dry Gin,339078,10522054,FY2022Q4
+Spirits,Gin,Dry Gin,495950,15293487,FY2023Q1
+Spirits,Gin,Flavoured Gin,54285,1793506,FY2022Q1
+Spirits,Gin,Flavoured Gin,55796,1908761,FY2022Q2
+Spirits,Gin,Flavoured Gin,37742,1403914,FY2022Q3
+Spirits,Gin,Flavoured Gin,29038,1036194,FY2022Q4
+Spirits,Gin,Flavoured Gin,47804,1649219,FY2023Q1
+Spirits,Gin,Other Gin,8158,404298,FY2022Q1
+Spirits,Gin,Other Gin,11653,582414,FY2022Q2
+Spirits,Gin,Other Gin,14475,759950,FY2022Q3
+Spirits,Gin,Other Gin,9276,461375,FY2022Q4
+Spirits,Gin,Other Gin,9940,509418,FY2023Q1
+Spirits,Grape and Fruit Brandy,Armagnac,483,58093,FY2022Q1
+Spirits,Grape and Fruit Brandy,Armagnac,451,40972,FY2022Q2
+Spirits,Grape and Fruit Brandy,Armagnac,1252,137728,FY2022Q3
+Spirits,Grape and Fruit Brandy,Armagnac,922,129028,FY2022Q4
+Spirits,Grape and Fruit Brandy,Armagnac,422,46629,FY2023Q1
+Spirits,Grape and Fruit Brandy,Brandy,86695,2314937,FY2022Q1
+Spirits,Grape and Fruit Brandy,Brandy,81301,2182619,FY2022Q2
+Spirits,Grape and Fruit Brandy,Brandy,130196,3562060,FY2022Q3
+Spirits,Grape and Fruit Brandy,Brandy,87359,2366959,FY2022Q4
+Spirits,Grape and Fruit Brandy,Brandy,84471,2431173,FY2023Q1
+Spirits,Grape and Fruit Brandy,Cognac,21548,2323231,FY2022Q1
+Spirits,Grape and Fruit Brandy,Cognac,25317,2644713,FY2022Q2
+Spirits,Grape and Fruit Brandy,Cognac,36259,4141475,FY2022Q3
+Spirits,Grape and Fruit Brandy,Cognac,20971,2482239,FY2022Q4
+Spirits,Grape and Fruit Brandy,Cognac,24396,2837134,FY2023Q1
+Spirits,Grape and Fruit Brandy,Eau de Vie,5796,244044,FY2022Q1
+Spirits,Grape and Fruit Brandy,Eau de Vie,7398,353671,FY2022Q2
+Spirits,Grape and Fruit Brandy,Eau de Vie,8316,389236,FY2022Q3
+Spirits,Grape and Fruit Brandy,Eau de Vie,3739,195848,FY2022Q4
+Spirits,Grape and Fruit Brandy,Eau de Vie,8727,413529,FY2023Q1
+Spirits,Grape and Fruit Brandy,Grappa And Marc,1463,70008,FY2022Q1
+Spirits,Grape and Fruit Brandy,Grappa And Marc,1492,80637,FY2022Q2
+Spirits,Grape and Fruit Brandy,Grappa And Marc,2114,115306,FY2022Q3
+Spirits,Grape and Fruit Brandy,Grappa And Marc,1447,71416,FY2022Q4
+Spirits,Grape and Fruit Brandy,Grappa And Marc,1534,81313,FY2023Q1
+Spirits,Grape and Fruit Brandy,Pisco,2421,89438,FY2022Q1
+Spirits,Grape and Fruit Brandy,Pisco,3045,110834,FY2022Q2
+Spirits,Grape and Fruit Brandy,Pisco,3118,114248,FY2022Q3
+Spirits,Grape and Fruit Brandy,Pisco,2600,101091,FY2022Q4
+Spirits,Grape and Fruit Brandy,Pisco,2887,114010,FY2023Q1
+Spirits,Liqueurs,Anise And Herbal/Spice Liqueurs,279215,7672267,FY2022Q1
+Spirits,Liqueurs,Anise And Herbal/Spice Liqueurs,284205,8118689,FY2022Q2
+Spirits,Liqueurs,Anise And Herbal/Spice Liqueurs,351212,9846588,FY2022Q3
+Spirits,Liqueurs,Anise And Herbal/Spice Liqueurs,268121,7633286,FY2022Q4
+Spirits,Liqueurs,Anise And Herbal/Spice Liqueurs,330872,9314152,FY2023Q1
+Spirits,Liqueurs,Coffee And Cocoa Liqueurs,68782,1712578,FY2022Q1
+Spirits,Liqueurs,Coffee And Cocoa Liqueurs,76944,1980431,FY2022Q2
+Spirits,Liqueurs,Coffee And Cocoa Liqueurs,136135,3368811,FY2022Q3
+Spirits,Liqueurs,Coffee And Cocoa Liqueurs,56191,1448185,FY2022Q4
+Spirits,Liqueurs,Coffee And Cocoa Liqueurs,76832,1914489,FY2023Q1
+Spirits,Liqueurs,Cream/Dairy Liqueurs,347730,8908719,FY2022Q1
+Spirits,Liqueurs,Cream/Dairy Liqueurs,386820,10000766,FY2022Q2
+Spirits,Liqueurs,Cream/Dairy Liqueurs,960275,24759311,FY2022Q3
+Spirits,Liqueurs,Cream/Dairy Liqueurs,254910,6603003,FY2022Q4
+Spirits,Liqueurs,Cream/Dairy Liqueurs,315598,8206750,FY2023Q1
+Spirits,Liqueurs,Fruit Liqueurs,177986,5118824,FY2022Q1
+Spirits,Liqueurs,Fruit Liqueurs,212054,6161291,FY2022Q2
+Spirits,Liqueurs,Fruit Liqueurs,176178,5912292,FY2022Q3
+Spirits,Liqueurs,Fruit Liqueurs,158346,4576713,FY2022Q4
+Spirits,Liqueurs,Fruit Liqueurs,206113,6044759,FY2023Q1
+Spirits,Liqueurs,Nut Liqueurs,71732,1748638,FY2022Q1
+Spirits,Liqueurs,Nut Liqueurs,69096,1702544,FY2022Q2
+Spirits,Liqueurs,Nut Liqueurs,77337,2036704,FY2022Q3
+Spirits,Liqueurs,Nut Liqueurs,46218,1236941,FY2022Q4
+Spirits,Liqueurs,Nut Liqueurs,70664,1754842,FY2023Q1
+Spirits,Liqueurs,Other Liqueurs,25428,794521,FY2022Q1
+Spirits,Liqueurs,Other Liqueurs,34583,1104308,FY2022Q2
+Spirits,Liqueurs,Other Liqueurs,39792,1224512,FY2022Q3
+Spirits,Liqueurs,Other Liqueurs,26444,856085,FY2022Q4
+Spirits,Liqueurs,Other Liqueurs,36252,1090562,FY2023Q1
+Spirits,Liqueurs,Whiskey Liqueurs,42801,1225693,FY2022Q1
+Spirits,Liqueurs,Whiskey Liqueurs,46217,1465871,FY2022Q2
+Spirits,Liqueurs,Whiskey Liqueurs,67860,2173413,FY2022Q3
+Spirits,Liqueurs,Whiskey Liqueurs,43977,1382822,FY2022Q4
+Spirits,Liqueurs,Whiskey Liqueurs,50639,1521857,FY2023Q1
+Spirits,Other Spirits,Cachaca,1376,51000,FY2022Q1
+Spirits,Other Spirits,Cachaca,2050,80022,FY2022Q2
+Spirits,Other Spirits,Cachaca,446,20515,FY2022Q3
+Spirits,Other Spirits,Cachaca,277,14264,FY2022Q4
+Spirits,Other Spirits,Cachaca,1948,65712,FY2023Q1
+Spirits,Other Spirits,Flavoured Spirits,2200,110162,FY2022Q1
+Spirits,Other Spirits,Flavoured Spirits,3987,212775,FY2022Q2
+Spirits,Other Spirits,Flavoured Spirits,4502,214065,FY2022Q3
+Spirits,Other Spirits,Flavoured Spirits,1763,86358,FY2022Q4
+Spirits,Other Spirits,Flavoured Spirits,2902,144070,FY2023Q1
+Spirits,Other Spirits,Miscellaneous/Other Spirits,5789,315715,FY2022Q1
+Spirits,Other Spirits,Miscellaneous/Other Spirits,7083,376279,FY2022Q2
+Spirits,Other Spirits,Miscellaneous/Other Spirits,8971,552186,FY2022Q3
+Spirits,Other Spirits,Miscellaneous/Other Spirits,5271,262372,FY2022Q4
+Spirits,Other Spirits,Miscellaneous/Other Spirits,6252,337726,FY2023Q1
+Spirits,Other Spirits,Moonshine Spirits,7511,319804,FY2022Q1
+Spirits,Other Spirits,Moonshine Spirits,12443,483008,FY2022Q2
+Spirits,Other Spirits,Moonshine Spirits,9502,424527,FY2022Q3
+Spirits,Other Spirits,Moonshine Spirits,6081,269458,FY2022Q4
+Spirits,Other Spirits,Moonshine Spirits,8462,379629,FY2023Q1
+Spirits,Other Spirits,Ready to Mix Cocktails,24498,455998,FY2022Q1
+Spirits,Other Spirits,Ready to Mix Cocktails,30827,596506,FY2022Q2
+Spirits,Other Spirits,Ready to Mix Cocktails,18154,376071,FY2022Q3
+Spirits,Other Spirits,Ready to Mix Cocktails,20852,421451,FY2022Q4
+Spirits,Other Spirits,Ready to Mix Cocktails,33281,653454,FY2023Q1
+Spirits,Other Spirits,Ready to Serve Cocktails,110369,1742852,FY2022Q1
+Spirits,Other Spirits,Ready to Serve Cocktails,96602,1559073,FY2022Q2
+Spirits,Other Spirits,Ready to Serve Cocktails,80340,1840387,FY2022Q3
+Spirits,Other Spirits,Ready to Serve Cocktails,56197,1195074,FY2022Q4
+Spirits,Other Spirits,Ready to Serve Cocktails,97408,1769707,FY2023Q1
+Spirits,Other Spirits,Schnapps and Akvavit,1340,53098,FY2022Q1
+Spirits,Other Spirits,Schnapps and Akvavit,1481,63388,FY2022Q2
+Spirits,Other Spirits,Schnapps and Akvavit,2299,92818,FY2022Q3
+Spirits,Other Spirits,Schnapps and Akvavit,1051,47108,FY2022Q4
+Spirits,Other Spirits,Schnapps and Akvavit,1422,58238,FY2023Q1
+Spirits,Rum,Amber Rum,207239,6108770,FY2022Q1
+Spirits,Rum,Amber Rum,213945,6468316,FY2022Q2
+Spirits,Rum,Amber Rum,298581,9163781,FY2022Q3
+Spirits,Rum,Amber Rum,176989,5312524,FY2022Q4
+Spirits,Rum,Amber Rum,209965,6345898,FY2023Q1
+Spirits,Rum,Dark Rum,102817,2831889,FY2022Q1
+Spirits,Rum,Dark Rum,98881,2769141,FY2022Q2
+Spirits,Rum,Dark Rum,141798,4152566,FY2022Q3
+Spirits,Rum,Dark Rum,97513,2800161,FY2022Q4
+Spirits,Rum,Dark Rum,105885,3012374,FY2023Q1
+Spirits,Rum,Flavoured Rum,26419,744698,FY2022Q1
+Spirits,Rum,Flavoured Rum,26322,735813,FY2022Q2
+Spirits,Rum,Flavoured Rum,22436,651727,FY2022Q3
+Spirits,Rum,Flavoured Rum,23276,670218,FY2022Q4
+Spirits,Rum,Flavoured Rum,27459,772655,FY2023Q1
+Spirits,Rum,Spiced Rum,241691,6923773,FY2022Q1
+Spirits,Rum,Spiced Rum,261909,7507846,FY2022Q2
+Spirits,Rum,Spiced Rum,464034,13088524,FY2022Q3
+Spirits,Rum,Spiced Rum,213085,6163519,FY2022Q4
+Spirits,Rum,Spiced Rum,263978,7655897,FY2023Q1
+Spirits,Rum,White Rum,308724,7272574,FY2022Q1
+Spirits,Rum,White Rum,321835,7585779,FY2022Q2
+Spirits,Rum,White Rum,311819,7348025,FY2022Q3
+Spirits,Rum,White Rum,236902,5585375,FY2022Q4
+Spirits,Rum,White Rum,306071,7247963,FY2023Q1
+Spirits,Tequila,Blanco/Silver Tequila,167570,7369876,FY2022Q1
+Spirits,Tequila,Blanco/Silver Tequila,198097,8854003,FY2022Q2
+Spirits,Tequila,Blanco/Silver Tequila,137627,6794307,FY2022Q3
+Spirits,Tequila,Blanco/Silver Tequila,110553,5512358,FY2022Q4
+Spirits,Tequila,Blanco/Silver Tequila,194709,9058701,FY2023Q1
+Spirits,Tequila,Flavoured Tequila,10753,405139,FY2022Q1
+Spirits,Tequila,Flavoured Tequila,12040,481828,FY2022Q2
+Spirits,Tequila,Flavoured Tequila,8417,337738,FY2022Q3
+Spirits,Tequila,Flavoured Tequila,7600,304786,FY2022Q4
+Spirits,Tequila,Flavoured Tequila,11026,458135,FY2023Q1
+Spirits,Tequila,Gold Tequila,214805,10084602,FY2022Q1
+Spirits,Tequila,Gold Tequila,241504,11644103,FY2022Q2
+Spirits,Tequila,Gold Tequila,195835,10558441,FY2022Q3
+Spirits,Tequila,Gold Tequila,170829,8884822,FY2022Q4
+Spirits,Tequila,Gold Tequila,260354,12813947,FY2023Q1
+Spirits,Tequila,Mezcal,10364,703362,FY2022Q1
+Spirits,Tequila,Mezcal,12688,886359,FY2022Q2
+Spirits,Tequila,Mezcal,12647,867013,FY2022Q3
+Spirits,Tequila,Mezcal,12512,821324,FY2022Q4
+Spirits,Tequila,Mezcal,16272,1105069,FY2023Q1
+Spirits,Vodka,Flavoured Vodka,233385,6651406,FY2022Q1
+Spirits,Vodka,Flavoured Vodka,240532,6996319,FY2022Q2
+Spirits,Vodka,Flavoured Vodka,214760,6400285,FY2022Q3
+Spirits,Vodka,Flavoured Vodka,142229,4098357,FY2022Q4
+Spirits,Vodka,Flavoured Vodka,217745,6412874,FY2023Q1
+Spirits,Vodka,Straight Vodka,2216329,55824882,FY2022Q1
+Spirits,Vodka,Straight Vodka,2303291,58705273,FY2022Q2
+Spirits,Vodka,Straight Vodka,2330572,59648862,FY2022Q3
+Spirits,Vodka,Straight Vodka,1865649,46986007,FY2022Q4
+Spirits,Vodka,Straight Vodka,2255484,57943467,FY2023Q1
+Spirits,Whisky,American Whiskey,66644,2423753,FY2022Q1
+Spirits,Whisky,American Whiskey,66025,2400748,FY2022Q2
+Spirits,Whisky,American Whiskey,86156,3507481,FY2022Q3
+Spirits,Whisky,American Whiskey,60844,2388347,FY2022Q4
+Spirits,Whisky,American Whiskey,80856,3149190,FY2023Q1
+Spirits,Whisky,Blended Malt Scotch Whisky,2651,164997,FY2022Q1
+Spirits,Whisky,Blended Malt Scotch Whisky,3595,250928,FY2022Q2
+Spirits,Whisky,Blended Malt Scotch Whisky,5625,386557,FY2022Q3
+Spirits,Whisky,Blended Malt Scotch Whisky,3326,209684,FY2022Q4
+Spirits,Whisky,Blended Malt Scotch Whisky,3503,199919,FY2023Q1
+Spirits,Whisky,Blended Scotch Whisky,237906,7451728,FY2022Q1
+Spirits,Whisky,Blended Scotch Whisky,231915,7565514,FY2022Q2
+Spirits,Whisky,Blended Scotch Whisky,304916,10700086,FY2022Q3
+Spirits,Whisky,Blended Scotch Whisky,224656,7205015,FY2022Q4
+Spirits,Whisky,Blended Scotch Whisky,258823,8644451,FY2023Q1
+Spirits,Whisky,Bourbon Whiskey,122812,4989023,FY2022Q1
+Spirits,Whisky,Bourbon Whiskey,115207,4624197,FY2022Q2
+Spirits,Whisky,Bourbon Whiskey,172400,7636756,FY2022Q3
+Spirits,Whisky,Bourbon Whiskey,124815,5370282,FY2022Q4
+Spirits,Whisky,Bourbon Whiskey,158281,6767524,FY2023Q1
+Spirits,Whisky,Canadian Whisky,1108815,29092839,FY2022Q1
+Spirits,Whisky,Canadian Whisky,1067583,28079886,FY2022Q2
+Spirits,Whisky,Canadian Whisky,1363048,36357315,FY2022Q3
+Spirits,Whisky,Canadian Whisky,927931,24457048,FY2022Q4
+Spirits,Whisky,Canadian Whisky,1147910,30249761,FY2023Q1
+Spirits,Whisky,Flavoured Whisky,5990,211138,FY2022Q1
+Spirits,Whisky,Flavoured Whisky,15668,517873,FY2022Q2
+Spirits,Whisky,Flavoured Whisky,14420,549273,FY2022Q3
+Spirits,Whisky,Flavoured Whisky,7536,280514,FY2022Q4
+Spirits,Whisky,Flavoured Whisky,7680,298305,FY2023Q1
+Spirits,Whisky,Irish Whiskey,113590,4359002,FY2022Q1
+Spirits,Whisky,Irish Whiskey,138844,5228717,FY2022Q2
+Spirits,Whisky,Irish Whiskey,187885,7256211,FY2022Q3
+Spirits,Whisky,Irish Whiskey,153243,5802216,FY2022Q4
+Spirits,Whisky,Irish Whiskey,138190,5304877,FY2023Q1
+Spirits,Whisky,Other Country Whisky,14761,1199551,FY2022Q1
+Spirits,Whisky,Other Country Whisky,16656,1341233,FY2022Q2
+Spirits,Whisky,Other Country Whisky,25893,2252362,FY2022Q3
+Spirits,Whisky,Other Country Whisky,13078,1105928,FY2022Q4
+Spirits,Whisky,Other Country Whisky,21819,1868102,FY2023Q1
+Spirits,Whisky,Single Malt Scotch Whisky,128020,10415874,FY2022Q1
+Spirits,Whisky,Single Malt Scotch Whisky,152872,12515137,FY2022Q2
+Spirits,Whisky,Single Malt Scotch Whisky,232675,20948181,FY2022Q3
+Spirits,Whisky,Single Malt Scotch Whisky,113417,10143243,FY2022Q4
+Spirits,Whisky,Single Malt Scotch Whisky,152514,13539095,FY2023Q1
+Wine,Argentina Wine,Argentina Red Wine,439011,6114091,FY2022Q1
+Wine,Argentina Wine,Argentina Red Wine,437438,6332978,FY2022Q2
+Wine,Argentina Wine,Argentina Red Wine,661493,9286295,FY2022Q3
+Wine,Argentina Wine,Argentina Red Wine,472341,6780678,FY2022Q4
+Wine,Argentina Wine,Argentina Red Wine,479083,6761500,FY2023Q1
+Wine,Argentina Wine,Argentina Rose Wine,21460,204774,FY2022Q1
+Wine,Argentina Wine,Argentina Rose Wine,13399,156294,FY2022Q2
+Wine,Argentina Wine,Argentina Rose Wine,5204,66077,FY2022Q3
+Wine,Argentina Wine,Argentina Rose Wine,5080,64935,FY2022Q4
+Wine,Argentina Wine,Argentina Rose Wine,10352,131170,FY2023Q1
+Wine,Argentina Wine,Argentina Sparkling Wine,270,5449,FY2022Q1
+Wine,Argentina Wine,Argentina Sparkling Wine,576,9965,FY2022Q2
+Wine,Argentina Wine,Argentina Sparkling Wine,576,8867,FY2022Q3
+Wine,Argentina Wine,Argentina Sparkling Wine,576,9131,FY2022Q4
+Wine,Argentina Wine,Argentina Sparkling Wine,504,7454,FY2023Q1
+Wine,Argentina Wine,Argentina White Wine,37074,430079,FY2022Q1
+Wine,Argentina Wine,Argentina White Wine,28849,384493,FY2022Q2
+Wine,Argentina Wine,Argentina White Wine,25045,327601,FY2022Q3
+Wine,Argentina Wine,Argentina White Wine,34098,393450,FY2022Q4
+Wine,Argentina Wine,Argentina White Wine,46221,505506,FY2023Q1
+Wine,Australia Wine,Australia Fruit and Dessert Wine,0,0,FY2022Q1
+Wine,Australia Wine,Australia Fruit and Dessert Wine,6,240,FY2022Q2
+Wine,Australia Wine,Australia Fruit and Dessert Wine,12,408,FY2022Q3
+Wine,Australia Wine,Australia Fruit and Dessert Wine,6,240,FY2022Q4
+Wine,Australia Wine,Australia Fruit and Dessert Wine,0,0,FY2023Q1
+Wine,Australia Wine,Australia Red Wine,488984,7018184,FY2022Q1
+Wine,Australia Wine,Australia Red Wine,454549,6520751,FY2022Q2
+Wine,Australia Wine,Australia Red Wine,645136,9223651,FY2022Q3
+Wine,Australia Wine,Australia Red Wine,446949,6631590,FY2022Q4
+Wine,Australia Wine,Australia Red Wine,432423,6442836,FY2023Q1
+Wine,Australia Wine,Australia Rose Wine,35469,445785,FY2022Q1
+Wine,Australia Wine,Australia Rose Wine,26638,331622,FY2022Q2
+Wine,Australia Wine,Australia Rose Wine,28590,315682,FY2022Q3
+Wine,Australia Wine,Australia Rose Wine,23654,288431,FY2022Q4
+Wine,Australia Wine,Australia Rose Wine,23524,281181,FY2023Q1
+Wine,Australia Wine,Australia Sparkling Wine,64548,876303,FY2022Q1
+Wine,Australia Wine,Australia Sparkling Wine,63240,860497,FY2022Q2
+Wine,Australia Wine,Australia Sparkling Wine,68796,867986,FY2022Q3
+Wine,Australia Wine,Australia Sparkling Wine,50156,696461,FY2022Q4
+Wine,Australia Wine,Australia Sparkling Wine,48170,709369,FY2023Q1
+Wine,Australia Wine,Australia White Wine,419735,4510065,FY2022Q1
+Wine,Australia Wine,Australia White Wine,411630,4400355,FY2022Q2
+Wine,Australia Wine,Australia White Wine,422221,4479717,FY2022Q3
+Wine,Australia Wine,Australia White Wine,336564,3759593,FY2022Q4
+Wine,Australia Wine,Australia White Wine,388483,4345052,FY2023Q1
+Wine,Austria Wine,Austria Fruit and Dessert Wine,2,149,FY2022Q1
+Wine,Austria Wine,Austria Fruit and Dessert Wine,0,0,FY2022Q2
+Wine,Austria Wine,Austria Fruit and Dessert Wine,0,0,FY2022Q3
+Wine,Austria Wine,Austria Fruit and Dessert Wine,0,0,FY2022Q4
+Wine,Austria Wine,Austria Fruit and Dessert Wine,171,9471,FY2023Q1
+Wine,Austria Wine,Austria Red Wine,1646,50395,FY2022Q1
+Wine,Austria Wine,Austria Red Wine,1359,47090,FY2022Q2
+Wine,Austria Wine,Austria Red Wine,1300,42435,FY2022Q3
+Wine,Austria Wine,Austria Red Wine,1224,41709,FY2022Q4
+Wine,Austria Wine,Austria Red Wine,1723,59170,FY2023Q1
+Wine,Austria Wine,Austria Rose Wine,0,0,FY2022Q1
+Wine,Austria Wine,Austria Rose Wine,72,2424,FY2022Q2
+Wine,Austria Wine,Austria Rose Wine,234,8407,FY2022Q3
+Wine,Austria Wine,Austria Rose Wine,112,3594,FY2022Q4
+Wine,Austria Wine,Austria Rose Wine,90,3195,FY2023Q1
+Wine,Austria Wine,Austria Sparkling Wine,27,664,FY2022Q1
+Wine,Austria Wine,Austria Sparkling Wine,288,8033,FY2022Q2
+Wine,Austria Wine,Austria Sparkling Wine,130,4406,FY2022Q3
+Wine,Austria Wine,Austria Sparkling Wine,130,5119,FY2022Q4
+Wine,Austria Wine,Austria Sparkling Wine,68,2340,FY2023Q1
+Wine,Austria Wine,Austria White Wine,1808,57226,FY2022Q1
+Wine,Austria Wine,Austria White Wine,2434,78030,FY2022Q2
+Wine,Austria Wine,Austria White Wine,3780,119049,FY2022Q3
+Wine,Austria Wine,Austria White Wine,3341,102675,FY2022Q4
+Wine,Austria Wine,Austria White Wine,2488,76890,FY2023Q1
+Wine,Bulgaria Wine,Bulgaria Red Wine,90,1774,FY2022Q1
+Wine,Bulgaria Wine,Bulgaria Red Wine,108,2128,FY2022Q2
+Wine,Bulgaria Wine,Bulgaria Red Wine,621,8623,FY2022Q3
+Wine,Bulgaria Wine,Bulgaria Red Wine,72,994,FY2022Q4
+Wine,Bulgaria Wine,Bulgaria Red Wine,0,0,FY2023Q1
+Wine,Bulgaria Wine,Bulgaria Rose Wine,0,0,FY2022Q1
+Wine,Bulgaria Wine,Bulgaria Rose Wine,0,0,FY2022Q2
+Wine,Bulgaria Wine,Bulgaria Rose Wine,0,0,FY2022Q3
+Wine,Bulgaria Wine,Bulgaria Rose Wine,0,0,FY2022Q4
+Wine,Bulgaria Wine,Bulgaria Rose Wine,0,0,FY2023Q1
+Wine,Bulgaria Wine,Bulgaria White Wine,0,0,FY2022Q1
+Wine,Bulgaria Wine,Bulgaria White Wine,189,7177,FY2022Q2
+Wine,Bulgaria Wine,Bulgaria White Wine,54,2051,FY2022Q3
+Wine,Bulgaria Wine,Bulgaria White Wine,0,0,FY2022Q4
+Wine,Bulgaria Wine,Bulgaria White Wine,9,342,FY2023Q1
+Wine,Canada - BC,Canada - BC Dessert Wine,3855,164483,FY2022Q1
+Wine,Canada - BC,Canada - BC Dessert Wine,9607,429019,FY2022Q2
+Wine,Canada - BC,Canada - BC Dessert Wine,6174,285304,FY2022Q3
+Wine,Canada - BC,Canada - BC Dessert Wine,2471,108128,FY2022Q4
+Wine,Canada - BC,Canada - BC Dessert Wine,5163,236501,FY2023Q1
+Wine,Canada - BC,Canada - BC Fruit Wine,48723,983183,FY2022Q1
+Wine,Canada - BC,Canada - BC Fruit Wine,82835,1766521,FY2022Q2
+Wine,Canada - BC,Canada - BC Fruit Wine,60488,1274985,FY2022Q3
+Wine,Canada - BC,Canada - BC Fruit Wine,32565,652834,FY2022Q4
+Wine,Canada - BC,Canada - BC Fruit Wine,67747,1299690,FY2023Q1
+Wine,Canada - BC,Canada - BC Ice Wine,3766,328812,FY2022Q1
+Wine,Canada - BC,Canada - BC Ice Wine,6496,658308,FY2022Q2
+Wine,Canada - BC,Canada - BC Ice Wine,6144,596624,FY2022Q3
+Wine,Canada - BC,Canada - BC Ice Wine,3357,350127,FY2022Q4
+Wine,Canada - BC,Canada - BC Ice Wine,4679,538386,FY2023Q1
+Wine,Canada - BC,Canada - BC Red Wine,4214141,60801578,FY2022Q1
+Wine,Canada - BC,Canada - BC Red Wine,4562548,75030426,FY2022Q2
+Wine,Canada - BC,Canada - BC Red Wine,5274022,76901507,FY2022Q3
+Wine,Canada - BC,Canada - BC Red Wine,3875312,53263862,FY2022Q4
+Wine,Canada - BC,Canada - BC Red Wine,4252492,65860427,FY2023Q1
+Wine,Canada - BC,Canada - BC Rose Wine,775335,13192311,FY2022Q1
+Wine,Canada - BC,Canada - BC Rose Wine,762315,13065924,FY2022Q2
+Wine,Canada - BC,Canada - BC Rose Wine,359650,4921066,FY2022Q3
+Wine,Canada - BC,Canada - BC Rose Wine,381925,6063906,FY2022Q4
+Wine,Canada - BC,Canada - BC Rose Wine,707055,12512095,FY2023Q1
+Wine,Canada - BC,Canada - BC Sparkling Wine,190483,4691406,FY2022Q1
+Wine,Canada - BC,Canada - BC Sparkling Wine,247056,6182975,FY2022Q2
+Wine,Canada - BC,Canada - BC Sparkling Wine,196169,4966698,FY2022Q3
+Wine,Canada - BC,Canada - BC Sparkling Wine,108111,2777541,FY2022Q4
+Wine,Canada - BC,Canada - BC Sparkling Wine,212224,5460923,FY2023Q1
+Wine,Canada - BC,Canada - BC White Wine,5081278,59586715,FY2022Q1
+Wine,Canada - BC,Canada - BC White Wine,5480439,69401180,FY2022Q2
+Wine,Canada - BC,Canada - BC White Wine,4917648,56261316,FY2022Q3
+Wine,Canada - BC,Canada - BC White Wine,3987150,44088602,FY2022Q4
+Wine,Canada - BC,Canada - BC White Wine,5007929,63469789,FY2023Q1
+Wine,Canada - Other,Canada - Other Dessert Wine,88,10476,FY2022Q1
+Wine,Canada - Other,Canada - Other Dessert Wine,94,11292,FY2022Q2
+Wine,Canada - Other,Canada - Other Dessert Wine,103,7400,FY2022Q3
+Wine,Canada - Other,Canada - Other Dessert Wine,16,788,FY2022Q4
+Wine,Canada - Other,Canada - Other Dessert Wine,136,11309,FY2023Q1
+Wine,Canada - Other,Canada - Other Fruit Wine,38,257,FY2022Q1
+Wine,Canada - Other,Canada - Other Fruit Wine,296,1982,FY2022Q2
+Wine,Canada - Other,Canada - Other Fruit Wine,532,6039,FY2022Q3
+Wine,Canada - Other,Canada - Other Fruit Wine,543,6802,FY2022Q4
+Wine,Canada - Other,Canada - Other Fruit Wine,428,3866,FY2023Q1
+Wine,Canada - Other,Canada - Other Ice Wine,1059,86202,FY2022Q1
+Wine,Canada - Other,Canada - Other Ice Wine,1277,102963,FY2022Q2
+Wine,Canada - Other,Canada - Other Ice Wine,3387,254962,FY2022Q3
+Wine,Canada - Other,Canada - Other Ice Wine,1784,137111,FY2022Q4
+Wine,Canada - Other,Canada - Other Ice Wine,3661,291403,FY2023Q1
+Wine,Canada - Other,Canada - Other Red Wine,119782,835904,FY2022Q1
+Wine,Canada - Other,Canada - Other Red Wine,73314,592948,FY2022Q2
+Wine,Canada - Other,Canada - Other Red Wine,117148,835442,FY2022Q3
+Wine,Canada - Other,Canada - Other Red Wine,93536,712201,FY2022Q4
+Wine,Canada - Other,Canada - Other Red Wine,90992,684788,FY2023Q1
+Wine,Canada - Other,Canada - Other Rose Wine,7992,55012,FY2022Q1
+Wine,Canada - Other,Canada - Other Rose Wine,11128,76424,FY2022Q2
+Wine,Canada - Other,Canada - Other Rose Wine,3069,32057,FY2022Q3
+Wine,Canada - Other,Canada - Other Rose Wine,5714,57741,FY2022Q4
+Wine,Canada - Other,Canada - Other Rose Wine,11522,83005,FY2023Q1
+Wine,Canada - Other,Canada - Other Sparkling Wine,64172,444723,FY2022Q1
+Wine,Canada - Other,Canada - Other Sparkling Wine,65943,466142,FY2022Q2
+Wine,Canada - Other,Canada - Other Sparkling Wine,115160,775563,FY2022Q3
+Wine,Canada - Other,Canada - Other Sparkling Wine,48338,337807,FY2022Q4
+Wine,Canada - Other,Canada - Other Sparkling Wine,47227,358242,FY2023Q1
+Wine,Canada - Other,Canada - Other White Wine,100996,766265,FY2022Q1
+Wine,Canada - Other,Canada - Other White Wine,80051,670949,FY2022Q2
+Wine,Canada - Other,Canada - Other White Wine,91196,760679,FY2022Q3
+Wine,Canada - Other,Canada - Other White Wine,89447,760690,FY2022Q4
+Wine,Canada - Other,Canada - Other White Wine,88635,766524,FY2023Q1
+Wine,Chile Wine,Chile Fruit and Dessert Wine,27,958,FY2022Q1
+Wine,Chile Wine,Chile Fruit and Dessert Wine,22,798,FY2022Q2
+Wine,Chile Wine,Chile Fruit and Dessert Wine,27,958,FY2022Q3
+Wine,Chile Wine,Chile Fruit and Dessert Wine,58,2075,FY2022Q4
+Wine,Chile Wine,Chile Fruit and Dessert Wine,40,1437,FY2023Q1
+Wine,Chile Wine,Chile Red Wine,559597,5799485,FY2022Q1
+Wine,Chile Wine,Chile Red Wine,580612,5986662,FY2022Q2
+Wine,Chile Wine,Chile Red Wine,743681,7830279,FY2022Q3
+Wine,Chile Wine,Chile Red Wine,603394,6431524,FY2022Q4
+Wine,Chile Wine,Chile Red Wine,634448,6593605,FY2023Q1
+Wine,Chile Wine,Chile Rose Wine,58241,486124,FY2022Q1
+Wine,Chile Wine,Chile Rose Wine,78449,643414,FY2022Q2
+Wine,Chile Wine,Chile Rose Wine,29235,247696,FY2022Q3
+Wine,Chile Wine,Chile Rose Wine,37362,313488,FY2022Q4
+Wine,Chile Wine,Chile Rose Wine,65875,587787,FY2023Q1
+Wine,Chile Wine,Chile Sparkling Wine,5612,90299,FY2022Q1
+Wine,Chile Wine,Chile Sparkling Wine,5287,90287,FY2022Q2
+Wine,Chile Wine,Chile Sparkling Wine,6698,119748,FY2022Q3
+Wine,Chile Wine,Chile Sparkling Wine,4605,78018,FY2022Q4
+Wine,Chile Wine,Chile Sparkling Wine,3896,62198,FY2023Q1
+Wine,Chile Wine,Chile White Wine,302568,2907791,FY2022Q1
+Wine,Chile Wine,Chile White Wine,353898,3324292,FY2022Q2
+Wine,Chile Wine,Chile White Wine,314096,2987876,FY2022Q3
+Wine,Chile Wine,Chile White Wine,274004,2671162,FY2022Q4
+Wine,Chile Wine,Chile White Wine,324140,3256782,FY2023Q1
+Wine,China Wine,China Fruit and Dessert Wine,0,0,FY2022Q1
+Wine,China Wine,China Fruit and Dessert Wine,0,0,FY2022Q2
+Wine,China Wine,China Fruit and Dessert Wine,0,0,FY2022Q3
+Wine,China Wine,China Fruit and Dessert Wine,777,26151,FY2022Q4
+Wine,China Wine,China Fruit and Dessert Wine,236,6282,FY2023Q1
+Wine,China Wine,China Red Wine,0,0,FY2022Q1
+Wine,China Wine,China Red Wine,0,0,FY2022Q2
+Wine,China Wine,China Red Wine,0,0,FY2022Q3
+Wine,China Wine,China Red Wine,225,21953,FY2022Q4
+Wine,China Wine,China Red Wine,418,39725,FY2023Q1
+Wine,China Wine,China White Wine,0,0,FY2022Q1
+Wine,China Wine,China White Wine,0,0,FY2022Q2
+Wine,China Wine,China White Wine,0,0,FY2022Q3
+Wine,China Wine,China White Wine,45,1518,FY2022Q4
+Wine,China Wine,China White Wine,342,11921,FY2023Q1
+Wine,Fortified Wine,Other Fortified Domestic Wine,65530,780280,FY2022Q1
+Wine,Fortified Wine,Other Fortified Domestic Wine,69789,1164383,FY2022Q2
+Wine,Fortified Wine,Other Fortified Domestic Wine,70945,913720,FY2022Q3
+Wine,Fortified Wine,Other Fortified Domestic Wine,53302,560492,FY2022Q4
+Wine,Fortified Wine,Other Fortified Domestic Wine,62143,825856,FY2023Q1
+Wine,Fortified Wine,Other Fortified Import Wine,24499,386163,FY2022Q1
+Wine,Fortified Wine,Other Fortified Import Wine,21656,372745,FY2022Q2
+Wine,Fortified Wine,Other Fortified Import Wine,28647,518566,FY2022Q3
+Wine,Fortified Wine,Other Fortified Import Wine,18601,324540,FY2022Q4
+Wine,Fortified Wine,Other Fortified Import Wine,23849,404001,FY2023Q1
+Wine,Fortified Wine,Port Wine,15911,492589,FY2022Q1
+Wine,Fortified Wine,Port Wine,16912,555361,FY2022Q2
+Wine,Fortified Wine,Port Wine,43028,1505927,FY2022Q3
+Wine,Fortified Wine,Port Wine,18620,625759,FY2022Q4
+Wine,Fortified Wine,Port Wine,18641,605979,FY2023Q1
+Wine,Fortified Wine,Sherry Wine,15152,296996,FY2022Q1
+Wine,Fortified Wine,Sherry Wine,12981,260836,FY2022Q2
+Wine,Fortified Wine,Sherry Wine,29462,583840,FY2022Q3
+Wine,Fortified Wine,Sherry Wine,14015,295734,FY2022Q4
+Wine,Fortified Wine,Sherry Wine,14500,307235,FY2023Q1
+Wine,Fortified Wine,Vermouth Wine,63636,777259,FY2022Q1
+Wine,Fortified Wine,Vermouth Wine,55682,715148,FY2022Q2
+Wine,Fortified Wine,Vermouth Wine,76635,928359,FY2022Q3
+Wine,Fortified Wine,Vermouth Wine,56016,677298,FY2022Q4
+Wine,Fortified Wine,Vermouth Wine,59260,777897,FY2023Q1
+Wine,France Wine,France Champagne Wine,44532,4223603,FY2022Q1
+Wine,France Wine,France Champagne Wine,65316,6030878,FY2022Q2
+Wine,France Wine,France Champagne Wine,106692,9849125,FY2022Q3
+Wine,France Wine,France Champagne Wine,23622,2409552,FY2022Q4
+Wine,France Wine,France Champagne Wine,52618,5658784,FY2023Q1
+Wine,France Wine,France Fruit and Dessert Wine,211,7867,FY2022Q1
+Wine,France Wine,France Fruit and Dessert Wine,292,57693,FY2022Q2
+Wine,France Wine,France Fruit and Dessert Wine,570,29193,FY2022Q3
+Wine,France Wine,France Fruit and Dessert Wine,680,43198,FY2022Q4
+Wine,France Wine,France Fruit and Dessert Wine,307,19856,FY2023Q1
+Wine,France Wine,France Red Wine,333766,6924516,FY2022Q1
+Wine,France Wine,France Red Wine,401344,14822411,FY2022Q2
+Wine,France Wine,France Red Wine,504166,11506236,FY2022Q3
+Wine,France Wine,France Red Wine,358052,8478278,FY2022Q4
+Wine,France Wine,France Red Wine,317465,7539934,FY2023Q1
+Wine,France Wine,France Rose Wine,257696,4517266,FY2022Q1
+Wine,France Wine,France Rose Wine,283766,4865339,FY2022Q2
+Wine,France Wine,France Rose Wine,126459,1980935,FY2022Q3
+Wine,France Wine,France Rose Wine,121269,2095105,FY2022Q4
+Wine,France Wine,France Rose Wine,231674,4288313,FY2023Q1
+Wine,France Wine,France Sparkling Wine,42450,752877,FY2022Q1
+Wine,France Wine,France Sparkling Wine,49003,931803,FY2022Q2
+Wine,France Wine,France Sparkling Wine,79068,1472529,FY2022Q3
+Wine,France Wine,France Sparkling Wine,34073,651299,FY2022Q4
+Wine,France Wine,France Sparkling Wine,42438,835287,FY2023Q1
+Wine,France Wine,France White Wine,157875,3708027,FY2022Q1
+Wine,France Wine,France White Wine,199502,5407390,FY2022Q2
+Wine,France Wine,France White Wine,196275,4916861,FY2022Q3
+Wine,France Wine,France White Wine,160031,3947073,FY2022Q4
+Wine,France Wine,France White Wine,179076,4667878,FY2023Q1
+Wine,Georgia Wine,Georgia Red Wine,3087,56840,FY2022Q1
+Wine,Georgia Wine,Georgia Red Wine,2502,45564,FY2022Q2
+Wine,Georgia Wine,Georgia Red Wine,4401,84577,FY2022Q3
+Wine,Georgia Wine,Georgia Red Wine,3195,60522,FY2022Q4
+Wine,Georgia Wine,Georgia Red Wine,2285,46378,FY2023Q1
+Wine,Georgia Wine,Georgia White Wine,27,736,FY2022Q1
+Wine,Georgia Wine,Georgia White Wine,0,0,FY2022Q2
+Wine,Georgia Wine,Georgia White Wine,112,5426,FY2022Q3
+Wine,Georgia Wine,Georgia White Wine,58,2821,FY2022Q4
+Wine,Georgia Wine,Georgia White Wine,304,7528,FY2023Q1
+Wine,Germany Wine,Germany Fruit and Dessert Wine,0,0,FY2022Q1
+Wine,Germany Wine,Germany Fruit and Dessert Wine,2,3198,FY2022Q2
+Wine,Germany Wine,Germany Fruit and Dessert Wine,0,0,FY2022Q3
+Wine,Germany Wine,Germany Fruit and Dessert Wine,0,0,FY2022Q4
+Wine,Germany Wine,Germany Fruit and Dessert Wine,0,0,FY2023Q1
+Wine,Germany Wine,Germany Red Wine,1971,55550,FY2022Q1
+Wine,Germany Wine,Germany Red Wine,1673,41544,FY2022Q2
+Wine,Germany Wine,Germany Red Wine,1886,53607,FY2022Q3
+Wine,Germany Wine,Germany Red Wine,2362,58524,FY2022Q4
+Wine,Germany Wine,Germany Red Wine,2177,51011,FY2023Q1
+Wine,Germany Wine,Germany Rose Wine,742,15821,FY2022Q1
+Wine,Germany Wine,Germany Rose Wine,531,10108,FY2022Q2
+Wine,Germany Wine,Germany Rose Wine,189,6140,FY2022Q3
+Wine,Germany Wine,Germany Rose Wine,497,12762,FY2022Q4
+Wine,Germany Wine,Germany Rose Wine,236,5213,FY2023Q1
+Wine,Germany Wine,Germany Sparkling Wine,27808,446104,FY2022Q1
+Wine,Germany Wine,Germany Sparkling Wine,48172,786901,FY2022Q2
+Wine,Germany Wine,Germany Sparkling Wine,91580,1403663,FY2022Q3
+Wine,Germany Wine,Germany Sparkling Wine,30666,535490,FY2022Q4
+Wine,Germany Wine,Germany Sparkling Wine,53952,863969,FY2023Q1
+Wine,Germany Wine,Germany White Wine,65025,1020682,FY2022Q1
+Wine,Germany Wine,Germany White Wine,67634,1063640,FY2022Q2
+Wine,Germany Wine,Germany White Wine,88233,1329089,FY2022Q3
+Wine,Germany Wine,Germany White Wine,62797,1028478,FY2022Q4
+Wine,Germany Wine,Germany White Wine,65216,1040966,FY2023Q1
+Wine,Greece Wine,Greece Fruit and Dessert Wine,0,0,FY2022Q1
+Wine,Greece Wine,Greece Fruit and Dessert Wine,0,0,FY2022Q2
+Wine,Greece Wine,Greece Fruit and Dessert Wine,0,0,FY2022Q3
+Wine,Greece Wine,Greece Fruit and Dessert Wine,0,0,FY2022Q4
+Wine,Greece Wine,Greece Fruit and Dessert Wine,18,350,FY2023Q1
+Wine,Greece Wine,Greece Red Wine,3804,51874,FY2022Q1
+Wine,Greece Wine,Greece Red Wine,5904,84334,FY2022Q2
+Wine,Greece Wine,Greece Red Wine,5739,98976,FY2022Q3
+Wine,Greece Wine,Greece Red Wine,6036,94587,FY2022Q4
+Wine,Greece Wine,Greece Red Wine,4498,75396,FY2023Q1
+Wine,Greece Wine,Greece Rose Wine,14,235,FY2022Q1
+Wine,Greece Wine,Greece Rose Wine,0,0,FY2022Q2
+Wine,Greece Wine,Greece Rose Wine,262,6637,FY2022Q3
+Wine,Greece Wine,Greece Rose Wine,456,8988,FY2022Q4
+Wine,Greece Wine,Greece Rose Wine,518,11219,FY2023Q1
+Wine,Greece Wine,Greece Sparkling Wine,0,0,FY2022Q1
+Wine,Greece Wine,Greece Sparkling Wine,0,0,FY2022Q2
+Wine,Greece Wine,Greece Sparkling Wine,117,5142,FY2022Q3
+Wine,Greece Wine,Greece Sparkling Wine,4,114,FY2022Q4
+Wine,Greece Wine,Greece Sparkling Wine,0,0,FY2023Q1
+Wine,Greece Wine,Greece White Wine,5480,67572,FY2022Q1
+Wine,Greece Wine,Greece White Wine,7136,92244,FY2022Q2
+Wine,Greece Wine,Greece White Wine,7269,126118,FY2022Q3
+Wine,Greece Wine,Greece White Wine,5163,81042,FY2022Q4
+Wine,Greece Wine,Greece White Wine,3964,78432,FY2023Q1
+Wine,Hungary Wine,Hungary Fruit and Dessert Wine,242,14223,FY2022Q1
+Wine,Hungary Wine,Hungary Fruit and Dessert Wine,398,19408,FY2022Q2
+Wine,Hungary Wine,Hungary Fruit and Dessert Wine,620,29745,FY2022Q3
+Wine,Hungary Wine,Hungary Fruit and Dessert Wine,278,23324,FY2022Q4
+Wine,Hungary Wine,Hungary Fruit and Dessert Wine,326,16528,FY2023Q1
+Wine,Hungary Wine,Hungary Red Wine,2068,26535,FY2022Q1
+Wine,Hungary Wine,Hungary Red Wine,1485,21227,FY2022Q2
+Wine,Hungary Wine,Hungary Red Wine,2538,33228,FY2022Q3
+Wine,Hungary Wine,Hungary Red Wine,1548,21734,FY2022Q4
+Wine,Hungary Wine,Hungary Red Wine,2268,29545,FY2023Q1
+Wine,Hungary Wine,Hungary Rose Wine,72,980,FY2022Q1
+Wine,Hungary Wine,Hungary Rose Wine,18,251,FY2022Q2
+Wine,Hungary Wine,Hungary Rose Wine,0,0,FY2022Q3
+Wine,Hungary Wine,Hungary Rose Wine,0,0,FY2022Q4
+Wine,Hungary Wine,Hungary Rose Wine,0,0,FY2023Q1
+Wine,Hungary Wine,Hungary Sparkling Wine,5166,65539,FY2022Q1
+Wine,Hungary Wine,Hungary Sparkling Wine,8955,115879,FY2022Q2
+Wine,Hungary Wine,Hungary Sparkling Wine,11456,138507,FY2022Q3
+Wine,Hungary Wine,Hungary Sparkling Wine,1604,22786,FY2022Q4
+Wine,Hungary Wine,Hungary Sparkling Wine,9888,137438,FY2023Q1
+Wine,Hungary Wine,Hungary White Wine,11948,133522,FY2022Q1
+Wine,Hungary Wine,Hungary White Wine,12086,129691,FY2022Q2
+Wine,Hungary Wine,Hungary White Wine,10406,115893,FY2022Q3
+Wine,Hungary Wine,Hungary White Wine,11536,124330,FY2022Q4
+Wine,Hungary Wine,Hungary White Wine,8698,121421,FY2023Q1
+Wine,Israel Wine,Israel Red Wine,1809,38192,FY2022Q1
+Wine,Israel Wine,Israel Red Wine,1484,31828,FY2022Q2
+Wine,Israel Wine,Israel Red Wine,1512,31951,FY2022Q3
+Wine,Israel Wine,Israel Red Wine,1809,39240,FY2022Q4
+Wine,Israel Wine,Israel Red Wine,2034,43518,FY2023Q1
+Wine,Israel Wine,Israel Rose Wine,198,3503,FY2022Q1
+Wine,Israel Wine,Israel Rose Wine,243,4299,FY2022Q2
+Wine,Israel Wine,Israel Rose Wine,189,3344,FY2022Q3
+Wine,Israel Wine,Israel Rose Wine,90,1592,FY2022Q4
+Wine,Israel Wine,Israel Rose Wine,9,148,FY2023Q1
+Wine,Israel Wine,Israel White Wine,477,9889,FY2022Q1
+Wine,Israel Wine,Israel White Wine,720,14922,FY2022Q2
+Wine,Israel Wine,Israel White Wine,792,16415,FY2022Q3
+Wine,Israel Wine,Israel White Wine,760,15774,FY2022Q4
+Wine,Israel Wine,Israel White Wine,477,9852,FY2023Q1
+Wine,Italy Wine,Italy Fruit and Dessert Wine,114,11714,FY2022Q1
+Wine,Italy Wine,Italy Fruit and Dessert Wine,144,13758,FY2022Q2
+Wine,Italy Wine,Italy Fruit and Dessert Wine,156,13036,FY2022Q3
+Wine,Italy Wine,Italy Fruit and Dessert Wine,71,6010,FY2022Q4
+Wine,Italy Wine,Italy Fruit and Dessert Wine,174,18110,FY2023Q1
+Wine,Italy Wine,Italy Red Wine,546498,10866677,FY2022Q1
+Wine,Italy Wine,Italy Red Wine,535404,11891142,FY2022Q2
+Wine,Italy Wine,Italy Red Wine,789242,18245459,FY2022Q3
+Wine,Italy Wine,Italy Red Wine,570610,11873778,FY2022Q4
+Wine,Italy Wine,Italy Red Wine,578895,13403151,FY2023Q1
+Wine,Italy Wine,Italy Rose Wine,18143,315918,FY2022Q1
+Wine,Italy Wine,Italy Rose Wine,17199,316482,FY2022Q2
+Wine,Italy Wine,Italy Rose Wine,9811,192966,FY2022Q3
+Wine,Italy Wine,Italy Rose Wine,9974,187099,FY2022Q4
+Wine,Italy Wine,Italy Rose Wine,19563,396159,FY2023Q1
+Wine,Italy Wine,Italy Sparkling Wine,150612,2731539,FY2022Q1
+Wine,Italy Wine,Italy Sparkling Wine,158422,2793428,FY2022Q2
+Wine,Italy Wine,Italy Sparkling Wine,181398,3444729,FY2022Q3
+Wine,Italy Wine,Italy Sparkling Wine,109048,2003173,FY2022Q4
+Wine,Italy Wine,Italy Sparkling Wine,149394,2807443,FY2023Q1
+Wine,Italy Wine,Italy White Wine,387423,5222809,FY2022Q1
+Wine,Italy Wine,Italy White Wine,365696,5249166,FY2022Q2
+Wine,Italy Wine,Italy White Wine,391471,5592620,FY2022Q3
+Wine,Italy Wine,Italy White Wine,336030,4786391,FY2022Q4
+Wine,Italy Wine,Italy White Wine,397337,6003936,FY2023Q1
+Wine,Italy Wine,Prosecco Wine,306403,5838746,FY2022Q1
+Wine,Italy Wine,Prosecco Wine,308703,5993480,FY2022Q2
+Wine,Italy Wine,Prosecco Wine,495905,9484942,FY2022Q3
+Wine,Italy Wine,Prosecco Wine,201943,4063520,FY2022Q4
+Wine,Italy Wine,Prosecco Wine,344918,6770674,FY2023Q1
+Wine,New Zealand Wine,New Zealand Fruit and Dessert Wine,0,0,FY2022Q1
+Wine,New Zealand Wine,New Zealand Fruit and Dessert Wine,0,0,FY2022Q2
+Wine,New Zealand Wine,New Zealand Fruit and Dessert Wine,0,0,FY2022Q3
+Wine,New Zealand Wine,New Zealand Fruit and Dessert Wine,0,0,FY2022Q4
+Wine,New Zealand Wine,New Zealand Fruit and Dessert Wine,0,0,FY2023Q1
+Wine,New Zealand Wine,New Zealand Red Wine,23750,523932,FY2022Q1
+Wine,New Zealand Wine,New Zealand Red Wine,31524,708334,FY2022Q2
+Wine,New Zealand Wine,New Zealand Red Wine,45273,967894,FY2022Q3
+Wine,New Zealand Wine,New Zealand Red Wine,25289,628930,FY2022Q4
+Wine,New Zealand Wine,New Zealand Red Wine,34280,782083,FY2023Q1
+Wine,New Zealand Wine,New Zealand Rose Wine,45089,777305,FY2022Q1
+Wine,New Zealand Wine,New Zealand Rose Wine,28829,484922,FY2022Q2
+Wine,New Zealand Wine,New Zealand Rose Wine,20161,370355,FY2022Q3
+Wine,New Zealand Wine,New Zealand Rose Wine,17508,309656,FY2022Q4
+Wine,New Zealand Wine,New Zealand Rose Wine,38989,708271,FY2023Q1
+Wine,New Zealand Wine,New Zealand Sparkling Wine,4748,97499,FY2022Q1
+Wine,New Zealand Wine,New Zealand Sparkling Wine,3087,64757,FY2022Q2
+Wine,New Zealand Wine,New Zealand Sparkling Wine,9980,195272,FY2022Q3
+Wine,New Zealand Wine,New Zealand Sparkling Wine,2222,50038,FY2022Q4
+Wine,New Zealand Wine,New Zealand Sparkling Wine,5336,110694,FY2023Q1
+Wine,New Zealand Wine,New Zealand White Wine,671343,11955763,FY2022Q1
+Wine,New Zealand Wine,New Zealand White Wine,577080,10369043,FY2022Q2
+Wine,New Zealand Wine,New Zealand White Wine,738156,12970305,FY2022Q3
+Wine,New Zealand Wine,New Zealand White Wine,445451,8254502,FY2022Q4
+Wine,New Zealand Wine,New Zealand White Wine,693715,12949499,FY2023Q1
+Wine,Other Country Wine,Other Country Fruit and Dessert Wine,21211,392393,FY2022Q1
+Wine,Other Country Wine,Other Country Fruit and Dessert Wine,22176,414923,FY2022Q2
+Wine,Other Country Wine,Other Country Fruit and Dessert Wine,25280,505937,FY2022Q3
+Wine,Other Country Wine,Other Country Fruit and Dessert Wine,24438,491576,FY2022Q4
+Wine,Other Country Wine,Other Country Fruit and Dessert Wine,21943,437468,FY2023Q1
+Wine,Other Country Wine,Other Country Red Wine,5917,127922,FY2022Q1
+Wine,Other Country Wine,Other Country Red Wine,9521,171442,FY2022Q2
+Wine,Other Country Wine,Other Country Red Wine,10058,233089,FY2022Q3
+Wine,Other Country Wine,Other Country Red Wine,7184,138197,FY2022Q4
+Wine,Other Country Wine,Other Country Red Wine,8500,185064,FY2023Q1
+Wine,Other Country Wine,Other Country Rose Wine,306,6893,FY2022Q1
+Wine,Other Country Wine,Other Country Rose Wine,332,7374,FY2022Q2
+Wine,Other Country Wine,Other Country Rose Wine,356,16382,FY2022Q3
+Wine,Other Country Wine,Other Country Rose Wine,176,5123,FY2022Q4
+Wine,Other Country Wine,Other Country Rose Wine,1174,19587,FY2023Q1
+Wine,Other Country Wine,Other Country Sparkling Wine,248,7800,FY2022Q1
+Wine,Other Country Wine,Other Country Sparkling Wine,450,16460,FY2022Q2
+Wine,Other Country Wine,Other Country Sparkling Wine,1261,55002,FY2022Q3
+Wine,Other Country Wine,Other Country Sparkling Wine,261,10046,FY2022Q4
+Wine,Other Country Wine,Other Country Sparkling Wine,439,17773,FY2023Q1
+Wine,Other Country Wine,Other Country White Wine,1984,50973,FY2022Q1
+Wine,Other Country Wine,Other Country White Wine,1532,36140,FY2022Q2
+Wine,Other Country Wine,Other Country White Wine,2518,73613,FY2022Q3
+Wine,Other Country Wine,Other Country White Wine,1792,48882,FY2022Q4
+Wine,Other Country Wine,Other Country White Wine,2624,58196,FY2023Q1
+Wine,Other Style Wine,Aperitif And Flavoured Wine,10558,161290,FY2022Q1
+Wine,Other Style Wine,Aperitif And Flavoured Wine,6121,117061,FY2022Q2
+Wine,Other Style Wine,Aperitif And Flavoured Wine,10532,180665,FY2022Q3
+Wine,Other Style Wine,Aperitif And Flavoured Wine,7275,133956,FY2022Q4
+Wine,Other Style Wine,Aperitif And Flavoured Wine,6312,103286,FY2023Q1
+Wine,Other Style Wine,Mead,5153,113161,FY2022Q1
+Wine,Other Style Wine,Mead,8019,183622,FY2022Q2
+Wine,Other Style Wine,Mead,3909,90246,FY2022Q3
+Wine,Other Style Wine,Mead,2169,49424,FY2022Q4
+Wine,Other Style Wine,Mead,6071,154687,FY2023Q1
+Wine,Other Style Wine,Rice Wine,5185,65664,FY2022Q1
+Wine,Other Style Wine,Rice Wine,4688,56143,FY2022Q2
+Wine,Other Style Wine,Rice Wine,8616,108810,FY2022Q3
+Wine,Other Style Wine,Rice Wine,7503,99570,FY2022Q4
+Wine,Other Style Wine,Rice Wine,6726,69387,FY2023Q1
+Wine,Portugal Wine,Portugal Fruit and Dessert Wine,104,4131,FY2022Q1
+Wine,Portugal Wine,Portugal Fruit and Dessert Wine,94,5215,FY2022Q2
+Wine,Portugal Wine,Portugal Fruit and Dessert Wine,1720,79975,FY2022Q3
+Wine,Portugal Wine,Portugal Fruit and Dessert Wine,240,19252,FY2022Q4
+Wine,Portugal Wine,Portugal Fruit and Dessert Wine,248,10506,FY2023Q1
+Wine,Portugal Wine,Portugal Red Wine,79241,925526,FY2022Q1
+Wine,Portugal Wine,Portugal Red Wine,87169,1043797,FY2022Q2
+Wine,Portugal Wine,Portugal Red Wine,112852,1359605,FY2022Q3
+Wine,Portugal Wine,Portugal Red Wine,87438,1064910,FY2022Q4
+Wine,Portugal Wine,Portugal Red Wine,99646,1189560,FY2023Q1
+Wine,Portugal Wine,Portugal Rose Wine,28760,274459,FY2022Q1
+Wine,Portugal Wine,Portugal Rose Wine,28306,256632,FY2022Q2
+Wine,Portugal Wine,Portugal Rose Wine,18995,169831,FY2022Q3
+Wine,Portugal Wine,Portugal Rose Wine,15653,169802,FY2022Q4
+Wine,Portugal Wine,Portugal Rose Wine,20837,218555,FY2023Q1
+Wine,Portugal Wine,Portugal Sparkling Wine,375,8450,FY2022Q1
+Wine,Portugal Wine,Portugal Sparkling Wine,538,12580,FY2022Q2
+Wine,Portugal Wine,Portugal Sparkling Wine,560,12335,FY2022Q3
+Wine,Portugal Wine,Portugal Sparkling Wine,288,6599,FY2022Q4
+Wine,Portugal Wine,Portugal Sparkling Wine,256,5376,FY2023Q1
+Wine,Portugal Wine,Portugal White Wine,52401,633842,FY2022Q1
+Wine,Portugal Wine,Portugal White Wine,52847,646541,FY2022Q2
+Wine,Portugal Wine,Portugal White Wine,30816,408276,FY2022Q3
+Wine,Portugal Wine,Portugal White Wine,33330,441242,FY2022Q4
+Wine,Portugal Wine,Portugal White Wine,56638,724244,FY2023Q1
+Wine,Sake,Japan Sake,49398,1610470,FY2022Q1
+Wine,Sake,Japan Sake,55000,1867091,FY2022Q2
+Wine,Sake,Japan Sake,69489,2573600,FY2022Q3
+Wine,Sake,Japan Sake,58407,1932075,FY2022Q4
+Wine,Sake,Japan Sake,65927,2510194,FY2023Q1
+Wine,Sake,Other Country Sake,4392,83479,FY2022Q1
+Wine,Sake,Other Country Sake,4121,77640,FY2022Q2
+Wine,Sake,Other Country Sake,3294,64155,FY2022Q3
+Wine,Sake,Other Country Sake,2378,52806,FY2022Q4
+Wine,Sake,Other Country Sake,3159,72010,FY2023Q1
+Wine,Sake,USA Sake,61552,603235,FY2022Q1
+Wine,Sake,USA Sake,70970,645349,FY2022Q2
+Wine,Sake,USA Sake,88968,823955,FY2022Q3
+Wine,Sake,USA Sake,82605,763237,FY2022Q4
+Wine,Sake,USA Sake,81855,758017,FY2023Q1
+Wine,South Africa Wine,South Africa Fruit and Dessert Wine,0,0,FY2022Q1
+Wine,South Africa Wine,South Africa Fruit and Dessert Wine,0,0,FY2022Q2
+Wine,South Africa Wine,South Africa Fruit and Dessert Wine,0,0,FY2022Q3
+Wine,South Africa Wine,South Africa Fruit and Dessert Wine,75,11558,FY2022Q4
+Wine,South Africa Wine,South Africa Fruit and Dessert Wine,0,0,FY2023Q1
+Wine,South Africa Wine,South Africa Red Wine,97877,1139683,FY2022Q1
+Wine,South Africa Wine,South Africa Red Wine,74742,1024488,FY2022Q2
+Wine,South Africa Wine,South Africa Red Wine,99458,1289468,FY2022Q3
+Wine,South Africa Wine,South Africa Red Wine,68498,907775,FY2022Q4
+Wine,South Africa Wine,South Africa Red Wine,74704,989847,FY2023Q1
+Wine,South Africa Wine,South Africa Rose Wine,6768,94504,FY2022Q1
+Wine,South Africa Wine,South Africa Rose Wine,10252,110806,FY2022Q2
+Wine,South Africa Wine,South Africa Rose Wine,3986,40802,FY2022Q3
+Wine,South Africa Wine,South Africa Rose Wine,3595,44918,FY2022Q4
+Wine,South Africa Wine,South Africa Rose Wine,9913,119208,FY2023Q1
+Wine,South Africa Wine,South Africa Sparkling Wine,256,5597,FY2022Q1
+Wine,South Africa Wine,South Africa Sparkling Wine,274,6074,FY2022Q2
+Wine,South Africa Wine,South Africa Sparkling Wine,256,5340,FY2022Q3
+Wine,South Africa Wine,South Africa Sparkling Wine,526,9006,FY2022Q4
+Wine,South Africa Wine,South Africa Sparkling Wine,108,2462,FY2023Q1
+Wine,South Africa Wine,South Africa White Wine,99262,1041338,FY2022Q1
+Wine,South Africa Wine,South Africa White Wine,90180,1004152,FY2022Q2
+Wine,South Africa Wine,South Africa White Wine,79715,861411,FY2022Q3
+Wine,South Africa Wine,South Africa White Wine,75318,849550,FY2022Q4
+Wine,South Africa Wine,South Africa White Wine,90205,1088149,FY2023Q1
+Wine,Spain Wine,Spain Fruit and Dessert Wine,329,9179,FY2022Q1
+Wine,Spain Wine,Spain Fruit and Dessert Wine,763,17543,FY2022Q2
+Wine,Spain Wine,Spain Fruit and Dessert Wine,457,11884,FY2022Q3
+Wine,Spain Wine,Spain Fruit and Dessert Wine,850,20060,FY2022Q4
+Wine,Spain Wine,Spain Fruit and Dessert Wine,528,14579,FY2023Q1
+Wine,Spain Wine,Spain Red Wine,403298,4666716,FY2022Q1
+Wine,Spain Wine,Spain Red Wine,369328,4258980,FY2022Q2
+Wine,Spain Wine,Spain Red Wine,432996,5530548,FY2022Q3
+Wine,Spain Wine,Spain Red Wine,337890,4336035,FY2022Q4
+Wine,Spain Wine,Spain Red Wine,289899,3995770,FY2023Q1
+Wine,Spain Wine,Spain Rose Wine,54358,407345,FY2022Q1
+Wine,Spain Wine,Spain Rose Wine,49795,366353,FY2022Q2
+Wine,Spain Wine,Spain Rose Wine,28228,225566,FY2022Q3
+Wine,Spain Wine,Spain Rose Wine,24184,191567,FY2022Q4
+Wine,Spain Wine,Spain Rose Wine,24842,262237,FY2023Q1
+Wine,Spain Wine,Spain Sparkling Wine,66892,1087464,FY2022Q1
+Wine,Spain Wine,Spain Sparkling Wine,80191,1302722,FY2022Q2
+Wine,Spain Wine,Spain Sparkling Wine,125572,2014349,FY2022Q3
+Wine,Spain Wine,Spain Sparkling Wine,57323,933445,FY2022Q4
+Wine,Spain Wine,Spain Sparkling Wine,70782,1217312,FY2023Q1
+Wine,Spain Wine,Spain White Wine,69019,667695,FY2022Q1
+Wine,Spain Wine,Spain White Wine,81991,756843,FY2022Q2
+Wine,Spain Wine,Spain White Wine,67505,660957,FY2022Q3
+Wine,Spain Wine,Spain White Wine,38903,452201,FY2022Q4
+Wine,Spain Wine,Spain White Wine,39715,558783,FY2023Q1
+Wine,USA Wine,USA Fruit and Dessert Wine,32,771,FY2022Q1
+Wine,USA Wine,USA Fruit and Dessert Wine,36,812,FY2022Q2
+Wine,USA Wine,USA Fruit and Dessert Wine,19,418,FY2022Q3
+Wine,USA Wine,USA Fruit and Dessert Wine,12,276,FY2022Q4
+Wine,USA Wine,USA Fruit and Dessert Wine,12,276,FY2023Q1
+Wine,USA Wine,USA Red Wine,1138069,25016692,FY2022Q1
+Wine,USA Wine,USA Red Wine,1112988,24564766,FY2022Q2
+Wine,USA Wine,USA Red Wine,1721863,38918633,FY2022Q3
+Wine,USA Wine,USA Red Wine,1083021,23962111,FY2022Q4
+Wine,USA Wine,USA Red Wine,1230952,28935427,FY2023Q1
+Wine,USA Wine,USA Rose Wine,152767,1807846,FY2022Q1
+Wine,USA Wine,USA Rose Wine,137256,1656855,FY2022Q2
+Wine,USA Wine,USA Rose Wine,113462,1126675,FY2022Q3
+Wine,USA Wine,USA Rose Wine,94122,990854,FY2022Q4
+Wine,USA Wine,USA Rose Wine,109676,1319739,FY2023Q1
+Wine,USA Wine,USA Sparkling Wine,15100,333185,FY2022Q1
+Wine,USA Wine,USA Sparkling Wine,12631,316176,FY2022Q2
+Wine,USA Wine,USA Sparkling Wine,17263,442304,FY2022Q3
+Wine,USA Wine,USA Sparkling Wine,8032,182550,FY2022Q4
+Wine,USA Wine,USA Sparkling Wine,9656,228336,FY2023Q1
+Wine,USA Wine,USA White Wine,439909,6820735,FY2022Q1
+Wine,USA Wine,USA White Wine,402900,6636152,FY2022Q2
+Wine,USA Wine,USA White Wine,445271,7354183,FY2022Q3
+Wine,USA Wine,USA White Wine,325956,5414911,FY2022Q4
+Wine,USA Wine,USA White Wine,423028,7362968,FY2023Q1

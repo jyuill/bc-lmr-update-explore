@@ -1,0 +1,86 @@
+cat_type,category,subcategory,period,netsales
+Wine,Sake,Other Country Sake,Fiscal 2015/16 Q3,77276
+Wine,Sake,Other Country Sake,Fiscal 2015/16 Q4,62611
+Wine,Sake,Other Country Sake,Fiscal 2016/17 Q1,72885
+Wine,Sake,Other Country Sake,Fiscal 2016/17 Q2,81312
+Wine,Sake,Other Country Sake,Fiscal 2016/17 Q3,72234
+Wine,Sake,USA Sake,Fiscal 2015/16 Q3,780536
+Wine,Sake,USA Sake,Fiscal 2015/16 Q4,745562
+Wine,Sake,USA Sake,Fiscal 2016/17 Q1,656747
+Wine,Sake,USA Sake,Fiscal 2016/17 Q2,667615
+Wine,Sake,USA Sake,Fiscal 2016/17 Q3,800892
+Wine,South Africa Wine,South Africa Fruit and Dessert Wine,Fiscal 2015/16 Q3,0
+Wine,South Africa Wine,South Africa Fruit and Dessert Wine,Fiscal 2015/16 Q4,0
+Wine,South Africa Wine,South Africa Fruit and Dessert Wine,Fiscal 2016/17 Q1,0
+Wine,South Africa Wine,South Africa Fruit and Dessert Wine,Fiscal 2016/17 Q2,0
+Wine,South Africa Wine,South Africa Fruit and Dessert Wine,Fiscal 2016/17 Q3,0
+Wine,South Africa Wine,South Africa Red Wine,Fiscal 2015/16 Q3,1842460
+Wine,South Africa Wine,South Africa Red Wine,Fiscal 2015/16 Q4,1419900
+Wine,South Africa Wine,South Africa Red Wine,Fiscal 2016/17 Q1,1467646
+Wine,South Africa Wine,South Africa Red Wine,Fiscal 2016/17 Q2,1473194
+Wine,South Africa Wine,South Africa Red Wine,Fiscal 2016/17 Q3,1774436
+Wine,South Africa Wine,South Africa Rose Wine,Fiscal 2015/16 Q3,738
+Wine,South Africa Wine,South Africa Rose Wine,Fiscal 2015/16 Q4,479
+Wine,South Africa Wine,South Africa Rose Wine,Fiscal 2016/17 Q1,30560
+Wine,South Africa Wine,South Africa Rose Wine,Fiscal 2016/17 Q2,555
+Wine,South Africa Wine,South Africa Rose Wine,Fiscal 2016/17 Q3,306
+Wine,South Africa Wine,South Africa Sparkling Wine,Fiscal 2015/16 Q3,103096
+Wine,South Africa Wine,South Africa Sparkling Wine,Fiscal 2015/16 Q4,81150
+Wine,South Africa Wine,South Africa Sparkling Wine,Fiscal 2016/17 Q1,46628
+Wine,South Africa Wine,South Africa Sparkling Wine,Fiscal 2016/17 Q2,81545
+Wine,South Africa Wine,South Africa Sparkling Wine,Fiscal 2016/17 Q3,69353
+Wine,South Africa Wine,South Africa White Wine,Fiscal 2015/16 Q3,929462
+Wine,South Africa Wine,South Africa White Wine,Fiscal 2015/16 Q4,832089
+Wine,South Africa Wine,South Africa White Wine,Fiscal 2016/17 Q1,1292286
+Wine,South Africa Wine,South Africa White Wine,Fiscal 2016/17 Q2,1146564
+Wine,South Africa Wine,South Africa White Wine,Fiscal 2016/17 Q3,1013263
+Wine,Spain Wine,Spain Fruit and Dessert Wine,Fiscal 2015/16 Q3,0
+Wine,Spain Wine,Spain Fruit and Dessert Wine,Fiscal 2015/16 Q4,0
+Wine,Spain Wine,Spain Fruit and Dessert Wine,Fiscal 2016/17 Q1,0
+Wine,Spain Wine,Spain Fruit and Dessert Wine,Fiscal 2016/17 Q2,0
+Wine,Spain Wine,Spain Fruit and Dessert Wine,Fiscal 2016/17 Q3,0
+Wine,Spain Wine,Spain Red Wine,Fiscal 2015/16 Q3,6336595
+Wine,Spain Wine,Spain Red Wine,Fiscal 2015/16 Q4,4942103
+Wine,Spain Wine,Spain Red Wine,Fiscal 2016/17 Q1,4277468
+Wine,Spain Wine,Spain Red Wine,Fiscal 2016/17 Q2,4629870
+Wine,Spain Wine,Spain Red Wine,Fiscal 2016/17 Q3,5822584
+Wine,Spain Wine,Spain Rose Wine,Fiscal 2015/16 Q3,29268
+Wine,Spain Wine,Spain Rose Wine,Fiscal 2015/16 Q4,24450
+Wine,Spain Wine,Spain Rose Wine,Fiscal 2016/17 Q1,164921
+Wine,Spain Wine,Spain Rose Wine,Fiscal 2016/17 Q2,162449
+Wine,Spain Wine,Spain Rose Wine,Fiscal 2016/17 Q3,63665
+Wine,Spain Wine,Spain Sparkling Wine,Fiscal 2015/16 Q3,1932988
+Wine,Spain Wine,Spain Sparkling Wine,Fiscal 2015/16 Q4,852465
+Wine,Spain Wine,Spain Sparkling Wine,Fiscal 2016/17 Q1,1038362
+Wine,Spain Wine,Spain Sparkling Wine,Fiscal 2016/17 Q2,1068515
+Wine,Spain Wine,Spain Sparkling Wine,Fiscal 2016/17 Q3,2118353
+Wine,Spain Wine,Spain White Wine,Fiscal 2015/16 Q3,446741
+Wine,Spain Wine,Spain White Wine,Fiscal 2015/16 Q4,533768
+Wine,Spain Wine,Spain White Wine,Fiscal 2016/17 Q1,332865
+Wine,Spain Wine,Spain White Wine,Fiscal 2016/17 Q2,403755
+Wine,Spain Wine,Spain White Wine,Fiscal 2016/17 Q3,374055
+Wine,USA Wine,USA Fruit and Dessert Wine,Fiscal 2015/16 Q3,2892
+Wine,USA Wine,USA Fruit and Dessert Wine,Fiscal 2015/16 Q4,963
+Wine,USA Wine,USA Fruit and Dessert Wine,Fiscal 2016/17 Q1,7070
+Wine,USA Wine,USA Fruit and Dessert Wine,Fiscal 2016/17 Q2,7113
+Wine,USA Wine,USA Fruit and Dessert Wine,Fiscal 2016/17 Q3,4428
+Wine,USA Wine,USA Red Wine,Fiscal 2015/16 Q3,31040028
+Wine,USA Wine,USA Red Wine,Fiscal 2015/16 Q4,20224440
+Wine,USA Wine,USA Red Wine,Fiscal 2016/17 Q1,20053895
+Wine,USA Wine,USA Red Wine,Fiscal 2016/17 Q2,20687636
+Wine,USA Wine,USA Red Wine,Fiscal 2016/17 Q3,30136990
+Wine,USA Wine,USA Rose Wine,Fiscal 2015/16 Q3,1040064
+Wine,USA Wine,USA Rose Wine,Fiscal 2015/16 Q4,908257
+Wine,USA Wine,USA Rose Wine,Fiscal 2016/17 Q1,1093363
+Wine,USA Wine,USA Rose Wine,Fiscal 2016/17 Q2,1061270
+Wine,USA Wine,USA Rose Wine,Fiscal 2016/17 Q3,1016740
+Wine,USA Wine,USA Sparkling Wine,Fiscal 2015/16 Q3,593267
+Wine,USA Wine,USA Sparkling Wine,Fiscal 2015/16 Q4,311887
+Wine,USA Wine,USA Sparkling Wine,Fiscal 2016/17 Q1,379256
+Wine,USA Wine,USA Sparkling Wine,Fiscal 2016/17 Q2,405237
+Wine,USA Wine,USA Sparkling Wine,Fiscal 2016/17 Q3,632730
+Wine,USA Wine,USA White Wine,Fiscal 2015/16 Q3,7902973
+Wine,USA Wine,USA White Wine,Fiscal 2015/16 Q4,6276541
+Wine,USA Wine,USA White Wine,Fiscal 2016/17 Q1,7227891
+Wine,USA Wine,USA White Wine,Fiscal 2016/17 Q2,7594518
+Wine,USA Wine,USA White Wine,Fiscal 2016/17 Q3,7511691

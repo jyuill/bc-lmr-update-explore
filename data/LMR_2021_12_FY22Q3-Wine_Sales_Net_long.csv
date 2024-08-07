@@ -1,0 +1,106 @@
+cat_type,category,subcategory,period,netsales
+Wine,Portugal Wine,Portugal Rose Wine,Fiscal 2020/21 Q3,182671
+Wine,Portugal Wine,Portugal Rose Wine,Fiscal 2020/21 Q4,157034
+Wine,Portugal Wine,Portugal Rose Wine,Fiscal 2021/22 Q1,274459
+Wine,Portugal Wine,Portugal Rose Wine,Fiscal 2021/22 Q2,256632
+Wine,Portugal Wine,Portugal Rose Wine,Fiscal 2021/22 Q3,169831
+Wine,Portugal Wine,Portugal Sparkling Wine,Fiscal 2020/21 Q3,3734
+Wine,Portugal Wine,Portugal Sparkling Wine,Fiscal 2020/21 Q4,4625
+Wine,Portugal Wine,Portugal Sparkling Wine,Fiscal 2021/22 Q1,8450
+Wine,Portugal Wine,Portugal Sparkling Wine,Fiscal 2021/22 Q2,12580
+Wine,Portugal Wine,Portugal Sparkling Wine,Fiscal 2021/22 Q3,12335
+Wine,Portugal Wine,Portugal White Wine,Fiscal 2020/21 Q3,438023
+Wine,Portugal Wine,Portugal White Wine,Fiscal 2020/21 Q4,408919
+Wine,Portugal Wine,Portugal White Wine,Fiscal 2021/22 Q1,633842
+Wine,Portugal Wine,Portugal White Wine,Fiscal 2021/22 Q2,646541
+Wine,Portugal Wine,Portugal White Wine,Fiscal 2021/22 Q3,408276
+Wine,Sake,Japan Sake,Fiscal 2020/21 Q3,1721551
+Wine,Sake,Japan Sake,Fiscal 2020/21 Q4,1859796
+Wine,Sake,Japan Sake,Fiscal 2021/22 Q1,1610470
+Wine,Sake,Japan Sake,Fiscal 2021/22 Q2,1867091
+Wine,Sake,Japan Sake,Fiscal 2021/22 Q3,2573600
+Wine,Sake,Other Country Sake,Fiscal 2020/21 Q3,68894
+Wine,Sake,Other Country Sake,Fiscal 2020/21 Q4,77250
+Wine,Sake,Other Country Sake,Fiscal 2021/22 Q1,83479
+Wine,Sake,Other Country Sake,Fiscal 2021/22 Q2,77640
+Wine,Sake,Other Country Sake,Fiscal 2021/22 Q3,64155
+Wine,Sake,USA Sake,Fiscal 2020/21 Q3,723242
+Wine,Sake,USA Sake,Fiscal 2020/21 Q4,740547
+Wine,Sake,USA Sake,Fiscal 2021/22 Q1,603235
+Wine,Sake,USA Sake,Fiscal 2021/22 Q2,645349
+Wine,Sake,USA Sake,Fiscal 2021/22 Q3,823955
+Wine,South Africa Wine,South Africa Fruit and Dessert Wine,Fiscal 2020/21 Q3,3239
+Wine,South Africa Wine,South Africa Fruit and Dessert Wine,Fiscal 2020/21 Q4,6934
+Wine,South Africa Wine,South Africa Fruit and Dessert Wine,Fiscal 2021/22 Q1,0
+Wine,South Africa Wine,South Africa Fruit and Dessert Wine,Fiscal 2021/22 Q2,0
+Wine,South Africa Wine,South Africa Fruit and Dessert Wine,Fiscal 2021/22 Q3,0
+Wine,South Africa Wine,South Africa Red Wine,Fiscal 2020/21 Q3,1401413
+Wine,South Africa Wine,South Africa Red Wine,Fiscal 2020/21 Q4,1290499
+Wine,South Africa Wine,South Africa Red Wine,Fiscal 2021/22 Q1,1139683
+Wine,South Africa Wine,South Africa Red Wine,Fiscal 2021/22 Q2,1024488
+Wine,South Africa Wine,South Africa Red Wine,Fiscal 2021/22 Q3,1289468
+Wine,South Africa Wine,South Africa Rose Wine,Fiscal 2020/21 Q3,29733
+Wine,South Africa Wine,South Africa Rose Wine,Fiscal 2020/21 Q4,9108
+Wine,South Africa Wine,South Africa Rose Wine,Fiscal 2021/22 Q1,94504
+Wine,South Africa Wine,South Africa Rose Wine,Fiscal 2021/22 Q2,110806
+Wine,South Africa Wine,South Africa Rose Wine,Fiscal 2021/22 Q3,40802
+Wine,South Africa Wine,South Africa Sparkling Wine,Fiscal 2020/21 Q3,4536
+Wine,South Africa Wine,South Africa Sparkling Wine,Fiscal 2020/21 Q4,5198
+Wine,South Africa Wine,South Africa Sparkling Wine,Fiscal 2021/22 Q1,5597
+Wine,South Africa Wine,South Africa Sparkling Wine,Fiscal 2021/22 Q2,6074
+Wine,South Africa Wine,South Africa Sparkling Wine,Fiscal 2021/22 Q3,5340
+Wine,South Africa Wine,South Africa White Wine,Fiscal 2020/21 Q3,912745
+Wine,South Africa Wine,South Africa White Wine,Fiscal 2020/21 Q4,895251
+Wine,South Africa Wine,South Africa White Wine,Fiscal 2021/22 Q1,1041338
+Wine,South Africa Wine,South Africa White Wine,Fiscal 2021/22 Q2,1004152
+Wine,South Africa Wine,South Africa White Wine,Fiscal 2021/22 Q3,861411
+Wine,Spain Wine,Spain Fruit and Dessert Wine,Fiscal 2020/21 Q3,6391
+Wine,Spain Wine,Spain Fruit and Dessert Wine,Fiscal 2020/21 Q4,5610
+Wine,Spain Wine,Spain Fruit and Dessert Wine,Fiscal 2021/22 Q1,9179
+Wine,Spain Wine,Spain Fruit and Dessert Wine,Fiscal 2021/22 Q2,17543
+Wine,Spain Wine,Spain Fruit and Dessert Wine,Fiscal 2021/22 Q3,11884
+Wine,Spain Wine,Spain Red Wine,Fiscal 2020/21 Q3,4807732
+Wine,Spain Wine,Spain Red Wine,Fiscal 2020/21 Q4,4881870
+Wine,Spain Wine,Spain Red Wine,Fiscal 2021/22 Q1,4666716
+Wine,Spain Wine,Spain Red Wine,Fiscal 2021/22 Q2,4258980
+Wine,Spain Wine,Spain Red Wine,Fiscal 2021/22 Q3,5530548
+Wine,Spain Wine,Spain Rose Wine,Fiscal 2020/21 Q3,187952
+Wine,Spain Wine,Spain Rose Wine,Fiscal 2020/21 Q4,295574
+Wine,Spain Wine,Spain Rose Wine,Fiscal 2021/22 Q1,407345
+Wine,Spain Wine,Spain Rose Wine,Fiscal 2021/22 Q2,366353
+Wine,Spain Wine,Spain Rose Wine,Fiscal 2021/22 Q3,225566
+Wine,Spain Wine,Spain Sparkling Wine,Fiscal 2020/21 Q3,1806530
+Wine,Spain Wine,Spain Sparkling Wine,Fiscal 2020/21 Q4,925529
+Wine,Spain Wine,Spain Sparkling Wine,Fiscal 2021/22 Q1,1087464
+Wine,Spain Wine,Spain Sparkling Wine,Fiscal 2021/22 Q2,1302722
+Wine,Spain Wine,Spain Sparkling Wine,Fiscal 2021/22 Q3,2014349
+Wine,Spain Wine,Spain White Wine,Fiscal 2020/21 Q3,426949
+Wine,Spain Wine,Spain White Wine,Fiscal 2020/21 Q4,717705
+Wine,Spain Wine,Spain White Wine,Fiscal 2021/22 Q1,667695
+Wine,Spain Wine,Spain White Wine,Fiscal 2021/22 Q2,756843
+Wine,Spain Wine,Spain White Wine,Fiscal 2021/22 Q3,660957
+Wine,USA Wine,USA Fruit and Dessert Wine,Fiscal 2020/21 Q3,1451
+Wine,USA Wine,USA Fruit and Dessert Wine,Fiscal 2020/21 Q4,1297
+Wine,USA Wine,USA Fruit and Dessert Wine,Fiscal 2021/22 Q1,771
+Wine,USA Wine,USA Fruit and Dessert Wine,Fiscal 2021/22 Q2,812
+Wine,USA Wine,USA Fruit and Dessert Wine,Fiscal 2021/22 Q3,418
+Wine,USA Wine,USA Red Wine,Fiscal 2020/21 Q3,35574725
+Wine,USA Wine,USA Red Wine,Fiscal 2020/21 Q4,22399628
+Wine,USA Wine,USA Red Wine,Fiscal 2021/22 Q1,25016692
+Wine,USA Wine,USA Red Wine,Fiscal 2021/22 Q2,24554376
+Wine,USA Wine,USA Red Wine,Fiscal 2021/22 Q3,38918633
+Wine,USA Wine,USA Rose Wine,Fiscal 2020/21 Q3,1263805
+Wine,USA Wine,USA Rose Wine,Fiscal 2020/21 Q4,1009161
+Wine,USA Wine,USA Rose Wine,Fiscal 2021/22 Q1,1807846
+Wine,USA Wine,USA Rose Wine,Fiscal 2021/22 Q2,1656855
+Wine,USA Wine,USA Rose Wine,Fiscal 2021/22 Q3,1126675
+Wine,USA Wine,USA Sparkling Wine,Fiscal 2020/21 Q3,392209
+Wine,USA Wine,USA Sparkling Wine,Fiscal 2020/21 Q4,258367
+Wine,USA Wine,USA Sparkling Wine,Fiscal 2021/22 Q1,333185
+Wine,USA Wine,USA Sparkling Wine,Fiscal 2021/22 Q2,316176
+Wine,USA Wine,USA Sparkling Wine,Fiscal 2021/22 Q3,442304
+Wine,USA Wine,USA White Wine,Fiscal 2020/21 Q3,6972599
+Wine,USA Wine,USA White Wine,Fiscal 2020/21 Q4,5653708
+Wine,USA Wine,USA White Wine,Fiscal 2021/22 Q1,6820735
+Wine,USA Wine,USA White Wine,Fiscal 2021/22 Q2,6636152
+Wine,USA Wine,USA White Wine,Fiscal 2021/22 Q3,7354183

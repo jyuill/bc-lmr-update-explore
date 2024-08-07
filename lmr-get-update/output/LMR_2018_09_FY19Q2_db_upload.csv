@@ -1,0 +1,841 @@
+cat_type,category,subcategory,litres,netsales,fy_qtr
+Beer,Domestic - BC Beer,Domestic - BC Commercial Beer,44658774,152824814,FY2018Q2
+Beer,Domestic - BC Beer,Domestic - BC Commercial Beer,40401991,137872756,FY2018Q3
+Beer,Domestic - BC Beer,Domestic - BC Commercial Beer,33690476,116682746,FY2018Q4
+Beer,Domestic - BC Beer,Domestic - BC Commercial Beer,43972878,152570847,FY2019Q1
+Beer,Domestic - BC Beer,Domestic - BC Commercial Beer,43410385,150381376,FY2019Q2
+Beer,Domestic - BC Beer,Domestic - BC Micro Brew Beer,7496337,33036978,FY2018Q2
+Beer,Domestic - BC Beer,Domestic - BC Micro Brew Beer,6375783,29420789,FY2018Q3
+Beer,Domestic - BC Beer,Domestic - BC Micro Brew Beer,6483281,29042904,FY2018Q4
+Beer,Domestic - BC Beer,Domestic - BC Micro Brew Beer,8135929,36342843,FY2019Q1
+Beer,Domestic - BC Beer,Domestic - BC Micro Brew Beer,8788594,39054143,FY2019Q2
+Beer,Domestic - BC Beer,Domestic - BC Regional Beer,11578092,41543134,FY2018Q2
+Beer,Domestic - BC Beer,Domestic - BC Regional Beer,10072060,36914589,FY2018Q3
+Beer,Domestic - BC Beer,Domestic - BC Regional Beer,8807659,31594026,FY2018Q4
+Beer,Domestic - BC Beer,Domestic - BC Regional Beer,11645144,41725122,FY2019Q1
+Beer,Domestic - BC Beer,Domestic - BC Regional Beer,11423613,41049331,FY2019Q2
+Beer,Domestic - Other Province Beer,Domestic - Other Province Commercial Beer,4955073,17918589,FY2018Q2
+Beer,Domestic - Other Province Beer,Domestic - Other Province Commercial Beer,3306164,11884730,FY2018Q3
+Beer,Domestic - Other Province Beer,Domestic - Other Province Commercial Beer,3510418,13045083,FY2018Q4
+Beer,Domestic - Other Province Beer,Domestic - Other Province Commercial Beer,6342790,24030902,FY2019Q1
+Beer,Domestic - Other Province Beer,Domestic - Other Province Commercial Beer,5989529,22439130,FY2019Q2
+Beer,Domestic - Other Province Beer,Domestic - Other Province Micro Brew Beer,44321,323903,FY2018Q2
+Beer,Domestic - Other Province Beer,Domestic - Other Province Micro Brew Beer,37382,274542,FY2018Q3
+Beer,Domestic - Other Province Beer,Domestic - Other Province Micro Brew Beer,38599,271081,FY2018Q4
+Beer,Domestic - Other Province Beer,Domestic - Other Province Micro Brew Beer,61257,387305,FY2019Q1
+Beer,Domestic - Other Province Beer,Domestic - Other Province Micro Brew Beer,75620,495005,FY2019Q2
+Beer,Domestic - Other Province Beer,Domestic - Other Province Regional Beer,581963,2217827,FY2018Q2
+Beer,Domestic - Other Province Beer,Domestic - Other Province Regional Beer,574596,2245752,FY2018Q3
+Beer,Domestic - Other Province Beer,Domestic - Other Province Regional Beer,517970,1879015,FY2018Q4
+Beer,Domestic - Other Province Beer,Domestic - Other Province Regional Beer,544454,2060380,FY2019Q1
+Beer,Domestic - Other Province Beer,Domestic - Other Province Regional Beer,529538,2004319,FY2019Q2
+Beer,Import Beer,Asia And South Pacific Beer,407159,1953642,FY2018Q2
+Beer,Import Beer,Asia And South Pacific Beer,360137,1738618,FY2018Q3
+Beer,Import Beer,Asia And South Pacific Beer,342995,1689199,FY2018Q4
+Beer,Import Beer,Asia And South Pacific Beer,323827,1591690,FY2019Q1
+Beer,Import Beer,Asia And South Pacific Beer,365715,1796634,FY2019Q2
+Beer,Import Beer,Europe Beer,6604535,29339482,FY2018Q2
+Beer,Import Beer,Europe Beer,6104479,27697617,FY2018Q3
+Beer,Import Beer,Europe Beer,5477303,24641458,FY2018Q4
+Beer,Import Beer,Europe Beer,6423115,28685882,FY2019Q1
+Beer,Import Beer,Europe Beer,6444530,28977585,FY2019Q2
+Beer,Import Beer,Mexico And Caribbean Beer,3076897,15843669,FY2018Q2
+Beer,Import Beer,Mexico And Caribbean Beer,1587782,8394199,FY2018Q3
+Beer,Import Beer,Mexico And Caribbean Beer,1518873,8077358,FY2018Q4
+Beer,Import Beer,Mexico And Caribbean Beer,2939013,15231025,FY2019Q1
+Beer,Import Beer,Mexico And Caribbean Beer,3063612,15877477,FY2019Q2
+Beer,Import Beer,Other Country Beer,16644,74183,FY2018Q2
+Beer,Import Beer,Other Country Beer,21937,98138,FY2018Q3
+Beer,Import Beer,Other Country Beer,37674,155423,FY2018Q4
+Beer,Import Beer,Other Country Beer,33936,143945,FY2019Q1
+Beer,Import Beer,Other Country Beer,49210,195570,FY2019Q2
+Beer,Import Beer,USA Beer,3621646,15321814,FY2018Q2
+Beer,Import Beer,USA Beer,2713349,11588068,FY2018Q3
+Beer,Import Beer,USA Beer,1636342,7073902,FY2018Q4
+Beer,Import Beer,USA Beer,1731886,7357313,FY2019Q1
+Beer,Import Beer,USA Beer,1733935,7323495,FY2019Q2
+Refreshment Beverages,Cider,Domestic Cider,4852691,19076246,FY2018Q2
+Refreshment Beverages,Cider,Domestic Cider,3144448,11962673,FY2018Q3
+Refreshment Beverages,Cider,Domestic Cider,2990590,11479296,FY2018Q4
+Refreshment Beverages,Cider,Domestic Cider,4528193,17651181,FY2019Q1
+Refreshment Beverages,Cider,Domestic Cider,4801539,19240344,FY2019Q2
+Refreshment Beverages,Cider,Import Cider,1503736,6945603,FY2018Q2
+Refreshment Beverages,Cider,Import Cider,857410,3950922,FY2018Q3
+Refreshment Beverages,Cider,Import Cider,813999,3797100,FY2018Q4
+Refreshment Beverages,Cider,Import Cider,1408923,6443193,FY2019Q1
+Refreshment Beverages,Cider,Import Cider,1333964,6093264,FY2019Q2
+Refreshment Beverages,Coolers,Malt-Based Coolers,1037840,4447109,FY2018Q2
+Refreshment Beverages,Coolers,Malt-Based Coolers,451459,2021028,FY2018Q3
+Refreshment Beverages,Coolers,Malt-Based Coolers,333408,1515788,FY2018Q4
+Refreshment Beverages,Coolers,Malt-Based Coolers,249901,1134515,FY2019Q1
+Refreshment Beverages,Coolers,Malt-Based Coolers,206546,928161,FY2019Q2
+Refreshment Beverages,Coolers,Spirit Coolers,8988626,38327583,FY2018Q2
+Refreshment Beverages,Coolers,Spirit Coolers,4457005,19756606,FY2018Q3
+Refreshment Beverages,Coolers,Spirit Coolers,4506097,20126591,FY2018Q4
+Refreshment Beverages,Coolers,Spirit Coolers,10515316,45596568,FY2019Q1
+Refreshment Beverages,Coolers,Spirit Coolers,11831319,52477707,FY2019Q2
+Refreshment Beverages,Coolers,Wine/Fruit Coolers,173200,927241,FY2018Q2
+Refreshment Beverages,Coolers,Wine/Fruit Coolers,109075,581736,FY2018Q3
+Refreshment Beverages,Coolers,Wine/Fruit Coolers,93548,508623,FY2018Q4
+Refreshment Beverages,Coolers,Wine/Fruit Coolers,132436,727966,FY2019Q1
+Refreshment Beverages,Coolers,Wine/Fruit Coolers,163481,941547,FY2019Q2
+Spirits,Asian Spirits,China Spirits,12068,1425324,FY2018Q2
+Spirits,Asian Spirits,China Spirits,13134,896516,FY2018Q3
+Spirits,Asian Spirits,China Spirits,17459,2720133,FY2018Q4
+Spirits,Asian Spirits,China Spirits,10578,677258,FY2019Q1
+Spirits,Asian Spirits,China Spirits,14259,2737572,FY2019Q2
+Spirits,Asian Spirits,Korea Spirits,43960,786910,FY2018Q2
+Spirits,Asian Spirits,Korea Spirits,50668,912126,FY2018Q3
+Spirits,Asian Spirits,Korea Spirits,47877,855263,FY2018Q4
+Spirits,Asian Spirits,Korea Spirits,49281,884572,FY2019Q1
+Spirits,Asian Spirits,Korea Spirits,51062,918660,FY2019Q2
+Spirits,Asian Spirits,Other Country Asian Spirits,1959,73258,FY2018Q2
+Spirits,Asian Spirits,Other Country Asian Spirits,2075,77564,FY2018Q3
+Spirits,Asian Spirits,Other Country Asian Spirits,2098,74699,FY2018Q4
+Spirits,Asian Spirits,Other Country Asian Spirits,2009,73050,FY2019Q1
+Spirits,Asian Spirits,Other Country Asian Spirits,2074,77752,FY2019Q2
+Spirits,Gin,Dry Gin,470159,12732498,FY2018Q2
+Spirits,Gin,Dry Gin,383519,10468462,FY2018Q3
+Spirits,Gin,Dry Gin,290749,7948649,FY2018Q4
+Spirits,Gin,Dry Gin,433827,11788565,FY2019Q1
+Spirits,Gin,Dry Gin,455908,12653336,FY2019Q2
+Spirits,Gin,Flavoured Gin,17290,507102,FY2018Q2
+Spirits,Gin,Flavoured Gin,8484,270191,FY2018Q3
+Spirits,Gin,Flavoured Gin,6936,205949,FY2018Q4
+Spirits,Gin,Flavoured Gin,14466,416099,FY2019Q1
+Spirits,Gin,Flavoured Gin,19282,558174,FY2019Q2
+Spirits,Gin,Other Gin,15422,635861,FY2018Q2
+Spirits,Gin,Other Gin,13999,647441,FY2018Q3
+Spirits,Gin,Other Gin,10885,484222,FY2018Q4
+Spirits,Gin,Other Gin,20557,881756,FY2019Q1
+Spirits,Gin,Other Gin,27551,1280319,FY2019Q2
+Spirits,Grape and Fruit Brandy,Armagnac,705,58224,FY2018Q2
+Spirits,Grape and Fruit Brandy,Armagnac,713,69645,FY2018Q3
+Spirits,Grape and Fruit Brandy,Armagnac,505,78909,FY2018Q4
+Spirits,Grape and Fruit Brandy,Armagnac,299,31221,FY2019Q1
+Spirits,Grape and Fruit Brandy,Armagnac,533,59085,FY2019Q2
+Spirits,Grape and Fruit Brandy,Brandy,87230,2123169,FY2018Q2
+Spirits,Grape and Fruit Brandy,Brandy,134631,3293224,FY2018Q3
+Spirits,Grape and Fruit Brandy,Brandy,92222,2235487,FY2018Q4
+Spirits,Grape and Fruit Brandy,Brandy,83734,2024519,FY2019Q1
+Spirits,Grape and Fruit Brandy,Brandy,86036,2101499,FY2019Q2
+Spirits,Grape and Fruit Brandy,Cognac,22431,2973298,FY2018Q2
+Spirits,Grape and Fruit Brandy,Cognac,33081,3411818,FY2018Q3
+Spirits,Grape and Fruit Brandy,Cognac,21355,2595046,FY2018Q4
+Spirits,Grape and Fruit Brandy,Cognac,21134,2496682,FY2019Q1
+Spirits,Grape and Fruit Brandy,Cognac,23095,2635714,FY2019Q2
+Spirits,Grape and Fruit Brandy,Eau de Vie,5462,254197,FY2018Q2
+Spirits,Grape and Fruit Brandy,Eau de Vie,8252,370897,FY2018Q3
+Spirits,Grape and Fruit Brandy,Eau de Vie,4860,217962,FY2018Q4
+Spirits,Grape and Fruit Brandy,Eau de Vie,4812,216769,FY2019Q1
+Spirits,Grape and Fruit Brandy,Eau de Vie,5707,266669,FY2019Q2
+Spirits,Grape and Fruit Brandy,Grappa And Marc,1698,79960,FY2018Q2
+Spirits,Grape and Fruit Brandy,Grappa And Marc,1943,106539,FY2018Q3
+Spirits,Grape and Fruit Brandy,Grappa And Marc,1354,71160,FY2018Q4
+Spirits,Grape and Fruit Brandy,Grappa And Marc,1034,60378,FY2019Q1
+Spirits,Grape and Fruit Brandy,Grappa And Marc,1246,57805,FY2019Q2
+Spirits,Grape and Fruit Brandy,Pisco,3081,121486,FY2018Q2
+Spirits,Grape and Fruit Brandy,Pisco,2361,91887,FY2018Q3
+Spirits,Grape and Fruit Brandy,Pisco,1978,78006,FY2018Q4
+Spirits,Grape and Fruit Brandy,Pisco,2266,88008,FY2019Q1
+Spirits,Grape and Fruit Brandy,Pisco,2528,94941,FY2019Q2
+Spirits,Liqueurs,Anise And Herbal/Spice Liqueurs,223215,6354723,FY2018Q2
+Spirits,Liqueurs,Anise And Herbal/Spice Liqueurs,295236,8258949,FY2018Q3
+Spirits,Liqueurs,Anise And Herbal/Spice Liqueurs,219449,6340755,FY2018Q4
+Spirits,Liqueurs,Anise And Herbal/Spice Liqueurs,228751,6480018,FY2019Q1
+Spirits,Liqueurs,Anise And Herbal/Spice Liqueurs,218081,6222353,FY2019Q2
+Spirits,Liqueurs,Coffee And Cocoa Liqueurs,70006,1701925,FY2018Q2
+Spirits,Liqueurs,Coffee And Cocoa Liqueurs,132191,3264962,FY2018Q3
+Spirits,Liqueurs,Coffee And Cocoa Liqueurs,46840,1124277,FY2018Q4
+Spirits,Liqueurs,Coffee And Cocoa Liqueurs,52517,1269156,FY2019Q1
+Spirits,Liqueurs,Coffee And Cocoa Liqueurs,70274,1733116,FY2019Q2
+Spirits,Liqueurs,Cream/Dairy Liqueurs,286606,7064873,FY2018Q2
+Spirits,Liqueurs,Cream/Dairy Liqueurs,750012,18315548,FY2018Q3
+Spirits,Liqueurs,Cream/Dairy Liqueurs,219806,5335454,FY2018Q4
+Spirits,Liqueurs,Cream/Dairy Liqueurs,227502,5485366,FY2019Q1
+Spirits,Liqueurs,Cream/Dairy Liqueurs,316819,7872684,FY2019Q2
+Spirits,Liqueurs,Fruit Liqueurs,160244,4309231,FY2018Q2
+Spirits,Liqueurs,Fruit Liqueurs,174995,5184672,FY2018Q3
+Spirits,Liqueurs,Fruit Liqueurs,115456,3127865,FY2018Q4
+Spirits,Liqueurs,Fruit Liqueurs,136503,3681772,FY2019Q1
+Spirits,Liqueurs,Fruit Liqueurs,154120,4198560,FY2019Q2
+Spirits,Liqueurs,Nut Liqueurs,65897,1518074,FY2018Q2
+Spirits,Liqueurs,Nut Liqueurs,73278,1849159,FY2018Q3
+Spirits,Liqueurs,Nut Liqueurs,43803,1095072,FY2018Q4
+Spirits,Liqueurs,Nut Liqueurs,53517,1250584,FY2019Q1
+Spirits,Liqueurs,Nut Liqueurs,61119,1429564,FY2019Q2
+Spirits,Liqueurs,Other Liqueurs,23323,663002,FY2018Q2
+Spirits,Liqueurs,Other Liqueurs,31759,850391,FY2018Q3
+Spirits,Liqueurs,Other Liqueurs,18015,468757,FY2018Q4
+Spirits,Liqueurs,Other Liqueurs,20604,558671,FY2019Q1
+Spirits,Liqueurs,Other Liqueurs,27486,766477,FY2019Q2
+Spirits,Liqueurs,Whiskey Liqueurs,46157,1385397,FY2018Q2
+Spirits,Liqueurs,Whiskey Liqueurs,70516,2220169,FY2018Q3
+Spirits,Liqueurs,Whiskey Liqueurs,42525,1326209,FY2018Q4
+Spirits,Liqueurs,Whiskey Liqueurs,46772,1349209,FY2019Q1
+Spirits,Liqueurs,Whiskey Liqueurs,43307,1328030,FY2019Q2
+Spirits,Other Spirits,Cachaca,1190,39399,FY2018Q2
+Spirits,Other Spirits,Cachaca,1032,33367,FY2018Q3
+Spirits,Other Spirits,Cachaca,1008,31180,FY2018Q4
+Spirits,Other Spirits,Cachaca,1220,40983,FY2019Q1
+Spirits,Other Spirits,Cachaca,1521,51186,FY2019Q2
+Spirits,Other Spirits,Flavoured Spirits,20503,940421,FY2018Q2
+Spirits,Other Spirits,Flavoured Spirits,19130,888586,FY2018Q3
+Spirits,Other Spirits,Flavoured Spirits,13813,652377,FY2018Q4
+Spirits,Other Spirits,Flavoured Spirits,26791,1162913,FY2019Q1
+Spirits,Other Spirits,Flavoured Spirits,18436,841088,FY2019Q2
+Spirits,Other Spirits,Miscellaneous/Other Spirits,9508,447157,FY2018Q2
+Spirits,Other Spirits,Miscellaneous/Other Spirits,11418,550079,FY2018Q3
+Spirits,Other Spirits,Miscellaneous/Other Spirits,6603,301507,FY2018Q4
+Spirits,Other Spirits,Miscellaneous/Other Spirits,8918,423761,FY2019Q1
+Spirits,Other Spirits,Miscellaneous/Other Spirits,8114,397200,FY2019Q2
+Spirits,Other Spirits,Moonshine Spirits,6942,240748,FY2018Q2
+Spirits,Other Spirits,Moonshine Spirits,6417,264768,FY2018Q3
+Spirits,Other Spirits,Moonshine Spirits,6607,289431,FY2018Q4
+Spirits,Other Spirits,Moonshine Spirits,6974,290038,FY2019Q1
+Spirits,Other Spirits,Moonshine Spirits,8279,351076,FY2019Q2
+Spirits,Other Spirits,Ready to Mix Cocktails,35090,714083,FY2018Q2
+Spirits,Other Spirits,Ready to Mix Cocktails,27591,564976,FY2018Q3
+Spirits,Other Spirits,Ready to Mix Cocktails,22919,470140,FY2018Q4
+Spirits,Other Spirits,Ready to Mix Cocktails,30862,622660,FY2019Q1
+Spirits,Other Spirits,Ready to Mix Cocktails,31639,635691,FY2019Q2
+Spirits,Other Spirits,Ready to Serve Cocktails,29529,673422,FY2018Q2
+Spirits,Other Spirits,Ready to Serve Cocktails,28246,816150,FY2018Q3
+Spirits,Other Spirits,Ready to Serve Cocktails,16750,463528,FY2018Q4
+Spirits,Other Spirits,Ready to Serve Cocktails,27109,602519,FY2019Q1
+Spirits,Other Spirits,Ready to Serve Cocktails,25140,606962,FY2019Q2
+Spirits,Other Spirits,Schnapps and Akvavit,2002,79136,FY2018Q2
+Spirits,Other Spirits,Schnapps and Akvavit,2220,88231,FY2018Q3
+Spirits,Other Spirits,Schnapps and Akvavit,1760,65901,FY2018Q4
+Spirits,Other Spirits,Schnapps and Akvavit,1518,62132,FY2019Q1
+Spirits,Other Spirits,Schnapps and Akvavit,1572,62501,FY2019Q2
+Spirits,Rum,Amber Rum,204508,5417327,FY2018Q2
+Spirits,Rum,Amber Rum,296165,7917532,FY2018Q3
+Spirits,Rum,Amber Rum,164286,4480190,FY2018Q4
+Spirits,Rum,Amber Rum,183988,5036021,FY2019Q1
+Spirits,Rum,Amber Rum,200798,5413021,FY2019Q2
+Spirits,Rum,Dark Rum,103024,2684784,FY2018Q2
+Spirits,Rum,Dark Rum,165587,4266712,FY2018Q3
+Spirits,Rum,Dark Rum,92154,2402687,FY2018Q4
+Spirits,Rum,Dark Rum,101140,2635156,FY2019Q1
+Spirits,Rum,Dark Rum,98938,2602399,FY2019Q2
+Spirits,Rum,Flavoured Rum,16144,387325,FY2018Q2
+Spirits,Rum,Flavoured Rum,9530,235323,FY2018Q3
+Spirits,Rum,Flavoured Rum,12501,306034,FY2018Q4
+Spirits,Rum,Flavoured Rum,12676,304393,FY2019Q1
+Spirits,Rum,Flavoured Rum,12736,306798,FY2019Q2
+Spirits,Rum,Spiced Rum,269840,7453368,FY2018Q2
+Spirits,Rum,Spiced Rum,446494,12417183,FY2018Q3
+Spirits,Rum,Spiced Rum,208228,5889825,FY2018Q4
+Spirits,Rum,Spiced Rum,240137,6664663,FY2019Q1
+Spirits,Rum,Spiced Rum,272192,7545539,FY2019Q2
+Spirits,Rum,White Rum,327344,7933901,FY2018Q2
+Spirits,Rum,White Rum,383599,9195895,FY2018Q3
+Spirits,Rum,White Rum,226383,5453713,FY2018Q4
+Spirits,Rum,White Rum,312220,7426747,FY2019Q1
+Spirits,Rum,White Rum,321004,7587408,FY2019Q2
+Spirits,Tequila,Blanco/Silver Tequila,91446,3365841,FY2018Q2
+Spirits,Tequila,Blanco/Silver Tequila,66473,2656467,FY2018Q3
+Spirits,Tequila,Blanco/Silver Tequila,63125,2500945,FY2018Q4
+Spirits,Tequila,Blanco/Silver Tequila,92524,3452760,FY2019Q1
+Spirits,Tequila,Blanco/Silver Tequila,98282,3628460,FY2019Q2
+Spirits,Tequila,Flavoured Tequila,3899,147876,FY2018Q2
+Spirits,Tequila,Flavoured Tequila,2458,95238,FY2018Q3
+Spirits,Tequila,Flavoured Tequila,2224,89965,FY2018Q4
+Spirits,Tequila,Flavoured Tequila,3646,142782,FY2019Q1
+Spirits,Tequila,Flavoured Tequila,3550,133443,FY2019Q2
+Spirits,Tequila,Gold Tequila,192453,6570037,FY2018Q2
+Spirits,Tequila,Gold Tequila,143378,5294931,FY2018Q3
+Spirits,Tequila,Gold Tequila,126999,4657649,FY2018Q4
+Spirits,Tequila,Gold Tequila,183199,6568615,FY2019Q1
+Spirits,Tequila,Gold Tequila,190656,6812422,FY2019Q2
+Spirits,Tequila,Mezcal,2295,138155,FY2018Q2
+Spirits,Tequila,Mezcal,2634,161124,FY2018Q3
+Spirits,Tequila,Mezcal,2454,160246,FY2018Q4
+Spirits,Tequila,Mezcal,4120,254128,FY2019Q1
+Spirits,Tequila,Mezcal,5066,318832,FY2019Q2
+Spirits,Vodka,Flavoured Vodka,143012,3821370,FY2018Q2
+Spirits,Vodka,Flavoured Vodka,138406,3869027,FY2018Q3
+Spirits,Vodka,Flavoured Vodka,100193,2772300,FY2018Q4
+Spirits,Vodka,Flavoured Vodka,138375,3678984,FY2019Q1
+Spirits,Vodka,Flavoured Vodka,139646,3741111,FY2019Q2
+Spirits,Vodka,Straight Vodka,2153137,53991866,FY2018Q2
+Spirits,Vodka,Straight Vodka,2235673,56159965,FY2018Q3
+Spirits,Vodka,Straight Vodka,1741358,43605546,FY2018Q4
+Spirits,Vodka,Straight Vodka,2112738,52780485,FY2019Q1
+Spirits,Vodka,Straight Vodka,2205020,55311350,FY2019Q2
+Spirits,Whisky,American Whiskey,76838,2456351,FY2018Q2
+Spirits,Whisky,American Whiskey,98196,3321053,FY2018Q3
+Spirits,Whisky,American Whiskey,62894,2175409,FY2018Q4
+Spirits,Whisky,American Whiskey,66946,2241388,FY2019Q1
+Spirits,Whisky,American Whiskey,71604,2479423,FY2019Q2
+Spirits,Whisky,Blended Malt Scotch Whisky,1323,100356,FY2018Q2
+Spirits,Whisky,Blended Malt Scotch Whisky,2425,195456,FY2018Q3
+Spirits,Whisky,Blended Malt Scotch Whisky,2056,170259,FY2018Q4
+Spirits,Whisky,Blended Malt Scotch Whisky,1506,122748,FY2019Q1
+Spirits,Whisky,Blended Malt Scotch Whisky,1551,112096,FY2019Q2
+Spirits,Whisky,Blended Scotch Whisky,238944,7051331,FY2018Q2
+Spirits,Whisky,Blended Scotch Whisky,305790,9165236,FY2018Q3
+Spirits,Whisky,Blended Scotch Whisky,226738,6670483,FY2018Q4
+Spirits,Whisky,Blended Scotch Whisky,242974,7067909,FY2019Q1
+Spirits,Whisky,Blended Scotch Whisky,221138,6616791,FY2019Q2
+Spirits,Whisky,Bourbon Whiskey,86791,3198343,FY2018Q2
+Spirits,Whisky,Bourbon Whiskey,120139,4705983,FY2018Q3
+Spirits,Whisky,Bourbon Whiskey,92219,3475506,FY2018Q4
+Spirits,Whisky,Bourbon Whiskey,91616,3470701,FY2019Q1
+Spirits,Whisky,Bourbon Whiskey,92681,3523370,FY2019Q2
+Spirits,Whisky,Canadian Whisky,1052959,26038107,FY2018Q2
+Spirits,Whisky,Canadian Whisky,1364864,34454456,FY2018Q3
+Spirits,Whisky,Canadian Whisky,907759,22602354,FY2018Q4
+Spirits,Whisky,Canadian Whisky,1071666,26725261,FY2019Q1
+Spirits,Whisky,Canadian Whisky,1075929,26794031,FY2019Q2
+Spirits,Whisky,Flavoured Whisky,560,13876,FY2018Q2
+Spirits,Whisky,Flavoured Whisky,2758,82386,FY2018Q3
+Spirits,Whisky,Flavoured Whisky,7847,213685,FY2018Q4
+Spirits,Whisky,Flavoured Whisky,723,19724,FY2019Q1
+Spirits,Whisky,Flavoured Whisky,739,21170,FY2019Q2
+Spirits,Whisky,Irish Whiskey,85615,2991885,FY2018Q2
+Spirits,Whisky,Irish Whiskey,134401,4683313,FY2018Q3
+Spirits,Whisky,Irish Whiskey,115413,4032329,FY2018Q4
+Spirits,Whisky,Irish Whiskey,88955,3123830,FY2019Q1
+Spirits,Whisky,Irish Whiskey,100793,3522086,FY2019Q2
+Spirits,Whisky,Other Country Whisky,7258,569128,FY2018Q2
+Spirits,Whisky,Other Country Whisky,11497,1024263,FY2018Q3
+Spirits,Whisky,Other Country Whisky,8233,703199,FY2018Q4
+Spirits,Whisky,Other Country Whisky,8945,687712,FY2019Q1
+Spirits,Whisky,Other Country Whisky,11487,851572,FY2019Q2
+Spirits,Whisky,Single Malt Scotch Whisky,109444,8430692,FY2018Q2
+Spirits,Whisky,Single Malt Scotch Whisky,207554,16861073,FY2018Q3
+Spirits,Whisky,Single Malt Scotch Whisky,103089,8112342,FY2018Q4
+Spirits,Whisky,Single Malt Scotch Whisky,114979,8525350,FY2019Q1
+Spirits,Whisky,Single Malt Scotch Whisky,106969,7799737,FY2019Q2
+Wine,Argentina Wine,Argentina Red Wine,520777,7595240,FY2018Q2
+Wine,Argentina Wine,Argentina Red Wine,744548,10902019,FY2018Q3
+Wine,Argentina Wine,Argentina Red Wine,593189,8359387,FY2018Q4
+Wine,Argentina Wine,Argentina Red Wine,474850,6794286,FY2019Q1
+Wine,Argentina Wine,Argentina Red Wine,467557,6918128,FY2019Q2
+Wine,Argentina Wine,Argentina Rose Wine,11023,144473,FY2018Q2
+Wine,Argentina Wine,Argentina Rose Wine,1766,21317,FY2018Q3
+Wine,Argentina Wine,Argentina Rose Wine,8719,111904,FY2018Q4
+Wine,Argentina Wine,Argentina Rose Wine,12643,165628,FY2019Q1
+Wine,Argentina Wine,Argentina Rose Wine,16042,202657,FY2019Q2
+Wine,Argentina Wine,Argentina Sparkling Wine,747,14512,FY2018Q2
+Wine,Argentina Wine,Argentina Sparkling Wine,922,18935,FY2018Q3
+Wine,Argentina Wine,Argentina Sparkling Wine,532,11737,FY2018Q4
+Wine,Argentina Wine,Argentina Sparkling Wine,372,7594,FY2019Q1
+Wine,Argentina Wine,Argentina Sparkling Wine,344,6577,FY2019Q2
+Wine,Argentina Wine,Argentina White Wine,68765,819654,FY2018Q2
+Wine,Argentina Wine,Argentina White Wine,52757,658832,FY2018Q3
+Wine,Argentina Wine,Argentina White Wine,48553,587951,FY2018Q4
+Wine,Argentina Wine,Argentina White Wine,53751,657328,FY2019Q1
+Wine,Argentina Wine,Argentina White Wine,55544,691115,FY2019Q2
+Wine,Australia Wine,Australia Red Wine,601193,8602426,FY2018Q2
+Wine,Australia Wine,Australia Red Wine,812467,11769706,FY2018Q3
+Wine,Australia Wine,Australia Red Wine,608693,8688465,FY2018Q4
+Wine,Australia Wine,Australia Red Wine,552506,8005841,FY2019Q1
+Wine,Australia Wine,Australia Red Wine,569422,8163552,FY2019Q2
+Wine,Australia Wine,Australia Rose Wine,24166,285434,FY2018Q2
+Wine,Australia Wine,Australia Rose Wine,15763,195060,FY2018Q3
+Wine,Australia Wine,Australia Rose Wine,15445,190489,FY2018Q4
+Wine,Australia Wine,Australia Rose Wine,31880,388532,FY2019Q1
+Wine,Australia Wine,Australia Rose Wine,30316,366514,FY2019Q2
+Wine,Australia Wine,Australia Sparkling Wine,56065,718655,FY2018Q2
+Wine,Australia Wine,Australia Sparkling Wine,89641,1126278,FY2018Q3
+Wine,Australia Wine,Australia Sparkling Wine,44555,584763,FY2018Q4
+Wine,Australia Wine,Australia Sparkling Wine,61217,772380,FY2019Q1
+Wine,Australia Wine,Australia Sparkling Wine,61546,790723,FY2019Q2
+Wine,Australia Wine,Australia White Wine,450942,4950743,FY2018Q2
+Wine,Australia Wine,Australia White Wine,541954,5693163,FY2018Q3
+Wine,Australia Wine,Australia White Wine,384298,4199517,FY2018Q4
+Wine,Australia Wine,Australia White Wine,468184,5050683,FY2019Q1
+Wine,Australia Wine,Australia White Wine,453334,4961232,FY2019Q2
+Wine,Austria Wine,Austria Red Wine,297,10505,FY2018Q2
+Wine,Austria Wine,Austria Red Wine,324,9701,FY2018Q3
+Wine,Austria Wine,Austria Red Wine,500,19072,FY2018Q4
+Wine,Austria Wine,Austria Red Wine,481,13760,FY2019Q1
+Wine,Austria Wine,Austria Red Wine,540,18952,FY2019Q2
+Wine,Austria Wine,Austria Rose Wine,0,0,FY2018Q2
+Wine,Austria Wine,Austria Rose Wine,125,2953,FY2018Q3
+Wine,Austria Wine,Austria Rose Wine,0,0,FY2018Q4
+Wine,Austria Wine,Austria Rose Wine,0,0,FY2019Q1
+Wine,Austria Wine,Austria Rose Wine,0,0,FY2019Q2
+Wine,Austria Wine,Austria Sparkling Wine,0,0,FY2018Q2
+Wine,Austria Wine,Austria Sparkling Wine,0,0,FY2018Q3
+Wine,Austria Wine,Austria Sparkling Wine,0,0,FY2018Q4
+Wine,Austria Wine,Austria Sparkling Wine,0,0,FY2019Q1
+Wine,Austria Wine,Austria Sparkling Wine,9,276,FY2019Q2
+Wine,Austria Wine,Austria White Wine,1555,39673,FY2018Q2
+Wine,Austria Wine,Austria White Wine,2117,53580,FY2018Q3
+Wine,Austria Wine,Austria White Wine,2052,59038,FY2018Q4
+Wine,Austria Wine,Austria White Wine,2595,64555,FY2019Q1
+Wine,Austria Wine,Austria White Wine,1567,44164,FY2019Q2
+Wine,Bulgaria Wine,Bulgaria Red Wine,1136,12319,FY2018Q2
+Wine,Bulgaria Wine,Bulgaria Red Wine,2866,29186,FY2018Q3
+Wine,Bulgaria Wine,Bulgaria Red Wine,916,10511,FY2018Q4
+Wine,Bulgaria Wine,Bulgaria Red Wine,2146,25403,FY2019Q1
+Wine,Bulgaria Wine,Bulgaria Red Wine,1129,12738,FY2019Q2
+Wine,Bulgaria Wine,Bulgaria Sparkling Wine,0,0,FY2018Q2
+Wine,Bulgaria Wine,Bulgaria Sparkling Wine,0,0,FY2018Q3
+Wine,Bulgaria Wine,Bulgaria Sparkling Wine,0,0,FY2018Q4
+Wine,Bulgaria Wine,Bulgaria Sparkling Wine,0,0,FY2019Q1
+Wine,Bulgaria Wine,Bulgaria Sparkling Wine,0,0,FY2019Q2
+Wine,Bulgaria Wine,Bulgaria White Wine,0,0,FY2018Q2
+Wine,Bulgaria Wine,Bulgaria White Wine,0,0,FY2018Q3
+Wine,Bulgaria Wine,Bulgaria White Wine,0,0,FY2018Q4
+Wine,Bulgaria Wine,Bulgaria White Wine,0,0,FY2019Q1
+Wine,Bulgaria Wine,Bulgaria White Wine,0,0,FY2019Q2
+Wine,Canada - BC,Canada - BC Dessert Wine,9040,451641,FY2018Q2
+Wine,Canada - BC,Canada - BC Dessert Wine,6628,299373,FY2018Q3
+Wine,Canada - BC,Canada - BC Dessert Wine,3808,181581,FY2018Q4
+Wine,Canada - BC,Canada - BC Dessert Wine,5673,254307,FY2019Q1
+Wine,Canada - BC,Canada - BC Dessert Wine,9506,461492,FY2019Q2
+Wine,Canada - BC,Canada - BC Fruit Wine,82235,1897729,FY2018Q2
+Wine,Canada - BC,Canada - BC Fruit Wine,41938,933810,FY2018Q3
+Wine,Canada - BC,Canada - BC Fruit Wine,38194,791865,FY2018Q4
+Wine,Canada - BC,Canada - BC Fruit Wine,50780,1146374,FY2019Q1
+Wine,Canada - BC,Canada - BC Fruit Wine,66967,1536433,FY2019Q2
+Wine,Canada - BC,Canada - BC Ice Wine,22020,2639318,FY2018Q2
+Wine,Canada - BC,Canada - BC Ice Wine,14332,1616591,FY2018Q3
+Wine,Canada - BC,Canada - BC Ice Wine,9992,1086600,FY2018Q4
+Wine,Canada - BC,Canada - BC Ice Wine,10593,1207367,FY2019Q1
+Wine,Canada - BC,Canada - BC Ice Wine,15098,1720162,FY2019Q2
+Wine,Canada - BC,Canada - BC Red Wine,4579680,66464000,FY2018Q2
+Wine,Canada - BC,Canada - BC Red Wine,5399017,67201952,FY2018Q3
+Wine,Canada - BC,Canada - BC Red Wine,4090308,51861360,FY2018Q4
+Wine,Canada - BC,Canada - BC Red Wine,4335111,60021156,FY2019Q1
+Wine,Canada - BC,Canada - BC Red Wine,4528556,65332123,FY2019Q2
+Wine,Canada - BC,Canada - BC Rose Wine,503563,7761689,FY2018Q2
+Wine,Canada - BC,Canada - BC Rose Wine,212308,2467941,FY2018Q3
+Wine,Canada - BC,Canada - BC Rose Wine,224195,2934239,FY2018Q4
+Wine,Canada - BC,Canada - BC Rose Wine,515924,8344103,FY2019Q1
+Wine,Canada - BC,Canada - BC Rose Wine,510062,8194122,FY2019Q2
+Wine,Canada - BC,Canada - BC Sparkling Wine,139747,3400174,FY2018Q2
+Wine,Canada - BC,Canada - BC Sparkling Wine,97981,2426269,FY2018Q3
+Wine,Canada - BC,Canada - BC Sparkling Wine,63891,1613125,FY2018Q4
+Wine,Canada - BC,Canada - BC Sparkling Wine,107591,2647237,FY2019Q1
+Wine,Canada - BC,Canada - BC Sparkling Wine,135759,3401430,FY2019Q2
+Wine,Canada - BC,Canada - BC White Wine,5771401,68265034,FY2018Q2
+Wine,Canada - BC,Canada - BC White Wine,5043180,53509734,FY2018Q3
+Wine,Canada - BC,Canada - BC White Wine,4109902,43454612,FY2018Q4
+Wine,Canada - BC,Canada - BC White Wine,5216781,60058616,FY2019Q1
+Wine,Canada - BC,Canada - BC White Wine,5579984,65744008,FY2019Q2
+Wine,Canada - Other,Canada - Other Dessert Wine,130,4141,FY2018Q2
+Wine,Canada - Other,Canada - Other Dessert Wine,63,2536,FY2018Q3
+Wine,Canada - Other,Canada - Other Dessert Wine,0,0,FY2018Q4
+Wine,Canada - Other,Canada - Other Dessert Wine,0,0,FY2019Q1
+Wine,Canada - Other,Canada - Other Dessert Wine,0,0,FY2019Q2
+Wine,Canada - Other,Canada - Other Fruit Wine,177,10529,FY2018Q2
+Wine,Canada - Other,Canada - Other Fruit Wine,102,6066,FY2018Q3
+Wine,Canada - Other,Canada - Other Fruit Wine,104,6144,FY2018Q4
+Wine,Canada - Other,Canada - Other Fruit Wine,0,0,FY2019Q1
+Wine,Canada - Other,Canada - Other Fruit Wine,0,0,FY2019Q2
+Wine,Canada - Other,Canada - Other Ice Wine,19943,1504265,FY2018Q2
+Wine,Canada - Other,Canada - Other Ice Wine,16645,1252017,FY2018Q3
+Wine,Canada - Other,Canada - Other Ice Wine,12829,960146,FY2018Q4
+Wine,Canada - Other,Canada - Other Ice Wine,9846,767744,FY2019Q1
+Wine,Canada - Other,Canada - Other Ice Wine,19929,1544029,FY2019Q2
+Wine,Canada - Other,Canada - Other Red Wine,26356,379963,FY2018Q2
+Wine,Canada - Other,Canada - Other Red Wine,25313,299053,FY2018Q3
+Wine,Canada - Other,Canada - Other Red Wine,26687,303266,FY2018Q4
+Wine,Canada - Other,Canada - Other Red Wine,30664,383110,FY2019Q1
+Wine,Canada - Other,Canada - Other Red Wine,31131,418267,FY2019Q2
+Wine,Canada - Other,Canada - Other Rose Wine,62,1155,FY2018Q2
+Wine,Canada - Other,Canada - Other Rose Wine,72,1317,FY2018Q3
+Wine,Canada - Other,Canada - Other Rose Wine,27,455,FY2018Q4
+Wine,Canada - Other,Canada - Other Rose Wine,7648,54487,FY2019Q1
+Wine,Canada - Other,Canada - Other Rose Wine,12297,87696,FY2019Q2
+Wine,Canada - Other,Canada - Other Sparkling Wine,56172,354856,FY2018Q2
+Wine,Canada - Other,Canada - Other Sparkling Wine,103724,633639,FY2018Q3
+Wine,Canada - Other,Canada - Other Sparkling Wine,54434,351086,FY2018Q4
+Wine,Canada - Other,Canada - Other Sparkling Wine,57596,366715,FY2019Q1
+Wine,Canada - Other,Canada - Other Sparkling Wine,58748,392277,FY2019Q2
+Wine,Canada - Other,Canada - Other White Wine,18322,216189,FY2018Q2
+Wine,Canada - Other,Canada - Other White Wine,16691,169858,FY2018Q3
+Wine,Canada - Other,Canada - Other White Wine,18113,169536,FY2018Q4
+Wine,Canada - Other,Canada - Other White Wine,19764,192901,FY2019Q1
+Wine,Canada - Other,Canada - Other White Wine,22449,230541,FY2019Q2
+Wine,Chile Wine,Chile Fruit and Dessert Wine,144,5234,FY2018Q2
+Wine,Chile Wine,Chile Fruit and Dessert Wine,208,7289,FY2018Q3
+Wine,Chile Wine,Chile Fruit and Dessert Wine,130,4711,FY2018Q4
+Wine,Chile Wine,Chile Fruit and Dessert Wine,9,344,FY2019Q1
+Wine,Chile Wine,Chile Fruit and Dessert Wine,72,2660,FY2019Q2
+Wine,Chile Wine,Chile Red Wine,596385,6411880,FY2018Q2
+Wine,Chile Wine,Chile Red Wine,792483,8915661,FY2018Q3
+Wine,Chile Wine,Chile Red Wine,693346,7554593,FY2018Q4
+Wine,Chile Wine,Chile Red Wine,658381,6681870,FY2019Q1
+Wine,Chile Wine,Chile Red Wine,632312,6749245,FY2019Q2
+Wine,Chile Wine,Chile Rose Wine,11844,123259,FY2018Q2
+Wine,Chile Wine,Chile Rose Wine,1547,18213,FY2018Q3
+Wine,Chile Wine,Chile Rose Wine,23556,180632,FY2018Q4
+Wine,Chile Wine,Chile Rose Wine,58976,541160,FY2019Q1
+Wine,Chile Wine,Chile Rose Wine,56804,530501,FY2019Q2
+Wine,Chile Wine,Chile Sparkling Wine,2546,43781,FY2018Q2
+Wine,Chile Wine,Chile Sparkling Wine,2733,45660,FY2018Q3
+Wine,Chile Wine,Chile Sparkling Wine,4300,72744,FY2018Q4
+Wine,Chile Wine,Chile Sparkling Wine,3814,68629,FY2019Q1
+Wine,Chile Wine,Chile Sparkling Wine,4789,83569,FY2019Q2
+Wine,Chile Wine,Chile White Wine,360291,3518211,FY2018Q2
+Wine,Chile Wine,Chile White Wine,333644,3317295,FY2018Q3
+Wine,Chile Wine,Chile White Wine,280706,2836369,FY2018Q4
+Wine,Chile Wine,Chile White Wine,319026,3206985,FY2019Q1
+Wine,Chile Wine,Chile White Wine,376909,3678663,FY2019Q2
+Wine,China Wine,China Red Wine,4,1837,FY2018Q2
+Wine,China Wine,China Red Wine,0,0,FY2018Q3
+Wine,China Wine,China Red Wine,4,1839,FY2018Q4
+Wine,China Wine,China Red Wine,356,18076,FY2019Q1
+Wine,China Wine,China Red Wine,104,6325,FY2019Q2
+Wine,China Wine,China White Wine,0,0,FY2018Q2
+Wine,China Wine,China White Wine,0,0,FY2018Q3
+Wine,China Wine,China White Wine,0,0,FY2018Q4
+Wine,China Wine,China White Wine,0,0,FY2019Q1
+Wine,China Wine,China White Wine,4,276,FY2019Q2
+Wine,Fortified Wine,Other Fortified Domestic Wine,133908,1532552,FY2018Q2
+Wine,Fortified Wine,Other Fortified Domestic Wine,131122,1146884,FY2018Q3
+Wine,Fortified Wine,Other Fortified Domestic Wine,107618,911082,FY2018Q4
+Wine,Fortified Wine,Other Fortified Domestic Wine,118765,1181582,FY2019Q1
+Wine,Fortified Wine,Other Fortified Domestic Wine,112670,1270490,FY2019Q2
+Wine,Fortified Wine,Other Fortified Import Wine,28375,414857,FY2018Q2
+Wine,Fortified Wine,Other Fortified Import Wine,46627,679994,FY2018Q3
+Wine,Fortified Wine,Other Fortified Import Wine,30883,455315,FY2018Q4
+Wine,Fortified Wine,Other Fortified Import Wine,27274,394494,FY2019Q1
+Wine,Fortified Wine,Other Fortified Import Wine,24538,389535,FY2019Q2
+Wine,Fortified Wine,Port Wine,18226,618306,FY2018Q2
+Wine,Fortified Wine,Port Wine,43498,1579245,FY2018Q3
+Wine,Fortified Wine,Port Wine,18866,668169,FY2018Q4
+Wine,Fortified Wine,Port Wine,13740,437335,FY2019Q1
+Wine,Fortified Wine,Port Wine,15892,518646,FY2019Q2
+Wine,Fortified Wine,Sherry Wine,10188,191918,FY2018Q2
+Wine,Fortified Wine,Sherry Wine,27883,520697,FY2018Q3
+Wine,Fortified Wine,Sherry Wine,13149,244871,FY2018Q4
+Wine,Fortified Wine,Sherry Wine,10067,184509,FY2019Q1
+Wine,Fortified Wine,Sherry Wine,9281,173769,FY2019Q2
+Wine,Fortified Wine,Vermouth Wine,49070,490810,FY2018Q2
+Wine,Fortified Wine,Vermouth Wine,64797,635205,FY2018Q3
+Wine,Fortified Wine,Vermouth Wine,47661,491532,FY2018Q4
+Wine,Fortified Wine,Vermouth Wine,53553,563451,FY2019Q1
+Wine,Fortified Wine,Vermouth Wine,47992,529065,FY2019Q2
+Wine,France Wine,France Champagne Wine,42546,3955522,FY2018Q2
+Wine,France Wine,France Champagne Wine,71328,6462649,FY2018Q3
+Wine,France Wine,France Champagne Wine,32685,3076187,FY2018Q4
+Wine,France Wine,France Champagne Wine,38509,4032294,FY2019Q1
+Wine,France Wine,France Champagne Wine,43405,4239596,FY2019Q2
+Wine,France Wine,France Fruit and Dessert Wine,279,14226,FY2018Q2
+Wine,France Wine,France Fruit and Dessert Wine,329,22245,FY2018Q3
+Wine,France Wine,France Fruit and Dessert Wine,144,7784,FY2018Q4
+Wine,France Wine,France Fruit and Dessert Wine,54,2607,FY2019Q1
+Wine,France Wine,France Fruit and Dessert Wine,342,30026,FY2019Q2
+Wine,France Wine,France Red Wine,364133,8273952,FY2018Q2
+Wine,France Wine,France Red Wine,536522,14682742,FY2018Q3
+Wine,France Wine,France Red Wine,402713,9284524,FY2018Q4
+Wine,France Wine,France Red Wine,355445,7433492,FY2019Q1
+Wine,France Wine,France Red Wine,420872,13927629,FY2019Q2
+Wine,France Wine,France Rose Wine,150914,2363860,FY2018Q2
+Wine,France Wine,France Rose Wine,58767,868459,FY2018Q3
+Wine,France Wine,France Rose Wine,65964,1009591,FY2018Q4
+Wine,France Wine,France Rose Wine,212810,3818169,FY2019Q1
+Wine,France Wine,France Rose Wine,192763,3134700,FY2019Q2
+Wine,France Wine,France Sparkling Wine,42372,710563,FY2018Q2
+Wine,France Wine,France Sparkling Wine,65073,1090247,FY2018Q3
+Wine,France Wine,France Sparkling Wine,31111,567165,FY2018Q4
+Wine,France Wine,France Sparkling Wine,38927,695047,FY2019Q1
+Wine,France Wine,France Sparkling Wine,40473,722872,FY2019Q2
+Wine,France Wine,France White Wine,177375,3543249,FY2018Q2
+Wine,France Wine,France White Wine,191913,4625981,FY2018Q3
+Wine,France Wine,France White Wine,152397,3201703,FY2018Q4
+Wine,France Wine,France White Wine,164950,3476387,FY2019Q1
+Wine,France Wine,France White Wine,182733,4286319,FY2019Q2
+Wine,Georgia Wine,Georgia Red Wine,2149,38832,FY2018Q2
+Wine,Georgia Wine,Georgia Red Wine,3212,58536,FY2018Q3
+Wine,Georgia Wine,Georgia Red Wine,2119,38308,FY2018Q4
+Wine,Georgia Wine,Georgia Red Wine,2112,38346,FY2019Q1
+Wine,Georgia Wine,Georgia Red Wine,2009,36778,FY2019Q2
+Wine,Georgia Wine,Georgia White Wine,0,0,FY2018Q2
+Wine,Georgia Wine,Georgia White Wine,0,0,FY2018Q3
+Wine,Georgia Wine,Georgia White Wine,0,0,FY2018Q4
+Wine,Georgia Wine,Georgia White Wine,0,0,FY2019Q1
+Wine,Georgia Wine,Georgia White Wine,0,0,FY2019Q2
+Wine,Germany Wine,Germany Fruit and Dessert Wine,0,0,FY2018Q2
+Wine,Germany Wine,Germany Fruit and Dessert Wine,342,3518,FY2018Q3
+Wine,Germany Wine,Germany Fruit and Dessert Wine,20,3498,FY2018Q4
+Wine,Germany Wine,Germany Fruit and Dessert Wine,0,0,FY2019Q1
+Wine,Germany Wine,Germany Fruit and Dessert Wine,0,0,FY2019Q2
+Wine,Germany Wine,Germany Red Wine,1794,25928,FY2018Q2
+Wine,Germany Wine,Germany Red Wine,4664,67279,FY2018Q3
+Wine,Germany Wine,Germany Red Wine,1714,36782,FY2018Q4
+Wine,Germany Wine,Germany Red Wine,3578,48697,FY2019Q1
+Wine,Germany Wine,Germany Red Wine,2092,35775,FY2019Q2
+Wine,Germany Wine,Germany Rose Wine,927,13454,FY2018Q2
+Wine,Germany Wine,Germany Rose Wine,621,9987,FY2018Q3
+Wine,Germany Wine,Germany Rose Wine,630,9088,FY2018Q4
+Wine,Germany Wine,Germany Rose Wine,855,13026,FY2019Q1
+Wine,Germany Wine,Germany Rose Wine,808,12155,FY2019Q2
+Wine,Germany Wine,Germany Sparkling Wine,36362,597500,FY2018Q2
+Wine,Germany Wine,Germany Sparkling Wine,85621,1304974,FY2018Q3
+Wine,Germany Wine,Germany Sparkling Wine,26105,428499,FY2018Q4
+Wine,Germany Wine,Germany Sparkling Wine,38140,613602,FY2019Q1
+Wine,Germany Wine,Germany Sparkling Wine,33282,555308,FY2019Q2
+Wine,Germany Wine,Germany White Wine,88855,1227745,FY2018Q2
+Wine,Germany Wine,Germany White Wine,100609,1470177,FY2018Q3
+Wine,Germany Wine,Germany White Wine,76250,1108014,FY2018Q4
+Wine,Germany Wine,Germany White Wine,79781,1121876,FY2019Q1
+Wine,Germany Wine,Germany White Wine,82875,1163622,FY2019Q2
+Wine,Greece Wine,Greece Red Wine,7523,95905,FY2018Q2
+Wine,Greece Wine,Greece Red Wine,10041,126249,FY2018Q3
+Wine,Greece Wine,Greece Red Wine,8168,102251,FY2018Q4
+Wine,Greece Wine,Greece Red Wine,7928,106272,FY2019Q1
+Wine,Greece Wine,Greece Red Wine,8223,102939,FY2019Q2
+Wine,Greece Wine,Greece Rose Wine,0,0,FY2018Q2
+Wine,Greece Wine,Greece Rose Wine,0,0,FY2018Q3
+Wine,Greece Wine,Greece Rose Wine,0,0,FY2018Q4
+Wine,Greece Wine,Greece Rose Wine,72,1249,FY2019Q1
+Wine,Greece Wine,Greece Rose Wine,135,2345,FY2019Q2
+Wine,Greece Wine,Greece White Wine,10042,117889,FY2018Q2
+Wine,Greece Wine,Greece White Wine,8498,96447,FY2018Q3
+Wine,Greece Wine,Greece White Wine,7009,87915,FY2018Q4
+Wine,Greece Wine,Greece White Wine,9844,133517,FY2019Q1
+Wine,Greece Wine,Greece White Wine,9497,108830,FY2019Q2
+Wine,Hungary Wine,Hungary Fruit and Dessert Wine,526,20967,FY2018Q2
+Wine,Hungary Wine,Hungary Fruit and Dessert Wine,783,33934,FY2018Q3
+Wine,Hungary Wine,Hungary Fruit and Dessert Wine,412,19410,FY2018Q4
+Wine,Hungary Wine,Hungary Fruit and Dessert Wine,444,18608,FY2019Q1
+Wine,Hungary Wine,Hungary Fruit and Dessert Wine,380,16778,FY2019Q2
+Wine,Hungary Wine,Hungary Red Wine,2784,34037,FY2018Q2
+Wine,Hungary Wine,Hungary Red Wine,3283,41124,FY2018Q3
+Wine,Hungary Wine,Hungary Red Wine,2722,34285,FY2018Q4
+Wine,Hungary Wine,Hungary Red Wine,3190,38956,FY2019Q1
+Wine,Hungary Wine,Hungary Red Wine,538,6799,FY2019Q2
+Wine,Hungary Wine,Hungary Sparkling Wine,5349,65060,FY2018Q2
+Wine,Hungary Wine,Hungary Sparkling Wine,7262,89854,FY2018Q3
+Wine,Hungary Wine,Hungary Sparkling Wine,3436,44119,FY2018Q4
+Wine,Hungary Wine,Hungary Sparkling Wine,4859,60019,FY2019Q1
+Wine,Hungary Wine,Hungary Sparkling Wine,6534,80806,FY2019Q2
+Wine,Hungary Wine,Hungary White Wine,11674,122814,FY2018Q2
+Wine,Hungary Wine,Hungary White Wine,9530,102404,FY2018Q3
+Wine,Hungary Wine,Hungary White Wine,12492,126132,FY2018Q4
+Wine,Hungary Wine,Hungary White Wine,10410,118665,FY2019Q1
+Wine,Hungary Wine,Hungary White Wine,11280,120470,FY2019Q2
+Wine,Israel Wine,Israel Red Wine,1781,33450,FY2018Q2
+Wine,Israel Wine,Israel Red Wine,2037,38188,FY2018Q3
+Wine,Israel Wine,Israel Red Wine,2902,54309,FY2018Q4
+Wine,Israel Wine,Israel Red Wine,1360,25473,FY2019Q1
+Wine,Israel Wine,Israel Red Wine,1881,35345,FY2019Q2
+Wine,Israel Wine,Israel Rose Wine,233,4074,FY2018Q2
+Wine,Israel Wine,Israel Rose Wine,188,3288,FY2018Q3
+Wine,Israel Wine,Israel Rose Wine,128,2225,FY2018Q4
+Wine,Israel Wine,Israel Rose Wine,208,3634,FY2019Q1
+Wine,Israel Wine,Israel Rose Wine,72,1260,FY2019Q2
+Wine,Israel Wine,Israel White Wine,1005,18523,FY2018Q2
+Wine,Israel Wine,Israel White Wine,1164,21453,FY2018Q3
+Wine,Israel Wine,Israel White Wine,1509,27772,FY2018Q4
+Wine,Israel Wine,Israel White Wine,574,10606,FY2019Q1
+Wine,Israel Wine,Israel White Wine,1055,19469,FY2019Q2
+Wine,Italy Wine,Italy Fruit and Dessert Wine,105,5102,FY2018Q2
+Wine,Italy Wine,Italy Fruit and Dessert Wine,250,19199,FY2018Q3
+Wine,Italy Wine,Italy Fruit and Dessert Wine,135,12404,FY2018Q4
+Wine,Italy Wine,Italy Fruit and Dessert Wine,58,4721,FY2019Q1
+Wine,Italy Wine,Italy Fruit and Dessert Wine,67,4422,FY2019Q2
+Wine,Italy Wine,Italy Red Wine,557610,10016746,FY2018Q2
+Wine,Italy Wine,Italy Red Wine,791438,15699481,FY2018Q3
+Wine,Italy Wine,Italy Red Wine,630442,11068054,FY2018Q4
+Wine,Italy Wine,Italy Red Wine,537603,9490458,FY2019Q1
+Wine,Italy Wine,Italy Red Wine,551535,10238863,FY2019Q2
+Wine,Italy Wine,Italy Rose Wine,13952,218444,FY2018Q2
+Wine,Italy Wine,Italy Rose Wine,5459,92983,FY2018Q3
+Wine,Italy Wine,Italy Rose Wine,5090,86038,FY2018Q4
+Wine,Italy Wine,Italy Rose Wine,21008,341695,FY2019Q1
+Wine,Italy Wine,Italy Rose Wine,24212,410047,FY2019Q2
+Wine,Italy Wine,Italy Sparkling Wine,97069,1700503,FY2018Q2
+Wine,Italy Wine,Italy Sparkling Wine,123768,2208755,FY2018Q3
+Wine,Italy Wine,Italy Sparkling Wine,74796,1353359,FY2018Q4
+Wine,Italy Wine,Italy Sparkling Wine,91373,1613197,FY2019Q1
+Wine,Italy Wine,Italy Sparkling Wine,94780,1692746,FY2019Q2
+Wine,Italy Wine,Italy White Wine,418066,5518988,FY2018Q2
+Wine,Italy Wine,Italy White Wine,403075,5340187,FY2018Q3
+Wine,Italy Wine,Italy White Wine,335494,4246832,FY2018Q4
+Wine,Italy Wine,Italy White Wine,374890,4963237,FY2019Q1
+Wine,Italy Wine,Italy White Wine,392508,5393892,FY2019Q2
+Wine,Italy Wine,Prosecco Wine,225737,4309243,FY2018Q2
+Wine,Italy Wine,Prosecco Wine,333807,6120039,FY2018Q3
+Wine,Italy Wine,Prosecco Wine,155109,2896818,FY2018Q4
+Wine,Italy Wine,Prosecco Wine,197854,3719160,FY2019Q1
+Wine,Italy Wine,Prosecco Wine,230433,4431908,FY2019Q2
+Wine,New Zealand Wine,New Zealand Fruit and Dessert Wine,0,0,FY2018Q2
+Wine,New Zealand Wine,New Zealand Fruit and Dessert Wine,0,0,FY2018Q3
+Wine,New Zealand Wine,New Zealand Fruit and Dessert Wine,0,0,FY2018Q4
+Wine,New Zealand Wine,New Zealand Fruit and Dessert Wine,0,0,FY2019Q1
+Wine,New Zealand Wine,New Zealand Fruit and Dessert Wine,0,0,FY2019Q2
+Wine,New Zealand Wine,New Zealand Red Wine,29037,630126,FY2018Q2
+Wine,New Zealand Wine,New Zealand Red Wine,49490,1080082,FY2018Q3
+Wine,New Zealand Wine,New Zealand Red Wine,24899,565667,FY2018Q4
+Wine,New Zealand Wine,New Zealand Red Wine,25440,570089,FY2019Q1
+Wine,New Zealand Wine,New Zealand Red Wine,27834,616053,FY2019Q2
+Wine,New Zealand Wine,New Zealand Rose Wine,24218,440146,FY2018Q2
+Wine,New Zealand Wine,New Zealand Rose Wine,9218,166548,FY2018Q3
+Wine,New Zealand Wine,New Zealand Rose Wine,10754,209220,FY2018Q4
+Wine,New Zealand Wine,New Zealand Rose Wine,25426,458253,FY2019Q1
+Wine,New Zealand Wine,New Zealand Rose Wine,22020,396963,FY2019Q2
+Wine,New Zealand Wine,New Zealand Sparkling Wine,5620,123331,FY2018Q2
+Wine,New Zealand Wine,New Zealand Sparkling Wine,9818,208216,FY2018Q3
+Wine,New Zealand Wine,New Zealand Sparkling Wine,3393,74575,FY2018Q4
+Wine,New Zealand Wine,New Zealand Sparkling Wine,4886,102574,FY2019Q1
+Wine,New Zealand Wine,New Zealand Sparkling Wine,5898,124396,FY2019Q2
+Wine,New Zealand Wine,New Zealand White Wine,592230,10653091,FY2018Q2
+Wine,New Zealand Wine,New Zealand White Wine,663298,11770702,FY2018Q3
+Wine,New Zealand Wine,New Zealand White Wine,403094,7352566,FY2018Q4
+Wine,New Zealand Wine,New Zealand White Wine,581179,10522755,FY2019Q1
+Wine,New Zealand Wine,New Zealand White Wine,586501,10586738,FY2019Q2
+Wine,Other Country Wine,Other Country Fruit and Dessert Wine,14550,217377,FY2018Q2
+Wine,Other Country Wine,Other Country Fruit and Dessert Wine,16883,263403,FY2018Q3
+Wine,Other Country Wine,Other Country Fruit and Dessert Wine,14523,232554,FY2018Q4
+Wine,Other Country Wine,Other Country Fruit and Dessert Wine,14645,214518,FY2019Q1
+Wine,Other Country Wine,Other Country Fruit and Dessert Wine,14506,227010,FY2019Q2
+Wine,Other Country Wine,Other Country Red Wine,5600,113602,FY2018Q2
+Wine,Other Country Wine,Other Country Red Wine,9585,203495,FY2018Q3
+Wine,Other Country Wine,Other Country Red Wine,7420,165949,FY2018Q4
+Wine,Other Country Wine,Other Country Red Wine,7705,161552,FY2019Q1
+Wine,Other Country Wine,Other Country Red Wine,6302,135033,FY2019Q2
+Wine,Other Country Wine,Other Country Rose Wine,202,4391,FY2018Q2
+Wine,Other Country Wine,Other Country Rose Wine,54,1089,FY2018Q3
+Wine,Other Country Wine,Other Country Rose Wine,150,3123,FY2018Q4
+Wine,Other Country Wine,Other Country Rose Wine,256,5622,FY2019Q1
+Wine,Other Country Wine,Other Country Rose Wine,171,4205,FY2019Q2
+Wine,Other Country Wine,Other Country Sparkling Wine,842,27352,FY2018Q2
+Wine,Other Country Wine,Other Country Sparkling Wine,1024,30854,FY2018Q3
+Wine,Other Country Wine,Other Country Sparkling Wine,1129,32302,FY2018Q4
+Wine,Other Country Wine,Other Country Sparkling Wine,830,19722,FY2019Q1
+Wine,Other Country Wine,Other Country Sparkling Wine,488,13097,FY2019Q2
+Wine,Other Country Wine,Other Country White Wine,3440,68691,FY2018Q2
+Wine,Other Country Wine,Other Country White Wine,3677,69690,FY2018Q3
+Wine,Other Country Wine,Other Country White Wine,2862,54777,FY2018Q4
+Wine,Other Country Wine,Other Country White Wine,4202,83299,FY2019Q1
+Wine,Other Country Wine,Other Country White Wine,2090,45705,FY2019Q2
+Wine,Other Style Wine,Aperitif And Flavoured Wine,13257,178691,FY2018Q2
+Wine,Other Style Wine,Aperitif And Flavoured Wine,12298,177741,FY2018Q3
+Wine,Other Style Wine,Aperitif And Flavoured Wine,8390,121635,FY2018Q4
+Wine,Other Style Wine,Aperitif And Flavoured Wine,11740,150717,FY2019Q1
+Wine,Other Style Wine,Aperitif And Flavoured Wine,13524,169558,FY2019Q2
+Wine,Other Style Wine,Mead,2681,70687,FY2018Q2
+Wine,Other Style Wine,Mead,1236,31899,FY2018Q3
+Wine,Other Style Wine,Mead,1639,42197,FY2018Q4
+Wine,Other Style Wine,Mead,3166,74040,FY2019Q1
+Wine,Other Style Wine,Mead,2917,69175,FY2019Q2
+Wine,Other Style Wine,Rice Wine,3384,45912,FY2018Q2
+Wine,Other Style Wine,Rice Wine,5266,73020,FY2018Q3
+Wine,Other Style Wine,Rice Wine,4482,70890,FY2018Q4
+Wine,Other Style Wine,Rice Wine,3918,46852,FY2019Q1
+Wine,Other Style Wine,Rice Wine,3940,46605,FY2019Q2
+Wine,Portugal Wine,Portugal Fruit and Dessert Wine,22,606,FY2018Q2
+Wine,Portugal Wine,Portugal Fruit and Dessert Wine,966,81983,FY2018Q3
+Wine,Portugal Wine,Portugal Fruit and Dessert Wine,220,17056,FY2018Q4
+Wine,Portugal Wine,Portugal Fruit and Dessert Wine,50,2261,FY2019Q1
+Wine,Portugal Wine,Portugal Fruit and Dessert Wine,44,2355,FY2019Q2
+Wine,Portugal Wine,Portugal Red Wine,51569,662261,FY2018Q2
+Wine,Portugal Wine,Portugal Red Wine,63299,844449,FY2018Q3
+Wine,Portugal Wine,Portugal Red Wine,66062,846914,FY2018Q4
+Wine,Portugal Wine,Portugal Red Wine,55780,714131,FY2019Q1
+Wine,Portugal Wine,Portugal Red Wine,55946,691490,FY2019Q2
+Wine,Portugal Wine,Portugal Rose Wine,29898,314650,FY2018Q2
+Wine,Portugal Wine,Portugal Rose Wine,19748,193962,FY2018Q3
+Wine,Portugal Wine,Portugal Rose Wine,15040,145679,FY2018Q4
+Wine,Portugal Wine,Portugal Rose Wine,22211,215315,FY2019Q1
+Wine,Portugal Wine,Portugal Rose Wine,25688,260950,FY2019Q2
+Wine,Portugal Wine,Portugal Sparkling Wine,337,8340,FY2018Q2
+Wine,Portugal Wine,Portugal Sparkling Wine,297,7727,FY2018Q3
+Wine,Portugal Wine,Portugal Sparkling Wine,212,4590,FY2018Q4
+Wine,Portugal Wine,Portugal Sparkling Wine,230,5268,FY2019Q1
+Wine,Portugal Wine,Portugal Sparkling Wine,243,5196,FY2019Q2
+Wine,Portugal Wine,Portugal White Wine,48218,547365,FY2018Q2
+Wine,Portugal Wine,Portugal White Wine,29783,342852,FY2018Q3
+Wine,Portugal Wine,Portugal White Wine,26133,326474,FY2018Q4
+Wine,Portugal Wine,Portugal White Wine,53907,606546,FY2019Q1
+Wine,Portugal Wine,Portugal White Wine,55238,633530,FY2019Q2
+Wine,Sake,Japan Sake,39266,1213363,FY2018Q2
+Wine,Sake,Japan Sake,46932,1498543,FY2018Q3
+Wine,Sake,Japan Sake,45064,1398143,FY2018Q4
+Wine,Sake,Japan Sake,39456,1239826,FY2019Q1
+Wine,Sake,Japan Sake,44327,1475918,FY2019Q2
+Wine,Sake,Other Country Sake,3458,90238,FY2018Q2
+Wine,Sake,Other Country Sake,2933,70082,FY2018Q3
+Wine,Sake,Other Country Sake,3149,82607,FY2018Q4
+Wine,Sake,Other Country Sake,3513,83827,FY2019Q1
+Wine,Sake,Other Country Sake,3519,82716,FY2019Q2
+Wine,Sake,USA Sake,78290,676502,FY2018Q2
+Wine,Sake,USA Sake,97184,842592,FY2018Q3
+Wine,Sake,USA Sake,95770,831162,FY2018Q4
+Wine,Sake,USA Sake,73508,631453,FY2019Q1
+Wine,Sake,USA Sake,77550,661681,FY2019Q2
+Wine,South Africa Wine,South Africa Fruit and Dessert Wine,0,0,FY2018Q2
+Wine,South Africa Wine,South Africa Fruit and Dessert Wine,0,0,FY2018Q3
+Wine,South Africa Wine,South Africa Fruit and Dessert Wine,0,0,FY2018Q4
+Wine,South Africa Wine,South Africa Fruit and Dessert Wine,0,0,FY2019Q1
+Wine,South Africa Wine,South Africa Fruit and Dessert Wine,0,0,FY2019Q2
+Wine,South Africa Wine,South Africa Red Wine,115798,1379310,FY2018Q2
+Wine,South Africa Wine,South Africa Red Wine,140338,1685224,FY2018Q3
+Wine,South Africa Wine,South Africa Red Wine,115299,1395284,FY2018Q4
+Wine,South Africa Wine,South Africa Red Wine,96282,1215600,FY2019Q1
+Wine,South Africa Wine,South Africa Red Wine,124912,1441352,FY2019Q2
+Wine,South Africa Wine,South Africa Rose Wine,6252,79090,FY2018Q2
+Wine,South Africa Wine,South Africa Rose Wine,99,1403,FY2018Q3
+Wine,South Africa Wine,South Africa Rose Wine,171,2670,FY2018Q4
+Wine,South Africa Wine,South Africa Rose Wine,7417,76789,FY2019Q1
+Wine,South Africa Wine,South Africa Rose Wine,7688,71754,FY2019Q2
+Wine,South Africa Wine,South Africa Sparkling Wine,2434,35012,FY2018Q2
+Wine,South Africa Wine,South Africa Sparkling Wine,3630,58451,FY2018Q3
+Wine,South Africa Wine,South Africa Sparkling Wine,1899,28076,FY2018Q4
+Wine,South Africa Wine,South Africa Sparkling Wine,2062,33169,FY2019Q1
+Wine,South Africa Wine,South Africa Sparkling Wine,1938,28001,FY2019Q2
+Wine,South Africa Wine,South Africa White Wine,113879,1190408,FY2018Q2
+Wine,South Africa Wine,South Africa White Wine,92309,1010240,FY2018Q3
+Wine,South Africa Wine,South Africa White Wine,79514,875223,FY2018Q4
+Wine,South Africa Wine,South Africa White Wine,93782,1031360,FY2019Q1
+Wine,South Africa Wine,South Africa White Wine,108625,1111788,FY2019Q2
+Wine,Spain Wine,Spain Fruit and Dessert Wine,322,11511,FY2018Q2
+Wine,Spain Wine,Spain Fruit and Dessert Wine,273,8424,FY2018Q3
+Wine,Spain Wine,Spain Fruit and Dessert Wine,412,16765,FY2018Q4
+Wine,Spain Wine,Spain Fruit and Dessert Wine,518,14052,FY2019Q1
+Wine,Spain Wine,Spain Fruit and Dessert Wine,128,4438,FY2019Q2
+Wine,Spain Wine,Spain Red Wine,373347,4578707,FY2018Q2
+Wine,Spain Wine,Spain Red Wine,431954,5777041,FY2018Q3
+Wine,Spain Wine,Spain Red Wine,428963,5158809,FY2018Q4
+Wine,Spain Wine,Spain Red Wine,299202,3856715,FY2019Q1
+Wine,Spain Wine,Spain Red Wine,356965,4505777,FY2019Q2
+Wine,Spain Wine,Spain Rose Wine,16671,225802,FY2018Q2
+Wine,Spain Wine,Spain Rose Wine,8484,104820,FY2018Q3
+Wine,Spain Wine,Spain Rose Wine,8998,129143,FY2018Q4
+Wine,Spain Wine,Spain Rose Wine,19139,259067,FY2019Q1
+Wine,Spain Wine,Spain Rose Wine,25059,331154,FY2019Q2
+Wine,Spain Wine,Spain Sparkling Wine,69638,1153954,FY2018Q2
+Wine,Spain Wine,Spain Sparkling Wine,138100,2203402,FY2018Q3
+Wine,Spain Wine,Spain Sparkling Wine,52003,867430,FY2018Q4
+Wine,Spain Wine,Spain Sparkling Wine,69665,1140121,FY2019Q1
+Wine,Spain Wine,Spain Sparkling Wine,70095,1180780,FY2019Q2
+Wine,Spain Wine,Spain White Wine,55040,531288,FY2018Q2
+Wine,Spain Wine,Spain White Wine,40127,422340,FY2018Q3
+Wine,Spain Wine,Spain White Wine,105671,901460,FY2018Q4
+Wine,Spain Wine,Spain White Wine,32908,401368,FY2019Q1
+Wine,Spain Wine,Spain White Wine,53317,556468,FY2019Q2
+Wine,USA Wine,USA Fruit and Dessert Wine,310,4370,FY2018Q2
+Wine,USA Wine,USA Fruit and Dessert Wine,36,2720,FY2018Q3
+Wine,USA Wine,USA Fruit and Dessert Wine,279,3697,FY2018Q4
+Wine,USA Wine,USA Fruit and Dessert Wine,81,1227,FY2019Q1
+Wine,USA Wine,USA Fruit and Dessert Wine,189,1787,FY2019Q2
+Wine,USA Wine,USA Red Wine,999868,19308394,FY2018Q2
+Wine,USA Wine,USA Red Wine,1554310,31091624,FY2018Q3
+Wine,USA Wine,USA Red Wine,1044038,20131938,FY2018Q4
+Wine,USA Wine,USA Red Wine,1029196,20554019,FY2019Q1
+Wine,USA Wine,USA Red Wine,1044822,20078652,FY2019Q2
+Wine,USA Wine,USA Rose Wine,149953,1355926,FY2018Q2
+Wine,USA Wine,USA Rose Wine,134666,1126865,FY2018Q3
+Wine,USA Wine,USA Rose Wine,127376,1058760,FY2018Q4
+Wine,USA Wine,USA Rose Wine,159008,1490646,FY2019Q1
+Wine,USA Wine,USA Rose Wine,148480,1444181,FY2019Q2
+Wine,USA Wine,USA Sparkling Wine,23125,368465,FY2018Q2
+Wine,USA Wine,USA Sparkling Wine,37530,610383,FY2018Q3
+Wine,USA Wine,USA Sparkling Wine,15883,266901,FY2018Q4
+Wine,USA Wine,USA Sparkling Wine,19918,342735,FY2019Q1
+Wine,USA Wine,USA Sparkling Wine,22134,375939,FY2019Q2
+Wine,USA Wine,USA White Wine,540421,7448392,FY2018Q2
+Wine,USA Wine,USA White Wine,548218,7576652,FY2018Q3
+Wine,USA Wine,USA White Wine,439016,5885145,FY2018Q4
+Wine,USA Wine,USA White Wine,487744,6603975,FY2019Q1
+Wine,USA Wine,USA White Wine,532499,7484748,FY2019Q2
