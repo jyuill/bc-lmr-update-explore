@@ -76,6 +76,13 @@ fn_db_qtrs <- function(tbl_upload) {
     } else {
       season_new <- 'winter'
     }
+    # calendar quarter
+    cqtr_new <- case_when(
+      qtr_new == 'Q1' ~ 'Q2',
+      qtr_new == 'Q2' ~ 'Q3',
+      qtr_new == 'Q3' ~ 'Q4',
+      qtr_new == 'Q4' ~ 'Q1'
+    )
     ## insert info for new qtr
     dbExecute(con, glue("INSERT INTO tblLDB_quarter (
                 fy_qtr,
@@ -84,6 +91,7 @@ fn_db_qtrs <- function(tbl_upload) {
                 end_qtr,
                 end_qtr_dt,
                 cyr,
+                cqtr,
                 season
               ) 
               VALUES('{fy_qtr_new}',
@@ -92,6 +100,7 @@ fn_db_qtrs <- function(tbl_upload) {
               '{end_qtr_new}',
               '{end_qtr_dt_new}',
               '{cyr_new}',
+              '{cqtr_new}',
               '{season_new}'
               );"))
   }

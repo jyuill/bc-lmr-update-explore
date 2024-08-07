@@ -42,15 +42,15 @@ cat_type_color <- c("Beer"=bpal[6], "Refresh Bev"=bpal[3], "Spirits"=bpal[4], "W
 if(exists('lmr_data')){
   lmr_data <- lmr_data
 } else { # get from MySQL database on AWS
-    source('credo.R')
+    source('credo_db.R') # use .env file instead of credo.R
     # local server
     #con <- dbConnect(RMariaDB::MariaDB(), user='root', password=mypwd, dbname='bcbg')
     # aws
     con_aws <- dbConnect(RMariaDB::MariaDB(),
-                       host=endpt,
+                       host=a.endpt,
                        user='admin',
-                       password=apwd,
-                       port=aport)
+                       password=a.pwd,
+                       port=a.port)
     lmr_data <- dbGetQuery(con_aws, "SELECT * FROM bcbg.tblLDB_lmr lmr
                            LEFT JOIN bcbg.tblLDB_quarter qtr ON lmr.fy_qtr=qtr.fy_qtr;")
     dbDisconnect(con_aws)
