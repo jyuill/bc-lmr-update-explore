@@ -26,7 +26,7 @@ theme_set(theme_classic())
 #display.brewer.pal(n=8, name='Set2')
 #display.brewer.pal(n=8, name='Dark2')
 ##display.brewer.pal(n=9, name='YlOrRd')
-display.brewer.pal(n=9, name='YlGnBu')
+#display.brewer.pal(n=9, name='YlGnBu')
 bar_col <- brewer.pal(n=9, name='YlGnBu')[9]
 # set colors for major category types
 #bpal <- brewer.pal(n=8, name='Dark2')

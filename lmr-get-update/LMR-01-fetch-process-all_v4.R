@@ -11,6 +11,7 @@ library(lubridate)
 library(scales)
 library(glue)
 library(here)
+library(tesseract)
 library(readr) ## for easy conversion of $ characters to numeric
 ## clear environment to avoid confusion
 rm(list=ls())
@@ -19,7 +20,7 @@ rm(list=ls())
 ## SPECIFY LINK AND DESIRED FILE NAME: needed for each issue
 ## find link at: https://www.bcldb.com/publications/liquor-market-review 
 ## older reports: https://www.bcldb.com/publications/archives?y%5Bvalue%5D%5Byear%5D=&r=4&b= 
-furl <- "https://www.bcldb.com/files/Liquor_Market_Review_F24_25_Q1_June_2024.pdf"
+furl <- "https://www.bcldb.com/files/Liquor_Market_Review_F24_25_Q2_September_2024_0.pdf"
 ## > rest of process is automated to end > run via 'Source'
 
 ## Load functions ####
@@ -50,14 +51,17 @@ source("functions/ldb_extract_functions_v2.R")
 ## Function to:
 ## - Import if previously downloaded
 ## - Download, save, import if not already, based on URL above
-lmr <- fn_lmr(furl)
-lmr_name <- unlist(lmr[2])
+# - indicated if rotation of pages needed (starting Sep 2024, pages are landscape format)
+lmr <- fn_lmr(furl, rotate=TRUE)
+# used to get name for saving files, in form: LMR_20XX_0X_FYXXQX; passed back with fn_lmr funct
+lmr_name <- unlist(lmr[2]) 
 lmr_name_clean <- str_remove(lmr_name,"\\.pdf")
-lmr <- unlist(lmr[1])
+lmr <- unlist(lmr[1]) # report content is passed back with fn_url function
+
 ## - see 'pdftools-explore.R' for different ways to access page info
 ## > get report meta info ####
-title_pg <- unlist(strsplit(lmr[1], "\n"))
-title_pg_dt <- str_replace(trimws(title_pg[8])," ","_")
+#title_pg <- unlist(strsplit(lmr[1], "\n"))
+#title_pg_dt <- str_replace(trimws(title_pg[8])," ","_")
 
 ## 3. COLLECT EACH tbl data ####
 ## Look at each page to determine which ones have tables
@@ -88,6 +92,7 @@ for(p in 4:length(lmr)){
       ## table name, category type for processing / saving
       tbl_meta <- fn_pg_meta(tbl_pg_rows, p, tbl_name_prev, tbl_cat_type)
       tbl_name_clean <- tbl_meta[[1]]
+      # set current name to prev to handle multi-pg tables
       tbl_name_prev <- tbl_name_clean
       tbl_cat_type <- tbl_meta[[3]]
       
@@ -122,12 +127,14 @@ for(p in 4:length(lmr)){
 tables_all <- full_join(tables_all_litres, tables_all_netsales, by=c("cat_type", "category", "subcategory", "period"))
 
 ## simplify period format and rename to fy_qtr to match MySQL database
+#
 ## from 'Fiscal 2021/22 Q4' to 'FY2022Q4'
 tables_all_fyqtr <- tables_all %>% mutate(
   fy_qtr = str_replace(period, "Fiscal ", "FY"),
   ## remove two digits for prev yr + '/' ("21/" in example above)
   fy_qtr = str_replace_all(str_remove(fy_qtr, str_sub(fy_qtr, start=5, end=7))," ","")
 ) %>% select(-period)
+
 ## > SAVE joined tbl ####
 ## table for upload - complete, clean RAW data - without extra date dimensions  
 #  - date dimensions are in separate table, joined when querying
