@@ -48,6 +48,7 @@ fn_lmr <- function(furl, rotate){
   fname <- paste0("LMR_",fname_url_yr,"_",fname_url_mth,"_",fname_url_qtr,".pdf")
   
   # working with existing files ----
+  # maintain list of files and URLs for on-going reference
   # input file location/path
   input_folder <- "lmr-get-update/input/"
   input_file <- "01_lmr_list.csv"
@@ -69,12 +70,11 @@ fn_lmr <- function(furl, rotate){
   }
   # path for latest file
   pdf_file <- paste0(input_folder,fname)
-  # pdf dwnld/import ------
-  ## if file doesn't exist download it, then import into session
+  # pdf dwnld ------
+  ## if file doesn't exist download it
   if(!file.exists(pdf_file)){
     download.file(furl, pdf_file, mode='wb') # mode='wb' on windows for text files
     #info <- pdf_info(pdf_file) # get metadata: # of pgs, title, etc
-  }
     # convert pdf to readable format in R and import
     if(rotate==TRUE){
       #lmr <- pdf_text(pdf_file) # original process - before LDB reformatted
@@ -84,21 +84,23 @@ fn_lmr <- function(furl, rotate){
       # rotate and replace original pdf file
       system(paste("qpdf --rotate=+90 --replace-input", pdf_file))
     }
+  }
+    
+  # OCR conversion ----
   # convert rotated pdf from images to text (needed starting Sep 2024)
   # complicated to save result as pdf, so just running every time
   lmr_ocr <- tesseract::ocr(pdf_file)
   # process generates png files in root directory, but not needed
+  # clean up .png files produced as side-effect
   # get List all .png files in the directory
-  png_files <- list.files(path = here(), pattern = "\\.png$", full.names = TRUE)
+    png_files <- list.files(path = here(), pattern = "\\.png$", full.names = TRUE)
   # Remove the .png files - not needed
-  file.remove(png_files)
+    file.remove(png_files)
   
   # leaving option open for other proc if pdf format changes after Sep 2024
   lmr_use <- lmr_ocr
   return(list(lmr_use, fname))
 }
-
-
 
 ## clean pg -> remove summary, blank rows
 fn_pg_clean <- function(tbl_pg_rows) {
@@ -106,7 +108,10 @@ fn_pg_clean <- function(tbl_pg_rows) {
   cat("clean tbl: remove summary, blank rows \n")
   srows <- NULL
   for(r in 1:length(tbl_pg_rows)){
-    if(str_detect(tbl_pg_rows[r],"Summary")==TRUE | tbl_pg_rows[r]==""){
+    if(str_detect(tbl_pg_rows[r],"Summary")==TRUE | 
+       tbl_pg_rows[r]=="" |
+       str_detect(tbl_pg_rows[r],"Liquor Market Review") |
+       str_detect(tbl_pg_rows[r], "TOP")){
       srow <- r
       srows <- c(srows,srow)
     }
@@ -161,13 +166,16 @@ fn_pg_meta <- function(tbl_pg_rows, pg_num, tbl_name_prev, tbl_cat_type){
 }
 
 ## extract tbl content from pg
-fn_tbl_content <- function(tbl_pg_rows, tbl_meta){
+fn_tbl_content <- function(tbl_pg_rows, tbl_meta, categories){
   cat("start content process function \n")
   ## unpack meta data
   tbl_name <- tbl_meta[[1]]
   hrow <- tbl_meta[[2]] ## identifies heading row, depends on pg layout; -1 for blank row
   tbl_cat_type <- tbl_meta[[3]]
   tbl_metric <- tbl_meta[[4]]
+
+  # filter categories for cat type
+  categories <- categories %>% filter(cat_type==tbl_cat_type)
   
   ## > TABLE + HEADING ####
   cat("get headings, set up table \n")
@@ -210,7 +218,7 @@ fn_tbl_content <- function(tbl_pg_rows, tbl_meta){
   tbl <- data.frame(matrix(ncol=length(tbl_heading)))
   colnames(tbl) <- tbl_heading
   
-  ## > PROCESS DATA ####
+  # > PROC ROW DATA ####
   ## get data from each row and add to table
   cat("process data \n")
   start <- hrow+1
@@ -218,25 +226,49 @@ fn_tbl_content <- function(tbl_pg_rows, tbl_meta){
   for(r in start:length(tbl_pg_rows)){
     ## pre-defined tbl will accumulate rows through loop
     cat("table row: ", r, "; ")
-    # original version: split on 2 or more spaces
+    # original pre Sep 2024 version: split on 2 or more spaces
     #row_content <- unlist(str_split(trimws(tbl_pg_rows[r]), "\\s{2,}"))
-    # ocr version: split on 1 or more spaces
-    row_content <- unlist(str_split(trimws(tbl_pg_rows[r]), "\\s{1,}"))
-    col_nums <- length(row_content)
-    cat("col nums:", col_nums, "\n")
-    if(col_nums>5){ ## only rows with data
-      tr <- r-hrow ## set table row number by subtract pdf start num
-      tbl[tr,"cat_type"] <- tbl_cat_type
-      if(col_nums==7){ ## rows with category shown
-        tbl$category[tr] <- row_content[1]
-        tbl$subcategory[tr] <- row_content[2]
-        tbl[tr,c(4:(col_nums+1))] <- row_content[c(3:col_nums)]
-      } else {
-        ## get category from prev row
-        tbl$category[tr] <- tbl$category[tr-1]
-        tbl$subcategory[tr] <- row_content[1]
-        tbl[tr,c(4:(col_nums+2))] <- row_content[c(2:col_nums)]
-      }
+    # col_nums <- length(row_content)
+    # cat("col nums:", col_nums, "\n")
+    # if(col_nums>5){ ## only rows with data
+    #   tr <- r-hrow ## set table row number by subtract pdf start num
+    #   tbl[tr,"cat_type"] <- tbl_cat_type
+    #   if(col_nums==7){ ## rows with category shown
+    #     tbl$category[tr] <- row_content[1]
+    #     tbl$subcategory[tr] <- row_content[2]
+    #     tbl[tr,c(4:(col_nums+1))] <- row_content[c(3:col_nums)]
+    #   } else {
+    #     ## get category from prev row
+    #     tbl$category[tr] <- tbl$category[tr-1]
+    #     tbl$subcategory[tr] <- row_content[1]
+    #     tbl[tr,c(4:(col_nums+2))] <- row_content[c(2:col_nums)]
+    #   }
+    # end original pre Sep 2024 version
+    # new process as of Sep 2024 based on OCR of tables
+    row_content <- tbl_pg_rows[r] 
+    # split version for detecting number values
+    row_content_split <- unlist(str_split(trimws(tbl_pg_rows[r]), "\\s{1,}"))
+    # get number values starting from end, working back (accounts for variable length)
+    # - clean up text convert to number format
+    ttl_length <- length(row_content_split)
+    num_values <- row_content_split[(ttl_length-4):ttl_length]
+    num_values <- str_remove_all(num_values,"\\$")
+    num_values <- str_remove_all(num_values, ",")
+    num_values <- as.numeric(num_values)
+    trow <- r-hrow # get row number based on r minus hrow value to start at 1
+    tbl[trow, "cat_type"] <- tbl_cat_type
+    # loop through categories table to find match for subcategory
+    # - on subcategory match, set category and subcategory columns
+    # - works for rows with no category available
+    # - possible issue: if categories change in new data, will match with outdated category
+      for(sc in 1:nrow(categories) ) {
+        if(str_detect(row_content, categories$subcategory[sc])) {
+          tbl[trow,"category"] <- categories$category[sc]
+          tbl[trow,"subcategory"] <- categories$subcategory[sc]
+        }
+    # add number values in each col, based on values obtained above
+      tbl[trow,4:8] <- num_values
+      } # end category / subcategory
     } ## end row conditional
     print(tbl)
   } ## end single page loop

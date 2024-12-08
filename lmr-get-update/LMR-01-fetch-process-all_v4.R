@@ -49,9 +49,10 @@ source("functions/ldb_extract_functions_v2.R")
 
 ## 2. IMPORT PDF ####
 ## Function to:
-## - Import if previously downloaded
-## - Download, save, import if not already, based on URL above
-# - indicated if rotation of pages needed (starting Sep 2024, pages are landscape format)
+## - Import pdf from input folder if previously downloaded
+## - otherwise, download, transform (rotate/ocr), save, based on URL above
+#    - indicate if rotation of pages needed (starting Sep 2024, pages are landscape format)
+#    - if rotation, png will be created for each pg as by-product; will be deleted at end
 lmr <- fn_lmr(furl, rotate=TRUE)
 # used to get name for saving files, in form: LMR_20XX_0X_FYXXQX; passed back with fn_lmr funct
 lmr_name <- unlist(lmr[2]) 
@@ -75,7 +76,7 @@ tbl_cat_type <- ""
 ## START LOOP
 for(p in 4:length(lmr)){
   ## > identify/skip non-tbl pgs
-  ## test for 'Item Subcategory' -> identifies chart pages; similar for Glossary
+  ## test for 'Item Subcategory' or 'Glossary' -> identifies chart pages and Glossary pg for exclusion
   if(str_detect(lmr[p],"Item Subcategory")){
     cat(p, "chart pg \n")  
     } else if(str_detect(lmr[p], regex("Glossary", ignore_case = TRUE))){
@@ -98,7 +99,23 @@ for(p in 4:length(lmr)){
       
       ## > PROCESS tbl ####
       ## process content - pass in page content in rows, along with meta data
-      page_data_tbls <- fn_tbl_content(tbl_pg_rows, tbl_meta)
+      # breaks out text rows to cols for table
+      ### categories ----
+      # first get list of categories and subcategories for matching with row content
+      # import table categories and subcategories for matching with new report content
+      # - needed to determine how to separate rows into cols, since no other consistent markings
+      # - pre-Sep-2024 could use double spaces (commented out code remains below)
+      # get list of existing files to filter for most recent
+      data_files <- list.files(here('lmr-get-update','output'))
+      data_files_info <- file.info(here('lmr-get-update','output',data_files))
+      data_files_info$file <- row.names(data_files_info)
+      data_file <- data_files_info %>% filter(mtime == max(mtime))
+      # import most recent data file to get cat / subcat
+      cat_subcat <- read_csv(data_file$file)
+      cat_subcat <- cat_subcat %>% group_by(cat_type, category, subcategory) %>%
+        summarize(number=n())
+      ### process rows ----
+      page_data_tbls <- fn_tbl_content(tbl_pg_rows, tbl_meta, cat_subcat)
 
       ## > SAVE: wide, long ####
       ## save results for page - identifying report by name and table -> wide and long versions
