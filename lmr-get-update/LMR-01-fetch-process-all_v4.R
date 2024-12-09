@@ -187,7 +187,7 @@ tables_all_fyqtr <- tables_all %>% mutate(
 ## table for upload - complete, clean RAW data - without extra date dimensions  
 #  - date dimensions are in separate table, joined when querying
 tbl_save <- here('lmr-get-update','output',paste0(lmr_name_clean,"_db_upload.csv"))
-write_csv(tables_all_fyqtr, here('output',paste0(lmr_name_clean,"_db_upload.csv")))
+write_csv(tables_all_fyqtr, tbl_save)
 
 ## > data check ####
 # quick check by category
