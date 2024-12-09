@@ -1,0 +1,231 @@
+cat_type,category,subcategory,period,litres
+Spirits,Asian Spirits,China Spirits,FY2024Q2,13233
+Spirits,Asian Spirits,China Spirits,FY2024Q3,18632
+Spirits,Asian Spirits,China Spirits,FY2024Q4,17502
+Spirits,Asian Spirits,China Spirits,FY2025Q1,13431
+Spirits,Asian Spirits,China Spirits,FY2025Q2,13655
+Spirits,Asian Spirits,Korea Spirits,FY2024Q2,75313
+Spirits,Asian Spirits,Korea Spirits,FY2024Q3,74640
+Spirits,Asian Spirits,Korea Spirits,FY2024Q4,75485
+Spirits,Asian Spirits,Korea Spirits,FY2025Q1,66314
+Spirits,Asian Spirits,Korea Spirits,FY2025Q2,76274
+Spirits,Asian Spirits,Other Country Asian Spirits,FY2024Q2,3558
+Spirits,Asian Spirits,Other Country Asian Spirits,FY2024Q3,4047
+Spirits,Asian Spirits,Other Country Asian Spirits,FY2024Q4,3359
+Spirits,Asian Spirits,Other Country Asian Spirits,FY2025Q1,3506
+Spirits,Asian Spirits,Other Country Asian Spirits,FY2025Q2,3980
+Spirits,Gin,Dry Gin,FY2024Q2,490257
+Spirits,Gin,Dry Gin,FY2024Q3,424590
+Spirits,Gin,Dry Gin,FY2024Q4,326680
+Spirits,Gin,Dry Gin,FY2025Q1,424987
+Spirits,Gin,Dry Gin,FY2025Q2,442089
+Spirits,Gin,Flavoured Gin,FY2024Q2,39511
+Spirits,Gin,Flavoured Gin,FY2024Q3,28847
+Spirits,Gin,Flavoured Gin,FY2024Q4,20696
+Spirits,Gin,Flavoured Gin,FY2025Q1,32377
+Spirits,Gin,Flavoured Gin,FY2025Q2,32506
+Spirits,Gin,Other Gin,FY2024Q2,13191
+Spirits,Gin,Other Gin,FY2024Q3,11336
+Spirits,Gin,Other Gin,FY2024Q4,9371
+Spirits,Gin,Other Gin,FY2025Q1,19223
+Spirits,Gin,Other Gin,FY2025Q2,15605
+Spirits,Grape and Fruit Brandy,Brandy,FY2024Q2,503
+Spirits,Grape and Fruit Brandy,Brandy,FY2024Q3,874
+Spirits,Grape and Fruit Brandy,Brandy,FY2024Q4,713
+Spirits,Grape and Fruit Brandy,Brandy,FY2025Q1,267
+Spirits,Grape and Fruit Brandy,Brandy,FY2025Q2,378
+Spirits,Grape and Fruit Brandy,Brandy,FY2024Q2,67653
+Spirits,Grape and Fruit Brandy,Brandy,FY2024Q3,116418
+Spirits,Grape and Fruit Brandy,Brandy,FY2024Q4,72726
+Spirits,Grape and Fruit Brandy,Brandy,FY2025Q1,67201
+Spirits,Grape and Fruit Brandy,Brandy,FY2025Q2,62760
+Spirits,Grape and Fruit Brandy,Cognac,FY2024Q2,19611
+Spirits,Grape and Fruit Brandy,Cognac,FY2024Q3,32074
+Spirits,Grape and Fruit Brandy,Cognac,FY2024Q4,18523
+Spirits,Grape and Fruit Brandy,Cognac,FY2025Q1,16195
+Spirits,Grape and Fruit Brandy,Cognac,FY2025Q2,16417
+Spirits,Grape and Fruit Brandy,Eau de Vie,FY2024Q2,5024
+Spirits,Grape and Fruit Brandy,Eau de Vie,FY2024Q3,8038
+Spirits,Grape and Fruit Brandy,Eau de Vie,FY2024Q4,3550
+Spirits,Grape and Fruit Brandy,Eau de Vie,FY2025Q1,5563
+Spirits,Grape and Fruit Brandy,Eau de Vie,FY2025Q2,4776
+Spirits,Grape and Fruit Brandy,Grappa And Marc,FY2024Q2,1164
+Spirits,Grape and Fruit Brandy,Grappa And Marc,FY2024Q3,1522
+Spirits,Grape and Fruit Brandy,Grappa And Marc,FY2024Q4,1134
+Spirits,Grape and Fruit Brandy,Grappa And Marc,FY2025Q1,1152
+Spirits,Grape and Fruit Brandy,Grappa And Marc,FY2025Q2,971
+Spirits,Grape and Fruit Brandy,Pisco,FY2024Q2,3171
+Spirits,Grape and Fruit Brandy,Pisco,FY2024Q3,3184
+Spirits,Grape and Fruit Brandy,Pisco,FY2024Q4,2707
+Spirits,Grape and Fruit Brandy,Pisco,FY2025Q1,3311
+Spirits,Grape and Fruit Brandy,Pisco,FY2025Q2,3042
+Spirits,Liqueurs,Anise And Herbal/Spice Liqueurs,FY2024Q2,297961
+Spirits,Liqueurs,Anise And Herbal/Spice Liqueurs,FY2024Q3,362861
+Spirits,Liqueurs,Anise And Herbal/Spice Liqueurs,FY2024Q4,255641
+Spirits,Liqueurs,Anise And Herbal/Spice Liqueurs,FY2025Q1,305487
+Spirits,Liqueurs,Anise And Herbal/Spice Liqueurs,FY2025Q2,301249
+Spirits,Liqueurs,Coffee And Cocoa Liqueurs,FY2024Q2,75301
+Spirits,Liqueurs,Coffee And Cocoa Liqueurs,FY2024Q3,129886
+Spirits,Liqueurs,Coffee And Cocoa Liqueurs,FY2024Q4,65300
+Spirits,Liqueurs,Coffee And Cocoa Liqueurs,FY2025Q1,65638
+Spirits,Liqueurs,Coffee And Cocoa Liqueurs,FY2025Q2,14573
+Spirits,Liqueurs,Cream/Dairy Liqueurs,FY2024Q2,296061
+Spirits,Liqueurs,Cream/Dairy Liqueurs,FY2024Q3,762718
+Spirits,Liqueurs,Cream/Dairy Liqueurs,FY2024Q4,199658
+Spirits,Liqueurs,Cream/Dairy Liqueurs,FY2025Q1,225650
+Spirits,Liqueurs,Cream/Dairy Liqueurs,FY2025Q2,278863
+Spirits,Liqueurs,Fruit Liqueurs,FY2024Q2,223603
+Spirits,Liqueurs,Fruit Liqueurs,FY2024Q3,233256
+Spirits,Liqueurs,Fruit Liqueurs,FY2024Q4,162564
+Spirits,Liqueurs,Fruit Liqueurs,FY2025Q1,216531
+Spirits,Liqueurs,Fruit Liqueurs,FY2025Q2,238864
+Spirits,Liqueurs,Nut Liqueurs,FY2024Q2,63528
+Spirits,Liqueurs,Nut Liqueurs,FY2024Q3,70590
+Spirits,Liqueurs,Nut Liqueurs,FY2024Q4,38743
+Spirits,Liqueurs,Nut Liqueurs,FY2025Q1,55137
+Spirits,Liqueurs,Nut Liqueurs,FY2025Q2,58760
+Spirits,Liqueurs,Other Liqueurs,FY2024Q2,40681
+Spirits,Liqueurs,Other Liqueurs,FY2024Q3,44921
+Spirits,Liqueurs,Other Liqueurs,FY2024Q4,30060
+Spirits,Liqueurs,Other Liqueurs,FY2025Q1,34126
+Spirits,Liqueurs,Other Liqueurs,FY2025Q2,41260
+Spirits,Liqueurs,Whiskey Liqueurs,FY2024Q2,41293
+Spirits,Liqueurs,Whiskey Liqueurs,FY2024Q3,60085
+Spirits,Liqueurs,Whiskey Liqueurs,FY2024Q4,38377
+Spirits,Liqueurs,Whiskey Liqueurs,FY2025Q1,41857
+Spirits,Liqueurs,Whiskey Liqueurs,FY2025Q2,43685
+Spirits,Other Spirits,Cachaca,FY2024Q2,1414
+Spirits,Other Spirits,Cachaca,FY2024Q3,832
+Spirits,Other Spirits,Cachaca,FY2024Q4,1063
+Spirits,Other Spirits,Cachaca,FY2025Q1,1124
+Spirits,Other Spirits,Cachaca,FY2025Q2,1442
+Spirits,Other Spirits,Flavoured Spirits,FY2024Q2,4155
+Spirits,Other Spirits,Flavoured Spirits,FY2024Q3,14388
+Spirits,Other Spirits,Flavoured Spirits,FY2024Q4,1933
+Spirits,Other Spirits,Flavoured Spirits,FY2025Q1,2369
+Spirits,Other Spirits,Flavoured Spirits,FY2025Q2,2877
+Spirits,Other Spirits,Miscellaneous/Other Spirits,FY2024Q2,5032
+Spirits,Other Spirits,Miscellaneous/Other Spirits,FY2024Q3,4960
+Spirits,Other Spirits,Miscellaneous/Other Spirits,FY2024Q4,4526
+Spirits,Other Spirits,Miscellaneous/Other Spirits,FY2025Q1,3968
+Spirits,Other Spirits,Miscellaneous/Other Spirits,FY2025Q2,5383
+Spirits,Other Spirits,Moonshine Spirits,FY2024Q2,15223
+Spirits,Other Spirits,Moonshine Spirits,FY2024Q3,15069
+Spirits,Other Spirits,Moonshine Spirits,FY2024Q4,11410
+Spirits,Other Spirits,Moonshine Spirits,FY2025Q1,11808
+Spirits,Other Spirits,Moonshine Spirits,FY2025Q2,14665
+Spirits,Other Spirits,Ready to Mix Cocktails,FY2024Q2,29918
+Spirits,Other Spirits,Ready to Mix Cocktails,FY2024Q3,25622
+Spirits,Other Spirits,Ready to Mix Cocktails,FY2024Q4,24980
+Spirits,Other Spirits,Ready to Mix Cocktails,FY2025Q1,27133
+Spirits,Other Spirits,Ready to Mix Cocktails,FY2025Q2,28841
+Spirits,Other Spirits,Ready to Serve Cocktails,FY2024Q2,126082
+Spirits,Other Spirits,Ready to Serve Cocktails,FY2024Q3,61930
+Spirits,Other Spirits,Ready to Serve Cocktails,FY2024Q4,59226
+Spirits,Other Spirits,Ready to Serve Cocktails,FY2025Q1,121388
+Spirits,Other Spirits,Ready to Serve Cocktails,FY2025Q2,124088
+Spirits,Other Spirits,Schnapps and Akvavit,FY2024Q2,957
+Spirits,Other Spirits,Schnapps and Akvavit,FY2024Q3,1242
+Spirits,Other Spirits,Schnapps and Akvavit,FY2024Q4,877
+Spirits,Other Spirits,Schnapps and Akvavit,FY2025Q1,874
+Spirits,Other Spirits,Schnapps and Akvavit,FY2025Q2,870
+Spirits,Rum,Amber Rum,FY2024Q2,199497
+Spirits,Rum,Amber Rum,FY2024Q3,273174
+Spirits,Rum,Amber Rum,FY2024Q4,148687
+Spirits,Rum,Amber Rum,FY2025Q1,176788
+Spirits,Rum,Amber Rum,FY2025Q2,181273
+Spirits,Rum,Dark Rum,FY2024Q2,87920
+Spirits,Rum,Dark Rum,FY2024Q3,132072
+Spirits,Rum,Dark Rum,FY2024Q4,85054
+Spirits,Rum,Dark Rum,FY2025Q1,84682
+Spirits,Rum,Dark Rum,FY2025Q2,80504
+Spirits,Rum,Flavoured Rum,FY2024Q2,18331
+Spirits,Rum,Flavoured Rum,FY2024Q3,14373
+Spirits,Rum,Flavoured Rum,FY2024Q4,12045
+Spirits,Rum,Flavoured Rum,FY2025Q1,14267
+Spirits,Rum,Flavoured Rum,FY2025Q2,15657
+Spirits,Rum,Spiced Rum,FY2024Q2,247267
+Spirits,Rum,Spiced Rum,FY2024Q3,415689
+Spirits,Rum,Spiced Rum,FY2024Q4,184954
+Spirits,Rum,Spiced Rum,FY2025Q1,219930
+Spirits,Rum,Spiced Rum,FY2025Q2,221764
+Spirits,Rum,White Rum,FY2024Q2,304296
+Spirits,Rum,White Rum,FY2024Q3,309158
+Spirits,Rum,White Rum,FY2024Q4,206580
+Spirits,Rum,White Rum,FY2025Q1,278179
+Spirits,Rum,White Rum,FY2025Q2,284130
+Spirits,Tequila,Blanco/Silver Tequila,FY2024Q2,236423
+Spirits,Tequila,Blanco/Silver Tequila,FY2024Q3,174654
+Spirits,Tequila,Blanco/Silver Tequila,FY2024Q4,148923
+Spirits,Tequila,Blanco/Silver Tequila,FY2025Q1,210349
+Spirits,Tequila,Blanco/Silver Tequila,FY2025Q2,244509
+Spirits,Tequila,Flavoured Tequila,FY2024Q2,18476
+Spirits,Tequila,Flavoured Tequila,FY2024Q3,12890
+Spirits,Tequila,Flavoured Tequila,FY2024Q4,10364
+Spirits,Tequila,Flavoured Tequila,FY2025Q1,18072
+Spirits,Tequila,Flavoured Tequila,FY2025Q2,20366
+Spirits,Tequila,Gold Tequila,FY2024Q2,231150
+Spirits,Tequila,Gold Tequila,FY2024Q3,192495
+Spirits,Tequila,Gold Tequila,FY2024Q4,151754
+Spirits,Tequila,Gold Tequila,FY2025Q1,221990
+Spirits,Tequila,Gold Tequila,FY2025Q2,222106
+Spirits,Tequila,Mezcal,FY2024Q2,16816
+Spirits,Tequila,Mezcal,FY2024Q3,15564
+Spirits,Tequila,Mezcal,FY2024Q4,14742
+Spirits,Tequila,Mezcal,FY2025Q1,16769
+Spirits,Tequila,Mezcal,FY2025Q2,17782
+Spirits,Vodka,Flavoured Vodka,FY2024Q2,178085
+Spirits,Vodka,Flavoured Vodka,FY2024Q3,167956
+Spirits,Vodka,Flavoured Vodka,FY2024Q4,122220
+Spirits,Vodka,Flavoured Vodka,FY2025Q1,145939
+Spirits,Vodka,Flavoured Vodka,FY2025Q2,145912
+Spirits,Vodka,Straight Vodka,FY2024Q2,2244285
+Spirits,Vodka,Straight Vodka,FY2024Q3,2262499
+Spirits,Vodka,Straight Vodka,FY2024Q4,1848933
+Spirits,Vodka,Straight Vodka,FY2025Q1,2068204
+Spirits,Vodka,Straight Vodka,FY2025Q2,2121436
+Spirits,Whisky,American Whiskey,FY2024Q2,70639
+Spirits,Whisky,American Whiskey,FY2024Q3,88821
+Spirits,Whisky,American Whiskey,FY2024Q4,65037
+Spirits,Whisky,American Whiskey,FY2025Q1,73116
+Spirits,Whisky,American Whiskey,FY2025Q2,69545
+Spirits,Whisky,Blended Malt Scotch Whisky,FY2024Q2,3793
+Spirits,Whisky,Blended Malt Scotch Whisky,FY2024Q3,5554
+Spirits,Whisky,Blended Malt Scotch Whisky,FY2024Q4,3309
+Spirits,Whisky,Blended Malt Scotch Whisky,FY2025Q1,3365
+Spirits,Whisky,Blended Malt Scotch Whisky,FY2025Q2,4379
+Spirits,Whisky,Blended Scotch Whisky,FY2024Q2,214461
+Spirits,Whisky,Blended Scotch Whisky,FY2024Q3,262227
+Spirits,Whisky,Blended Scotch Whisky,FY2024Q4,198001
+Spirits,Whisky,Blended Scotch Whisky,FY2025Q1,220489
+Spirits,Whisky,Blended Scotch Whisky,FY2025Q2,201197
+Spirits,Whisky,Bourbon Whiskey,FY2024Q2,124108
+Spirits,Whisky,Bourbon Whiskey,FY2024Q3,171050
+Spirits,Whisky,Bourbon Whiskey,FY2024Q4,119428
+Spirits,Whisky,Bourbon Whiskey,FY2025Q1,136296
+Spirits,Whisky,Bourbon Whiskey,FY2025Q2,124175
+Spirits,Whisky,Canadian Whisky,FY2024Q2,1067436
+Spirits,Whisky,Canadian Whisky,FY2024Q3,1297095
+Spirits,Whisky,Canadian Whisky,FY2024Q4,917874
+Spirits,Whisky,Canadian Whisky,FY2025Q1,1066937
+Spirits,Whisky,Canadian Whisky,FY2025Q2,1045930
+Spirits,Whisky,Flavoured Whisky,FY2024Q2,8828
+Spirits,Whisky,Flavoured Whisky,FY2024Q3,29818
+Spirits,Whisky,Flavoured Whisky,FY2024Q4,21533
+Spirits,Whisky,Flavoured Whisky,FY2025Q1,17906
+Spirits,Whisky,Flavoured Whisky,FY2025Q2,31126
+Spirits,Whisky,Irish Whiskey,FY2024Q2,134551
+Spirits,Whisky,Irish Whiskey,FY2024Q3,190610
+Spirits,Whisky,Irish Whiskey,FY2024Q4,149786
+Spirits,Whisky,Irish Whiskey,FY2025Q1,115937
+Spirits,Whisky,Irish Whiskey,FY2025Q2,133056
+Spirits,Whisky,Other Country Whisky,FY2024Q2,14741
+Spirits,Whisky,Other Country Whisky,FY2024Q3,25215
+Spirits,Whisky,Other Country Whisky,FY2024Q4,14428
+Spirits,Whisky,Other Country Whisky,FY2025Q1,19022
+Spirits,Whisky,Other Country Whisky,FY2025Q2,13961
+Spirits,Whisky,Single Malt Scotch Whisky,FY2024Q2,101420
+Spirits,Whisky,Single Malt Scotch Whisky,FY2024Q3,184334
+Spirits,Whisky,Single Malt Scotch Whisky,FY2024Q4,87416
+Spirits,Whisky,Single Malt Scotch Whisky,FY2025Q1,107401
+Spirits,Whisky,Single Malt Scotch Whisky,FY2025Q2,90776
