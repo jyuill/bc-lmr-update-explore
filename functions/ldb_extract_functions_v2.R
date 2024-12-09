@@ -336,17 +336,20 @@ fn_tbl_content <- function(tbl_pg_rows, tbl_meta, categories){
     
       ##> TIDY FORMAT ####
       ## >> over to fn_tidy_structure process for tbl_long ----
-      # check for NA within each tbl row, as these may cause trouble; setting to max NAs per row less than 2
-      if(max(rowSums(is.na(tbl)))<2){
+      # check for NA within each tbl row, as these may cause trouble; 
+      # setting to max NAs per row less than 2
+      # NEEDS TO BE CHANGED: should only consider NAs when checking categories
+      # - ok if some NAs in data come through
+      if(max(rowSums(!is.na(tbl[1:3])))){
         tbl_long <- fn_tidy_structure(tbl, tbl_metric)
         } else {
-          cat("TABLE HAS NAs - investigate! \n")
+          cat("TABLE HAS CATEGORY NAs - investigate! \n")
           tbl_long <- NULL
         }
   
       ## save table name for comparison with next table
       ## - in some cases, tables run over multiple pages
-      #  - doesn't do anything because not passed back
+      #  - doesn't do anything because not passed back (handled elsewhere)
       tbl_name_prev <- tbl_name
       
       ## return tbl: wide and long
