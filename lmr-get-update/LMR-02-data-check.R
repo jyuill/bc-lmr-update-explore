@@ -10,6 +10,7 @@ library(formattable)
 ## CHECK DATA: TABLE COMPILED FROM PDF ####
 # ALSO AT END OF fetch-process
 ## assumes data available in final table for each report
+source('functions/ldb_extract_functions_v2.R')
 fn_data_check(tables_all_fyqtr)
 
 ## CHECK DATA: MYSQL ####

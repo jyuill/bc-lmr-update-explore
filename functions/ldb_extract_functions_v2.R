@@ -235,8 +235,8 @@ fn_tbl_content <- function(tbl_pg_rows, tbl_meta, categories){
   cat("final heading:",tbl_heading,"\n")
   
   ## initiate empty table with proper headings
-  tbl <- data.frame(matrix(ncol=length(tbl_heading)))
-  colnames(tbl) <- tbl_heading
+  tbl_pg_data <- data.frame(matrix(ncol=length(tbl_heading)))
+  colnames(tbl_pg_data) <- tbl_heading
   
   # > PROC ROW DATA ####
   ## get data from each row and add to table
@@ -296,7 +296,7 @@ fn_tbl_content <- function(tbl_pg_rows, tbl_meta, categories){
         num_values <- str_remove_all(num_values, ",")
         num_values <- as.numeric(num_values)
         trow <- r-hrow # get row number based on r minus hrow value to start at 1
-        tbl[trow, "cat_type"] <- tbl_cat_type
+        tbl_pg_data[trow, "cat_type"] <- tbl_cat_type
         
         # >> cat/subcat matching ----
         # use category tbl provided and loop through to find match for subcategory
@@ -304,35 +304,47 @@ fn_tbl_content <- function(tbl_pg_rows, tbl_meta, categories){
         # - works for rows with no category available
         # - possible issue: if categories change in new data, will match with outdated category
         for(sc in 1:nrow(categories) ) {
-          if(str_detect(row_content, categories$subcategory[sc])) {
-            tbl[trow,"category"] <- categories$category[sc]
-            tbl[trow,"subcategory"] <- categories$subcategory[sc]
-          }
+          # check for match on cat+subcat to ensure match between rows with both category and subcategory, with min false positives
+          # if not, check if match on cat+subcat when cat prepended to row content
+          cat_test <- paste(categories$category[sc],categories$subcategory[sc])
+          row_content_cat <- paste(categories$category[sc], row_content)
+          cat('cat_test:',cat_test,'; row_content_cat:',row_content_cat,'\n')
+          if(str_detect(row_content, cat_test)) {
+            tbl_pg_data[trow,"category"] <- categories$category[sc]
+            tbl_pg_data[trow,"subcategory"] <- categories$subcategory[sc]
+          } else if(str_detect(row_content_cat, cat_test)) {
+            tbl_pg_data[trow,"category"] <- categories$category[sc]
+            tbl_pg_data[trow,"subcategory"] <- categories$subcategory[sc]
+          } 
+          # else (str_detect(row_content, categories$subcategory[sc])) {
+          #   tbl_pg_data[trow,"category"] <- NA
+          #   tbl_pg_data[trow,"subcategory"] <- row_content_split[1]
+          # }
           # append number values in each col, based on values obtained above
-          tbl[trow,4:8] <- num_values
+          tbl_pg_data[trow,4:8] <- num_values
         } # end category / subcategory
       } else { 
-        tbl <- NULL
-        tbl_long <- NULL
+        tbl_pg_data <- NULL
+        tbl_pg_data_long <- NULL
       } # end content test
       
     } ## end row conditional
     } else {
     cat("no data rows to process \n")
-    tbl <- NULL
-    tbl_long <- NULL
+    tbl_pg_data <- NULL
+    tbl_pg_data_long <- NULL
   } # end start row check condition
   
-    print(tbl)
+    print(tbl_pg_data)
     
     # check for null before proceeding
-    cat(paste0("proceed with final process, return data? ",!is.null(tbl),"\n"))
-    if(!is.null(tbl)){
+    cat(paste0("proceed with final process, return data? ",!is.null(tbl_pg_data),"\n"))
+    if(!is.null(tbl_pg_data)){
       
       ## > SAVE current page ----
       # >> save tbl for troubleshoot ----
       # as temp version troubleshooting (overwrite each time)
-      write_csv(tbl, "lmr-get-update/output/temp.csv")  
+      write_csv(tbl_pg_data, "lmr-get-update/output/temp.csv")  
     
       ##> TIDY FORMAT ####
       ## >> over to fn_tidy_structure process for tbl_long ----
@@ -340,11 +352,11 @@ fn_tbl_content <- function(tbl_pg_rows, tbl_meta, categories){
       # setting to max NAs per row less than 2
       # NEEDS TO BE CHANGED: should only consider NAs when checking categories
       # - ok if some NAs in data come through
-      if(max(rowSums(!is.na(tbl[1:3])))){
-        tbl_long <- fn_tidy_structure(tbl, tbl_metric)
+      if(max(rowSums(!is.na(tbl_pg_data[1:3])))){
+        tbl_pg_data_long <- fn_tidy_structure(tbl_pg_data, tbl_metric)
         } else {
           cat("TABLE HAS CATEGORY NAs - investigate! \n")
-          tbl_long <- NULL
+          tbl_pg_data_long <- NULL
         }
   
       ## save table name for comparison with next table
@@ -353,7 +365,7 @@ fn_tbl_content <- function(tbl_pg_rows, tbl_meta, categories){
       tbl_name_prev <- tbl_name
       
       ## return tbl: wide and long
-      return(list(tbl, tbl_long))
+      return(list(tbl_pg_data, tbl_pg_data_long))
     } # end of null check for tbl
 } ## end single page process
 

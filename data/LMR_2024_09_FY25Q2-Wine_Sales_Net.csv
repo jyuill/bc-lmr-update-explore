@@ -77,7 +77,7 @@ Wine,Italy Wine,Italy Rose Wine,488863,193900,238502,440735,431305
 Wine,Italy Wine,Italy Sparkling Wine,2387385,2888118,1787555,2318491,2526075
 Wine,Italy Wine,Italy White Wine,6162314,6573241,5341632,6195322,6545400
 Wine,Italy Wine,Prosecco Wine,7516522,11704200,4347209,7031176,7885962
-Wine,New Zealand Wine,New Zealand Fruit and Dessert Wine,0,0,0,0,0
+Wine,NA,NA,0,0,0,0,0
 Wine,New Zealand Wine,New Zealand Red Wine,508083,875999,370169,495618,504934
 Wine,New Zealand Wine,New Zealand Rose Wine,471778,228496,191224,395464,388213
 Wine,New Zealand Wine,New Zealand Sparkling Wine,75202,154273,59155,65685,65406
@@ -98,7 +98,7 @@ Wine,Portugal Wine,Portugal White Wine,811388,464235,416190,635468,758659
 Wine,Sake,Japan Sake,2179934,2461888,2141909,1988730,2099259
 Wine,Sake,Other Country Sake,100877,87896,71641,87092,135060
 Wine,Sake,USA Sake,597269,766990,747507,681661,576542
-Wine,South Africa Wine,South Africa Fruit and Dessert Wine,4789,9559,0,211,633
+Wine,NA,NA,4789,9559,0,211,633
 Wine,South Africa Wine,South Africa Red Wine,798014,961410,780897,793956,681854
 Wine,South Africa Wine,South Africa Rose Wine,90010,32174,28702,40245,49933
 Wine,South Africa Wine,South Africa Sparkling Wine,2998,3093,11972,3002,4402

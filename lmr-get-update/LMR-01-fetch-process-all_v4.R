@@ -172,26 +172,33 @@ for(p in 4:length(lmr)){
 ## 4. JOIN: netsales + litres ####
 ## - join tables with all pages/tables in each of netsales and litres as metrics
 ## - join on all fields except metrics
-tables_all <- full_join(tables_all_litres, tables_all_netsales, by=c("cat_type", "category", "subcategory", "period"))
+tables_all <- full_join(tables_all_litres, tables_all_netsales, 
+                        by=c("cat_type", "category", "subcategory", "period")) %>%
+  rename(fy_qtr = period)
+
+# how can i find the rows in tables_all_litres that are not present in tables_all_netsales?
+anti_join(tables_all_litres, tables_all_netsales, by=c("cat_type", "category", "subcategory", "period"))
+anti_join(tables_all_netsales, tables_all_litres, by=c("cat_type", "category", "subcategory", "period"))
 
 ## simplify period format and rename to fy_qtr to match MySQL database
 #
 ## from 'Fiscal 2021/22 Q4' to 'FY2022Q4'
-tables_all_fyqtr <- tables_all %>% mutate(
-  fy_qtr = str_replace(period, "Fiscal ", "FY"),
-  ## remove two digits for prev yr + '/' ("21/" in example above)
-  fy_qtr = str_replace_all(str_remove(fy_qtr, str_sub(fy_qtr, start=5, end=7))," ","")
-) %>% select(-period)
+## NO LONGER NEEDED - COMPLETED EARLIER IN PROCESS
+# tables_all_fyqtr <- tables_all %>% mutate(
+#   fy_qtr = str_replace(period, "Fiscal ", "FY"),
+#   ## remove two digits for prev yr + '/' ("21/" in example above)
+#   fy_qtr = str_replace_all(str_remove(fy_qtr, str_sub(fy_qtr, start=5, end=7))," ","")
+# ) %>% select(-period)
 
 ## > SAVE joined tbl ####
 ## table for upload - complete, clean RAW data - without extra date dimensions  
 #  - date dimensions are in separate table, joined when querying
 tbl_save <- here('lmr-get-update','output',paste0(lmr_name_clean,"_db_upload.csv"))
-write_csv(tables_all_fyqtr, tbl_save)
+write_csv(tables_all, tbl_save)
 
 ## > data check ####
 # quick check by category
-fn_data_check(tables_all_fyqtr)
+fn_data_check(tables_all)
 
 ## 5. NEXT: MySQL (other file) ####
 ## currently in LMR_db_upload.R
