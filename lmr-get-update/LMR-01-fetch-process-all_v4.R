@@ -191,6 +191,7 @@ tables_all <- full_join(tables_all_litres, tables_all_netsales,
   rename(fy_qtr = period)
 
 ## 4a. CHECK
+## focus on MOST RECENT QUARTER - only uploading latest quarter to minimize error check/fix
 ## check for missing values in litres or netsales
 ## table_na should have NO ROWS -> otherwise, investigate
 tables_na <- tables_all %>% filter(is.na(litres) | is.na(netsales))
@@ -201,6 +202,7 @@ tables_na
 ## - clean of text to numbers (row 309)
 
 ## > data check ####
+# focus on MOST RECENT QUARTER - only uploading latest quarter to minimize error check/fix
 # quick check by category
 fn_data_check(tables_all)
 

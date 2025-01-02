@@ -26,11 +26,12 @@ if(exists('tables_all')){
   tbl_upload <- read_csv(f_path)
 }
 
-# MAY WANT TO FILTER TO ONLY MOST RECENT QUARTER
+# FILTER TO ONLY MOST RECENT QUARTER
 # - more efficient upload
 # - easier error checking / fixing -> especially with new system with ocr starting Sep 2024
 # - risks missing historical data if updated in report -> not sure if this ever happens
-#   - can provide disclaimer
+#   - can provide disclaimer if concerned
+tbl_upload <- tbl_upload %>% filter(fy_qtr == max(fy_qtr))
 
 ## Quarters ----
 ## check/add data to LDB_quarters tbl -> automatically add if not present

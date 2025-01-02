@@ -19,8 +19,10 @@ fn_data_check(tables_all_fyqtr)
 source('functions/lmr_db_functions.R')
 fn_db_check()
 
-## deep dive analysis if needed for specific issues detected
-# Sep 2024 - spirits discrepancy in litres
+## DEEP DIVE analysis if needed for specific issues detected
+# FOCUS on MOST RECENT QUARTER
+# Sep 2024 - ocr prone to random errors, sporadic and inconsistent
+# - decided to only upload most recent quarter to save on error checking/fixing
 # enter filter values for troubleshooting
 fy_period_select <- 'FY2025Q2'
 col_select <- c(1,2,4,6)
