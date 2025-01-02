@@ -19,31 +19,31 @@ fn_lmr <- function(furl, rotate){
   fname_url <- str_split(furl_clean,"/")
   fname_url2 <- str_split(fname_url[[1]][5],"_")[[1]]
   if(length(fname_url2)>=8){ # typically 8 components; sometimes 9 if prepended with '_2' or '_new'
-    fname_url_qtr <- paste0("FY",fname_url2[5],fname_url2[6])
-    fname_url_yr <- str_split(fname_url2[8], "\\.")[[1]][1]
-    fname_url_mth <- case_when(
-      fname_url2[7] == 'March' ~ '03',
-      fname_url2[7] == 'June' ~ '06',
-      fname_url2[7] == 'September' ~ '09',
-      fname_url2[7] == 'December' ~ '12',
-    )
-  } else if (length(fname_url2)==6){ ## cases where URL doesn't include FY reference
-    fname_url_yr <- fname_url2[6] %>% str_replace("\\.pdf","")
-    fname_url_cyr <- as.numeric(str_replace(fname_url_yr,"20",""))
-    # if March, FY same as CY -> otherwise add 1
-    if(fname_url2[5]=='March'){
-      fname_fy <- fname_url_cyr
-    } else {
-      fname_fy <- fname_url_cyr+1
-    }
-    fname_url_qtr <- paste0("FY",fname_fy,fname_url2[4])
-    fname_url_mth <- case_when(
-      fname_url2[5] == 'March' ~ '03',
-      fname_url2[5] == 'June' ~ '06',
-      fname_url2[5] == 'September' ~ '09',
-      fname_url2[5] == 'December' ~ '12',
-    )
-  } 
+        fname_url_qtr <- paste0("FY",fname_url2[5],fname_url2[6])
+        fname_url_yr <- str_split(fname_url2[8], "\\.")[[1]][1]
+        fname_url_mth <- case_when(
+          fname_url2[7] == 'March' ~ '03',
+          fname_url2[7] == 'June' ~ '06',
+          fname_url2[7] == 'September' ~ '09',
+          fname_url2[7] == 'December' ~ '12',
+        )
+      } else if (length(fname_url2)==6){ ## cases where URL doesn't include FY reference
+        fname_url_yr <- fname_url2[6] %>% str_replace("\\.pdf","")
+        fname_url_cyr <- as.numeric(str_replace(fname_url_yr,"20",""))
+        # if March, FY same as CY -> otherwise add 1
+        if(fname_url2[5]=='March'){
+          fname_fy <- fname_url_cyr
+        } else {
+          fname_fy <- fname_url_cyr+1
+        }
+        fname_url_qtr <- paste0("FY",fname_fy,fname_url2[4])
+        fname_url_mth <- case_when(
+          fname_url2[5] == 'March' ~ '03',
+          fname_url2[5] == 'June' ~ '06',
+          fname_url2[5] == 'September' ~ '09',
+          fname_url2[5] == 'December' ~ '12',
+        )
+      } # end file name clean-up
   ## combine name components for clarity
   fname <- paste0("LMR_",fname_url_yr,"_",fname_url_mth,"_",fname_url_qtr,".pdf")
   
@@ -89,15 +89,25 @@ fn_lmr <- function(furl, rotate){
     
   # OCR conversion ----
   cat("start OCR conversion \n")
-  # convert rotated pdf from images to text (needed starting Sep 2024)
-  # complicated to save result as pdf, so just running every time
-  lmr_ocr <- tesseract::ocr(pdf_file)
-  # process generates png files in root directory, but not needed
-  # clean up .png files produced as side-effect
-  # get List all .png files in the directory
+  # set filename for ocr object
+  ocr_file <- paste0(input_folder,str_replace(fname,"\\.pdf",".rds"))
+  # check if exists: if so read in, otherwise run ocr & save
+  if(file.exists(ocr_file)){
+    lmr_ocr <- readRDS(here(ocr_file))
+    cat(paste0("using existing ocr object from: ",ocr_file,"\n"))
+  } else {
+    # convert rotated pdf from images to text (needed starting Sep 2024)
+    lmr_ocr <- tesseract::ocr(pdf_file)
+    # save ocr object based on fname, for reuse later if needed
+    cat(paste0("saving ocr object as: ",ocr_file ,"\n"))
+    saveRDS(lmr_ocr, ocr_file)
+    # process generates png files in root directory, but not needed
+    # clean up .png files produced as side-effect
+    # get List all .png files in the directory
     png_files <- list.files(path = here(), pattern = "\\.png$", full.names = TRUE)
-  # Remove the .png files - not needed
+    # Remove the .png files - not needed
     file.remove(png_files)
+  }
   
   # leaving option open for other proc if pdf format changes after Sep 2024
   lmr_use <- lmr_ocr
@@ -249,7 +259,7 @@ fn_tbl_content <- function(tbl_pg_rows, tbl_meta, categories){
     ## loop through each row to collect data - if more rows beyond start
     for(r in start:length(tbl_pg_rows)){
       ## pre-defined tbl will accumulate rows through loop
-      cat("tbl row: ", r, "of ", length(tbl_pg_rows))
+      cat("\n tbl row: ", r, "of ", length(tbl_pg_rows),"\n")
       # original pre Sep 2024 version: split on 2 or more spaces
       #row_content <- unlist(str_split(trimws(tbl_pg_rows[r]), "\\s{2,}"))
       # col_nums <- length(row_content)
@@ -279,11 +289,21 @@ fn_tbl_content <- function(tbl_pg_rows, tbl_meta, categories){
       row_content <- case_when(
         str_detect(row_content, "lrish") ~ str_replace(row_content, "lrish", "Irish"),
         str_detect(row_content, "ltal") ~ str_replace(row_content, "ltal", "Ital"),
+        str_detect(row_content, "|") ~ str_replace(row_content, "\\| ", ""),
         TRUE ~ row_content
       )
       # >> content split ====
-      # split version for detecting number values
-      row_content_split <- unlist(str_split(trimws(tbl_pg_rows[r]), "\\s{1,}"))
+      # split version for detecting number values - split on spaces
+      #row_content_split <- unlist(str_split(trimws(tbl_pg_rows[r]), "\\s{1,}"))
+      #row_content_split <- unlist(str_split(trimws(row_content), "\\s{1,}"))
+      # if $ present, split row content on $ to get number values
+      if(str_detect(row_content, "\\$")){
+        row_content_split <- unlist(str_split(trimws(row_content), "\\$"))
+      } else {
+        row_content_split <- unlist(str_split(trimws(row_content), "\\s{1,}"))
+      }
+      #row_content_split_d <- unlist(str_split(trimws(row_content), "\\$"))
+      
       cat("content split:", row_content_split, "\n")
       # get number values starting from end, working back (accounts for variable length)
       # - clean up text convert to number format
@@ -294,6 +314,7 @@ fn_tbl_content <- function(tbl_pg_rows, tbl_meta, categories){
         num_values <- row_content_split[(ttl_length-4):ttl_length]
         num_values <- str_remove_all(num_values,"\\$")
         num_values <- str_remove_all(num_values, ",")
+        num_values <- str_remove_all(num_values, " ")
         num_values <- as.numeric(num_values)
         trow <- r-hrow # get row number based on r minus hrow value to start at 1
         tbl_pg_data[trow, "cat_type"] <- tbl_cat_type
@@ -308,13 +329,15 @@ fn_tbl_content <- function(tbl_pg_rows, tbl_meta, categories){
           # if not, check if match on cat+subcat when cat prepended to row content
           cat_test <- paste(categories$category[sc],categories$subcategory[sc])
           row_content_cat <- paste(categories$category[sc], row_content)
-          cat('cat_test:',cat_test,'; row_content_cat:',row_content_cat,'\n')
+          #cat('cat_test:',cat_test,'\n row_content_cat:',row_content_cat,'\n')
           if(str_detect(row_content, cat_test)) {
             tbl_pg_data[trow,"category"] <- categories$category[sc]
             tbl_pg_data[trow,"subcategory"] <- categories$subcategory[sc]
+            cat('match cat/subcat:',categories$category[sc],categories$subcategory[sc],'\n')
           } else if(str_detect(row_content_cat, cat_test)) {
             tbl_pg_data[trow,"category"] <- categories$category[sc]
             tbl_pg_data[trow,"subcategory"] <- categories$subcategory[sc]
+            cat('match subcat:',categories$category[sc],categories$subcategory[sc],'\n')
           } 
           # else (str_detect(row_content, categories$subcategory[sc])) {
           #   tbl_pg_data[trow,"category"] <- NA
@@ -327,7 +350,7 @@ fn_tbl_content <- function(tbl_pg_rows, tbl_meta, categories){
         tbl_pg_data <- NULL
         tbl_pg_data_long <- NULL
       } # end content test
-      
+      print(tbl_pg_data[trow,])
     } ## end row conditional
     } else {
     cat("no data rows to process \n")

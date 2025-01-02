@@ -4,6 +4,9 @@
 ## pdftools vignette: https://cran.r-project.org/web/packages/pdftools/pdftools.pdf
 ## pdftools website: https://docs.ropensci.org/pdftools/ 
 ##  manual: https://docs.ropensci.org/pdftools/reference/pdftools.html
+## as of Sep 2024, pdf is in different format and requires additional processing:
+## - rotate pages
+## - use ocr to extract text
 
 library(pdftools)
 library(tidyverse)
@@ -48,15 +51,17 @@ source("functions/ldb_extract_functions_v2.R")
 
 ## 2. IMPORT PDF ####
 ## Function to:
-## - Import pdf from input folder if previously downloaded
-## - otherwise, download, transform (rotate/ocr), save, based on URL above
+## - Import ocr version of pdf from input folder if prev downloaded
+## - otherwise, DOWNLOAD, TRANSFORM (rotate/ocr), SAVE
+#.  
 #    - indicate if rotation of pages needed (starting Sep 2024, pages are landscape format)
 #    - if rotation, png will be created for each pg as by-product; will be deleted at end
-lmr <- fn_lmr(furl, rotate=TRUE)
-# used to get name for saving files, in form: LMR_20XX_0X_FYXXQX; passed back with fn_lmr fn
-lmr_name <- unlist(lmr[2]) 
+lmr_process <- fn_lmr(furl, rotate=TRUE)
+# used to get name for saving data files - unique to each report, 
+# in form: LMR_20XX_0X_FYXXQX; passed back with fn_lmr fn
+lmr_name <- unlist(lmr_process[2]) 
 lmr_name_clean <- str_remove(lmr_name,"\\.pdf")
-lmr <- unlist(lmr[1]) # report content is passed back with fn_lmr function
+lmr <- unlist(lmr_process[1]) # report content is passed back with fn_lmr function
 cat(paste0(lmr_name,' import/process complete \n'))
 ## - see 'pdftools-explore.R' for different ways to access page info
 ## > get report meta info ####
@@ -102,7 +107,7 @@ for(p in 4:length(lmr)){
       cat(p, "glossary page \n")
     } else { ## do the main thing
       cat(p, "tbl pg: processing \n")
-      ## > get pg content from PDF ####
+      ## > get pg content from PDF/ocr version ####
       tbl_pg <- lmr[p]
       tbl_pg_rows_init <- unlist(strsplit(tbl_pg, "\n"))
       ## clean pg -> remove summary, blank or other 'noise' rows
@@ -169,16 +174,23 @@ for(p in 4:length(lmr)){
     } ## end of the main page loop action
 } ## > END page loop: STOP here for basic testing of pdf-scraping ----
 
+## 3a. CHECK: anti-join ####
+# how can i find the rows in tables_all_litres that are not present in tables_all_netsales?
+cat('Rows in tables_all_litres with no match in tables_all_netsales \n')
+anti_join(tables_all_litres, tables_all_netsales, by=c("cat_type", "category", "subcategory", "period"))
+cat('Rows in tables_all_netsales with no match in tables_all_litres \n')
+# how can i find the rows in tables_all_netsales that are not present in tables_all_litres?
+anti_join(tables_all_netsales, tables_all_litres, by=c("cat_type", "category", "subcategory", "period"))
+
 ## 4. JOIN: netsales + litres ####
 ## - join tables with all pages/tables in each of netsales and litres as metrics
 ## - join on all fields except metrics
 tables_all <- full_join(tables_all_litres, tables_all_netsales, 
                         by=c("cat_type", "category", "subcategory", "period")) %>%
   rename(fy_qtr = period)
-
-# how can i find the rows in tables_all_litres that are not present in tables_all_netsales?
-anti_join(tables_all_litres, tables_all_netsales, by=c("cat_type", "category", "subcategory", "period"))
-anti_join(tables_all_netsales, tables_all_litres, by=c("cat_type", "category", "subcategory", "period"))
+## 4a. CHECK
+tables_na <- tables_all %>% filter(is.na(litres) | is.na(netsales))
+tables_na
 
 ## simplify period format and rename to fy_qtr to match MySQL database
 #
