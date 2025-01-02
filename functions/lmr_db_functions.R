@@ -35,10 +35,10 @@ database_name <- "bcbg"
 #mysql_tbl <- "bcbg.tblLDB_lmr"
 #tbl_upload <- tables_all_fyqtr ## table produced frm LMR-fetch-process-all_vX.R
 
-## TEST RUN below function
+## TEST RUN below function ----
 #fn_db_upload(mysql_tbl, tbl_upload)
 
-## CHECK QTRS
+## CHECK QTRS ----
 ## will add latest quarter if not already present
 fn_db_qtrs <- function(tbl_upload) {
   #local mysql
@@ -104,11 +104,17 @@ fn_db_qtrs <- function(tbl_upload) {
               '{season_new}'
               );"))
   }
+  # get updated list of quarters covered
+  qtrs_current <- dbGetQuery(con, "SELECT * FROM tblLDB_quarter;")
+  ## always disconnect when done
   dbDisconnect(con)
+  # pass back latest version of quarters tbl
+  return(qtrs_current)
 }
 
 ## INSERT LMR DATA TO DB ####
 ## set up as function for flexbility later - may want to call from other files/processes
+
 fn_db_upload <- function(mysql_tbl, tbl_upload) {
     # connection needed for upload
     #local mysql
