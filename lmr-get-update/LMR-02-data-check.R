@@ -18,3 +18,42 @@ fn_data_check(tables_all_fyqtr)
 ## load functions for MySQL queries
 source('functions/lmr_db_functions.R')
 fn_db_check()
+
+## deep dive analysis if needed for specific issues detected
+# Sep 2024 - spirits discrepancy in litres
+# enter filter values for troubleshooting
+fy_period_select <- 'FY2025Q2'
+col_select <- c(1,2,4,6)
+cat_type_select <- 'Wine'
+cat_select <- c('Argentina Wine', 'Fortified Wine','France Wine','Georgia Wine',
+                'Germany Wine','South Africa Wine','Spain Wine')
+
+# check CATEGORY totols
+# selected qtr
+check_cat <- tables_all %>% 
+  filter(fy_qtr == fy_period_select & cat_type == cat_type_select) %>% 
+  group_by(category) %>% 
+  summarise(litres = sum(litres),
+            netsales = sum(netsales))
+# all qtrs
+check_cat <- tables_all %>% 
+  filter(cat_type == cat_type_select) %>% 
+  group_by(category, fy_qtr) %>% 
+  summarise(litres = sum(litres),
+            netsales = sum(netsales)) %>%
+  pivot_wider(names_from = fy_qtr, values_from = c(litres, netsales))
+
+# check SUBCATEGORY totals for selected CATEGORY
+check_subcat <- tables_all %>% 
+  filter(fy_qtr == fy_period_select & cat_type == cat_type_select & category == cat_select) %>% 
+  group_by(category, subcategory) %>% 
+  summarise(litres = sum(litres),
+            netsales = sum(netsales))
+# all qtrs - all cat/subcat
+check_subcat <- tables_all %>% 
+  filter(cat_type %in% cat_type_select & category %in% cat_select) %>% 
+  group_by(category, subcategory, fy_qtr) %>% 
+  summarise(litres = sum(litres),
+            netsales = sum(netsales)) %>%
+  pivot_wider(names_from = fy_qtr, values_from = c(litres, netsales)) %>%
+  select(col_select)

@@ -8,6 +8,7 @@ library(glue)
 library(readr) ## for easy conversion of $ characters to numeric
 library(here)
 library(tesseract)
+library(gt)
 
 ## > Clean file name, DL ####
 ## get data - download if not already
@@ -294,20 +295,17 @@ fn_tbl_content <- function(tbl_pg_rows, tbl_meta, categories){
       )
       # >> content split ====
       # split version for detecting number values - split on spaces
-      #row_content_split <- unlist(str_split(trimws(tbl_pg_rows[r]), "\\s{1,}"))
-      #row_content_split <- unlist(str_split(trimws(row_content), "\\s{1,}"))
       # if $ present, split row content on $ to get number values
       if(str_detect(row_content, "\\$")){
         row_content_split <- unlist(str_split(trimws(row_content), "\\$"))
       } else {
         row_content_split <- unlist(str_split(trimws(row_content), "\\s{1,}"))
       }
-      #row_content_split_d <- unlist(str_split(trimws(row_content), "\\$"))
       
       cat("content split:", row_content_split, "\n")
       # get number values starting from end, working back (accounts for variable length)
       # - clean up text convert to number format
-      # >> confirm content ----
+      #   - remove any $ signs, commas, spaces, other extraneous characters
       # - confirm row has content before moving ahead
       if(length(row_content_split)>4) {
         ttl_length <- length(row_content_split)
@@ -315,6 +313,12 @@ fn_tbl_content <- function(tbl_pg_rows, tbl_meta, categories){
         num_values <- str_remove_all(num_values,"\\$")
         num_values <- str_remove_all(num_values, ",")
         num_values <- str_remove_all(num_values, " ")
+        # farther edge cases caused by incorrect ocr
+        # - brackets
+        num_values <- str_remove_all(num_values, "\\)")
+        num_values <- str_remove_all(num_values, "\\(")
+        # - slash sometimes shows up instead of 7
+        num_values <- str_replace_all(num_values, "\\/", "7")
         num_values <- as.numeric(num_values)
         trow <- r-hrow # get row number based on r minus hrow value to start at 1
         tbl_pg_data[trow, "cat_type"] <- tbl_cat_type
@@ -329,7 +333,7 @@ fn_tbl_content <- function(tbl_pg_rows, tbl_meta, categories){
           # if not, check if match on cat+subcat when cat prepended to row content
           cat_test <- paste(categories$category[sc],categories$subcategory[sc])
           row_content_cat <- paste(categories$category[sc], row_content)
-          #cat('cat_test:',cat_test,'\n row_content_cat:',row_content_cat,'\n')
+          cat('cat_test:',cat_test,'\n row_content_cat:',row_content_cat,'\n')
           if(str_detect(row_content, cat_test)) {
             tbl_pg_data[trow,"category"] <- categories$category[sc]
             tbl_pg_data[trow,"subcategory"] <- categories$subcategory[sc]
@@ -420,9 +424,20 @@ fn_data_check <- function(data_check) {
               litres=sum(litres)
     ) 
   # chart for each category, each qtr
+  # net sales
   data_chart <- data_smry_cat %>% ggplot(aes(x=fy_qtr, y=netsales))+geom_col()+
     facet_grid(.~cat_type)+
-    scale_y_continuous(labels=comma_format())+
+    scale_y_continuous(labels=label_comma(scale = 1e-6,
+                                          suffix = 'M'))+
+    theme(axis.text.x = element_text(angle=45, hjust=1),
+          axis.ticks.x = element_blank())+
+          labs(x="")
+  print(data_chart)
+  # litres
+  data_chart <- data_smry_cat %>% ggplot(aes(x=fy_qtr, y=litres))+geom_col()+
+    facet_grid(.~cat_type)+
+    scale_y_continuous(labels=label_comma(scale = 1e-6,
+                                          suffix = 'M'))+
     theme(axis.text.x = element_text(angle=45, hjust=1),
           axis.ticks.x = element_blank())+
           labs(x="")
@@ -433,4 +448,26 @@ fn_data_check <- function(data_check) {
   data_smry_qtr$litres <- format(data_smry_qtr$litres, big.mark=",", scientific=FALSE, trim=TRUE, justify=c("right"))
   data_smry_qtr$netsales <- format(data_smry_qtr$netsales, big.mark=",", scientific=FALSE, trim=TRUE, format='i', justify=c("right"))
   print(data_smry_qtr)
+  
+  # summary data by category for all quarters
+  # qtr summary
+  data_smry_qtrs <- data_smry_cat %>% group_by(cat_type, fy_qtr) %>% 
+    summarize(netsales=sum(netsales),
+              litres=sum(litres)
+    )
+  # clumsy attempt at some formatting
+  data_smry_qtrs$litres <- format(data_smry_qtrs$litres, big.mark=",", scientific=FALSE, trim=TRUE, justify=c("right"))
+  # format netsales as dollars with $ sign and right justified
+  data_smry_qtrs$netsales <- format(data_smry_qtrs$netsales, big.mark=",", scientific=FALSE, trim=TRUE, format='i', justify=c("right"))
+  data_smry_qtrs$netsales <- paste0("$",data_smry_qtrs$netsales)
+  
+  # net sales
+  data_smry_qtrs_ns <- data_smry_qtrs %>% select(-litres) %>% 
+    pivot_wider(names_from=fy_qtr, values_from=netsales)
+  print(data_smry_qtrs_ns)
+  #data_smry_qtrs_ns |> gt()
+  # litres
+  data_smry_qtrs_ltr <- data_smry_qtrs %>% select(-netsales) %>% 
+    pivot_wider(names_from=fy_qtr, values_from=litres)
+  print(data_smry_qtrs_ltr)
 }

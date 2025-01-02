@@ -99,6 +99,7 @@ tbl_cat_type <- ""
 ## > START LOOP thru ea pg to get data ####
 cat('Starting page loop \n')
 for(p in 4:length(lmr)){
+#for(p in 29:30) { # for testing specific pgs
   ## > identify/skip non-tbl pgs
   ## test for 'Item Subcategory' or 'Glossary' -> identifies chart pages and Glossary pg for exclusion
   if(str_detect(lmr[p],"Item Subcategory")){
@@ -188,29 +189,54 @@ anti_join(tables_all_netsales, tables_all_litres, by=c("cat_type", "category", "
 tables_all <- full_join(tables_all_litres, tables_all_netsales, 
                         by=c("cat_type", "category", "subcategory", "period")) %>%
   rename(fy_qtr = period)
+
 ## 4a. CHECK
+## check for missing values in litres or netsales
+## table_na should have NO ROWS -> otherwise, investigate
 tables_na <- tables_all %>% filter(is.na(litres) | is.na(netsales))
 tables_na
+## if rows in tbl, use as guide for trouble-sheeting
+## ldb_extract_functions_v2.R may need modification to handle specific cases
+## - deal with specific cases in 'known issues' section (row 288)
+## - clean of text to numbers (row 309)
 
-## simplify period format and rename to fy_qtr to match MySQL database
-#
-## from 'Fiscal 2021/22 Q4' to 'FY2022Q4'
-## NO LONGER NEEDED - COMPLETED EARLIER IN PROCESS
-# tables_all_fyqtr <- tables_all %>% mutate(
-#   fy_qtr = str_replace(period, "Fiscal ", "FY"),
-#   ## remove two digits for prev yr + '/' ("21/" in example above)
-#   fy_qtr = str_replace_all(str_remove(fy_qtr, str_sub(fy_qtr, start=5, end=7))," ","")
-# ) %>% select(-period)
+## > data check ####
+# quick check by category
+fn_data_check(tables_all)
+
+## deep dive check > if needed: LMR-02-data-check.R
+# Sep 2024 report: error in various litres -> '7' being read in as '1'
+# 74,573 read in by OCR as 14,753
+# - replace value, using temp table
+# set values for filter and replacement
+#cat_type_sel <- 'Wine'
+#cat_sel <- 'Spain Wine'
+#subcat_sel <- 'Spain Sparkling Wine'
+#per_sel <- 'FY2025Q1'
+# use for checking multiple quarters
+#per_sel_multi <- c('FY2024Q2','FY2024Q3','FY2024Q4','FY2025Q1','FY2025Q2')
+# confirm location by filter
+tables_all_litres %>% 
+  filter(cat_type == cat_type_sel & category == cat_sel & subcategory == subcat_sel & 
+           period %in% per_sel_multi)
+# replace value
+val_replace <- 58894
+fix <- tables_all_litres %>% mutate(
+ litres = ifelse(cat_type == cat_type_sel & category == cat_sel &
+             subcategory == subcat_sel & period == per_sel, val_replace, litres)
+)
+# confirm replacement
+fix %>% 
+  filter(cat_type == cat_type_sel & category == cat_sel & subcategory == subcat_sel & 
+           period == per_sel)
+#capy table back to original - then run join above again
+tables_all_litres <- fix
 
 ## > SAVE joined tbl ####
 ## table for upload - complete, clean RAW data - without extra date dimensions  
 #  - date dimensions are in separate table, joined when querying
 tbl_save <- here('lmr-get-update','output',paste0(lmr_name_clean,"_db_upload.csv"))
 write_csv(tables_all, tbl_save)
-
-## > data check ####
-# quick check by category
-fn_data_check(tables_all)
 
 ## 5. NEXT: MySQL (other file) ####
 ## currently in LMR_db_upload.R

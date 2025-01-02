@@ -58,14 +58,14 @@ Wine,Germany Wine,Germany Red Wine,1440,1682,1704,1424,1235
 Wine,Germany Wine,Germany Rose Wine,451,272,220,236,234
 Wine,Germany Wine,Germany Sparkling Wine,36612,76838,235959,43524,27289
 Wine,Germany Wine,Germany White Wine,57999,74332,47614,46968,50100
-Wine,Greece Wine,Greece Fruit and Dessert Wine,0,NA,0,30,NA
+Wine,Greece Wine,Greece Fruit and Dessert Wine,0,0,0,30,0
 Wine,Greece Wine,Greece Red Wine,5027,6602,4768,5858,3904
 Wine,Greece Wine,Greece Rose Wine,392,393,447,940,920
 Wine,Greece Wine,Greece Sparkling Wine,207,166,180,130,130
 Wine,Greece Wine,Greece White Wine,6371,3796,4605,6992,5714
 Wine,Hungary Wine,Hungary Fruit and Dessert Wine,273,555,420,326,276
 Wine,Hungary Wine,Hungary Red Wine,1030,2444,1071,909,958
-Wine,Hungary Wine,Hungary Rose Wine,27,NA,72,9,27
+Wine,Hungary Wine,Hungary Rose Wine,27,27,72,9,27
 Wine,Hungary Wine,Hungary Sparkling Wine,11780,9702,3928,5091,5872
 Wine,Hungary Wine,Hungary White Wine,9026,6853,8490,3653,4880
 Wine,Israel Wine,Israel Red Wine,1557,1188,970,1332,864
@@ -96,12 +96,12 @@ Wine,Portugal Wine,Portugal Rose Wine,24408,18760,13249,22112,23585
 Wine,Portugal Wine,Portugal Sparkling Wine,294,207,212,292,216
 Wine,Portugal Wine,Portugal White Wine,56945,31090,27683,44672,53614
 Wine,Sake,Japan Sake,60155,70716,62094,59785,58464
-Wine,Sake,Other Country Sake,3663,3222,NA,3143,4508
+Wine,Sake,Other Country Sake,3663,3222,2713,3143,4508
 Wine,Sake,USA Sake,58274,73933,71950,65642,55761
 Wine,South Africa Wine,South Africa Fruit and Dessert Wine,30,60,0,2,7
 Wine,South Africa Wine,South Africa Red Wine,53788,64474,53893,55082,45702
 Wine,South Africa Wine,South Africa Rose Wine,6482,1880,1668,2422,3092
-Wine,South Africa Wine,South Africa Sparkling Wine,133,93,NA,108,166
+Wine,South Africa Wine,South Africa Sparkling Wine,133,93,5777,108,166
 Wine,South Africa Wine,South Africa White Wine,89612,73606,74948,69252,81966
 Wine,Spain Wine,Spain Fruit and Dessert Wine,417,312,346,363,328
 Wine,Spain Wine,Spain Red Wine,201460,294351,246308,215759,219955

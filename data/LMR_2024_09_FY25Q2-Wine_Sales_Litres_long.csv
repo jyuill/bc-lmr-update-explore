@@ -295,10 +295,10 @@ Wine,Germany Wine,Germany White Wine,FY2024Q4,47614
 Wine,Germany Wine,Germany White Wine,FY2025Q1,46968
 Wine,Germany Wine,Germany White Wine,FY2025Q2,50100
 Wine,Greece Wine,Greece Fruit and Dessert Wine,FY2024Q2,0
-Wine,Greece Wine,Greece Fruit and Dessert Wine,FY2024Q3,NA
+Wine,Greece Wine,Greece Fruit and Dessert Wine,FY2024Q3,0
 Wine,Greece Wine,Greece Fruit and Dessert Wine,FY2024Q4,0
 Wine,Greece Wine,Greece Fruit and Dessert Wine,FY2025Q1,30
-Wine,Greece Wine,Greece Fruit and Dessert Wine,FY2025Q2,NA
+Wine,Greece Wine,Greece Fruit and Dessert Wine,FY2025Q2,0
 Wine,Greece Wine,Greece Red Wine,FY2024Q2,5027
 Wine,Greece Wine,Greece Red Wine,FY2024Q3,6602
 Wine,Greece Wine,Greece Red Wine,FY2024Q4,4768
@@ -330,7 +330,7 @@ Wine,Hungary Wine,Hungary Red Wine,FY2024Q4,1071
 Wine,Hungary Wine,Hungary Red Wine,FY2025Q1,909
 Wine,Hungary Wine,Hungary Red Wine,FY2025Q2,958
 Wine,Hungary Wine,Hungary Rose Wine,FY2024Q2,27
-Wine,Hungary Wine,Hungary Rose Wine,FY2024Q3,NA
+Wine,Hungary Wine,Hungary Rose Wine,FY2024Q3,27
 Wine,Hungary Wine,Hungary Rose Wine,FY2024Q4,72
 Wine,Hungary Wine,Hungary Rose Wine,FY2025Q1,9
 Wine,Hungary Wine,Hungary Rose Wine,FY2025Q2,27
@@ -486,7 +486,7 @@ Wine,Sake,Japan Sake,FY2025Q1,59785
 Wine,Sake,Japan Sake,FY2025Q2,58464
 Wine,Sake,Other Country Sake,FY2024Q2,3663
 Wine,Sake,Other Country Sake,FY2024Q3,3222
-Wine,Sake,Other Country Sake,FY2024Q4,NA
+Wine,Sake,Other Country Sake,FY2024Q4,2713
 Wine,Sake,Other Country Sake,FY2025Q1,3143
 Wine,Sake,Other Country Sake,FY2025Q2,4508
 Wine,Sake,USA Sake,FY2024Q2,58274
@@ -511,7 +511,7 @@ Wine,South Africa Wine,South Africa Rose Wine,FY2025Q1,2422
 Wine,South Africa Wine,South Africa Rose Wine,FY2025Q2,3092
 Wine,South Africa Wine,South Africa Sparkling Wine,FY2024Q2,133
 Wine,South Africa Wine,South Africa Sparkling Wine,FY2024Q3,93
-Wine,South Africa Wine,South Africa Sparkling Wine,FY2024Q4,NA
+Wine,South Africa Wine,South Africa Sparkling Wine,FY2024Q4,5777
 Wine,South Africa Wine,South Africa Sparkling Wine,FY2025Q1,108
 Wine,South Africa Wine,South Africa Sparkling Wine,FY2025Q2,166
 Wine,South Africa Wine,South Africa White Wine,FY2024Q2,89612

@@ -1,23 +1,24 @@
 cat_type,category,subcategory,FY2024Q2,FY2024Q3,FY2024Q4,FY2025Q1,FY2025Q2
-Spirits,Asian Spirits,China Spirits,824345,1282512,1247337,774814,854498
-Spirits,Asian Spirits,Korea Spirits,1444622,1419953,1431889,1249008,1420019
-Spirits,Asian Spirits,Other Country Asian Spirits,155042,191820,133718,150099,170605
-Spirits,Gin,Dry Gin,16027533,14166380,10657919,13768823,14368142
-Spirits,Gin,Flavoured Gin,1407588,1111169,762258,1168127,1167853
-Spirits,Gin,Other Gin,706563,619667,494510,998233,798982
-Spirits,Grape and Fruit Brandy,Armagnac,49203,104599,103035,27790,38497
-Spirits,Grape and Fruit Brandy,Brandy,2069878,3482770,2195932,1986908,1933817
-Spirits,Grape and Fruit Brandy,Cognac,2431017,3491373,2205775,1867628,1756788
-Spirits,Grape and Fruit Brandy,Eau de Vie,233427,387306,174612,265484,273235
-Spirits,Grape and Fruit Brandy,Grappa And Marc,65195,78619,63157,61560,53493
-Spirits,Grape and Fruit Brandy,Pisco,129308,128948,115466,137896,132506
-Spirits,Liqueurs,Anise And Herbal/Spice Liqueurs,9204718,10982727,7888839,9250684,9300564
-Spirits,Liqueurs,Coffee And Cocoa Liqueurs,1993670,3329663,1717799,1746778,2046634
-Spirits,Liqueurs,Cream/Dairy Liqueurs,8397978,21455471,5481557,6274718,7828829
-Spirits,Liqueurs,Fruit Liqueurs,6766474,7560534,4990040,6581700,7446253
-Spirits,Liqueurs,Nut Liqueurs,1620131,1932002,1076362,1422362,1551869
-Spirits,Liqueurs,Other Liqueurs,1294273,1385926,992243,1117327,1381326
-Spirits,Liqueurs,Whiskey Liqueurs,1336095,1989937,1207969,1299387,1319931
-Spirits,Other Spirits,Cachaca,44814,28068,34859,38574,48140
-Spirits,Other Spirits,Flavoured Spirits,187955,395442,91190,123152,152238
-Spirits,Other Spirits,Miscellaneous/Other Spirits,267397,253023,235871,192584,255170
+Wine,Portugal Wine,Portugal Fruit and Dessert Wine,50,150,42,40,14
+Wine,Portugal Wine,Portugal Red Wine,89567,104211,96188,95884,73616
+Wine,Portugal Wine,Portugal Rose Wine,24408,18760,13249,22112,23585
+Wine,Portugal Wine,Portugal Sparkling Wine,294,207,212,292,216
+Wine,Portugal Wine,Portugal White Wine,56945,31090,27683,44672,53614
+Wine,Sake,Japan Sake,60155,70716,62094,59785,58464
+Wine,Sake,Other Country Sake,3663,3222,2713,3143,4508
+Wine,Sake,USA Sake,58274,73933,71950,65642,55761
+Wine,South Africa Wine,South Africa Fruit and Dessert Wine,30,60,0,2,7
+Wine,South Africa Wine,South Africa Red Wine,53788,64474,53893,55082,45702
+Wine,South Africa Wine,South Africa Rose Wine,6482,1880,1668,2422,3092
+Wine,South Africa Wine,South Africa Sparkling Wine,133,93,5777,108,166
+Wine,South Africa Wine,South Africa White Wine,89612,73606,74948,69252,81966
+Wine,Spain Wine,Spain Fruit and Dessert Wine,417,312,346,363,328
+Wine,Spain Wine,Spain Red Wine,201460,294351,246308,215759,219955
+Wine,Spain Wine,Spain Rose Wine,26556,12410,18032,18299,21778
+Wine,Spain Wine,Spain Sparkling Wine,116996,59218,58,894,68700
+Wine,Spain Wine,Spain White Wine,28593,31247,26563,34826,29210
+Wine,USA Wine,USA Fruit and Dessert Wine,96,30,22,23,24
+Wine,USA Wine,USA Red Wine,1008516,1380800,891180,939558,844610
+Wine,USA Wine,USA Rose Wine,82498,72960,64382,63732,69282
+Wine,USA Wine,USA Sparkling Wine,5702,8120,5330,7273,19989
+Wine,USA Wine,USA White Wine,375976,382745,312354,401153,393379
