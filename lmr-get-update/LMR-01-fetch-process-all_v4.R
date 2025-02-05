@@ -23,7 +23,7 @@ rm(list=ls())
 ## SPECIFY LINK AND DESIRED FILE NAME: needed for each issue
 ## find link at: https://www.bcldb.com/publications/liquor-market-review 
 ## older reports: https://www.bcldb.com/publications/archives?y%5Bvalue%5D%5Byear%5D=&r=4&b= 
-furl <- "https://www.bcldb.com/files/Liquor_Market_Review_F24_25_Q2_September_2024_0.pdf"
+furl <- "https://www.bcldb.com/files/Liquor_Market_Review_F24_25_Q3_December_2024_0.pdf"
 ## > rest of process is automated to end > run via 'Source'
 
 ## PROCESS DESCR. ####
@@ -56,7 +56,7 @@ source("functions/ldb_extract_functions_v2.R")
 #.  
 #    - indicate if rotation of pages needed (starting Sep 2024, pages are landscape format)
 #    - if rotation, png will be created for each pg as by-product; will be deleted at end
-lmr_process <- fn_lmr(furl, rotate=TRUE)
+lmr_process <- fn_lmr(furl, rotate=FALSE)
 # used to get name for saving data files - unique to each report, 
 # in form: LMR_20XX_0X_FYXXQX; passed back with fn_lmr fn
 lmr_name <- unlist(lmr_process[2]) 
