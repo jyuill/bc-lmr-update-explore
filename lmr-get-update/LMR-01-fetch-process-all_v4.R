@@ -207,6 +207,17 @@ tables_na
 fn_data_check(tables_all)
 
 ## deep dive check > if needed: LMR-02-data-check.R
+# Dec 2024 report: Beer litres FY2025Q2 came in as FY2/25Q2
+# - replace malformed period value
+#tables_all_litres <- tables_all_litres %>% mutate(
+#  period = ifelse(cat_type == 'Beer' & str_detect(period, "/"), 'FY2025Q2', period)
+#)
+# misc other fixes
+val_replace <- 0
+tables_all_litres <- tables_all_litres %>% mutate(
+  litres = ifelse(cat_type == 'Wine' & category == 'South Africa Wine' & litres == 'NA', val_replace, litres)
+)
+
 # Sep 2024 report: error in various litres -> '7' being read in as '1'
 # 74,573 read in by OCR as 14,753
 # - replace value, using temp table
@@ -222,17 +233,17 @@ tables_all_litres %>%
   filter(cat_type == cat_type_sel & category == cat_sel & subcategory == subcat_sel & 
            period %in% per_sel_multi)
 # replace value
-val_replace <- 58894
-fix <- tables_all_litres %>% mutate(
- litres = ifelse(cat_type == cat_type_sel & category == cat_sel &
-             subcategory == subcat_sel & period == per_sel, val_replace, litres)
-)
+#val_replace <- 58894
+#fix <- tables_all_litres %>% mutate(
+# litres = ifelse(cat_type == cat_type_sel & category == cat_sel &
+#             subcategory == subcat_sel & period == per_sel, val_replace, litres)
+#)
 # confirm replacement
 fix %>% 
   filter(cat_type == cat_type_sel & category == cat_sel & subcategory == subcat_sel & 
            period == per_sel)
 #capy table back to original - then run join above again
-tables_all_litres <- fix
+#tables_all_litres <- fix
 
 ## > SAVE joined tbl ####
 ## table for upload - complete, clean RAW data - without extra date dimensions  
