@@ -190,7 +190,7 @@ tables_all <- full_join(tables_all_litres, tables_all_netsales,
                         by=c("cat_type", "category", "subcategory", "period")) %>%
   rename(fy_qtr = period)
 
-## 4a. CHECK
+## 4a. CHECK ####
 ## focus on MOST RECENT QUARTER - only uploading latest quarter to minimize error check/fix
 ## check for missing values in litres or netsales
 ## table_na should have NO ROWS -> otherwise, investigate
@@ -206,51 +206,17 @@ tables_na
 # quick check by category
 fn_data_check(tables_all)
 
-## deep dive check > if needed: LMR-02-data-check.R
-# Dec 2024 report: Beer litres FY2025Q2 came in as FY2/25Q2
-# - replace malformed period value
-#tables_all_litres <- tables_all_litres %>% mutate(
-#  period = ifelse(cat_type == 'Beer' & str_detect(period, "/"), 'FY2025Q2', period)
-#)
-# misc other fixes
-val_replace <- 0
-tables_all_litres <- tables_all_litres %>% mutate(
-  litres = ifelse(cat_type == 'Wine' & category == 'South Africa Wine' & litres == 'NA', val_replace, litres)
-)
+## > data fix ####
+# Compare MOST RECENT QUARTER against LMR online
+# - if discrepancies: LMR-02-data-check.R to address
 
-# Sep 2024 report: error in various litres -> '7' being read in as '1'
-# 74,573 read in by OCR as 14,753
-# - replace value, using temp table
-# set values for filter and replacement
-#cat_type_sel <- 'Wine'
-#cat_sel <- 'Spain Wine'
-#subcat_sel <- 'Spain Sparkling Wine'
-#per_sel <- 'FY2025Q1'
-# use for checking multiple quarters
-#per_sel_multi <- c('FY2024Q2','FY2024Q3','FY2024Q4','FY2025Q1','FY2025Q2')
-# confirm location by filter
-tables_all_litres %>% 
-  filter(cat_type == cat_type_sel & category == cat_sel & subcategory == subcat_sel & 
-           period %in% per_sel_multi)
-# replace value
-#val_replace <- 58894
-#fix <- tables_all_litres %>% mutate(
-# litres = ifelse(cat_type == cat_type_sel & category == cat_sel &
-#             subcategory == subcat_sel & period == per_sel, val_replace, litres)
-#)
-# confirm replacement
-fix %>% 
-  filter(cat_type == cat_type_sel & category == cat_sel & subcategory == subcat_sel & 
-           period == per_sel)
-#capy table back to original - then run join above again
-#tables_all_litres <- fix
-
-## > SAVE joined tbl ####
+## 5. SAVE: tbl ####
+## > SAVE joined tbl with QA'd / fixed results
 ## table for upload - complete, clean RAW data - without extra date dimensions  
 #  - date dimensions are in separate table, joined when querying
-tbl_save <- here('lmr-get-update','output',paste0(lmr_name_clean,"_db_upload.csv"))
-write_csv(tables_all, tbl_save)
+tbl_save_name <- here('lmr-get-update','output',paste0(lmr_name_clean,"_db_upload.csv"))
+write_csv(tables_all, tbl_save_name)
 
-## 5. NEXT: MySQL (other file) ####
+## 6. NEXT: DATABASE (other file) ####
 ## currently in LMR_db_upload.R
 ## - run separately for quality assurance
