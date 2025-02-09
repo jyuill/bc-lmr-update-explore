@@ -3,10 +3,11 @@
 # using dotenv pkg and .env file
 # create a .env file in the root directory of the project
 # and add the following lines (no quotes!)
-# AWS_ENDPT=...rds.amazonaws.com
+# full values can be found in a gdrive file '01 Database Mgmt...'
+# AWS_ENDPT = db-...rds.amazonaws.com
 # AWS_PWD = A...KOCX
 # AWS_PORT = 3..6
-# AWS_USER= ...
+# AWS_USER= admin
 
 ## save .env contents to system environment
 dotenv::load_dot_env()

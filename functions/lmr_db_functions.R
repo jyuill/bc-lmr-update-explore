@@ -14,13 +14,14 @@ library(dotenv)
 # using dotenv pkg and .env file
 # create a .env file in the root directory of the project
 # and add the following lines (no quotes!)
+# (complete values can be found in gdrive file '01 Database Mgm...')
 # AWS_ENDPT=...rds.amazonaws.com
 # AWS_PWD = A...KOCX
 # AWS_PORT = 3..6
 # AWS_USER= ...
 
 ## save .env contents to system environment
-dotenv::load_dot_env()
+#dotenv::load_dot_env()
 # Load environment variables
 readRenviron('.env')
 
@@ -50,11 +51,11 @@ fn_db_qtrs <- function(tbl_upload) {
                      user=a.user,
                      password=a.pwd,
                      port=a.port)
-  #dbListTables(con) # check connection by getting list of tables
+  dbListTables(con) # check connection by getting list of tables
   # get list of quarters covered
   qtrs <- dbGetQuery(con, "SELECT * FROM tblLDB_quarter;")
   
-  if(max(qtrs$fy_qtr)<max(tbl_upload$fy_qtr)) {
+  if(max(qtrs$fy_qtr) < max(tbl_upload$fy_qtr)) {
     ## set up values for new qtr info
     fy_qtr_new <- max(tbl_upload$fy_qtr)
     fyr_new <- as.numeric(str_sub(fy_qtr_new, start=3, end=6))
