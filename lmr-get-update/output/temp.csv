@@ -1,24 +1,24 @@
-cat_type,category,subcategory,FY2024Q3,FY2024Q4,FY2025Q1,FY2025Q2,FY2025Q3
-Wine,Portugal Wine,Portugal Fruit and Dessert Wine,150,42,40,14,44
-Wine,Portugal Wine,Portugal Red Wine,104211,96188,95884,73616,107782
-Wine,Portugal Wine,Portugal Rose Wine,18760,13249,22112,23585,19362
-Wine,Portugal Wine,Portugal Sparkling Wine,207,212,292,216,62
-Wine,Portugal Wine,Portugal White Wine,31090,27683,44672,53614,28831
-Wine,Sake,Japan Sake,70716,62094,59785,58464,71519
-Wine,Sake,Other Country Sake,3222,2713,3143,4512,4327
-Wine,Sake,USA Sake,73933,71950,65642,55761,69615
-Wine,South Africa Wine,South Africa Fruit and Dessert Wine,60,NA,2,7,7
-Wine,South Africa Wine,South Africa Red Wine,64474,53893,55082,45702,70040
-Wine,South Africa Wine,South Africa Rose Wine,1880,1668,2422,3092,1263
-Wine,South Africa Wine,South Africa Sparkling Wine,93,577,108,166,90
-Wine,South Africa Wine,South Africa White Wine,73606,74948,69252,81966,73371
-Wine,Spain Wine,Spain Fruit and Dessert Wine,312,346,363,328,340
-Wine,Spain Wine,Spain Red Wine,294369,246312,215764,219964,259213
-Wine,Spain Wine,Spain Rose Wine,12410,18032,18299,21778,9886
-Wine,Spain Wine,Spain Sparkling Wine,116996,59218,58894,68700,106416
-Wine,Spain Wine,Spain White Wine,31229,26559,34821,29201,30084
-Wine,USA Wine,USA Fruit and Dessert Wine,30,22,23,24,82
-Wine,USA Wine,USA Red Wine,1380800,891180,939558,844610,1347823
-Wine,USA Wine,USA Rose Wine,72960,64382,63732,69282,57862
-Wine,USA Wine,USA Sparkling Wine,8120,5330,7273,19989,31358
-Wine,USA Wine,USA White Wine,382745,312354,401153,393379,385008
+cat_type,category,subcategory,FY2024Q4,FY2025Q1,FY2025Q2,FY2025Q3,FY2025Q4
+Wine,Portugal Wine,Portugal Fruit and Dessert Wine,42,40,14,44,63
+Wine,Portugal Wine,Portugal Red Wine,96188,95884,73616,107782,88456
+Wine,Portugal Wine,Portugal Rose Wine,13249,22112,23585,19362,14212
+Wine,Portugal Wine,Portugal Sparkling Wine,212,292,216,62,36
+Wine,Portugal Wine,Portugal White Wine,27683,44672,53614,28831,33968
+Wine,Sake,Japan Sake,62094,59785,58464,71519,72252
+Wine,Sake,Other Country Sake,2713,3143,4512,4327,3370
+Wine,Sake,USA Sake,71950,65642,55761,69615,73699
+Wine,South Africa Wine,South Africa Fruit and Dessert Wine,NA,2,7,7,2
+Wine,South Africa Wine,South Africa Red Wine,53893,55082,45702,70040,57129
+Wine,South Africa Wine,South Africa Rose Wine,1668,2422,3092,1263,1263
+Wine,South Africa Wine,South Africa Sparkling Wine,577,108,166,90,660
+Wine,South Africa Wine,South Africa White Wine,74948,69252,81966,73371,67044
+Wine,Spain Wine,Spain Fruit and Dessert Wine,346,363,328,340,308
+Wine,Spain Wine,Spain Red Wine,246312,215764,219964,259213,311124
+Wine,Spain Wine,Spain Rose Wine,17798,17822,21482,9580,43149
+Wine,Spain Wine,Spain Sparkling Wine,59218,58894,68700,106416,57021
+Wine,Spain Wine,Spain White Wine,26793,35298,29498,30390,65276
+Wine,USA Wine,USA Fruit and Dessert Wine,NA,6,NA,NA,1776
+Wine,USA Wine,USA Red Wine,889640,937066,842283,1344069,623654
+Wine,USA Wine,USA Rose Wine,64267,63506,68895,57862,44886
+Wine,USA Wine,USA Sparkling Wine,5684,7987,20415,31718,10889
+Wine,USA Wine,USA White Wine,312326,400834,392368,383740,239307

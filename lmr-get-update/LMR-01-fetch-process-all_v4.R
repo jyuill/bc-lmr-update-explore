@@ -23,7 +23,7 @@ rm(list=ls())
 ## SPECIFY LINK AND DESIRED FILE NAME: needed for each issue
 ## find link at: https://www.bcldb.com/publications/liquor-market-review 
 ## older reports: https://www.bcldb.com/publications/archives?y%5Bvalue%5D%5Byear%5D=&r=4&b= 
-furl <- "https://www.bcldb.com/files/Liquor_Market_Review_F24_25_Q3_December_2024_0.pdf"
+furl <- "https://www.bcldb.com/files/Liquor_Market_Review_F24_25_Q4_March_2025.pdf"
 ## > rest of process is automated to end > run via 'Source'
 
 ## PROCESS DESCR. ####
@@ -196,8 +196,8 @@ tables_all <- full_join(tables_all_litres, tables_all_netsales,
 ## table_na should have NO ROWS -> otherwise, investigate
 tables_na <- tables_all %>% filter(is.na(litres) | is.na(netsales))
 tables_na
-## if rows in tbl, use as guide for trouble-sheeting
-## ldb_extract_functions_v2.R may need modification to handle specific cases
+## if rows in tbl, use as guide for trouble-shooting
+## functions/ldb_extract_functions_v2.R may need modification to handle specific cases
 ## - deal with specific cases in 'known issues' section (row 288)
 ## - clean of text to numbers (row 309)
 

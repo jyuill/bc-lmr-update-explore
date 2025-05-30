@@ -1,0 +1,56 @@
+cat_type,category,subcategory,period,litres
+Beer,Domestic - BC Beer,Domestic - BC Commercial Beer,FY2024Q4,25175985
+Beer,Domestic - BC Beer,Domestic - BC Commercial Beer,FY2025Q1,30186438
+Beer,Domestic - BC Beer,Domestic - BC Commercial Beer,FY2025Q2,30474912
+Beer,Domestic - BC Beer,Domestic - BC Commercial Beer,FY2025Q3,25656482
+Beer,Domestic - BC Beer,Domestic - BC Commercial Beer,FY2025Q4,23406572
+Beer,Domestic - BC Beer,Domestic - BC Micro Brew Beer,FY2024Q4,6048780
+Beer,Domestic - BC Beer,Domestic - BC Micro Brew Beer,FY2025Q1,7452424
+Beer,Domestic - BC Beer,Domestic - BC Micro Brew Beer,FY2025Q2,7916828
+Beer,Domestic - BC Beer,Domestic - BC Micro Brew Beer,FY2025Q3,5983932
+Beer,Domestic - BC Beer,Domestic - BC Micro Brew Beer,FY2025Q4,5610490
+Beer,Domestic - BC Beer,Domestic - BC Regional Beer,FY2024Q4,11106475
+Beer,Domestic - BC Beer,Domestic - BC Regional Beer,FY2025Q1,14220137
+Beer,Domestic - BC Beer,Domestic - BC Regional Beer,FY2025Q2,14189740
+Beer,Domestic - BC Beer,Domestic - BC Regional Beer,FY2025Q3,12468594
+Beer,Domestic - BC Beer,Domestic - BC Regional Beer,FY2025Q4,11372319
+Beer,Domestic - Other Province Beer,Domestic - Other Province Commercial Beer,FY2024Q4,7020072
+Beer,Domestic - Other Province Beer,Domestic - Other Province Commercial Beer,FY2025Q1,10428940
+Beer,Domestic - Other Province Beer,Domestic - Other Province Commercial Beer,FY2025Q2,10503368
+Beer,Domestic - Other Province Beer,Domestic - Other Province Commercial Beer,FY2025Q3,7935822
+Beer,Domestic - Other Province Beer,Domestic - Other Province Commercial Beer,FY2025Q4,7012005
+Beer,Domestic - Other Province Beer,Domestic - Other Province Micro Brew Beer,FY2024Q4,12907
+Beer,Domestic - Other Province Beer,Domestic - Other Province Micro Brew Beer,FY2025Q1,16622
+Beer,Domestic - Other Province Beer,Domestic - Other Province Micro Brew Beer,FY2025Q2,32014
+Beer,Domestic - Other Province Beer,Domestic - Other Province Micro Brew Beer,FY2025Q3,26279
+Beer,Domestic - Other Province Beer,Domestic - Other Province Micro Brew Beer,FY2025Q4,20390
+Beer,Domestic - Other Province Beer,Domestic - Other Province Regional Beer,FY2024Q4,113011
+Beer,Domestic - Other Province Beer,Domestic - Other Province Regional Beer,FY2025Q1,144529
+Beer,Domestic - Other Province Beer,Domestic - Other Province Regional Beer,FY2025Q2,131145
+Beer,Domestic - Other Province Beer,Domestic - Other Province Regional Beer,FY2025Q3,119865
+Beer,Domestic - Other Province Beer,Domestic - Other Province Regional Beer,FY2025Q4,131029
+Beer,Import Beer,Asia And South Pacific Beer,FY2024Q4,276393
+Beer,Import Beer,Asia And South Pacific Beer,FY2025Q1,301859
+Beer,Import Beer,Asia And South Pacific Beer,FY2025Q2,330992
+Beer,Import Beer,Asia And South Pacific Beer,FY2025Q3,300853
+Beer,Import Beer,Asia And South Pacific Beer,FY2025Q4,280099
+Beer,Import Beer,Europe Beer,FY2024Q4,3016400
+Beer,Import Beer,Europe Beer,FY2025Q1,3346116
+Beer,Import Beer,Europe Beer,FY2025Q2,3390398
+Beer,Import Beer,Europe Beer,FY2025Q3,3220304
+Beer,Import Beer,Europe Beer,FY2025Q4,2985459
+Beer,Import Beer,Mexico And Caribbean Beer,FY2024Q4,342183
+Beer,Import Beer,Mexico And Caribbean Beer,FY2025Q1,493201
+Beer,Import Beer,Mexico And Caribbean Beer,FY2025Q2,541430
+Beer,Import Beer,Mexico And Caribbean Beer,FY2025Q3,357121
+Beer,Import Beer,Mexico And Caribbean Beer,FY2025Q4,310864
+Beer,Import Beer,Other Country Beer,FY2024Q4,97882
+Beer,Import Beer,Other Country Beer,FY2025Q1,102750
+Beer,Import Beer,Other Country Beer,FY2025Q2,113715
+Beer,Import Beer,Other Country Beer,FY2025Q3,106396
+Beer,Import Beer,Other Country Beer,FY2025Q4,97992
+Beer,Import Beer,USA Beer,FY2024Q4,70722
+Beer,Import Beer,USA Beer,FY2025Q1,104565
+Beer,Import Beer,USA Beer,FY2025Q2,81763
+Beer,Import Beer,USA Beer,FY2025Q3,41107
+Beer,Import Beer,USA Beer,FY2025Q4,25497

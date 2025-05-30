@@ -1,0 +1,571 @@
+cat_type,category,subcategory,period,litres
+Wine,Argentina Wine,Argentina Red Wine,FY2024Q4,418158
+Wine,Argentina Wine,Argentina Red Wine,FY2025Q1,357730
+Wine,Argentina Wine,Argentina Red Wine,FY2025Q2,344182
+Wine,Argentina Wine,Argentina Red Wine,FY2025Q3,527610
+Wine,Argentina Wine,Argentina Red Wine,FY2025Q4,437756
+Wine,Argentina Wine,Argentina Rose Wine,FY2024Q4,2172
+Wine,Argentina Wine,Argentina Rose Wine,FY2025Q1,7708
+Wine,Argentina Wine,Argentina Rose Wine,FY2025Q2,7132
+Wine,Argentina Wine,Argentina Rose Wine,FY2025Q3,2696
+Wine,Argentina Wine,Argentina Rose Wine,FY2025Q4,2185
+Wine,Argentina Wine,Argentina Sparkling Wine,FY2024Q4,495
+Wine,Argentina Wine,Argentina Sparkling Wine,FY2025Q1,405
+Wine,Argentina Wine,Argentina Sparkling Wine,FY2025Q2,566
+Wine,Argentina Wine,Argentina Sparkling Wine,FY2025Q3,526
+Wine,Argentina Wine,Argentina Sparkling Wine,FY2025Q4,459
+Wine,Argentina Wine,Argentina White Wine,FY2024Q4,19106
+Wine,Argentina Wine,Argentina White Wine,FY2025Q1,20282
+Wine,Argentina Wine,Argentina White Wine,FY2025Q2,22994
+Wine,Argentina Wine,Argentina White Wine,FY2025Q3,27674
+Wine,Argentina Wine,Argentina White Wine,FY2025Q4,41647
+Wine,Australia Wine,Australia Fruit and Dessert Wine,FY2024Q4,6
+Wine,Australia Wine,Australia Fruit and Dessert Wine,FY2025Q1,10
+Wine,Australia Wine,Australia Fruit and Dessert Wine,FY2025Q2,6
+Wine,Australia Wine,Australia Fruit and Dessert Wine,FY2025Q3,10
+Wine,Australia Wine,Australia Fruit and Dessert Wine,FY2025Q4,114
+Wine,Australia Wine,Australia Red Wine,FY2024Q4,385504
+Wine,Australia Wine,Australia Red Wine,FY2025Q1,437320
+Wine,Australia Wine,Australia Red Wine,FY2025Q2,369534
+Wine,Australia Wine,Australia Red Wine,FY2025Q3,526530
+Wine,Australia Wine,Australia Red Wine,FY2025Q4,496722
+Wine,Australia Wine,Australia Rose Wine,FY2024Q4,16173
+Wine,Australia Wine,Australia Rose Wine,FY2025Q1,22090
+Wine,Australia Wine,Australia Rose Wine,FY2025Q2,17984
+Wine,Australia Wine,Australia Rose Wine,FY2025Q3,25699
+Wine,Australia Wine,Australia Rose Wine,FY2025Q4,15513
+Wine,Australia Wine,Australia Sparkling Wine,FY2024Q4,43117
+Wine,Australia Wine,Australia Sparkling Wine,FY2025Q1,53546
+Wine,Australia Wine,Australia Sparkling Wine,FY2025Q2,50144
+Wine,Australia Wine,Australia Sparkling Wine,FY2025Q3,78608
+Wine,Australia Wine,Australia Sparkling Wine,FY2025Q4,38980
+Wine,Australia Wine,Australia White Wine,FY2024Q4,256914
+Wine,Australia Wine,Australia White Wine,FY2025Q1,330222
+Wine,Australia Wine,Australia White Wine,FY2025Q2,300980
+Wine,Australia Wine,Australia White Wine,FY2025Q3,359449
+Wine,Australia Wine,Australia White Wine,FY2025Q4,285037
+Wine,Austria Wine,Austria Fruit and Dessert Wine,FY2024Q4,64
+Wine,Austria Wine,Austria Fruit and Dessert Wine,FY2025Q1,50
+Wine,Austria Wine,Austria Fruit and Dessert Wine,FY2025Q2,54
+Wine,Austria Wine,Austria Fruit and Dessert Wine,FY2025Q3,112
+Wine,Austria Wine,Austria Fruit and Dessert Wine,FY2025Q4,81
+Wine,Austria Wine,Austria Red Wine,FY2024Q4,1282
+Wine,Austria Wine,Austria Red Wine,FY2025Q1,1030
+Wine,Austria Wine,Austria Red Wine,FY2025Q2,1060
+Wine,Austria Wine,Austria Red Wine,FY2025Q3,1083
+Wine,Austria Wine,Austria Red Wine,FY2025Q4,1084
+Wine,Austria Wine,Austria Rose Wine,FY2024Q4,126
+Wine,Austria Wine,Austria Rose Wine,FY2025Q1,140
+Wine,Austria Wine,Austria Rose Wine,FY2025Q2,242
+Wine,Austria Wine,Austria Rose Wine,FY2025Q3,189
+Wine,Austria Wine,Austria Rose Wine,FY2025Q4,387
+Wine,Austria Wine,Austria Sparkling Wine,FY2024Q4,63
+Wine,Austria Wine,Austria Sparkling Wine,FY2025Q1,99
+Wine,Austria Wine,Austria Sparkling Wine,FY2025Q2,144
+Wine,Austria Wine,Austria Sparkling Wine,FY2025Q3,135
+Wine,Austria Wine,Austria Sparkling Wine,FY2025Q4,9
+Wine,Austria Wine,Austria White Wine,FY2024Q4,2914
+Wine,Austria Wine,Austria White Wine,FY2025Q1,2927
+Wine,Austria Wine,Austria White Wine,FY2025Q2,3532
+Wine,Austria Wine,Austria White Wine,FY2025Q3,3410
+Wine,Austria Wine,Austria White Wine,FY2025Q4,3097
+Wine,Bulgaria Wine,Bulgaria Red Wine,FY2024Q4,0
+Wine,Bulgaria Wine,Bulgaria Red Wine,FY2025Q1,0
+Wine,Bulgaria Wine,Bulgaria Red Wine,FY2025Q2,0
+Wine,Bulgaria Wine,Bulgaria Red Wine,FY2025Q3,0
+Wine,Bulgaria Wine,Bulgaria Red Wine,FY2025Q4,0
+Wine,Bulgaria Wine,Bulgaria Rose Wine,FY2024Q4,0
+Wine,Bulgaria Wine,Bulgaria Rose Wine,FY2025Q1,0
+Wine,Bulgaria Wine,Bulgaria Rose Wine,FY2025Q2,0
+Wine,Bulgaria Wine,Bulgaria Rose Wine,FY2025Q3,0
+Wine,Bulgaria Wine,Bulgaria Rose Wine,FY2025Q4,0
+Wine,Bulgaria Wine,Bulgaria White Wine,FY2024Q4,0
+Wine,Bulgaria Wine,Bulgaria White Wine,FY2025Q1,0
+Wine,Bulgaria Wine,Bulgaria White Wine,FY2025Q2,0
+Wine,Bulgaria Wine,Bulgaria White Wine,FY2025Q3,0
+Wine,Bulgaria Wine,Bulgaria White Wine,FY2025Q4,0
+Wine,Canada - BC,Canada - BC Dessert Wine,FY2024Q4,3138
+Wine,Canada - BC,Canada - BC Dessert Wine,FY2025Q1,2637
+Wine,Canada - BC,Canada - BC Dessert Wine,FY2025Q2,6355
+Wine,Canada - BC,Canada - BC Dessert Wine,FY2025Q3,4246
+Wine,Canada - BC,Canada - BC Dessert Wine,FY2025Q4,4091
+Wine,Canada - BC,Canada - BC Fruit Wine,FY2024Q4,31670
+Wine,Canada - BC,Canada - BC Fruit Wine,FY2025Q1,45177
+Wine,Canada - BC,Canada - BC Fruit Wine,FY2025Q2,67760
+Wine,Canada - BC,Canada - BC Fruit Wine,FY2025Q3,65078
+Wine,Canada - BC,Canada - BC Fruit Wine,FY2025Q4,35297
+Wine,Canada - BC,Canada - BC Ice Wine,FY2024Q4,6434
+Wine,Canada - BC,Canada - BC Ice Wine,FY2025Q1,7048
+Wine,Canada - BC,Canada - BC Ice Wine,FY2025Q2,10389
+Wine,Canada - BC,Canada - BC Ice Wine,FY2025Q3,8361
+Wine,Canada - BC,Canada - BC Ice Wine,FY2025Q4,6972
+Wine,Canada - BC,Canada - BC Red Wine,FY2024Q4,3463007
+Wine,Canada - BC,Canada - BC Red Wine,FY2025Q1,3423485
+Wine,Canada - BC,Canada - BC Red Wine,FY2025Q2,3551805
+Wine,Canada - BC,Canada - BC Red Wine,FY2025Q3,4193139
+Wine,Canada - BC,Canada - BC Red Wine,FY2025Q4,3242356
+Wine,Canada - BC,Canada - BC Rose Wine,FY2024Q4,399221
+Wine,Canada - BC,Canada - BC Rose Wine,FY2025Q1,609354
+Wine,Canada - BC,Canada - BC Rose Wine,FY2025Q2,691317
+Wine,Canada - BC,Canada - BC Rose Wine,FY2025Q3,410100
+Wine,Canada - BC,Canada - BC Rose Wine,FY2025Q4,353842
+Wine,Canada - BC,Canada - BC Sparkling Wine,FY2024Q4,120684
+Wine,Canada - BC,Canada - BC Sparkling Wine,FY2025Q1,166188
+Wine,Canada - BC,Canada - BC Sparkling Wine,FY2025Q2,218632
+Wine,Canada - BC,Canada - BC Sparkling Wine,FY2025Q3,185179
+Wine,Canada - BC,Canada - BC Sparkling Wine,FY2025Q4,112181
+Wine,Canada - BC,Canada - BC White Wine,FY2024Q4,3735907
+Wine,Canada - BC,Canada - BC White Wine,FY2025Q1,4264324
+Wine,Canada - BC,Canada - BC White Wine,FY2025Q2,4608088
+Wine,Canada - BC,Canada - BC White Wine,FY2025Q3,4156579
+Wine,Canada - BC,Canada - BC White Wine,FY2025Q4,3411590
+Wine,Canada - Other,Canada - Other Dessert Wine,FY2024Q4,38
+Wine,Canada - Other,Canada - Other Dessert Wine,FY2025Q1,38
+Wine,Canada - Other,Canada - Other Dessert Wine,FY2025Q2,58
+Wine,Canada - Other,Canada - Other Dessert Wine,FY2025Q3,102
+Wine,Canada - Other,Canada - Other Dessert Wine,FY2025Q4,41
+Wine,Canada - Other,Canada - Other Fruit Wine,FY2024Q4,196
+Wine,Canada - Other,Canada - Other Fruit Wine,FY2025Q1,207
+Wine,Canada - Other,Canada - Other Fruit Wine,FY2025Q2,398
+Wine,Canada - Other,Canada - Other Fruit Wine,FY2025Q3,152
+Wine,Canada - Other,Canada - Other Fruit Wine,FY2025Q4,88
+Wine,Canada - Other,Canada - Other Ice Wine,FY2024Q4,9007
+Wine,Canada - Other,Canada - Other Ice Wine,FY2025Q1,6530
+Wine,Canada - Other,Canada - Other Ice Wine,FY2025Q2,6844
+Wine,Canada - Other,Canada - Other Ice Wine,FY2025Q3,9019
+Wine,Canada - Other,Canada - Other Ice Wine,FY2025Q4,10030
+Wine,Canada - Other,Canada - Other Red Wine,FY2024Q4,21881
+Wine,Canada - Other,Canada - Other Red Wine,FY2025Q1,17786
+Wine,Canada - Other,Canada - Other Red Wine,FY2025Q2,22579
+Wine,Canada - Other,Canada - Other Red Wine,FY2025Q3,32789
+Wine,Canada - Other,Canada - Other Red Wine,FY2025Q4,26613
+Wine,Canada - Other,Canada - Other Rose Wine,FY2024Q4,5192
+Wine,Canada - Other,Canada - Other Rose Wine,FY2025Q1,10474
+Wine,Canada - Other,Canada - Other Rose Wine,FY2025Q2,8405
+Wine,Canada - Other,Canada - Other Rose Wine,FY2025Q3,5552
+Wine,Canada - Other,Canada - Other Rose Wine,FY2025Q4,4482
+Wine,Canada - Other,Canada - Other Sparkling Wine,FY2024Q4,41693
+Wine,Canada - Other,Canada - Other Sparkling Wine,FY2025Q1,59221
+Wine,Canada - Other,Canada - Other Sparkling Wine,FY2025Q2,59072
+Wine,Canada - Other,Canada - Other Sparkling Wine,FY2025Q3,93136
+Wine,Canada - Other,Canada - Other Sparkling Wine,FY2025Q4,47171
+Wine,Canada - Other,Canada - Other White Wine,FY2024Q4,39359
+Wine,Canada - Other,Canada - Other White Wine,FY2025Q1,61861
+Wine,Canada - Other,Canada - Other White Wine,FY2025Q2,47597
+Wine,Canada - Other,Canada - Other White Wine,FY2025Q3,49591
+Wine,Canada - Other,Canada - Other White Wine,FY2025Q4,41027
+Wine,Chile Wine,Chile Fruit and Dessert Wine,FY2024Q4,4
+Wine,Chile Wine,Chile Fruit and Dessert Wine,FY2025Q1,9
+Wine,Chile Wine,Chile Fruit and Dessert Wine,FY2025Q2,18
+Wine,Chile Wine,Chile Fruit and Dessert Wine,FY2025Q3,18
+Wine,Chile Wine,Chile Fruit and Dessert Wine,FY2025Q4,14
+Wine,Chile Wine,Chile Red Wine,FY2024Q4,583945
+Wine,Chile Wine,Chile Red Wine,FY2025Q1,509439
+Wine,Chile Wine,Chile Red Wine,FY2025Q2,575303
+Wine,Chile Wine,Chile Red Wine,FY2025Q3,720082
+Wine,Chile Wine,Chile Red Wine,FY2025Q4,611204
+Wine,Chile Wine,Chile Rose Wine,FY2024Q4,34666
+Wine,Chile Wine,Chile Rose Wine,FY2025Q1,77232
+Wine,Chile Wine,Chile Rose Wine,FY2025Q2,69405
+Wine,Chile Wine,Chile Rose Wine,FY2025Q3,26151
+Wine,Chile Wine,Chile Rose Wine,FY2025Q4,26576
+Wine,Chile Wine,Chile Sparkling Wine,FY2024Q4,2864
+Wine,Chile Wine,Chile Sparkling Wine,FY2025Q1,2106
+Wine,Chile Wine,Chile Sparkling Wine,FY2025Q2,2365
+Wine,Chile Wine,Chile Sparkling Wine,FY2025Q3,3299
+Wine,Chile Wine,Chile Sparkling Wine,FY2025Q4,2190
+Wine,Chile Wine,Chile White Wine,FY2024Q4,311692
+Wine,Chile Wine,Chile White Wine,FY2025Q1,335922
+Wine,Chile Wine,Chile White Wine,FY2025Q2,371602
+Wine,Chile Wine,Chile White Wine,FY2025Q3,315295
+Wine,Chile Wine,Chile White Wine,FY2025Q4,306921
+Wine,China Wine,China Fruit and Dessert Wine,FY2024Q4,394
+Wine,China Wine,China Fruit and Dessert Wine,FY2025Q1,286
+Wine,China Wine,China Fruit and Dessert Wine,FY2025Q2,202
+Wine,China Wine,China Fruit and Dessert Wine,FY2025Q3,291
+Wine,China Wine,China Fruit and Dessert Wine,FY2025Q4,362
+Wine,China Wine,China Red Wine,FY2024Q4,63
+Wine,China Wine,China Red Wine,FY2025Q1,4
+Wine,China Wine,China Red Wine,FY2025Q2,9
+Wine,China Wine,China Red Wine,FY2025Q3,22
+Wine,China Wine,China Red Wine,FY2025Q4,122
+Wine,China Wine,China White Wine,FY2024Q4,81
+Wine,China Wine,China White Wine,FY2025Q1,4
+Wine,China Wine,China White Wine,FY2025Q2,4
+Wine,China Wine,China White Wine,FY2025Q3,9
+Wine,China Wine,China White Wine,FY2025Q4,0
+Wine,Fortified Wine,Other Fortified Domestic Wine,FY2024Q4,47019
+Wine,Fortified Wine,Other Fortified Domestic Wine,FY2025Q1,46328
+Wine,Fortified Wine,Other Fortified Domestic Wine,FY2025Q2,47256
+Wine,Fortified Wine,Other Fortified Domestic Wine,FY2025Q3,93022
+Wine,Fortified Wine,Other Fortified Domestic Wine,FY2025Q4,44849
+Wine,Fortified Wine,Other Fortified Import Wine,FY2024Q4,17986
+Wine,Fortified Wine,Other Fortified Import Wine,FY2025Q1,14655
+Wine,Fortified Wine,Other Fortified Import Wine,FY2025Q2,12711
+Wine,Fortified Wine,Other Fortified Import Wine,FY2025Q3,19180
+Wine,Fortified Wine,Other Fortified Import Wine,FY2025Q4,14578
+Wine,Fortified Wine,Port Wine,FY2024Q4,14989
+Wine,Fortified Wine,Port Wine,FY2025Q1,13320
+Wine,Fortified Wine,Port Wine,FY2025Q2,14200
+Wine,Fortified Wine,Port Wine,FY2025Q3,32098
+Wine,Fortified Wine,Port Wine,FY2025Q4,14973
+Wine,Fortified Wine,Sherry Wine,FY2024Q4,10223
+Wine,Fortified Wine,Sherry Wine,FY2025Q1,10388
+Wine,Fortified Wine,Sherry Wine,FY2025Q2,9408
+Wine,Fortified Wine,Sherry Wine,FY2025Q3,21825
+Wine,Fortified Wine,Sherry Wine,FY2025Q4,11470
+Wine,Fortified Wine,Vermouth Wine,FY2024Q4,56278
+Wine,Fortified Wine,Vermouth Wine,FY2025Q1,58080
+Wine,Fortified Wine,Vermouth Wine,FY2025Q2,55300
+Wine,Fortified Wine,Vermouth Wine,FY2025Q3,68827
+Wine,Fortified Wine,Vermouth Wine,FY2025Q4,51514
+Wine,France Wine,France Champagne Wine,FY2024Q4,24844
+Wine,France Wine,France Champagne Wine,FY2025Q1,32946
+Wine,France Wine,France Champagne Wine,FY2025Q2,42437
+Wine,France Wine,France Champagne Wine,FY2025Q3,17213
+Wine,France Wine,France Champagne Wine,FY2025Q4,29818
+Wine,France Wine,France Fruit and Dessert Wine,FY2024Q4,241
+Wine,France Wine,France Fruit and Dessert Wine,FY2025Q1,156
+Wine,France Wine,France Fruit and Dessert Wine,FY2025Q2,526
+Wine,France Wine,France Fruit and Dessert Wine,FY2025Q3,186
+Wine,France Wine,France Fruit and Dessert Wine,FY2025Q4,298
+Wine,France Wine,France Red Wine,FY2024Q4,279021
+Wine,France Wine,France Red Wine,FY2025Q1,283586
+Wine,France Wine,France Red Wine,FY2025Q2,302990
+Wine,France Wine,France Red Wine,FY2025Q3,380291
+Wine,France Wine,France Red Wine,FY2025Q4,299734
+Wine,France Wine,France Rose Wine,FY2024Q4,97567
+Wine,France Wine,France Rose Wine,FY2025Q1,232511
+Wine,France Wine,France Rose Wine,FY2025Q2,242124
+Wine,France Wine,France Rose Wine,FY2025Q3,114332
+Wine,France Wine,France Rose Wine,FY2025Q4,106465
+Wine,France Wine,France Sparkling Wine,FY2024Q4,31748
+Wine,France Wine,France Sparkling Wine,FY2025Q1,41291
+Wine,France Wine,France Sparkling Wine,FY2025Q2,49706
+Wine,France Wine,France Sparkling Wine,FY2025Q3,61548
+Wine,France Wine,France Sparkling Wine,FY2025Q4,37473
+Wine,France Wine,France White Wine,FY2024Q4,144988
+Wine,France Wine,France White Wine,FY2025Q1,186311
+Wine,France Wine,France White Wine,FY2025Q2,184905
+Wine,France Wine,France White Wine,FY2025Q3,193975
+Wine,France Wine,France White Wine,FY2025Q4,173364
+Wine,Georgia Wine,Georgia Red Wine,FY2024Q4,3924
+Wine,Georgia Wine,Georgia Red Wine,FY2025Q1,3408
+Wine,Georgia Wine,Georgia Red Wine,FY2025Q2,2133
+Wine,Georgia Wine,Georgia Red Wine,FY2025Q3,5098
+Wine,Georgia Wine,Georgia Red Wine,FY2025Q4,3765
+Wine,Georgia Wine,Georgia Rose Wine,FY2024Q4,48
+Wine,Georgia Wine,Georgia Rose Wine,FY2025Q1,36
+Wine,Georgia Wine,Georgia Rose Wine,FY2025Q2,9
+Wine,Georgia Wine,Georgia Rose Wine,FY2025Q3,76
+Wine,Georgia Wine,Georgia Rose Wine,FY2025Q4,9
+Wine,Georgia Wine,Georgia Sparkling Wine,FY2024Q4,76
+Wine,Georgia Wine,Georgia Sparkling Wine,FY2025Q1,81
+Wine,Georgia Wine,Georgia Sparkling Wine,FY2025Q2,27
+Wine,Georgia Wine,Georgia Sparkling Wine,FY2025Q3,32
+Wine,Georgia Wine,Georgia Sparkling Wine,FY2025Q4,9
+Wine,Georgia Wine,Georgia White Wine,FY2024Q4,580
+Wine,Georgia Wine,Georgia White Wine,FY2025Q1,612
+Wine,Georgia Wine,Georgia White Wine,FY2025Q2,572
+Wine,Georgia Wine,Georgia White Wine,FY2025Q3,513
+Wine,Georgia Wine,Georgia White Wine,FY2025Q4,608
+Wine,Germany Wine,Germany Fruit and Dessert Wine,FY2024Q4,0
+Wine,Germany Wine,Germany Fruit and Dessert Wine,FY2025Q1,0
+Wine,Germany Wine,Germany Fruit and Dessert Wine,FY2025Q2,2
+Wine,Germany Wine,Germany Fruit and Dessert Wine,FY2025Q3,0
+Wine,Germany Wine,Germany Fruit and Dessert Wine,FY2025Q4,0
+Wine,Germany Wine,Germany Red Wine,FY2024Q4,1704
+Wine,Germany Wine,Germany Red Wine,FY2025Q1,1424
+Wine,Germany Wine,Germany Red Wine,FY2025Q2,1235
+Wine,Germany Wine,Germany Red Wine,FY2025Q3,1210
+Wine,Germany Wine,Germany Red Wine,FY2025Q4,1288
+Wine,Germany Wine,Germany Rose Wine,FY2024Q4,220
+Wine,Germany Wine,Germany Rose Wine,FY2025Q1,236
+Wine,Germany Wine,Germany Rose Wine,FY2025Q2,234
+Wine,Germany Wine,Germany Rose Wine,FY2025Q3,0
+Wine,Germany Wine,Germany Rose Wine,FY2025Q4,9
+Wine,Germany Wine,Germany Sparkling Wine,FY2024Q4,23559
+Wine,Germany Wine,Germany Sparkling Wine,FY2025Q1,43524
+Wine,Germany Wine,Germany Sparkling Wine,FY2025Q2,27289
+Wine,Germany Wine,Germany Sparkling Wine,FY2025Q3,60063
+Wine,Germany Wine,Germany Sparkling Wine,FY2025Q4,21543
+Wine,Germany Wine,Germany White Wine,FY2024Q4,47614
+Wine,Germany Wine,Germany White Wine,FY2025Q1,46968
+Wine,Germany Wine,Germany White Wine,FY2025Q2,50100
+Wine,Germany Wine,Germany White Wine,FY2025Q3,68186
+Wine,Germany Wine,Germany White Wine,FY2025Q4,45594
+Wine,Greece Wine,Greece Fruit and Dessert Wine,FY2024Q4,0
+Wine,Greece Wine,Greece Fruit and Dessert Wine,FY2025Q1,30
+Wine,Greece Wine,Greece Fruit and Dessert Wine,FY2025Q2,0
+Wine,Greece Wine,Greece Fruit and Dessert Wine,FY2025Q3,0
+Wine,Greece Wine,Greece Fruit and Dessert Wine,FY2025Q4,18
+Wine,Greece Wine,Greece Red Wine,FY2024Q4,4768
+Wine,Greece Wine,Greece Red Wine,FY2025Q1,5858
+Wine,Greece Wine,Greece Red Wine,FY2025Q2,3904
+Wine,Greece Wine,Greece Red Wine,FY2025Q3,6007
+Wine,Greece Wine,Greece Red Wine,FY2025Q4,5763
+Wine,Greece Wine,Greece Rose Wine,FY2024Q4,447
+Wine,Greece Wine,Greece Rose Wine,FY2025Q1,940
+Wine,Greece Wine,Greece Rose Wine,FY2025Q2,920
+Wine,Greece Wine,Greece Rose Wine,FY2025Q3,932
+Wine,Greece Wine,Greece Rose Wine,FY2025Q4,303
+Wine,Greece Wine,Greece Sparkling Wine,FY2024Q4,180
+Wine,Greece Wine,Greece Sparkling Wine,FY2025Q1,130
+Wine,Greece Wine,Greece Sparkling Wine,FY2025Q2,130
+Wine,Greece Wine,Greece Sparkling Wine,FY2025Q3,171
+Wine,Greece Wine,Greece Sparkling Wine,FY2025Q4,148
+Wine,Greece Wine,Greece White Wine,FY2024Q4,4605
+Wine,Greece Wine,Greece White Wine,FY2025Q1,6992
+Wine,Greece Wine,Greece White Wine,FY2025Q2,5714
+Wine,Greece Wine,Greece White Wine,FY2025Q3,4802
+Wine,Greece Wine,Greece White Wine,FY2025Q4,6379
+Wine,Hungary Wine,Hungary Fruit and Dessert Wine,FY2024Q4,420
+Wine,Hungary Wine,Hungary Fruit and Dessert Wine,FY2025Q1,326
+Wine,Hungary Wine,Hungary Fruit and Dessert Wine,FY2025Q2,276
+Wine,Hungary Wine,Hungary Fruit and Dessert Wine,FY2025Q3,390
+Wine,Hungary Wine,Hungary Fruit and Dessert Wine,FY2025Q4,658
+Wine,Hungary Wine,Hungary Red Wine,FY2024Q4,1071
+Wine,Hungary Wine,Hungary Red Wine,FY2025Q1,909
+Wine,Hungary Wine,Hungary Red Wine,FY2025Q2,958
+Wine,Hungary Wine,Hungary Red Wine,FY2025Q3,1215
+Wine,Hungary Wine,Hungary Red Wine,FY2025Q4,1300
+Wine,Hungary Wine,Hungary Rose Wine,FY2024Q4,72
+Wine,Hungary Wine,Hungary Rose Wine,FY2025Q1,9
+Wine,Hungary Wine,Hungary Rose Wine,FY2025Q2,27
+Wine,Hungary Wine,Hungary Rose Wine,FY2025Q3,4
+Wine,Hungary Wine,Hungary Rose Wine,FY2025Q4,0
+Wine,Hungary Wine,Hungary Sparkling Wine,FY2024Q4,3928
+Wine,Hungary Wine,Hungary Sparkling Wine,FY2025Q1,5091
+Wine,Hungary Wine,Hungary Sparkling Wine,FY2025Q2,5872
+Wine,Hungary Wine,Hungary Sparkling Wine,FY2025Q3,5718
+Wine,Hungary Wine,Hungary Sparkling Wine,FY2025Q4,3168
+Wine,Hungary Wine,Hungary White Wine,FY2024Q4,8490
+Wine,Hungary Wine,Hungary White Wine,FY2025Q1,3653
+Wine,Hungary Wine,Hungary White Wine,FY2025Q2,4880
+Wine,Hungary Wine,Hungary White Wine,FY2025Q3,5919
+Wine,Hungary Wine,Hungary White Wine,FY2025Q4,5068
+Wine,Israel Wine,Israel Red Wine,FY2024Q4,970
+Wine,Israel Wine,Israel Red Wine,FY2025Q1,1332
+Wine,Israel Wine,Israel Red Wine,FY2025Q2,864
+Wine,Israel Wine,Israel Red Wine,FY2025Q3,1097
+Wine,Israel Wine,Israel Red Wine,FY2025Q4,1080
+Wine,Israel Wine,Israel Rose Wine,FY2024Q4,90
+Wine,Israel Wine,Israel Rose Wine,FY2025Q1,234
+Wine,Israel Wine,Israel Rose Wine,FY2025Q2,153
+Wine,Israel Wine,Israel Rose Wine,FY2025Q3,54
+Wine,Israel Wine,Israel Rose Wine,FY2025Q4,225
+Wine,Israel Wine,Israel White Wine,FY2024Q4,306
+Wine,Israel Wine,Israel White Wine,FY2025Q1,387
+Wine,Israel Wine,Israel White Wine,FY2025Q2,234
+Wine,Israel Wine,Israel White Wine,FY2025Q3,198
+Wine,Israel Wine,Israel White Wine,FY2025Q4,270
+Wine,Italy Wine,Italy Fruit and Dessert Wine,FY2024Q4,102
+Wine,Italy Wine,Italy Fruit and Dessert Wine,FY2025Q1,118
+Wine,Italy Wine,Italy Fruit and Dessert Wine,FY2025Q2,122
+Wine,Italy Wine,Italy Fruit and Dessert Wine,FY2025Q3,151
+Wine,Italy Wine,Italy Fruit and Dessert Wine,FY2025Q4,54
+Wine,Italy Wine,Italy Red Wine,FY2024Q4,506006
+Wine,Italy Wine,Italy Red Wine,FY2025Q1,475990
+Wine,Italy Wine,Italy Red Wine,FY2025Q2,469248
+Wine,Italy Wine,Italy Red Wine,FY2025Q3,672338
+Wine,Italy Wine,Italy Red Wine,FY2025Q4,497708
+Wine,Italy Wine,Italy Rose Wine,FY2024Q4,11054
+Wine,Italy Wine,Italy Rose Wine,FY2025Q1,20661
+Wine,Italy Wine,Italy Rose Wine,FY2025Q2,20129
+Wine,Italy Wine,Italy Rose Wine,FY2025Q3,9111
+Wine,Italy Wine,Italy Rose Wine,FY2025Q4,9476
+Wine,Italy Wine,Italy Sparkling Wine,FY2024Q4,85382
+Wine,Italy Wine,Italy Sparkling Wine,FY2025Q1,113690
+Wine,Italy Wine,Italy Sparkling Wine,FY2025Q2,119637
+Wine,Italy Wine,Italy Sparkling Wine,FY2025Q3,132340
+Wine,Italy Wine,Italy Sparkling Wine,FY2025Q4,93493
+Wine,Italy Wine,Italy White Wine,FY2024Q4,322672
+Wine,Italy Wine,Italy White Wine,FY2025Q1,378248
+Wine,Italy Wine,Italy White Wine,FY2025Q2,392020
+Wine,Italy Wine,Italy White Wine,FY2025Q3,391104
+Wine,Italy Wine,Italy White Wine,FY2025Q4,309438
+Wine,Italy Wine,Prosecco Wine,FY2024Q4,200856
+Wine,Italy Wine,Prosecco Wine,FY2025Q1,333553
+Wine,Italy Wine,Prosecco Wine,FY2025Q2,369546
+Wine,Italy Wine,Prosecco Wine,FY2025Q3,512922
+Wine,Italy Wine,Prosecco Wine,FY2025Q4,229719
+Wine,New Zealand Wine,New Zealand Fruit and Dessert Wine,FY2024Q4,0
+Wine,New Zealand Wine,New Zealand Fruit and Dessert Wine,FY2025Q1,0
+Wine,New Zealand Wine,New Zealand Fruit and Dessert Wine,FY2025Q2,0
+Wine,New Zealand Wine,New Zealand Fruit and Dessert Wine,FY2025Q3,9
+Wine,New Zealand Wine,New Zealand Fruit and Dessert Wine,FY2025Q4,0
+Wine,New Zealand Wine,New Zealand Red Wine,FY2024Q4,15050
+Wine,New Zealand Wine,New Zealand Red Wine,FY2025Q1,22509
+Wine,New Zealand Wine,New Zealand Red Wine,FY2025Q2,21304
+Wine,New Zealand Wine,New Zealand Red Wine,FY2025Q3,33628
+Wine,New Zealand Wine,New Zealand Red Wine,FY2025Q4,16906
+Wine,New Zealand Wine,New Zealand Rose Wine,FY2024Q4,9346
+Wine,New Zealand Wine,New Zealand Rose Wine,FY2025Q1,20200
+Wine,New Zealand Wine,New Zealand Rose Wine,FY2025Q2,20656
+Wine,New Zealand Wine,New Zealand Rose Wine,FY2025Q3,9846
+Wine,New Zealand Wine,New Zealand Rose Wine,FY2025Q4,7844
+Wine,New Zealand Wine,New Zealand Sparkling Wine,FY2024Q4,2758
+Wine,New Zealand Wine,New Zealand Sparkling Wine,FY2025Q1,3122
+Wine,New Zealand Wine,New Zealand Sparkling Wine,FY2025Q2,3127
+Wine,New Zealand Wine,New Zealand Sparkling Wine,FY2025Q3,7214
+Wine,New Zealand Wine,New Zealand Sparkling Wine,FY2025Q4,3091
+Wine,New Zealand Wine,New Zealand White Wine,FY2024Q4,424237
+Wine,New Zealand Wine,New Zealand White Wine,FY2025Q1,741109
+Wine,New Zealand Wine,New Zealand White Wine,FY2025Q2,670796
+Wine,New Zealand Wine,New Zealand White Wine,FY2025Q3,819687
+Wine,New Zealand Wine,New Zealand White Wine,FY2025Q4,484533
+Wine,Other Country Wine,Other Country Fruit and Dessert Wine,FY2024Q4,20172
+Wine,Other Country Wine,Other Country Fruit and Dessert Wine,FY2025Q1,19308
+Wine,Other Country Wine,Other Country Fruit and Dessert Wine,FY2025Q2,19130
+Wine,Other Country Wine,Other Country Fruit and Dessert Wine,FY2025Q3,21736
+Wine,Other Country Wine,Other Country Fruit and Dessert Wine,FY2025Q4,21611
+Wine,Other Country Wine,Other Country Red Wine,FY2024Q4,4919
+Wine,Other Country Wine,Other Country Red Wine,FY2025Q1,4750
+Wine,Other Country Wine,Other Country Red Wine,FY2025Q2,4742
+Wine,Other Country Wine,Other Country Red Wine,FY2025Q3,7220
+Wine,Other Country Wine,Other Country Red Wine,FY2025Q4,4790
+Wine,Other Country Wine,Other Country Rose Wine,FY2024Q4,440
+Wine,Other Country Wine,Other Country Rose Wine,FY2025Q1,686
+Wine,Other Country Wine,Other Country Rose Wine,FY2025Q2,938
+Wine,Other Country Wine,Other Country Rose Wine,FY2025Q3,304
+Wine,Other Country Wine,Other Country Rose Wine,FY2025Q4,405
+Wine,Other Country Wine,Other Country Sparkling Wine,FY2024Q4,376
+Wine,Other Country Wine,Other Country Sparkling Wine,FY2025Q1,664
+Wine,Other Country Wine,Other Country Sparkling Wine,FY2025Q2,1064
+Wine,Other Country Wine,Other Country Sparkling Wine,FY2025Q3,937
+Wine,Other Country Wine,Other Country Sparkling Wine,FY2025Q4,853
+Wine,Other Country Wine,Other Country White Wine,FY2024Q4,1916
+Wine,Other Country Wine,Other Country White Wine,FY2025Q1,2818
+Wine,Other Country Wine,Other Country White Wine,FY2025Q2,3620
+Wine,Other Country Wine,Other Country White Wine,FY2025Q3,3504
+Wine,Other Country Wine,Other Country White Wine,FY2025Q4,2938
+Wine,Other Style Wine,Aperitif And Flavoured Wine,FY2024Q4,3827
+Wine,Other Style Wine,Aperitif And Flavoured Wine,FY2025Q1,4352
+Wine,Other Style Wine,Aperitif And Flavoured Wine,FY2025Q2,4425
+Wine,Other Style Wine,Aperitif And Flavoured Wine,FY2025Q3,5340
+Wine,Other Style Wine,Aperitif And Flavoured Wine,FY2025Q4,4024
+Wine,Other Style Wine,Mead,FY2024Q4,7116
+Wine,Other Style Wine,Mead,FY2025Q1,5725
+Wine,Other Style Wine,Mead,FY2025Q2,11916
+Wine,Other Style Wine,Mead,FY2025Q3,6171
+Wine,Other Style Wine,Mead,FY2025Q4,5850
+Wine,Other Style Wine,Rice Wine,FY2024Q4,6604
+Wine,Other Style Wine,Rice Wine,FY2025Q1,5867
+Wine,Other Style Wine,Rice Wine,FY2025Q2,5602
+Wine,Other Style Wine,Rice Wine,FY2025Q3,6446
+Wine,Other Style Wine,Rice Wine,FY2025Q4,6343
+Wine,Portugal Wine,Portugal Fruit and Dessert Wine,FY2024Q4,42
+Wine,Portugal Wine,Portugal Fruit and Dessert Wine,FY2025Q1,40
+Wine,Portugal Wine,Portugal Fruit and Dessert Wine,FY2025Q2,14
+Wine,Portugal Wine,Portugal Fruit and Dessert Wine,FY2025Q3,44
+Wine,Portugal Wine,Portugal Fruit and Dessert Wine,FY2025Q4,63
+Wine,Portugal Wine,Portugal Red Wine,FY2024Q4,96188
+Wine,Portugal Wine,Portugal Red Wine,FY2025Q1,95884
+Wine,Portugal Wine,Portugal Red Wine,FY2025Q2,73616
+Wine,Portugal Wine,Portugal Red Wine,FY2025Q3,107782
+Wine,Portugal Wine,Portugal Red Wine,FY2025Q4,88456
+Wine,Portugal Wine,Portugal Rose Wine,FY2024Q4,13249
+Wine,Portugal Wine,Portugal Rose Wine,FY2025Q1,22112
+Wine,Portugal Wine,Portugal Rose Wine,FY2025Q2,23585
+Wine,Portugal Wine,Portugal Rose Wine,FY2025Q3,19362
+Wine,Portugal Wine,Portugal Rose Wine,FY2025Q4,14212
+Wine,Portugal Wine,Portugal Sparkling Wine,FY2024Q4,212
+Wine,Portugal Wine,Portugal Sparkling Wine,FY2025Q1,292
+Wine,Portugal Wine,Portugal Sparkling Wine,FY2025Q2,216
+Wine,Portugal Wine,Portugal Sparkling Wine,FY2025Q3,62
+Wine,Portugal Wine,Portugal Sparkling Wine,FY2025Q4,36
+Wine,Portugal Wine,Portugal White Wine,FY2024Q4,27683
+Wine,Portugal Wine,Portugal White Wine,FY2025Q1,44672
+Wine,Portugal Wine,Portugal White Wine,FY2025Q2,53614
+Wine,Portugal Wine,Portugal White Wine,FY2025Q3,28831
+Wine,Portugal Wine,Portugal White Wine,FY2025Q4,33968
+Wine,Sake,Japan Sake,FY2024Q4,62094
+Wine,Sake,Japan Sake,FY2025Q1,59785
+Wine,Sake,Japan Sake,FY2025Q2,58464
+Wine,Sake,Japan Sake,FY2025Q3,71519
+Wine,Sake,Japan Sake,FY2025Q4,72252
+Wine,Sake,Other Country Sake,FY2024Q4,2713
+Wine,Sake,Other Country Sake,FY2025Q1,3143
+Wine,Sake,Other Country Sake,FY2025Q2,4512
+Wine,Sake,Other Country Sake,FY2025Q3,4327
+Wine,Sake,Other Country Sake,FY2025Q4,3370
+Wine,Sake,USA Sake,FY2024Q4,71950
+Wine,Sake,USA Sake,FY2025Q1,65642
+Wine,Sake,USA Sake,FY2025Q2,55761
+Wine,Sake,USA Sake,FY2025Q3,69615
+Wine,Sake,USA Sake,FY2025Q4,73699
+Wine,South Africa Wine,South Africa Fruit and Dessert Wine,FY2024Q4,NA
+Wine,South Africa Wine,South Africa Fruit and Dessert Wine,FY2025Q1,2
+Wine,South Africa Wine,South Africa Fruit and Dessert Wine,FY2025Q2,7
+Wine,South Africa Wine,South Africa Fruit and Dessert Wine,FY2025Q3,7
+Wine,South Africa Wine,South Africa Fruit and Dessert Wine,FY2025Q4,2
+Wine,South Africa Wine,South Africa Red Wine,FY2024Q4,53893
+Wine,South Africa Wine,South Africa Red Wine,FY2025Q1,55082
+Wine,South Africa Wine,South Africa Red Wine,FY2025Q2,45702
+Wine,South Africa Wine,South Africa Red Wine,FY2025Q3,70040
+Wine,South Africa Wine,South Africa Red Wine,FY2025Q4,57129
+Wine,South Africa Wine,South Africa Rose Wine,FY2024Q4,1668
+Wine,South Africa Wine,South Africa Rose Wine,FY2025Q1,2422
+Wine,South Africa Wine,South Africa Rose Wine,FY2025Q2,3092
+Wine,South Africa Wine,South Africa Rose Wine,FY2025Q3,1263
+Wine,South Africa Wine,South Africa Rose Wine,FY2025Q4,1263
+Wine,South Africa Wine,South Africa Sparkling Wine,FY2024Q4,577
+Wine,South Africa Wine,South Africa Sparkling Wine,FY2025Q1,108
+Wine,South Africa Wine,South Africa Sparkling Wine,FY2025Q2,166
+Wine,South Africa Wine,South Africa Sparkling Wine,FY2025Q3,90
+Wine,South Africa Wine,South Africa Sparkling Wine,FY2025Q4,660
+Wine,South Africa Wine,South Africa White Wine,FY2024Q4,74948
+Wine,South Africa Wine,South Africa White Wine,FY2025Q1,69252
+Wine,South Africa Wine,South Africa White Wine,FY2025Q2,81966
+Wine,South Africa Wine,South Africa White Wine,FY2025Q3,73371
+Wine,South Africa Wine,South Africa White Wine,FY2025Q4,67044
+Wine,Spain Wine,Spain Fruit and Dessert Wine,FY2024Q4,346
+Wine,Spain Wine,Spain Fruit and Dessert Wine,FY2025Q1,363
+Wine,Spain Wine,Spain Fruit and Dessert Wine,FY2025Q2,328
+Wine,Spain Wine,Spain Fruit and Dessert Wine,FY2025Q3,340
+Wine,Spain Wine,Spain Fruit and Dessert Wine,FY2025Q4,308
+Wine,Spain Wine,Spain Red Wine,FY2024Q4,246312
+Wine,Spain Wine,Spain Red Wine,FY2025Q1,215764
+Wine,Spain Wine,Spain Red Wine,FY2025Q2,219964
+Wine,Spain Wine,Spain Red Wine,FY2025Q3,259213
+Wine,Spain Wine,Spain Red Wine,FY2025Q4,311124
+Wine,Spain Wine,Spain Rose Wine,FY2024Q4,17798
+Wine,Spain Wine,Spain Rose Wine,FY2025Q1,17822
+Wine,Spain Wine,Spain Rose Wine,FY2025Q2,21482
+Wine,Spain Wine,Spain Rose Wine,FY2025Q3,9580
+Wine,Spain Wine,Spain Rose Wine,FY2025Q4,43149
+Wine,Spain Wine,Spain Sparkling Wine,FY2024Q4,59218
+Wine,Spain Wine,Spain Sparkling Wine,FY2025Q1,58894
+Wine,Spain Wine,Spain Sparkling Wine,FY2025Q2,68700
+Wine,Spain Wine,Spain Sparkling Wine,FY2025Q3,106416
+Wine,Spain Wine,Spain Sparkling Wine,FY2025Q4,57021
+Wine,Spain Wine,Spain White Wine,FY2024Q4,26793
+Wine,Spain Wine,Spain White Wine,FY2025Q1,35298
+Wine,Spain Wine,Spain White Wine,FY2025Q2,29498
+Wine,Spain Wine,Spain White Wine,FY2025Q3,30390
+Wine,Spain Wine,Spain White Wine,FY2025Q4,65276
+Wine,USA Wine,USA Fruit and Dessert Wine,FY2024Q4,NA
+Wine,USA Wine,USA Fruit and Dessert Wine,FY2025Q1,6
+Wine,USA Wine,USA Fruit and Dessert Wine,FY2025Q2,NA
+Wine,USA Wine,USA Fruit and Dessert Wine,FY2025Q3,NA
+Wine,USA Wine,USA Fruit and Dessert Wine,FY2025Q4,1776
+Wine,USA Wine,USA Red Wine,FY2024Q4,889640
+Wine,USA Wine,USA Red Wine,FY2025Q1,937066
+Wine,USA Wine,USA Red Wine,FY2025Q2,842283
+Wine,USA Wine,USA Red Wine,FY2025Q3,1344069
+Wine,USA Wine,USA Red Wine,FY2025Q4,623654
+Wine,USA Wine,USA Rose Wine,FY2024Q4,64267
+Wine,USA Wine,USA Rose Wine,FY2025Q1,63506
+Wine,USA Wine,USA Rose Wine,FY2025Q2,68895
+Wine,USA Wine,USA Rose Wine,FY2025Q3,57862
+Wine,USA Wine,USA Rose Wine,FY2025Q4,44886
+Wine,USA Wine,USA Sparkling Wine,FY2024Q4,5684
+Wine,USA Wine,USA Sparkling Wine,FY2025Q1,7987
+Wine,USA Wine,USA Sparkling Wine,FY2025Q2,20415
+Wine,USA Wine,USA Sparkling Wine,FY2025Q3,31718
+Wine,USA Wine,USA Sparkling Wine,FY2025Q4,10889
+Wine,USA Wine,USA White Wine,FY2024Q4,312326
+Wine,USA Wine,USA White Wine,FY2025Q1,400834
+Wine,USA Wine,USA White Wine,FY2025Q2,392368
+Wine,USA Wine,USA White Wine,FY2025Q3,383740
+Wine,USA Wine,USA White Wine,FY2025Q4,239307

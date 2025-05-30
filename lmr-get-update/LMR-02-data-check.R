@@ -47,7 +47,7 @@ check_cat <- tables_all %>%
 # check SUBCAT totals for selected CATEGORY ----
 fy_period_select <- fy_period_select
 cat_type_select <- cat_type_select
-cat_select <- c('France Wine','Greece Wine')
+cat_select <- c('Greece Wine')
 # check
 check_subcat <- tables_all %>% 
   filter(fy_qtr == fy_period_select & 
@@ -76,8 +76,8 @@ check_subcat <- tables_all %>%
 #>> Fixes - litres ####
 # - all fixes are at subcategory and period level, so only need to set those variables
 # - AFTER FIX: need to re-run the join in LMR-01-fetch to get the correct values
-subcat_select <- ' Wine'
-replacement_val <- greece_rose_wine
+subcat_select <- 'Other Fortified Domestic Wine'
+replacement_val <- 53022
 fy_period_select <- fy_period_select
 # replacement based on parameters above
 tables_all_litres <- tables_all_litres %>% mutate(
@@ -86,16 +86,34 @@ tables_all_litres <- tables_all_litres %>% mutate(
 )
 
 # > misc other fixes
+# replace NA ----
 val_replace <- 0
+ct <- "Wine"
+cat <- 'South Africa Wine'
 tables_all_litres <- tables_all_litres %>% mutate(
-  litres = ifelse(cat_type == 'Wine' & category == 'South Africa Wine' & litres == 'NA', val_replace, litres)
+  litres = ifelse(cat_type == ct & category == cat &
+                    is.na(litres), val_replace, litres)
 )
-# replace values
-val_replace <- 7938998
-val_new <- 7538998
+# OR sometimes shows up as text
+tables_all_litres <- tables_all_litres %>% mutate(
+  litres = ifelse(cat_type == ct & category == cat &
+                    litres == 'NA', val_replace, litres)
+)
+# check
+rnums <- which(is.na(tables_all_litres$litres)) # check for NA values)
+tables_all_litres[rnums,] # check rows with NA values
+# REPLACE values ----
+cat_type_sel <- 'Wine'
+subcat_sel <- 'Greece Rose Wine'
+per_sel <- 'FY2025Q3'
+#val_replace <- 7935822 # don't need this extra detail
+val_new <- 532
 tables_all_litres <- tables_all_litres %>% 
-  mutate(litres = ifelse(litres == val_replace, val_new, litres))
-
+  mutate(litres = ifelse(cat_type == cat_type_sel &
+                           subcategory == subcat_sel &
+                           period == per_sel, val_new, litres))
+# check
+tables_all_litres %>% filter(subcategory == subcat_sel & period == per_sel)
 # > SEP 2024 ----
 # Sep 2024 report: error in various litres -> '7' being read in as '1'
 # 74,573 read in by OCR as 14,753
@@ -109,7 +127,8 @@ tables_all_litres <- tables_all_litres %>%
 #per_sel_multi <- c('FY2024Q2','FY2024Q3','FY2024Q4','FY2025Q1','FY2025Q2')
 # confirm location by filter
 tables_all_litres %>% 
-  filter(cat_type == cat_type_sel & category == cat_sel & subcategory == subcat_sel & 
+  filter(cat_type == cat_type_sel & category == cat_sel & 
+           subcategory == subcat_sel & 
            period %in% per_sel_multi)
 # replace value
 #val_replace <- 58894
