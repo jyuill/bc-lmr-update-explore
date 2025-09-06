@@ -6,3 +6,5 @@
 2. General exploration of data.
    
 Supports products in the **[bc-lmr-data-products](https://github.com/jyuill/bc-lmr-data-products)** repo, primarily **shiny dashboards** available via [fig4 website](www.fig4.com).
+
+Renamed Sep 6, 2025 from 'lmr-explore'.
