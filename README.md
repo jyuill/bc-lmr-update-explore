@@ -1,2 +1,8 @@
-# lmr-explore
-Exploring BC LDB LMR data in quarto project
+# bc-lmr-update-explore
+
+## Purpose
+
+1. Update BC LDB LMR database maintained on AWS with new data published quarterly by BC LDB.
+2. General exploration of data.
+   
+Supports products in the **[bc-lmr-data-products](https://github.com/jyuill/bc-lmr-data-products)** repo, primarily **shiny dashboards** available via [fig4 website](www.fig4.com).
