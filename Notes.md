@@ -3,37 +3,31 @@
 This file is for temporary notes, brainstorming, and tracking next steps.  
 When something becomes important or long-term, consider moving it to a GitHub Issue.
 
+See also Asana project: [Data Products/Portfolio](https://app.asana.com/1/1153963424016572/project/1199532265464339/list/1205106600548958)
 ---
 
 ## 🚀 Next Steps
-- [ ] Implement logging for error handling
-- [ ] Add unit tests for data validation
-- [ ] Refactor `utils.py` into separate modules
+- [ ] create new system for parsing data from LMR PDFs
+- [ ] make sure it works for all category tables
+- [ ] finalize data update process documentation
 
 ---
 
 ## 🐛 Bugs / Fixes
-- [ ] API call sometimes times out → add retry logic
-- [ ] Plot in `analysis.R` breaks with missing data
-- [ ] Fix deprecation warning: `label_dollar` → `label_currency`
+- [ ] fix these
 
 ---
 
 ## 💡 Ideas / Improvements
 - [ ] Try replacing `pandas` with `polars` for performance
-- [ ] Add a Shiny dashboard for visualization
 - [ ] Explore using `uv` lockfile instead of requirements.txt freeze
 
 ---
 
 ## 📋 Notes / Scratchpad
-- Remember: remove hardcoded paths before pushing
-- Check licensing for external dataset before publishing
 - Possible blog post: “Mixing R and Python in Positron with uv + renv”
 
 ---
 
 ## ✅ Done
-- [x] Set up `.venv` with uv
-- [x] Added `requirements.txt`
-- [x] Configured Positron interpreter to use project env
+- [x] update README.md to reflect new repo name
