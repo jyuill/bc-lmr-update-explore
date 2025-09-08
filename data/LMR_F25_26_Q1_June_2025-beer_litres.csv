@@ -1,12 +1,12 @@
 cat_type,category,subcategory,FY2025Q1,FY2025Q2,FY2025Q3,FY2025Q4,FY2026Q1
-beer,Domestic,BC Beer Domestic - BC Commercial Beer,30186179.0,30474912.0,25656254.0,23403325.0,27825017.0
-beer,Domestic,BC Micro Brew Beer,7452401.0,7969643.0,6059604.0,5756177.0,7301785.0
-beer,Domestic,BC Regional Beer,14220084.0,14189727.0,12468705.0,11379660.0,14571748.0
-beer,Domestic,Other Province Beer Domestic - Other Province Commercial Beer,10428920.0,10503368.0,7535138.0,7007217.0,10581811.0
-beer,Domestic,Other Province Micro Brew Beer,16622.0,32014.0,26279.0,20560.0,30509.0
-beer,Domestic,Other Province Regional Beer,144529.0,131145.0,119865.0,130879.0,171524.0
-beer,Import Beer Asia And South Pacific Beer,Import Beer Asia And South Pacific Beer,301859.0,330992.0,300872.0,280137.0,324585.0
-beer,Europe Beer,Europe Beer,3346016.0,3390398.0,3220027.0,2984754.0,3126669.0
-beer,Mexico And Caribbean Beer,Mexico And Caribbean Beer,493201.0,541430.0,357119.0,310821.0,438325.0
-beer,Other Country Beer,Other Country Beer,102750.0,113715.0,106396.0,97992.0,108243.0
-beer,USA Beer,USA Beer,104565.0,81763.0,41107.0,25497.0,10472.0
+Beer,Domestic,BC Beer Domestic - BC Commercial Beer,30186179.0,30474912.0,25656254.0,23403325.0,27825017.0
+Beer,Domestic,BC Micro Brew Beer,7452401.0,7969643.0,6059604.0,5756177.0,7301785.0
+Beer,Domestic,BC Regional Beer,14220084.0,14189727.0,12468705.0,11379660.0,14571748.0
+Beer,Domestic,Other Province Beer Domestic - Other Province Commercial Beer,10428920.0,10503368.0,7535138.0,7007217.0,10581811.0
+Beer,Domestic,Other Province Micro Brew Beer,16622.0,32014.0,26279.0,20560.0,30509.0
+Beer,Domestic,Other Province Regional Beer,144529.0,131145.0,119865.0,130879.0,171524.0
+Beer,Import Beer Asia And South Pacific Beer,Import Beer Asia And South Pacific Beer,301859.0,330992.0,300872.0,280137.0,324585.0
+Beer,Europe Beer,Europe Beer,3346016.0,3390398.0,3220027.0,2984754.0,3126669.0
+Beer,Mexico And Caribbean Beer,Mexico And Caribbean Beer,493201.0,541430.0,357119.0,310821.0,438325.0
+Beer,Other Country Beer,Other Country Beer,102750.0,113715.0,106396.0,97992.0,108243.0
+Beer,USA Beer,USA Beer,104565.0,81763.0,41107.0,25497.0,10472.0

@@ -12,8 +12,8 @@ library(formattable)
 # ALSO AT END OF fetch-process
 ## assumes data available in final table for each report
 source('functions/ldb_extract_functions_v2.R')
+# generic file saved from LMR-01-fetch-process-all.py
 tables_all_fyqtr <- read_csv(here('lmr-get-update', 'output', 'lmr_data_latest.csv'))
-#tables_all_fyqtr <- read_csv(here('lmr-get-update', 'output', 'LMR_F25_26_Q1_June_2025.csv'))
 fn_data_check(tables_all_fyqtr)
 
 ## CHECK DATA: DATABASE ####
@@ -25,7 +25,7 @@ fn_db_check()
 ## DEEP DIVE & FIX ####
 ## DEEP DIVE analysis if needed for specific issues detected
 # FOCUS on MOST RECENT QUARTER
-# as of Sep 2024: ocr prone to random errors, sporadic and inconsistent
+# as of Sep 2024: OCR process with R prone to random errors, sporadic and inconsistent
 # - decided to only upload most recent quarter to save on error checking/fixing
 # enter filter values for troubleshooting
 fy_period_select <- 'FY2025Q3'
@@ -33,6 +33,8 @@ col_select <- c(1,6)
 cat_type_select <- 'Wine'
 
 # check CAT totals ----
+# all qtrs
+
 # selected qtr
 check_cat <- tables_all %>% 
   filter(fy_qtr == fy_period_select & cat_type == cat_type_select) %>% 

@@ -152,10 +152,10 @@ class LMRExtractor:
         
         # Category type patterns - look at first few lines for titles
         cat_type_patterns = {
-            'beer': r'beer',
-            'wine': r'wine', 
-            'spirits': r'spirits',
-            'refreshment': r'refreshment|cooler'
+            'Beer': r'beer',
+            'Wine': r'wine', 
+            'Spirits': r'spirits',
+            'Refreshment Beverages': r'refreshment|cooler'
         }
         
         # Metric type patterns - more specific for LMR format
@@ -182,13 +182,13 @@ class LMRExtractor:
         if not cat_type and lines:
             first_line = lines[0].lower()
             if 'beer' in first_line:
-                cat_type = 'beer'
+                cat_type = 'Beer'
             elif 'wine' in first_line:
-                cat_type = 'wine'
+                cat_type = 'Wine'
             elif 'spirits' in first_line:
-                cat_type = 'spirits'
+                cat_type = 'Spirits'
             elif 'refreshment' in first_line or 'cooler' in first_line:
-                cat_type = 'refreshment'
+                cat_type = 'Refreshment Beverages'
                 
         # Detect metric type
         for met, pattern in metric_patterns.items():
