@@ -14,9 +14,16 @@ dotenv::load_dot_env()
 # Load environment variables
 readRenviron('.env')
 
-a.endpt <- Sys.getenv('AWS_ENDPT')
-a.pwd <- Sys.getenv("AWS_PWD")
-a.user <- Sys.getenv("AWS_USER")
-a.port <- as.numeric(Sys.getenv("AWS_PORT"))
+# connect to AWS PostgreSQL database
+a.endpt <- Sys.getenv('AWS_PG_ENDPT')
+a.pwd <- Sys.getenv("AWS_PG_PWD")
+a.user <- Sys.getenv("AWS_PG_USER")
+a.port <- as.numeric(Sys.getenv("AWS_PG_PORT"))
+a.db_name <- Sys.getenv("AWS_PG_DB")
 
-database_name <- "bcbg"
+# old MySQL credentials
+#a.endpt <- Sys.getenv('AWS_ENDPT')
+#a.pwd <- Sys.getenv("AWS_PWD")
+#a.user <- Sys.getenv("AWS_USER")
+#a.port <- as.numeric(Sys.getenv("AWS_PORT"))
+#database_name <- "bcbg"

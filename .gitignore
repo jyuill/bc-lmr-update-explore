@@ -1,8 +1,38 @@
+# R
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
 
+# Sensitive files
 credo.R
 .env
+
+# Quarto
 /.quarto/
+
+# Python/uv
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+uv.lock
+
+# Data files (potentially large/sensitive)
+#lmr-get-update/input/*.pdf
+#lmr-get-update/output/*.csv
+#data/*.csv
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
