@@ -30,6 +30,28 @@ class LMRExtractor:
         self.data_folder = Path("../data/")
         self.data_folder.mkdir(exist_ok=True)
         
+        # Load category reference data
+        self.category_reference = self.load_category_reference()
+        
+        # Track category mismatches for reporting
+        self.category_mismatches = set()
+        
+    def load_category_reference(self) -> pd.DataFrame:
+        """Load category reference data from input/cat_subcat_all.csv"""
+        ref_path = self.input_folder / "cat_subcat_all.csv"
+        
+        if not ref_path.exists():
+            logger.warning(f"Category reference file not found: {ref_path}")
+            return pd.DataFrame(columns=['cat_type', 'category', 'subcategory'])
+            
+        try:
+            reference_df = pd.read_csv(ref_path)
+            logger.info(f"Loaded {len(reference_df)} category references from {ref_path}")
+            return reference_df
+        except Exception as e:
+            logger.error(f"Error loading category reference: {e}")
+            return pd.DataFrame(columns=['cat_type', 'category', 'subcategory'])
+        
     def clean_filename_from_url(self, url: str) -> str:
         """Convert URL to standardized filename format"""
         url_clean = unquote(url).replace("%20", "_")
@@ -246,11 +268,15 @@ class LMRExtractor:
         data_rows = []
         if data_start_idx and data_start_idx < len(lines):
             for line in lines[data_start_idx:]:
-                # Look for lines with multiple numbers, dollar amounts, or large numbers
-                if re.search(r'(\$[\d,]+|\d{1,3}(?:,\d{3})+|\d+\.\d+)', line):
-                    # Skip summary rows and headers
+                # Look for lines with numbers, dollar amounts, decimal values, or negatives
+                if re.search(r'(\([^)]*\$[0-9,]+\)|\$[0-9,]+|-[0-9,]+|[0-9,]+|[0-9]+\.[0-9]+)', line):
+                    # Skip summary rows, headers, and footer content
                     if not re.search(r'^(Summary|Total)', line, re.IGNORECASE):
-                        data_rows.append(line)
+                        # Skip footer lines with "BC Liquor Distribution Branch"
+                        if not re.search(r'BC Liquor Distribution Branch.*Liquor Market Review', line, re.IGNORECASE):
+                            # Skip page number only lines
+                            if not re.match(r'^\s*\d{1,2}\s*$', line):
+                                data_rows.append(line)
         
         if not data_rows:
             logger.warning(f"No data rows found on page {metadata['page_num']}")
@@ -304,9 +330,11 @@ class LMRExtractor:
     def _parse_data_row(self, row: str, columns: List[str], 
                        categories_df: pd.DataFrame, metadata: Dict) -> Optional[Dict]:
         """Parse individual data row"""
-        # Extract all dollar amounts and numbers first
+        # Extract all dollar amounts and numbers first (including small numbers and negatives)
         numeric_values = []
-        numeric_matches = re.findall(r'\$[\d,]+|\d{1,3}(?:,\d{3})+', row)
+        # Updated regex to capture negatives and positives
+        # Captures: ($1,234), $1,234, -1,234, 1,234, 123
+        numeric_matches = re.findall(r'\([^)]*\$[0-9,]+\)|\$[0-9,]+|-[0-9,]+|[0-9,]+', row)
         
         for match in numeric_matches:
             cleaned_value = self._clean_numeric_value(match)
@@ -358,32 +386,67 @@ class LMRExtractor:
     
     def _match_category(self, category_text: str, categories_df: pd.DataFrame, 
                        cat_type: str) -> Tuple[str, str]:
-        """Match category text against known categories"""
-        # Filter categories for current category type
-        cat_subset = categories_df[categories_df['cat_type'] == cat_type] if not categories_df.empty else pd.DataFrame()
+        """Match category text against reference categories with mismatch tracking"""
+        category_text_clean = category_text.strip()
         
-        # Simple matching logic - can be enhanced
-        category_text_clean = category_text.strip().lower()
+        # Use the loaded reference data instead of categories_df parameter
+        if not self.category_reference.empty:
+            # Filter reference for current category type
+            cat_subset = self.category_reference[self.category_reference['cat_type'] == cat_type]
+            
+            if not cat_subset.empty:
+                # Try exact match first (substring in subcategory)
+                for _, row in cat_subset.iterrows():
+                    if category_text_clean.lower() in row['subcategory'].lower():
+                        return row['category'], row['subcategory']
+                
+                # Try reverse match (subcategory substring in text)
+                for _, row in cat_subset.iterrows():
+                    subcategory_lower = row['subcategory'].lower()
+                    if subcategory_lower in category_text_clean.lower():
+                        return row['category'], row['subcategory']
+                
+                # Try keyword matching (at least 2 matching words > 3 chars)
+                for _, row in cat_subset.iterrows():
+                    subcategory_words = set(word for word in row['subcategory'].lower().split() if len(word) > 3)
+                    text_words = set(word for word in category_text_clean.lower().split() if len(word) > 3)
+                    matching_words = subcategory_words.intersection(text_words)
+                    if len(matching_words) >= 2:
+                        return row['category'], row['subcategory']
         
-        if not cat_subset.empty:
-            for _, row in cat_subset.iterrows():
-                if category_text_clean in row['subcategory'].lower():
-                    return row['category'], row['subcategory']
-                    
+        # Track mismatch for reporting
+        mismatch_key = f"{cat_type}: {category_text_clean}"
+        self.category_mismatches.add(mismatch_key)
+        logger.warning(f"Category mismatch: {mismatch_key}")
+        
         # Default fallback
-        return category_text, category_text
+        return category_text_clean, category_text_clean
+    
+    def report_category_mismatches(self):
+        """Report all category mismatches found during extraction"""
+        if self.category_mismatches:
+            logger.warning(f"Found {len(self.category_mismatches)} category mismatches:")
+            print("\n=== CATEGORY MISMATCHES ===")
+            print("The following categories/subcategories were not found in reference file:")
+            for mismatch in sorted(self.category_mismatches):
+                print(f"  - {mismatch}")
+            print("\nConsider adding these to input/cat_subcat_all.csv if they are valid categories.")
+            print("=" * 50)
+        else:
+            logger.info("No category mismatches found - all categories matched reference file")
     
     def _clean_numeric_value(self, value_str: str) -> Optional[float]:
         """Clean and convert numeric string to float"""
         if not value_str:
             return None
             
-        # Remove $ signs, commas, and other formatting
-        cleaned = re.sub(r'[,$]', '', value_str.strip())
-        
-        # Handle parentheses for negative values
-        if '(' in cleaned and ')' in cleaned:
-            cleaned = '-' + cleaned.replace('(', '').replace(')', '')
+        # Handle bracket format negatives first: ($123,456) or (123,456)
+        if value_str.startswith('(') and value_str.endswith(')'):
+            # Remove brackets and $ signs, add negative sign
+            cleaned = '-' + re.sub(r'[(),$]', '', value_str.strip())
+        else:
+            # Remove $ signs, commas, and other formatting
+            cleaned = re.sub(r'[,$]', '', value_str.strip())
             
         try:
             return float(cleaned)
@@ -426,7 +489,7 @@ class LMRExtractor:
             categories = df[['cat_type', 'category', 'subcategory']].drop_duplicates()
             
             # Save reference file
-            categories.to_csv(self.output_folder / 'cat_subcat_all.csv', index=False)
+            categories.to_csv(self.output_folder / 'cat_subcat_latest.csv', index=False)
             
             return categories
             

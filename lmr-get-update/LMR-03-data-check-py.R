@@ -7,11 +7,13 @@ library(scales)
 library(glue)
 library(here)
 library(formattable)
+options(scipen=999) # turn off scientific notation
 
 ## CHECK DATA: TABLE COMPILED FROM PDF ####
 # ALSO AT END OF fetch-process
 ## assumes data available in final table for each report
 source('functions/ldb_extract_functions_v2.R')
+
 # generic file saved from LMR-01-fetch-process-all.py
 tables_all_fyqtr <- read_csv(here('lmr-get-update', 'output', 'lmr_data_latest.csv'))
 fn_data_check(tables_all_fyqtr)
@@ -28,32 +30,40 @@ fn_db_check()
 # as of Sep 2024: OCR process with R prone to random errors, sporadic and inconsistent
 # - decided to only upload most recent quarter to save on error checking/fixing
 # enter filter values for troubleshooting
+tables_all <- tables_all_fyqtr
+cat_type_select <- 'Wine'
 fy_period_select <- 'FY2025Q3'
 col_select <- c(1,6)
-cat_type_select <- 'Wine'
 
 # check CAT totals ----
-# all qtrs
-
-# selected qtr
-check_cat <- tables_all %>% 
-  filter(fy_qtr == fy_period_select & cat_type == cat_type_select) %>% 
-  group_by(category) %>% 
-  summarise(litres = sum(litres),
-            netsales = sum(netsales))
 # all qtrs
 check_cat <- tables_all %>% 
   filter(cat_type == cat_type_select) %>% 
   group_by(category, fy_qtr) %>% 
-  summarise(litres = sum(litres),
-            netsales = sum(netsales)) %>%
+  summarise(litres = sum(litres, na.rm = TRUE),
+            netsales = sum(netsales, na.rm = TRUE)) %>%
   pivot_wider(names_from = fy_qtr, values_from = c(litres, netsales))
+# selected qtr
+check_cat <- tables_all %>% 
+  filter(fy_qtr == fy_period_select & cat_type == cat_type_select) %>% 
+  group_by(category) %>% 
+  summarise(litres = sum(litres, na.rm = TRUE),
+            netsales = sum(netsales, na.rm = TRUE)) %>%
+
 
 # check SUBCAT totals for selected CATEGORY ----
 fy_period_select <- fy_period_select
 cat_type_select <- cat_type_select
-cat_select <- c('Greece Wine')
+cat_select <- c('Fortified Wine','USA Wine')
 # check
+# all qtrs - all specified cat/subcat
+check_subcat <- tables_all %>% 
+  filter(cat_type %in% cat_type_select & category %in% cat_select) %>% 
+  group_by(category, subcategory, fy_qtr) %>% 
+  summarise(litres = sum(litres),
+            netsales = sum(netsales)) %>%
+  pivot_wider(names_from = fy_qtr, values_from = c(litres, netsales))
+# specified qtr
 check_subcat <- tables_all %>% 
   filter(fy_qtr == fy_period_select & 
            cat_type == cat_type_select & 
@@ -61,14 +71,7 @@ check_subcat <- tables_all %>%
   group_by(category, subcategory) %>% 
   summarise(litres = sum(litres),
             netsales = sum(netsales))
-# all qtrs - all cat/subcat
-check_subcat <- tables_all %>% 
-  filter(cat_type %in% cat_type_select & category %in% cat_select) %>% 
-  group_by(category, subcategory, fy_qtr) %>% 
-  summarise(litres = sum(litres),
-            netsales = sum(netsales)) %>%
-  pivot_wider(names_from = fy_qtr, values_from = c(litres, netsales)) %>%
-  select(col_select)
+
 
 # FIXES ----
 # add code for fixing specific report issues here -> most recent at top

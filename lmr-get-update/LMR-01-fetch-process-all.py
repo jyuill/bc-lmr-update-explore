@@ -265,6 +265,9 @@ def main():
         # Quick data summary
         quick_data_check(tables_all)
         
+        # 7.5. REPORT CATEGORY MISMATCHES
+        extractor.report_category_mismatches()
+        
         # 8. SAVE FINAL DATABASE UPLOAD FILE
         output_filename = f"{filename_base}_db_upload.csv"
         output_path = extractor.output_folder / output_filename
