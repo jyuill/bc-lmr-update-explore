@@ -132,13 +132,15 @@ class LMRExtractor:
         if re.search(r"Glossary", page_text, re.IGNORECASE):
             return False
         
-        # Look for table indicators (column headers, data patterns)
+        # Look for actual LMR table patterns
         table_indicators = [
-            r"Current Quarter",
-            r"Same Quarter",
-            r"Year to Date",
-            r"\$\d+",  # Dollar amounts
-            r"\d+\.\d+",  # Decimal numbers (likely litres)
+            r"Net Sales \$ Fiscal",     # Net sales tables
+            r"Litres Fiscal",          # Volume tables  
+            r"Fiscal \d{4}/\d{2}",     # Fiscal year patterns
+            r"\$[\d,]+",               # Dollar amounts
+            r"\d{1,3}(?:,\d{3})+",     # Large numbers with commas (like 30,186,179)
+            r"Sales \(Net \$\)",       # Sales header pattern
+            r"Sales \(Litres\)",       # Volume header pattern
         ]
         
         return any(re.search(pattern, page_text) for pattern in table_indicators)
@@ -148,7 +150,7 @@ class LMRExtractor:
         """Extract metadata from page (table name, category type, metric type)"""
         lines = page_text.strip().split('\n')
         
-        # Category type patterns
+        # Category type patterns - look at first few lines for titles
         cat_type_patterns = {
             'beer': r'beer',
             'wine': r'wine', 
@@ -156,10 +158,10 @@ class LMRExtractor:
             'refreshment': r'refreshment|cooler'
         }
         
-        # Metric type patterns  
+        # Metric type patterns - more specific for LMR format
         metric_patterns = {
-            'netsales': r'net sales|\$',
-            'litres': r'litres|volume'
+            'netsales': r'net sales|\(net \$\)|\$ fiscal',
+            'litres': r'litres|\(litres\)'
         }
         
         cat_type = prev_cat_type
@@ -167,19 +169,33 @@ class LMRExtractor:
         table_name = prev_table_name
         is_continuation = False
         
-        # Find category type and metric in first few lines
+        # Analyze first few lines for metadata
         header_text = ' '.join(lines[:5]).lower()
         
+        # More precise category detection - look for specific patterns
         for cat, pattern in cat_type_patterns.items():
             if re.search(pattern, header_text, re.IGNORECASE):
                 cat_type = cat
                 break
+        
+        # If no category found, try to infer from context
+        if not cat_type and lines:
+            first_line = lines[0].lower()
+            if 'beer' in first_line:
+                cat_type = 'beer'
+            elif 'wine' in first_line:
+                cat_type = 'wine'
+            elif 'spirits' in first_line:
+                cat_type = 'spirits'
+            elif 'refreshment' in first_line or 'cooler' in first_line:
+                cat_type = 'refreshment'
                 
+        # Detect metric type
         for met, pattern in metric_patterns.items():
             if re.search(pattern, header_text, re.IGNORECASE):
                 metric = met
                 break
-        
+                
         # Generate table name
         if cat_type and metric:
             new_table_name = f"{cat_type}_{metric}"
@@ -211,22 +227,33 @@ class LMRExtractor:
     def extract_table_data(self, lines: List[str], metadata: Dict, 
                           categories_df: pd.DataFrame) -> Optional[Tuple[pd.DataFrame, pd.DataFrame]]:
         """Extract tabular data from page lines"""
-        # Find data rows (containing numbers)
-        data_rows = []
+        # Find header row with fiscal year pattern
         header_row = None
+        data_start_idx = None
         
         for i, line in enumerate(lines):
-            # Look for header row with quarters/periods
-            if re.search(r'Current Quarter|Same Quarter|Year to Date', line):
+            # Look for header row with fiscal year pattern
+            if re.search(r'Fiscal \d{4}/\d{2}', line):
                 header_row = line
-                continue
-                
-            # Look for data rows (containing dollar amounts or decimal numbers)
-            if re.search(r'\$[\d,]+|\d+\.\d+', line):
-                data_rows.append(line)
+                data_start_idx = i + 1
+                break
         
-        if not data_rows or not header_row:
-            logger.warning(f"No data found on page {metadata['page_num']}")
+        if not header_row:
+            logger.warning(f"No header row found on page {metadata['page_num']}")
+            return None
+            
+        # Extract data rows from after header
+        data_rows = []
+        if data_start_idx and data_start_idx < len(lines):
+            for line in lines[data_start_idx:]:
+                # Look for lines with multiple numbers, dollar amounts, or large numbers
+                if re.search(r'(\$[\d,]+|\d{1,3}(?:,\d{3})+|\d+\.\d+)', line):
+                    # Skip summary rows and headers
+                    if not re.search(r'^(Summary|Total)', line, re.IGNORECASE):
+                        data_rows.append(line)
+        
+        if not data_rows:
+            logger.warning(f"No data rows found on page {metadata['page_num']}")
             return None
             
         # Parse header to get column names
@@ -240,6 +267,7 @@ class LMRExtractor:
                 parsed_data.append(parsed_row)
         
         if not parsed_data:
+            logger.warning(f"No parseable data rows on page {metadata['page_num']}")
             return None
             
         # Create wide format DataFrame
@@ -252,41 +280,64 @@ class LMRExtractor:
     
     def _parse_header_row(self, header_row: str) -> List[str]:
         """Parse header row to extract column names"""
-        # Common column patterns in LMR reports
         columns = ['category', 'subcategory']  # Always present
         
-        # Look for quarter/period columns
-        if 'Current Quarter' in header_row:
-            columns.append('current_quarter')
-        if 'Same Quarter' in header_row:
-            columns.append('same_quarter_prev_year')
-        if 'Year to Date' in header_row:
-            columns.append('ytd_current')
-            columns.append('ytd_prev_year')
+        # Look for fiscal year patterns like "Fiscal 2024/25 Q1"
+        fiscal_quarters = re.findall(r'Fiscal (\d{4})/(\d{2}) Q(\d)', header_row)
+        for year1, year2, quarter in fiscal_quarters:
+            # Convert "Fiscal 2024/25 Q1" to "FY2025Q1" 
+            # Use the second year (2025 from 2024/25) with full 4 digits
+            full_year2 = f"20{year2}" if len(year2) == 2 else year2
+            column_name = f"FY{full_year2}Q{quarter}"
+            columns.append(column_name)
             
+        # If no fiscal quarters found, try to find other period indicators
+        if len(columns) == 2:  # Only category and subcategory
+            # Look for year patterns like "2024/25"
+            year_patterns = re.findall(r'(\d{4})/(\d{2})', header_row)
+            for i, (year1, year2) in enumerate(year_patterns):
+                full_year2 = f"20{year2}" if len(year2) == 2 else year2
+                columns.append(f"FY{full_year2}Q{i+1}")
+                
         return columns
     
     def _parse_data_row(self, row: str, columns: List[str], 
                        categories_df: pd.DataFrame, metadata: Dict) -> Optional[Dict]:
         """Parse individual data row"""
-        # Split row by multiple spaces or tabs
-        parts = re.split(r'\s{2,}|\t+', row.strip())
-        
-        if len(parts) < 2:
-            return None
-            
-        # First part is usually category/subcategory
-        category_part = parts[0]
-        
-        # Try to match against known categories
-        category, subcategory = self._match_category(category_part, categories_df, metadata['cat_type'])
-        
-        # Extract numeric values
+        # Extract all dollar amounts and numbers first
         numeric_values = []
-        for part in parts[1:]:
-            cleaned_value = self._clean_numeric_value(part)
+        numeric_matches = re.findall(r'\$[\d,]+|\d{1,3}(?:,\d{3})+', row)
+        
+        for match in numeric_matches:
+            cleaned_value = self._clean_numeric_value(match)
             if cleaned_value is not None:
                 numeric_values.append(cleaned_value)
+        
+        if not numeric_values:
+            return None
+            
+        # Extract category/subcategory part by removing all numeric values
+        category_part = row
+        for match in numeric_matches:
+            category_part = category_part.replace(match, '', 1)
+        category_part = category_part.strip()
+        
+        # Clean up extra spaces
+        category_part = re.sub(r'\s+', ' ', category_part)
+        
+        # Try to match against known categories or parse manually
+        category, subcategory = self._match_category(category_part, categories_df, metadata['cat_type'])
+        
+        # If no match found, try to split category part
+        if category == category_part and subcategory == category_part:
+            # Try to split by common patterns
+            if ' - ' in category_part:
+                parts = category_part.split(' - ', 1)
+                category = parts[0].strip()
+                subcategory = parts[1].strip() if len(parts) > 1 else category
+            else:
+                category = category_part
+                subcategory = category_part
         
         # Map values to columns
         row_data = {
@@ -441,10 +492,37 @@ def quick_data_check(df: pd.DataFrame):
     else:
         print("No missing data found")
     
-    # Summary by category
+    # Find most recent quarter for quality check comparison
+    if 'fy_qtr' in df.columns:
+        # Get most recent quarter (assumes fiscal quarters are sortable)
+        most_recent_qtr = df['fy_qtr'].max()
+        recent_data = df[df['fy_qtr'] == most_recent_qtr]
+        
+        print(f"\n=== MOST RECENT QUARTER SUMMARY ({most_recent_qtr}) ===")
+        print("For easy comparison with PDF source:")
+        
+        recent_summary = recent_data.groupby('cat_type').agg({
+            'netsales': ['count', 'sum'],
+            'litres': ['count', 'sum']
+        }).round(0)
+        
+        # Format for easier reading
+        for cat_type in recent_summary.index:
+            netsales_count = recent_summary.loc[cat_type, ('netsales', 'count')]
+            netsales_sum = recent_summary.loc[cat_type, ('netsales', 'sum')]
+            litres_count = recent_summary.loc[cat_type, ('litres', 'count')]  
+            litres_sum = recent_summary.loc[cat_type, ('litres', 'sum')]
+            
+            print(f"\n{cat_type.upper()}:")
+            if not pd.isna(netsales_sum):
+                print(f"  Net Sales: ${netsales_sum:,.0f} ({netsales_count:.0f} items)")
+            if not pd.isna(litres_sum):
+                print(f"  Litres:    {litres_sum:,.0f} ({litres_count:.0f} items)")
+    
+    # Summary by category (all quarters)
     summary = df.groupby('cat_type').agg({
         'netsales': ['count', 'sum'],
         'litres': ['count', 'sum']
     }).round(2)
-    print("\nSummary by category:")
+    print("\n=== OVERALL SUMMARY (All Quarters) ===")
     print(summary)

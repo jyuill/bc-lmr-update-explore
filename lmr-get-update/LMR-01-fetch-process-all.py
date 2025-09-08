@@ -108,6 +108,7 @@ def main():
         # 1. SELECT PDF FILE INTERACTIVELY
         filename, filepath = select_pdf_file(extractor.input_folder)
         filename_base = filename.replace('.pdf', '')
+        filename_base = filename_base.replace('Liquor Market Review', 'LMR')
         logger.info(f"Processing file: {filename}")
         
         # Validate file exists and is readable
@@ -268,8 +269,14 @@ def main():
         output_filename = f"{filename_base}_db_upload.csv"
         output_path = extractor.output_folder / output_filename
         
+        # Save with specific filename for record-keeping
         tables_all.to_csv(output_path, index=False)
         logger.info(f"Saved final database upload file: {output_filename}")
+        
+        # Also save with generic filename for easy R import
+        generic_path = extractor.output_folder / "lmr_data_latest.csv"
+        tables_all.to_csv(generic_path, index=False)
+        logger.info(f"Saved for R session import: lmr_data_latest.csv")
         
         logger.info("LMR extraction process completed successfully")
         

@@ -1,0 +1,396 @@
+cat_type,category,subcategory,period,litres
+wine,Argentina Wine Argentina Red Wine,Argentina Wine Argentina Red Wine,fiscal_2024_25_q1,357730.0
+wine,Argentina Rose Wine,Argentina Rose Wine,fiscal_2024_25_q1,7708.0
+wine,Argentina White Wine,Argentina White Wine,fiscal_2024_25_q1,20282.0
+wine,Australia Red Wine,Australia Red Wine,fiscal_2024_25_q1,437320.0
+wine,Australia Rose Wine,Australia Rose Wine,fiscal_2024_25_q1,22090.0
+wine,Australia Sparkling Wine,Australia Sparkling Wine,fiscal_2024_25_q1,53546.0
+wine,Australia White Wine,Australia White Wine,fiscal_2024_25_q1,330222.0
+wine,Austria Red Wine 878,Austria Red Wine 878,fiscal_2024_25_q1,1030.0
+wine,Austria White Wine,Austria White Wine,fiscal_2024_25_q1,2927.0
+wine,Canada,BC Canada - BC Dessert Wine,fiscal_2024_25_q1,2637.0
+wine,Canada,BC Fruit Wine,fiscal_2024_25_q1,45177.0
+wine,Canada,BC Ice Wine,fiscal_2024_25_q1,7048.0
+wine,Canada,BC Red Wine,fiscal_2024_25_q1,3423617.0
+wine,Canada,BC Rose Wine,fiscal_2024_25_q1,609403.0
+wine,Argentina Wine Argentina Red Wine,Argentina Wine Argentina Red Wine,fiscal_2024_25_q2,344182.0
+wine,Argentina Rose Wine,Argentina Rose Wine,fiscal_2024_25_q2,7132.0
+wine,Argentina White Wine,Argentina White Wine,fiscal_2024_25_q2,22994.0
+wine,Australia Red Wine,Australia Red Wine,fiscal_2024_25_q2,369534.0
+wine,Australia Rose Wine,Australia Rose Wine,fiscal_2024_25_q2,17984.0
+wine,Australia Sparkling Wine,Australia Sparkling Wine,fiscal_2024_25_q2,50144.0
+wine,Australia White Wine,Australia White Wine,fiscal_2024_25_q2,300980.0
+wine,Austria Red Wine 878,Austria Red Wine 878,fiscal_2024_25_q2,1060.0
+wine,Austria White Wine,Austria White Wine,fiscal_2024_25_q2,3532.0
+wine,Canada,BC Canada - BC Dessert Wine,fiscal_2024_25_q2,6355.0
+wine,Canada,BC Fruit Wine,fiscal_2024_25_q2,67760.0
+wine,Canada,BC Ice Wine,fiscal_2024_25_q2,10389.0
+wine,Canada,BC Red Wine,fiscal_2024_25_q2,3551826.0
+wine,Canada,BC Rose Wine,fiscal_2024_25_q2,691317.0
+wine,Argentina Wine Argentina Red Wine,Argentina Wine Argentina Red Wine,fiscal_2024_25_q3,527610.0
+wine,Argentina Rose Wine,Argentina Rose Wine,fiscal_2024_25_q3,2696.0
+wine,Argentina White Wine,Argentina White Wine,fiscal_2024_25_q3,27674.0
+wine,Australia Red Wine,Australia Red Wine,fiscal_2024_25_q3,526530.0
+wine,Australia Rose Wine,Australia Rose Wine,fiscal_2024_25_q3,25699.0
+wine,Australia Sparkling Wine,Australia Sparkling Wine,fiscal_2024_25_q3,78608.0
+wine,Australia White Wine,Australia White Wine,fiscal_2024_25_q3,359449.0
+wine,Austria Red Wine 878,Austria Red Wine 878,fiscal_2024_25_q3,1083.0
+wine,Austria White Wine,Austria White Wine,fiscal_2024_25_q3,3410.0
+wine,Canada,BC Canada - BC Dessert Wine,fiscal_2024_25_q3,4246.0
+wine,Canada,BC Fruit Wine,fiscal_2024_25_q3,65078.0
+wine,Canada,BC Ice Wine,fiscal_2024_25_q3,8361.0
+wine,Canada,BC Red Wine,fiscal_2024_25_q3,4193332.0
+wine,Canada,BC Rose Wine,fiscal_2024_25_q3,410109.0
+wine,Argentina Wine Argentina Red Wine,Argentina Wine Argentina Red Wine,fiscal_2024_25_q4,437776.0
+wine,Argentina Rose Wine,Argentina Rose Wine,fiscal_2024_25_q4,2785.0
+wine,Argentina White Wine,Argentina White Wine,fiscal_2024_25_q4,41647.0
+wine,Australia Red Wine,Australia Red Wine,fiscal_2024_25_q4,496722.0
+wine,Australia Rose Wine,Australia Rose Wine,fiscal_2024_25_q4,15513.0
+wine,Australia Sparkling Wine,Australia Sparkling Wine,fiscal_2024_25_q4,38980.0
+wine,Australia White Wine,Australia White Wine,fiscal_2024_25_q4,285037.0
+wine,Austria Red Wine 878,Austria Red Wine 878,fiscal_2024_25_q4,1084.0
+wine,Austria White Wine,Austria White Wine,fiscal_2024_25_q4,3097.0
+wine,Canada,BC Canada - BC Dessert Wine,fiscal_2024_25_q4,4190.0
+wine,Canada,BC Fruit Wine,fiscal_2024_25_q4,35416.0
+wine,Canada,BC Ice Wine,fiscal_2024_25_q4,6973.0
+wine,Canada,BC Red Wine,fiscal_2024_25_q4,3261671.0
+wine,Canada,BC Rose Wine,fiscal_2024_25_q4,355386.0
+wine,Argentina Wine Argentina Red Wine,Argentina Wine Argentina Red Wine,fiscal_2025_26_q1,461147.0
+wine,Argentina Rose Wine,Argentina Rose Wine,fiscal_2025_26_q1,7822.0
+wine,Argentina White Wine,Argentina White Wine,fiscal_2025_26_q1,52248.0
+wine,Australia Red Wine,Australia Red Wine,fiscal_2025_26_q1,476629.0
+wine,Australia Rose Wine,Australia Rose Wine,fiscal_2025_26_q1,23674.0
+wine,Australia Sparkling Wine,Australia Sparkling Wine,fiscal_2025_26_q1,53501.0
+wine,Australia White Wine,Australia White Wine,fiscal_2025_26_q1,397359.0
+wine,Austria Red Wine 878,Austria Red Wine 878,fiscal_2025_26_q1,
+wine,Austria White Wine,Austria White Wine,fiscal_2025_26_q1,4022.0
+wine,Canada,BC Canada - BC Dessert Wine,fiscal_2025_26_q1,3719.0
+wine,Canada,BC Fruit Wine,fiscal_2025_26_q1,47949.0
+wine,Canada,BC Ice Wine,fiscal_2025_26_q1,6664.0
+wine,Canada,BC Red Wine,fiscal_2025_26_q1,3479367.0
+wine,Canada,BC Rose Wine,fiscal_2025_26_q1,632461.0
+wine,Canada,BC Canada - BC Sparkling Wine,fiscal_2024_25_q1,166321.0
+wine,Canada,BC White Wine,fiscal_2024_25_q1,4264612.0
+wine,Canada,Other Ice Wine,fiscal_2024_25_q1,6530.0
+wine,Canada,Other Red Wine,fiscal_2024_25_q1,17786.0
+wine,Canada,Other Rose Wine,fiscal_2024_25_q1,10474.0
+wine,Canada,Other Sparkling Wine,fiscal_2024_25_q1,59221.0
+wine,Canada,Other White Wine,fiscal_2024_25_q1,61861.0
+wine,Chile Red Wine,Chile Red Wine,fiscal_2024_25_q1,509439.0
+wine,Chile Rose Wine,Chile Rose Wine,fiscal_2024_25_q1,77232.0
+wine,Chile Sparkling Wine,Chile Sparkling Wine,fiscal_2024_25_q1,2106.0
+wine,Chile White Wine,Chile White Wine,fiscal_2024_25_q1,335922.0
+wine,Fortified Wine Other Fortified Domestic Wine,Fortified Wine Other Fortified Domestic Wine,fiscal_2024_25_q1,46328.0
+wine,Other Fortified Import Wine,Other Fortified Import Wine,fiscal_2024_25_q1,14655.0
+wine,Port Wine,Port Wine,fiscal_2024_25_q1,13320.0
+wine,Sherry Wine,Sherry Wine,fiscal_2024_25_q1,10388.0
+wine,Vermouth Wine,Vermouth Wine,fiscal_2024_25_q1,58080.0
+wine,Canada,BC Canada - BC Sparkling Wine,fiscal_2024_25_q2,218632.0
+wine,Canada,BC White Wine,fiscal_2024_25_q2,4608137.0
+wine,Canada,Other Ice Wine,fiscal_2024_25_q2,6844.0
+wine,Canada,Other Red Wine,fiscal_2024_25_q2,22579.0
+wine,Canada,Other Rose Wine,fiscal_2024_25_q2,8405.0
+wine,Canada,Other Sparkling Wine,fiscal_2024_25_q2,59072.0
+wine,Canada,Other White Wine,fiscal_2024_25_q2,47597.0
+wine,Chile Red Wine,Chile Red Wine,fiscal_2024_25_q2,575303.0
+wine,Chile Rose Wine,Chile Rose Wine,fiscal_2024_25_q2,69405.0
+wine,Chile Sparkling Wine,Chile Sparkling Wine,fiscal_2024_25_q2,2365.0
+wine,Chile White Wine,Chile White Wine,fiscal_2024_25_q2,371602.0
+wine,Fortified Wine Other Fortified Domestic Wine,Fortified Wine Other Fortified Domestic Wine,fiscal_2024_25_q2,47256.0
+wine,Other Fortified Import Wine,Other Fortified Import Wine,fiscal_2024_25_q2,12711.0
+wine,Port Wine,Port Wine,fiscal_2024_25_q2,14200.0
+wine,Sherry Wine,Sherry Wine,fiscal_2024_25_q2,9408.0
+wine,Vermouth Wine,Vermouth Wine,fiscal_2024_25_q2,55300.0
+wine,Canada,BC Canada - BC Sparkling Wine,fiscal_2024_25_q3,185179.0
+wine,Canada,BC White Wine,fiscal_2024_25_q3,4156606.0
+wine,Canada,Other Ice Wine,fiscal_2024_25_q3,9019.0
+wine,Canada,Other Red Wine,fiscal_2024_25_q3,32789.0
+wine,Canada,Other Rose Wine,fiscal_2024_25_q3,5552.0
+wine,Canada,Other Sparkling Wine,fiscal_2024_25_q3,93136.0
+wine,Canada,Other White Wine,fiscal_2024_25_q3,49591.0
+wine,Chile Red Wine,Chile Red Wine,fiscal_2024_25_q3,720082.0
+wine,Chile Rose Wine,Chile Rose Wine,fiscal_2024_25_q3,26151.0
+wine,Chile Sparkling Wine,Chile Sparkling Wine,fiscal_2024_25_q3,3299.0
+wine,Chile White Wine,Chile White Wine,fiscal_2024_25_q3,315295.0
+wine,Fortified Wine Other Fortified Domestic Wine,Fortified Wine Other Fortified Domestic Wine,fiscal_2024_25_q3,53022.0
+wine,Other Fortified Import Wine,Other Fortified Import Wine,fiscal_2024_25_q3,19180.0
+wine,Port Wine,Port Wine,fiscal_2024_25_q3,32098.0
+wine,Sherry Wine,Sherry Wine,fiscal_2024_25_q3,21825.0
+wine,Vermouth Wine,Vermouth Wine,fiscal_2024_25_q3,68827.0
+wine,Canada,BC Canada - BC Sparkling Wine,fiscal_2024_25_q4,113072.0
+wine,Canada,BC White Wine,fiscal_2024_25_q4,3424638.0
+wine,Canada,Other Ice Wine,fiscal_2024_25_q4,10030.0
+wine,Canada,Other Red Wine,fiscal_2024_25_q4,26613.0
+wine,Canada,Other Rose Wine,fiscal_2024_25_q4,4482.0
+wine,Canada,Other Sparkling Wine,fiscal_2024_25_q4,47171.0
+wine,Canada,Other White Wine,fiscal_2024_25_q4,41027.0
+wine,Chile Red Wine,Chile Red Wine,fiscal_2024_25_q4,611208.0
+wine,Chile Rose Wine,Chile Rose Wine,fiscal_2024_25_q4,26576.0
+wine,Chile Sparkling Wine,Chile Sparkling Wine,fiscal_2024_25_q4,2190.0
+wine,Chile White Wine,Chile White Wine,fiscal_2024_25_q4,306921.0
+wine,Fortified Wine Other Fortified Domestic Wine,Fortified Wine Other Fortified Domestic Wine,fiscal_2024_25_q4,44973.0
+wine,Other Fortified Import Wine,Other Fortified Import Wine,fiscal_2024_25_q4,14578.0
+wine,Port Wine,Port Wine,fiscal_2024_25_q4,14973.0
+wine,Sherry Wine,Sherry Wine,fiscal_2024_25_q4,11470.0
+wine,Vermouth Wine,Vermouth Wine,fiscal_2024_25_q4,51524.0
+wine,Canada,BC Canada - BC Sparkling Wine,fiscal_2025_26_q1,180008.0
+wine,Canada,BC White Wine,fiscal_2025_26_q1,4331145.0
+wine,Canada,Other Ice Wine,fiscal_2025_26_q1,5801.0
+wine,Canada,Other Red Wine,fiscal_2025_26_q1,28870.0
+wine,Canada,Other Rose Wine,fiscal_2025_26_q1,10668.0
+wine,Canada,Other Sparkling Wine,fiscal_2025_26_q1,65560.0
+wine,Canada,Other White Wine,fiscal_2025_26_q1,54724.0
+wine,Chile Red Wine,Chile Red Wine,fiscal_2025_26_q1,610363.0
+wine,Chile Rose Wine,Chile Rose Wine,fiscal_2025_26_q1,56358.0
+wine,Chile Sparkling Wine,Chile Sparkling Wine,fiscal_2025_26_q1,2175.0
+wine,Chile White Wine,Chile White Wine,fiscal_2025_26_q1,356461.0
+wine,Fortified Wine Other Fortified Domestic Wine,Fortified Wine Other Fortified Domestic Wine,fiscal_2025_26_q1,41468.0
+wine,Other Fortified Import Wine,Other Fortified Import Wine,fiscal_2025_26_q1,13742.0
+wine,Port Wine,Port Wine,fiscal_2025_26_q1,14468.0
+wine,Sherry Wine,Sherry Wine,fiscal_2025_26_q1,10146.0
+wine,Vermouth Wine,Vermouth Wine,fiscal_2025_26_q1,55291.0
+wine,France Wine France Champagne Wine,France Wine France Champagne Wine,fiscal_2024_25_q1,32946.0
+wine,France Red Wine,France Red Wine,fiscal_2024_25_q1,283586.0
+wine,France Rose Wine,France Rose Wine,fiscal_2024_25_q1,232511.0
+wine,France Sparkling Wine,France Sparkling Wine,fiscal_2024_25_q1,41291.0
+wine,France White Wine,France White Wine,fiscal_2024_25_q1,186311.0
+wine,Georgia Wine Georgia Red Wine,Georgia Wine Georgia Red Wine,fiscal_2024_25_q1,3408.0
+wine,Germany Red Wine,Germany Red Wine,fiscal_2024_25_q1,1424.0
+wine,Germany Sparkling Wine,Germany Sparkling Wine,fiscal_2024_25_q1,43524.0
+wine,Germany White Wine,Germany White Wine,fiscal_2024_25_q1,46968.0
+wine,Greece Red Wine,Greece Red Wine,fiscal_2024_25_q1,5858.0
+wine,Greece White Wine,Greece White Wine,fiscal_2024_25_q1,6992.0
+wine,Hungary Red Wine 909 958,Hungary Red Wine 909 958,fiscal_2024_25_q1,1215.0
+wine,France Wine France Champagne Wine,France Wine France Champagne Wine,fiscal_2024_25_q2,42437.0
+wine,France Red Wine,France Red Wine,fiscal_2024_25_q2,302990.0
+wine,France Rose Wine,France Rose Wine,fiscal_2024_25_q2,242124.0
+wine,France Sparkling Wine,France Sparkling Wine,fiscal_2024_25_q2,49706.0
+wine,France White Wine,France White Wine,fiscal_2024_25_q2,184905.0
+wine,Georgia Wine Georgia Red Wine,Georgia Wine Georgia Red Wine,fiscal_2024_25_q2,2733.0
+wine,Germany Red Wine,Germany Red Wine,fiscal_2024_25_q2,1235.0
+wine,Germany Sparkling Wine,Germany Sparkling Wine,fiscal_2024_25_q2,27289.0
+wine,Germany White Wine,Germany White Wine,fiscal_2024_25_q2,50100.0
+wine,Greece Red Wine,Greece Red Wine,fiscal_2024_25_q2,3904.0
+wine,Greece White Wine,Greece White Wine,fiscal_2024_25_q2,5714.0
+wine,Hungary Red Wine 909 958,Hungary Red Wine 909 958,fiscal_2024_25_q2,1300.0
+wine,France Wine France Champagne Wine,France Wine France Champagne Wine,fiscal_2024_25_q3,77213.0
+wine,France Red Wine,France Red Wine,fiscal_2024_25_q3,380291.0
+wine,France Rose Wine,France Rose Wine,fiscal_2024_25_q3,114332.0
+wine,France Sparkling Wine,France Sparkling Wine,fiscal_2024_25_q3,61548.0
+wine,France White Wine,France White Wine,fiscal_2024_25_q3,193975.0
+wine,Georgia Wine Georgia Red Wine,Georgia Wine Georgia Red Wine,fiscal_2024_25_q3,5098.0
+wine,Germany Red Wine,Germany Red Wine,fiscal_2024_25_q3,1210.0
+wine,Germany Sparkling Wine,Germany Sparkling Wine,fiscal_2024_25_q3,60063.0
+wine,Germany White Wine,Germany White Wine,fiscal_2024_25_q3,68186.0
+wine,Greece Red Wine,Greece Red Wine,fiscal_2024_25_q3,6007.0
+wine,Greece White Wine,Greece White Wine,fiscal_2024_25_q3,4802.0
+wine,Hungary Red Wine 909 958,Hungary Red Wine 909 958,fiscal_2024_25_q3,1134.0
+wine,France Wine France Champagne Wine,France Wine France Champagne Wine,fiscal_2024_25_q4,29818.0
+wine,France Red Wine,France Red Wine,fiscal_2024_25_q4,299734.0
+wine,France Rose Wine,France Rose Wine,fiscal_2024_25_q4,106465.0
+wine,France Sparkling Wine,France Sparkling Wine,fiscal_2024_25_q4,37473.0
+wine,France White Wine,France White Wine,fiscal_2024_25_q4,173364.0
+wine,Georgia Wine Georgia Red Wine,Georgia Wine Georgia Red Wine,fiscal_2024_25_q4,3765.0
+wine,Germany Red Wine,Germany Red Wine,fiscal_2024_25_q4,1288.0
+wine,Germany Sparkling Wine,Germany Sparkling Wine,fiscal_2024_25_q4,21543.0
+wine,Germany White Wine,Germany White Wine,fiscal_2024_25_q4,45594.0
+wine,Greece Red Wine,Greece Red Wine,fiscal_2024_25_q4,5763.0
+wine,Greece White Wine,Greece White Wine,fiscal_2024_25_q4,6379.0
+wine,Hungary Red Wine 909 958,Hungary Red Wine 909 958,fiscal_2024_25_q4,
+wine,France Wine France Champagne Wine,France Wine France Champagne Wine,fiscal_2025_26_q1,39119.0
+wine,France Red Wine,France Red Wine,fiscal_2025_26_q1,321136.0
+wine,France Rose Wine,France Rose Wine,fiscal_2025_26_q1,229633.0
+wine,France Sparkling Wine,France Sparkling Wine,fiscal_2025_26_q1,48043.0
+wine,France White Wine,France White Wine,fiscal_2025_26_q1,207349.0
+wine,Georgia Wine Georgia Red Wine,Georgia Wine Georgia Red Wine,fiscal_2025_26_q1,3584.0
+wine,Germany Red Wine,Germany Red Wine,fiscal_2025_26_q1,1285.0
+wine,Germany Sparkling Wine,Germany Sparkling Wine,fiscal_2025_26_q1,34091.0
+wine,Germany White Wine,Germany White Wine,fiscal_2025_26_q1,48673.0
+wine,Greece Red Wine,Greece Red Wine,fiscal_2025_26_q1,6226.0
+wine,Greece White Wine,Greece White Wine,fiscal_2025_26_q1,7914.0
+wine,Hungary Red Wine 909 958,Hungary Red Wine 909 958,fiscal_2025_26_q1,
+wine,Hungary Wine Hungary Sparkling Wine,Hungary Wine Hungary Sparkling Wine,fiscal_2024_25_q1,5091.0
+wine,Hungary White Wine,Hungary White Wine,fiscal_2024_25_q1,3653.0
+wine,Israel Wine Israel Red Wine 864,Israel Wine Israel Red Wine 864,fiscal_2024_25_q1,1332.0
+wine,Italy Red Wine,Italy Red Wine,fiscal_2024_25_q1,475990.0
+wine,Italy Rose Wine,Italy Rose Wine,fiscal_2024_25_q1,20661.0
+wine,Italy Sparkling Wine,Italy Sparkling Wine,fiscal_2024_25_q1,111597.0
+wine,Italy White Wine,Italy White Wine,fiscal_2024_25_q1,378248.0
+wine,Prosecco Wine,Prosecco Wine,fiscal_2024_25_q1,335645.0
+wine,New Zealand Red Wine,New Zealand Red Wine,fiscal_2024_25_q1,22509.0
+wine,New Zealand Rose Wine,New Zealand Rose Wine,fiscal_2024_25_q1,20200.0
+wine,New Zealand Sparkling Wine,New Zealand Sparkling Wine,fiscal_2024_25_q1,3122.0
+wine,New Zealand White Wine,New Zealand White Wine,fiscal_2024_25_q1,741109.0
+wine,Other Country Wine Other Country Fruit and Dessert Wine,Other Country Wine Other Country Fruit and Dessert Wine,fiscal_2024_25_q1,19308.0
+wine,Other Country Red Wine,Other Country Red Wine,fiscal_2024_25_q1,4750.0
+wine,Other Country Sparkling Wine 664 937 853,Other Country Sparkling Wine 664 937 853,fiscal_2024_25_q1,1064.0
+wine,Other Country White Wine,Other Country White Wine,fiscal_2024_25_q1,2818.0
+wine,Other Style Wine Aperitif And Flavoured Wine,Other Style Wine Aperitif And Flavoured Wine,fiscal_2024_25_q1,4352.0
+wine,Hungary Wine Hungary Sparkling Wine,Hungary Wine Hungary Sparkling Wine,fiscal_2024_25_q2,5872.0
+wine,Hungary White Wine,Hungary White Wine,fiscal_2024_25_q2,4880.0
+wine,Israel Wine Israel Red Wine 864,Israel Wine Israel Red Wine 864,fiscal_2024_25_q2,1097.0
+wine,Italy Red Wine,Italy Red Wine,fiscal_2024_25_q2,469248.0
+wine,Italy Rose Wine,Italy Rose Wine,fiscal_2024_25_q2,20129.0
+wine,Italy Sparkling Wine,Italy Sparkling Wine,fiscal_2024_25_q2,117707.0
+wine,Italy White Wine,Italy White Wine,fiscal_2024_25_q2,392020.0
+wine,Prosecco Wine,Prosecco Wine,fiscal_2024_25_q2,371476.0
+wine,New Zealand Red Wine,New Zealand Red Wine,fiscal_2024_25_q2,21304.0
+wine,New Zealand Rose Wine,New Zealand Rose Wine,fiscal_2024_25_q2,20656.0
+wine,New Zealand Sparkling Wine,New Zealand Sparkling Wine,fiscal_2024_25_q2,3127.0
+wine,New Zealand White Wine,New Zealand White Wine,fiscal_2024_25_q2,670796.0
+wine,Other Country Wine Other Country Fruit and Dessert Wine,Other Country Wine Other Country Fruit and Dessert Wine,fiscal_2024_25_q2,19130.0
+wine,Other Country Red Wine,Other Country Red Wine,fiscal_2024_25_q2,4742.0
+wine,Other Country Sparkling Wine 664 937 853,Other Country Sparkling Wine 664 937 853,fiscal_2024_25_q2,1393.0
+wine,Other Country White Wine,Other Country White Wine,fiscal_2024_25_q2,3620.0
+wine,Other Style Wine Aperitif And Flavoured Wine,Other Style Wine Aperitif And Flavoured Wine,fiscal_2024_25_q2,4425.0
+wine,Hungary Wine Hungary Sparkling Wine,Hungary Wine Hungary Sparkling Wine,fiscal_2024_25_q3,5718.0
+wine,Hungary White Wine,Hungary White Wine,fiscal_2024_25_q3,5919.0
+wine,Israel Wine Israel Red Wine 864,Israel Wine Israel Red Wine 864,fiscal_2024_25_q3,1080.0
+wine,Italy Red Wine,Italy Red Wine,fiscal_2024_25_q3,672338.0
+wine,Italy Rose Wine,Italy Rose Wine,fiscal_2024_25_q3,9111.0
+wine,Italy Sparkling Wine,Italy Sparkling Wine,fiscal_2024_25_q3,131371.0
+wine,Italy White Wine,Italy White Wine,fiscal_2024_25_q3,389952.0
+wine,Prosecco Wine,Prosecco Wine,fiscal_2024_25_q3,515043.0
+wine,New Zealand Red Wine,New Zealand Red Wine,fiscal_2024_25_q3,33628.0
+wine,New Zealand Rose Wine,New Zealand Rose Wine,fiscal_2024_25_q3,9846.0
+wine,New Zealand Sparkling Wine,New Zealand Sparkling Wine,fiscal_2024_25_q3,7214.0
+wine,New Zealand White Wine,New Zealand White Wine,fiscal_2024_25_q3,819687.0
+wine,Other Country Wine Other Country Fruit and Dessert Wine,Other Country Wine Other Country Fruit and Dessert Wine,fiscal_2024_25_q3,21736.0
+wine,Other Country Red Wine,Other Country Red Wine,fiscal_2024_25_q3,7220.0
+wine,Other Country Sparkling Wine 664 937 853,Other Country Sparkling Wine 664 937 853,fiscal_2024_25_q3,
+wine,Other Country White Wine,Other Country White Wine,fiscal_2024_25_q3,3504.0
+wine,Other Style Wine Aperitif And Flavoured Wine,Other Style Wine Aperitif And Flavoured Wine,fiscal_2024_25_q3,5340.0
+wine,Hungary Wine Hungary Sparkling Wine,Hungary Wine Hungary Sparkling Wine,fiscal_2024_25_q4,3168.0
+wine,Hungary White Wine,Hungary White Wine,fiscal_2024_25_q4,5068.0
+wine,Israel Wine Israel Red Wine 864,Israel Wine Israel Red Wine 864,fiscal_2024_25_q4,1278.0
+wine,Italy Red Wine,Italy Red Wine,fiscal_2024_25_q4,497708.0
+wine,Italy Rose Wine,Italy Rose Wine,fiscal_2024_25_q4,9476.0
+wine,Italy Sparkling Wine,Italy Sparkling Wine,fiscal_2024_25_q4,93058.0
+wine,Italy White Wine,Italy White Wine,fiscal_2024_25_q4,308088.0
+wine,Prosecco Wine,Prosecco Wine,fiscal_2024_25_q4,231505.0
+wine,New Zealand Red Wine,New Zealand Red Wine,fiscal_2024_25_q4,16906.0
+wine,New Zealand Rose Wine,New Zealand Rose Wine,fiscal_2024_25_q4,7844.0
+wine,New Zealand Sparkling Wine,New Zealand Sparkling Wine,fiscal_2024_25_q4,3091.0
+wine,New Zealand White Wine,New Zealand White Wine,fiscal_2024_25_q4,484533.0
+wine,Other Country Wine Other Country Fruit and Dessert Wine,Other Country Wine Other Country Fruit and Dessert Wine,fiscal_2024_25_q4,21611.0
+wine,Other Country Red Wine,Other Country Red Wine,fiscal_2024_25_q4,4790.0
+wine,Other Country Sparkling Wine 664 937 853,Other Country Sparkling Wine 664 937 853,fiscal_2024_25_q4,
+wine,Other Country White Wine,Other Country White Wine,fiscal_2024_25_q4,2938.0
+wine,Other Style Wine Aperitif And Flavoured Wine,Other Style Wine Aperitif And Flavoured Wine,fiscal_2024_25_q4,4036.0
+wine,Hungary Wine Hungary Sparkling Wine,Hungary Wine Hungary Sparkling Wine,fiscal_2025_26_q1,4352.0
+wine,Hungary White Wine,Hungary White Wine,fiscal_2025_26_q1,5332.0
+wine,Israel Wine Israel Red Wine 864,Israel Wine Israel Red Wine 864,fiscal_2025_26_q1,
+wine,Italy Red Wine,Italy Red Wine,fiscal_2025_26_q1,539982.0
+wine,Italy Rose Wine,Italy Rose Wine,fiscal_2025_26_q1,20491.0
+wine,Italy Sparkling Wine,Italy Sparkling Wine,fiscal_2025_26_q1,119140.0
+wine,Italy White Wine,Italy White Wine,fiscal_2025_26_q1,421745.0
+wine,Prosecco Wine,Prosecco Wine,fiscal_2025_26_q1,381476.0
+wine,New Zealand Red Wine,New Zealand Red Wine,fiscal_2025_26_q1,27203.0
+wine,New Zealand Rose Wine,New Zealand Rose Wine,fiscal_2025_26_q1,26762.0
+wine,New Zealand Sparkling Wine,New Zealand Sparkling Wine,fiscal_2025_26_q1,2835.0
+wine,New Zealand White Wine,New Zealand White Wine,fiscal_2025_26_q1,835325.0
+wine,Other Country Wine Other Country Fruit and Dessert Wine,Other Country Wine Other Country Fruit and Dessert Wine,fiscal_2025_26_q1,17577.0
+wine,Other Country Red Wine,Other Country Red Wine,fiscal_2025_26_q1,4946.0
+wine,Other Country Sparkling Wine 664 937 853,Other Country Sparkling Wine 664 937 853,fiscal_2025_26_q1,
+wine,Other Country White Wine,Other Country White Wine,fiscal_2025_26_q1,3674.0
+wine,Other Style Wine Aperitif And Flavoured Wine,Other Style Wine Aperitif And Flavoured Wine,fiscal_2025_26_q1,2623.0
+wine,Other Style Wine Mead,Other Style Wine Mead,fiscal_2024_25_q1,5725.0
+wine,Rice Wine,Rice Wine,fiscal_2024_25_q1,5867.0
+wine,Portugal Red Wine,Portugal Red Wine,fiscal_2024_25_q1,95884.0
+wine,Portugal Rose Wine,Portugal Rose Wine,fiscal_2024_25_q1,22112.0
+wine,Portugal White Wine,Portugal White Wine,fiscal_2024_25_q1,44672.0
+wine,Sake Japan Sake,Sake Japan Sake,fiscal_2024_25_q1,59785.0
+wine,Other Country Sake,Other Country Sake,fiscal_2024_25_q1,3143.0
+wine,USA Sake,USA Sake,fiscal_2024_25_q1,65642.0
+wine,South Africa Red Wine,South Africa Red Wine,fiscal_2024_25_q1,55082.0
+wine,South Africa Rose Wine,South Africa Rose Wine,fiscal_2024_25_q1,2422.0
+wine,South Africa White Wine,South Africa White Wine,fiscal_2024_25_q1,69252.0
+wine,Spain Red Wine,Spain Red Wine,fiscal_2024_25_q1,215764.0
+wine,Spain Rose Wine,Spain Rose Wine,fiscal_2024_25_q1,17822.0
+wine,Spain Sparkling Wine,Spain Sparkling Wine,fiscal_2024_25_q1,58894.0
+wine,Spain White Wine,Spain White Wine,fiscal_2024_25_q1,35298.0
+wine,USA Wine USA Fruit and Dessert Wine 6 0 0 0,USA Wine USA Fruit and Dessert Wine 6 0 0 0,fiscal_2024_25_q1,1776.0
+wine,USA Red Wine -,USA Red Wine -,fiscal_2024_25_q1,937066.0
+wine,Other Style Wine Mead,Other Style Wine Mead,fiscal_2024_25_q2,11916.0
+wine,Rice Wine,Rice Wine,fiscal_2024_25_q2,5602.0
+wine,Portugal Red Wine,Portugal Red Wine,fiscal_2024_25_q2,73616.0
+wine,Portugal Rose Wine,Portugal Rose Wine,fiscal_2024_25_q2,23585.0
+wine,Portugal White Wine,Portugal White Wine,fiscal_2024_25_q2,53614.0
+wine,Sake Japan Sake,Sake Japan Sake,fiscal_2024_25_q2,58464.0
+wine,Other Country Sake,Other Country Sake,fiscal_2024_25_q2,4512.0
+wine,USA Sake,USA Sake,fiscal_2024_25_q2,55761.0
+wine,South Africa Red Wine,South Africa Red Wine,fiscal_2024_25_q2,45702.0
+wine,South Africa Rose Wine,South Africa Rose Wine,fiscal_2024_25_q2,3092.0
+wine,South Africa White Wine,South Africa White Wine,fiscal_2024_25_q2,81966.0
+wine,Spain Red Wine,Spain Red Wine,fiscal_2024_25_q2,219964.0
+wine,Spain Rose Wine,Spain Rose Wine,fiscal_2024_25_q2,21482.0
+wine,Spain Sparkling Wine,Spain Sparkling Wine,fiscal_2024_25_q2,68700.0
+wine,Spain White Wine,Spain White Wine,fiscal_2024_25_q2,29498.0
+wine,USA Wine USA Fruit and Dessert Wine 6 0 0 0,USA Wine USA Fruit and Dessert Wine 6 0 0 0,fiscal_2024_25_q2,
+wine,USA Red Wine -,USA Red Wine -,fiscal_2024_25_q2,842283.0
+wine,Other Style Wine Mead,Other Style Wine Mead,fiscal_2024_25_q3,6171.0
+wine,Rice Wine,Rice Wine,fiscal_2024_25_q3,6446.0
+wine,Portugal Red Wine,Portugal Red Wine,fiscal_2024_25_q3,107782.0
+wine,Portugal Rose Wine,Portugal Rose Wine,fiscal_2024_25_q3,19362.0
+wine,Portugal White Wine,Portugal White Wine,fiscal_2024_25_q3,28831.0
+wine,Sake Japan Sake,Sake Japan Sake,fiscal_2024_25_q3,71519.0
+wine,Other Country Sake,Other Country Sake,fiscal_2024_25_q3,4327.0
+wine,USA Sake,USA Sake,fiscal_2024_25_q3,69615.0
+wine,South Africa Red Wine,South Africa Red Wine,fiscal_2024_25_q3,70040.0
+wine,South Africa Rose Wine,South Africa Rose Wine,fiscal_2024_25_q3,1263.0
+wine,South Africa White Wine,South Africa White Wine,fiscal_2024_25_q3,73371.0
+wine,Spain Red Wine,Spain Red Wine,fiscal_2024_25_q3,259213.0
+wine,Spain Rose Wine,Spain Rose Wine,fiscal_2024_25_q3,9580.0
+wine,Spain Sparkling Wine,Spain Sparkling Wine,fiscal_2024_25_q3,106416.0
+wine,Spain White Wine,Spain White Wine,fiscal_2024_25_q3,30390.0
+wine,USA Wine USA Fruit and Dessert Wine 6 0 0 0,USA Wine USA Fruit and Dessert Wine 6 0 0 0,fiscal_2024_25_q3,
+wine,USA Red Wine -,USA Red Wine -,fiscal_2024_25_q3,1344069.0
+wine,Other Style Wine Mead,Other Style Wine Mead,fiscal_2024_25_q4,5850.0
+wine,Rice Wine,Rice Wine,fiscal_2024_25_q4,6343.0
+wine,Portugal Red Wine,Portugal Red Wine,fiscal_2024_25_q4,88456.0
+wine,Portugal Rose Wine,Portugal Rose Wine,fiscal_2024_25_q4,14212.0
+wine,Portugal White Wine,Portugal White Wine,fiscal_2024_25_q4,33968.0
+wine,Sake Japan Sake,Sake Japan Sake,fiscal_2024_25_q4,72252.0
+wine,Other Country Sake,Other Country Sake,fiscal_2024_25_q4,3370.0
+wine,USA Sake,USA Sake,fiscal_2024_25_q4,73699.0
+wine,South Africa Red Wine,South Africa Red Wine,fiscal_2024_25_q4,57129.0
+wine,South Africa Rose Wine,South Africa Rose Wine,fiscal_2024_25_q4,1263.0
+wine,South Africa White Wine,South Africa White Wine,fiscal_2024_25_q4,67044.0
+wine,Spain Red Wine,Spain Red Wine,fiscal_2024_25_q4,311124.0
+wine,Spain Rose Wine,Spain Rose Wine,fiscal_2024_25_q4,43149.0
+wine,Spain Sparkling Wine,Spain Sparkling Wine,fiscal_2024_25_q4,57021.0
+wine,Spain White Wine,Spain White Wine,fiscal_2024_25_q4,65276.0
+wine,USA Wine USA Fruit and Dessert Wine 6 0 0 0,USA Wine USA Fruit and Dessert Wine 6 0 0 0,fiscal_2024_25_q4,
+wine,USA Red Wine -,USA Red Wine -,fiscal_2024_25_q4,623654.0
+wine,Other Style Wine Mead,Other Style Wine Mead,fiscal_2025_26_q1,6041.0
+wine,Rice Wine,Rice Wine,fiscal_2025_26_q1,5390.0
+wine,Portugal Red Wine,Portugal Red Wine,fiscal_2025_26_q1,86871.0
+wine,Portugal Rose Wine,Portugal Rose Wine,fiscal_2025_26_q1,16999.0
+wine,Portugal White Wine,Portugal White Wine,fiscal_2025_26_q1,49834.0
+wine,Sake Japan Sake,Sake Japan Sake,fiscal_2025_26_q1,74605.0
+wine,Other Country Sake,Other Country Sake,fiscal_2025_26_q1,4433.0
+wine,USA Sake,USA Sake,fiscal_2025_26_q1,16204.0
+wine,South Africa Red Wine,South Africa Red Wine,fiscal_2025_26_q1,49047.0
+wine,South Africa Rose Wine,South Africa Rose Wine,fiscal_2025_26_q1,2574.0
+wine,South Africa White Wine,South Africa White Wine,fiscal_2025_26_q1,78773.0
+wine,Spain Red Wine,Spain Red Wine,fiscal_2025_26_q1,225308.0
+wine,Spain Rose Wine,Spain Rose Wine,fiscal_2025_26_q1,23188.0
+wine,Spain Sparkling Wine,Spain Sparkling Wine,fiscal_2025_26_q1,64546.0
+wine,Spain White Wine,Spain White Wine,fiscal_2025_26_q1,37506.0
+wine,USA Wine USA Fruit and Dessert Wine 6 0 0 0,USA Wine USA Fruit and Dessert Wine 6 0 0 0,fiscal_2025_26_q1,
+wine,USA Red Wine -,USA Red Wine -,fiscal_2025_26_q1,46670.0
+wine,USA Wine USA Rose Wine,USA Wine USA Rose Wine,fiscal_2024_25_q1,63506.0
+wine,USA Sparkling Wine -173,USA Sparkling Wine -173,fiscal_2024_25_q1,7987.0
+wine,USA White Wine,USA White Wine,fiscal_2024_25_q1,400834.0
+wine,USA Wine USA Rose Wine,USA Wine USA Rose Wine,fiscal_2024_25_q2,68895.0
+wine,USA Sparkling Wine -173,USA Sparkling Wine -173,fiscal_2024_25_q2,20415.0
+wine,USA White Wine,USA White Wine,fiscal_2024_25_q2,392368.0
+wine,USA Wine USA Rose Wine,USA Wine USA Rose Wine,fiscal_2024_25_q3,57862.0
+wine,USA Sparkling Wine -173,USA Sparkling Wine -173,fiscal_2024_25_q3,31718.0
+wine,USA White Wine,USA White Wine,fiscal_2024_25_q3,383740.0
+wine,USA Wine USA Rose Wine,USA Wine USA Rose Wine,fiscal_2024_25_q4,44886.0
+wine,USA Sparkling Wine -173,USA Sparkling Wine -173,fiscal_2024_25_q4,10889.0
+wine,USA White Wine,USA White Wine,fiscal_2024_25_q4,239307.0
+wine,USA Wine USA Rose Wine,USA Wine USA Rose Wine,fiscal_2025_26_q1,21028.0
+wine,USA Sparkling Wine -173,USA Sparkling Wine -173,fiscal_2025_26_q1,
+wine,USA White Wine,USA White Wine,fiscal_2025_26_q1,11449.0

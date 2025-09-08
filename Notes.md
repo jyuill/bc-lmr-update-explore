@@ -9,9 +9,10 @@ See also Asana project: [Data Products/Portfolio](https://app.asana.com/1/115396
 ## 🚀 Next Steps
 - [ ] add credentials for PostgreSQL RDS instance on AWS and test connection
 - [ ] update functions/lmr_db_functions.R to use new PostgreSQL RDS instance
-- [ ] setup Claude-connect-notes.md with prompt notes for PDF parsing system
+- [ ] setup Claude-code-notes.md with prompt notes for PDF parsing system
 - [ ] create new system for parsing data from LMR PDFs
 - [ ] make sure it works for all category tables
+    - [ ] sort out issues with Spirits and Wine data -> many NAs, possible misaligned rows, parsing issues
 - [ ] finalize data update process documentation
 
 ---

@@ -1,177 +1,186 @@
 cat_type,category,subcategory
-Beer,Domestic - BC Beer,Domestic - BC Commercial Beer
-Beer,Domestic - BC Beer,Domestic - BC Micro Brew Beer
-Beer,Domestic - BC Beer,Domestic - BC Regional Beer
-Beer,Domestic - Other Province Beer,Domestic - Other Province Commercial Beer
-Beer,Domestic - Other Province Beer,Domestic - Other Province Micro Brew Beer
-Beer,Domestic - Other Province Beer,Domestic - Other Province Regional Beer
-Beer,Import Beer,Asia And South Pacific Beer
-Beer,Import Beer,Europe Beer
-Beer,Import Beer,Mexico And Caribbean Beer
-Beer,Import Beer,Other Country Beer
-Beer,Import Beer,USA Beer
-Refreshment Beverages,Cider,Domestic Cider
-Refreshment Beverages,Cider,Import Cider
-Refreshment Beverages,Coolers,Malt-Based Coolers
-Refreshment Beverages,Coolers,Spirit Coolers
-Refreshment Beverages,Coolers,Wine/Fruit Coolers
-Spirits,Asian Spirits,China Spirits
-Spirits,Asian Spirits,Korea Spirits
-Spirits,Asian Spirits,Other Country Asian Spirits
-Spirits,Gin,Dry Gin
-Spirits,Gin,Flavoured Gin
-Spirits,Gin,Other Gin
-Spirits,Grape and Fruit Brandy,Armagnac
-Spirits,Grape and Fruit Brandy,Brandy
-Spirits,Grape and Fruit Brandy,Cognac
-Spirits,Grape and Fruit Brandy,Eau de Vie
-Spirits,Grape and Fruit Brandy,Grappa And Marc
-Spirits,Grape and Fruit Brandy,Pisco
-Spirits,Liqueurs,Anise And Herbal/Spice Liqueurs
-Spirits,Liqueurs,Coffee And Cocoa Liqueurs
-Spirits,Liqueurs,Cream/Dairy Liqueurs
-Spirits,Liqueurs,Fruit Liqueurs
-Spirits,Liqueurs,Nut Liqueurs
-Spirits,Liqueurs,Other Liqueurs
-Spirits,Liqueurs,Whiskey Liqueurs
-Spirits,Other Spirits,Cachaca
-Spirits,Other Spirits,Flavoured Spirits
-Spirits,Other Spirits,Miscellaneous/Other Spirits
-Spirits,Other Spirits,Moonshine Spirits
-Spirits,Other Spirits,Ready to Mix Cocktails
-Spirits,Other Spirits,Ready to Serve Cocktails
-Spirits,Other Spirits,Schnapps and Akvavit
-Spirits,Rum,Amber Rum
-Spirits,Rum,Dark Rum
-Spirits,Rum,Flavoured Rum
-Spirits,Rum,Spiced Rum
-Spirits,Rum,White Rum
-Spirits,Tequila,Blanco/Silver Tequila
-Spirits,Tequila,Flavoured Tequila
-Spirits,Tequila,Gold Tequila
-Spirits,Tequila,Mezcal
-Spirits,Vodka,Flavoured Vodka
-Spirits,Vodka,Straight Vodka
-Spirits,Whisky,American Whiskey
-Spirits,Whisky,Blended Malt Scotch Whisky
-Spirits,Whisky,Blended Scotch Whisky
-Spirits,Whisky,Bourbon Whiskey
-Spirits,Whisky,Canadian Whisky
-Spirits,Whisky,Flavoured Whisky
-Spirits,Whisky,Irish Whiskey
-Spirits,Whisky,Other Country Whisky
-Spirits,Whisky,Single Malt Scotch Whisky
-Wine,Argentina Wine,Argentina Red Wine
-Wine,Argentina Wine,Argentina Rose Wine
-Wine,Argentina Wine,Argentina Sparkling Wine
-Wine,Argentina Wine,Argentina White Wine
-Wine,Australia Wine,Australia Fruit and Dessert Wine
-Wine,Australia Wine,Australia Red Wine
-Wine,Australia Wine,Australia Rose Wine
-Wine,Australia Wine,Australia Sparkling Wine
-Wine,Australia Wine,Australia White Wine
-Wine,Austria Wine,Austria Fruit and Dessert Wine
-Wine,Austria Wine,Austria Red Wine
-Wine,Austria Wine,Austria Rose Wine
-Wine,Austria Wine,Austria Sparkling Wine
-Wine,Austria Wine,Austria White Wine
-Wine,Bulgaria Wine,Bulgaria Red Wine
-Wine,Bulgaria Wine,Bulgaria Rose Wine
-Wine,Bulgaria Wine,Bulgaria White Wine
-Wine,Canada - BC,Canada - BC Dessert Wine
-Wine,Canada - BC,Canada - BC Fruit Wine
-Wine,Canada - BC,Canada - BC Ice Wine
-Wine,Canada - BC,Canada - BC Red Wine
-Wine,Canada - BC,Canada - BC Rose Wine
-Wine,Canada - BC,Canada - BC Sparkling Wine
-Wine,Canada - BC,Canada - BC White Wine
-Wine,Canada - Other,Canada - Other Dessert Wine
-Wine,Canada - Other,Canada - Other Fruit Wine
-Wine,Canada - Other,Canada - Other Ice Wine
-Wine,Canada - Other,Canada - Other Red Wine
-Wine,Canada - Other,Canada - Other Rose Wine
-Wine,Canada - Other,Canada - Other Sparkling Wine
-Wine,Canada - Other,Canada - Other White Wine
-Wine,Chile Wine,Chile Fruit and Dessert Wine
-Wine,Chile Wine,Chile Red Wine
-Wine,Chile Wine,Chile Rose Wine
-Wine,Chile Wine,Chile Sparkling Wine
-Wine,Chile Wine,Chile White Wine
-Wine,China Wine,China Fruit and Dessert Wine
-Wine,China Wine,China Red Wine
-Wine,China Wine,China White Wine
-Wine,Fortified Wine,Other Fortified Domestic Wine
-Wine,Fortified Wine,Other Fortified Import Wine
-Wine,Fortified Wine,Port Wine
-Wine,Fortified Wine,Sherry Wine
-Wine,Fortified Wine,Vermouth Wine
-Wine,France Wine,France Champagne Wine
-Wine,France Wine,France Fruit and Dessert Wine
-Wine,France Wine,France Red Wine
-Wine,France Wine,France Rose Wine
-Wine,France Wine,France Sparkling Wine
-Wine,France Wine,France White Wine
-Wine,Georgia Wine,Georgia Red Wine
-Wine,Georgia Wine,Georgia Rose Wine
-Wine,Georgia Wine,Georgia Sparkling Wine
-Wine,Georgia Wine,Georgia White Wine
-Wine,Germany Wine,Germany Fruit and Dessert Wine
-Wine,Germany Wine,Germany Red Wine
-Wine,Germany Wine,Germany Rose Wine
-Wine,Germany Wine,Germany Sparkling Wine
-Wine,Germany Wine,Germany White Wine
-Wine,Greece Wine,Greece Fruit and Dessert Wine
-Wine,Greece Wine,Greece Red Wine
-Wine,Greece Wine,Greece Rose Wine
-Wine,Greece Wine,Greece Sparkling Wine
-Wine,Greece Wine,Greece White Wine
-Wine,Hungary Wine,Hungary Fruit and Dessert Wine
-Wine,Hungary Wine,Hungary Red Wine
-Wine,Hungary Wine,Hungary Rose Wine
-Wine,Hungary Wine,Hungary Sparkling Wine
-Wine,Hungary Wine,Hungary White Wine
-Wine,Israel Wine,Israel Red Wine
-Wine,Israel Wine,Israel Rose Wine
-Wine,Israel Wine,Israel White Wine
-Wine,Italy Wine,Italy Fruit and Dessert Wine
-Wine,Italy Wine,Italy Red Wine
-Wine,Italy Wine,Italy Rose Wine
-Wine,Italy Wine,Italy Sparkling Wine
-Wine,Italy Wine,Italy White Wine
-Wine,Italy Wine,Prosecco Wine
-Wine,New Zealand Wine,New Zealand Fruit and Dessert Wine
-Wine,New Zealand Wine,New Zealand Red Wine
-Wine,New Zealand Wine,New Zealand Rose Wine
-Wine,New Zealand Wine,New Zealand Sparkling Wine
-Wine,New Zealand Wine,New Zealand White Wine
-Wine,Other Country Wine,Other Country Fruit and Dessert Wine
-Wine,Other Country Wine,Other Country Red Wine
-Wine,Other Country Wine,Other Country Rose Wine
-Wine,Other Country Wine,Other Country Sparkling Wine
-Wine,Other Country Wine,Other Country White Wine
-Wine,Other Style Wine,Aperitif And Flavoured Wine
-Wine,Other Style Wine,Mead
-Wine,Other Style Wine,Rice Wine
-Wine,Portugal Wine,Portugal Fruit and Dessert Wine
-Wine,Portugal Wine,Portugal Red Wine
-Wine,Portugal Wine,Portugal Rose Wine
-Wine,Portugal Wine,Portugal Sparkling Wine
-Wine,Portugal Wine,Portugal White Wine
-Wine,Sake,Japan Sake
-Wine,Sake,Other Country Sake
-Wine,Sake,USA Sake
-Wine,South Africa Wine,South Africa Fruit and Dessert Wine
-Wine,South Africa Wine,South Africa Red Wine
-Wine,South Africa Wine,South Africa Rose Wine
-Wine,South Africa Wine,South Africa Sparkling Wine
-Wine,South Africa Wine,South Africa White Wine
-Wine,Spain Wine,Spain Fruit and Dessert Wine
-Wine,Spain Wine,Spain Red Wine
-Wine,Spain Wine,Spain Rose Wine
-Wine,Spain Wine,Spain Sparkling Wine
-Wine,Spain Wine,Spain White Wine
-Wine,USA Wine,USA Fruit and Dessert Wine
-Wine,USA Wine,USA Red Wine
-Wine,USA Wine,USA Rose Wine
-Wine,USA Wine,USA Sparkling Wine
-Wine,USA Wine,USA White Wine
+beer,Domestic,BC Beer Domestic - BC Commercial Beer
+beer,Domestic,BC Micro Brew Beer
+beer,Domestic,BC Regional Beer
+beer,Domestic,Other Province Beer Domestic - Other Province Commercial Beer
+beer,Domestic,Other Province Micro Brew Beer
+beer,Domestic,Other Province Regional Beer
+beer,Europe Beer,Europe Beer
+beer,Import Beer Asia And South Pacific Beer,Import Beer Asia And South Pacific Beer
+beer,Mexico And Caribbean Beer,Mexico And Caribbean Beer
+beer,Other Country Beer,Other Country Beer
+beer,USA Beer,USA Beer
+refreshment,Cider Domestic Cider,Cider Domestic Cider
+refreshment,Coolers Malt-Based Coolers,Coolers Malt-Based Coolers
+refreshment,Import Cider,Import Cider
+refreshment,Spirit Coolers,Spirit Coolers
+refreshment,Wine/Fruit Coolers,Wine/Fruit Coolers
+spirits,Asian Spirits China Spirits,Asian Spirits China Spirits
+spirits,Blended Malt Scotch Whisky,Blended Malt Scotch Whisky
+spirits,Blended Scotch Whisky,Blended Scotch Whisky
+spirits,Bourbon Whiskey,Bourbon Whiskey
+spirits,Brandy,Brandy
+spirits,Canadian Whisky,Canadian Whisky
+spirits,Coffee And Cocoa Liqueurs,Coffee And Cocoa Liqueurs
+spirits,Cognac,Cognac
+spirits,Cream/Dairy Liqueurs,Cream/Dairy Liqueurs
+spirits,Dark Rum,Dark Rum
+spirits,Eau de Vie,Eau de Vie
+spirits,Flavoured Gin,Flavoured Gin
+spirits,Flavoured Rum,Flavoured Rum
+spirits,Flavoured Spirits,Flavoured Spirits
+spirits,Flavoured Tequila,Flavoured Tequila
+spirits,Flavoured Whisky,Flavoured Whisky
+spirits,Fruit Liqueurs,Fruit Liqueurs
+spirits,Gin Dry Gin,Gin Dry Gin
+spirits,Gold Tequila,Gold Tequila
+spirits,Grape and Fruit Brandy Armagnac,Grape and Fruit Brandy Armagnac
+spirits,Grappa And Marc,Grappa And Marc
+spirits,Grappa And Marc 971 911,Grappa And Marc 971 911
+spirits,Irish Whiskey,Irish Whiskey
+spirits,Korea Spirits,Korea Spirits
+spirits,Liqueurs Anise And Herbal/Spice Liqueurs,Liqueurs Anise And Herbal/Spice Liqueurs
+spirits,Mezcal,Mezcal
+spirits,Miscellaneous/Other Spirits,Miscellaneous/Other Spirits
+spirits,Nut Liqueurs,Nut Liqueurs
+spirits,Other Country Asian Spirits,Other Country Asian Spirits
+spirits,Other Country Whisky,Other Country Whisky
+spirits,Other Gin,Other Gin
+spirits,Other Liqueurs,Other Liqueurs
+spirits,Other Spirits Cachaca,Other Spirits Cachaca
+spirits,Other Spirits Cachaca 927,Other Spirits Cachaca 927
+spirits,Other Spirits Moonshine Spirits,Other Spirits Moonshine Spirits
+spirits,Pisco,Pisco
+spirits,Ready to Mix Cocktails,Ready to Mix Cocktails
+spirits,Ready to Serve Cocktails,Ready to Serve Cocktails
+spirits,Rum Amber Rum,Rum Amber Rum
+spirits,Schnapps and Akvavit,Schnapps and Akvavit
+spirits,Schnapps and Akvavit 874 879 917 999,Schnapps and Akvavit 874 879 917 999
+spirits,Spiced Rum,Spiced Rum
+spirits,Straight Vodka,Straight Vodka
+spirits,Tequila Blanco/Silver Tequila,Tequila Blanco/Silver Tequila
+spirits,Vodka Flavoured Vodka,Vodka Flavoured Vodka
+spirits,Whiskey Liqueurs,Whiskey Liqueurs
+spirits,Whisky American Whiskey,Whisky American Whiskey
+spirits,Whisky Single Malt Scotch Whisky,Whisky Single Malt Scotch Whisky
+spirits,White Rum,White Rum
+wine,Argentina Rose Wine,Argentina Rose Wine
+wine,Argentina Sparkling Wine,Argentina Sparkling Wine
+wine,Argentina White Wine,Argentina White Wine
+wine,Argentina Wine Argentina Red Wine,Argentina Wine Argentina Red Wine
+wine,Australia Red Wine,Australia Red Wine
+wine,Australia Rose Wine,Australia Rose Wine
+wine,Australia Sparkling Wine,Australia Sparkling Wine
+wine,Australia White Wine,Australia White Wine
+wine,Australia Wine Australia Fruit and Dessert Wine,Australia Wine Australia Fruit and Dessert Wine
+wine,Austria Red Wine,Austria Red Wine
+wine,Austria Red Wine 878,Austria Red Wine 878
+wine,Austria Rose Wine,Austria Rose Wine
+wine,Austria Sparkling Wine,Austria Sparkling Wine
+wine,Austria White Wine,Austria White Wine
+wine,Austria Wine Austria Fruit and Dessert Wine,Austria Wine Austria Fruit and Dessert Wine
+wine,Bulgaria Rose Wine,Bulgaria Rose Wine
+wine,Bulgaria White Wine,Bulgaria White Wine
+wine,Bulgaria Wine Bulgaria Red Wine,Bulgaria Wine Bulgaria Red Wine
+wine,Canada,BC Canada - BC Dessert Wine
+wine,Canada,BC Canada - BC Sparkling Wine
+wine,Canada,BC Fruit Wine
+wine,Canada,BC Ice Wine
+wine,Canada,BC Red Wine
+wine,Canada,BC Rose Wine
+wine,Canada,BC White Wine
+wine,Canada,Other Canada - Other Dessert Wine
+wine,Canada,Other Fruit Wine
+wine,Canada,Other Ice Wine
+wine,Canada,Other Red Wine
+wine,Canada,Other Rose Wine
+wine,Canada,Other Sparkling Wine
+wine,Canada,Other White Wine
+wine,Chile Red Wine,Chile Red Wine
+wine,Chile Rose Wine,Chile Rose Wine
+wine,Chile Sparkling Wine,Chile Sparkling Wine
+wine,Chile White Wine,Chile White Wine
+wine,Chile Wine Chile Fruit and Dessert Wine,Chile Wine Chile Fruit and Dessert Wine
+wine,China Red Wine,China Red Wine
+wine,China White Wine,China White Wine
+wine,China Wine China Fruit and Dessert Wine,China Wine China Fruit and Dessert Wine
+wine,Fortified Wine Other Fortified Domestic Wine,Fortified Wine Other Fortified Domestic Wine
+wine,France Fruit and Dessert Wine,France Fruit and Dessert Wine
+wine,France Red Wine,France Red Wine
+wine,France Rose Wine,France Rose Wine
+wine,France Sparkling Wine,France Sparkling Wine
+wine,France White Wine,France White Wine
+wine,France Wine France Champagne Wine,France Wine France Champagne Wine
+wine,Georgia Rose Wine,Georgia Rose Wine
+wine,Georgia Sparkling Wine,Georgia Sparkling Wine
+wine,Georgia White Wine,Georgia White Wine
+wine,Georgia Wine Georgia Red Wine,Georgia Wine Georgia Red Wine
+wine,Germany Red Wine,Germany Red Wine
+wine,Germany Rose Wine,Germany Rose Wine
+wine,Germany Sparkling Wine,Germany Sparkling Wine
+wine,Germany White Wine,Germany White Wine
+wine,Germany Wine Germany Fruit and Dessert Wine,Germany Wine Germany Fruit and Dessert Wine
+wine,Greece Red Wine,Greece Red Wine
+wine,Greece Rose Wine,Greece Rose Wine
+wine,Greece Sparkling Wine,Greece Sparkling Wine
+wine,Greece White Wine,Greece White Wine
+wine,Greece Wine Greece Fruit and Dessert Wine,Greece Wine Greece Fruit and Dessert Wine
+wine,Hungary Red Wine,Hungary Red Wine
+wine,Hungary Red Wine 909 958,Hungary Red Wine 909 958
+wine,Hungary Rose Wine,Hungary Rose Wine
+wine,Hungary White Wine,Hungary White Wine
+wine,Hungary Wine Hungary Fruit and Dessert Wine,Hungary Wine Hungary Fruit and Dessert Wine
+wine,Hungary Wine Hungary Sparkling Wine,Hungary Wine Hungary Sparkling Wine
+wine,Israel Rose Wine,Israel Rose Wine
+wine,Israel White Wine,Israel White Wine
+wine,Israel Wine Israel Red Wine,Israel Wine Israel Red Wine
+wine,Israel Wine Israel Red Wine 864,Israel Wine Israel Red Wine 864
+wine,Italy Red Wine,Italy Red Wine
+wine,Italy Rose Wine,Italy Rose Wine
+wine,Italy Sparkling Wine,Italy Sparkling Wine
+wine,Italy White Wine,Italy White Wine
+wine,Italy Wine Italy Fruit and Dessert Wine,Italy Wine Italy Fruit and Dessert Wine
+wine,New Zealand Red Wine,New Zealand Red Wine
+wine,New Zealand Rose Wine,New Zealand Rose Wine
+wine,New Zealand Sparkling Wine,New Zealand Sparkling Wine
+wine,New Zealand White Wine,New Zealand White Wine
+wine,New Zealand Wine New Zealand Fruit and Dessert Wine,New Zealand Wine New Zealand Fruit and Dessert Wine
+wine,Other Country Red Wine,Other Country Red Wine
+wine,Other Country Rose Wine,Other Country Rose Wine
+wine,Other Country Sake,Other Country Sake
+wine,Other Country Sparkling Wine,Other Country Sparkling Wine
+wine,Other Country Sparkling Wine 664 937 853,Other Country Sparkling Wine 664 937 853
+wine,Other Country White Wine,Other Country White Wine
+wine,Other Country Wine Other Country Fruit and Dessert Wine,Other Country Wine Other Country Fruit and Dessert Wine
+wine,Other Fortified Import Wine,Other Fortified Import Wine
+wine,Other Style Wine Aperitif And Flavoured Wine,Other Style Wine Aperitif And Flavoured Wine
+wine,Other Style Wine Mead,Other Style Wine Mead
+wine,Portugal Red Wine,Portugal Red Wine
+wine,Portugal Rose Wine,Portugal Rose Wine
+wine,Portugal Sparkling Wine,Portugal Sparkling Wine
+wine,Portugal White Wine,Portugal White Wine
+wine,Portugal Wine Portugal Fruit and Dessert Wine,Portugal Wine Portugal Fruit and Dessert Wine
+wine,Prosecco Wine,Prosecco Wine
+wine,Rice Wine,Rice Wine
+wine,Sake Japan Sake,Sake Japan Sake
+wine,Sherry Wine,Sherry Wine
+wine,South Africa Red Wine,South Africa Red Wine
+wine,South Africa Rose Wine,South Africa Rose Wine
+wine,South Africa Sparkling Wine,South Africa Sparkling Wine
+wine,South Africa White Wine,South Africa White Wine
+wine,South Africa Wine South Africa Fruit and Dessert Wine,South Africa Wine South Africa Fruit and Dessert Wine
+wine,Spain Red Wine,Spain Red Wine
+wine,Spain Rose Wine,Spain Rose Wine
+wine,Spain Sparkling Wine,Spain Sparkling Wine
+wine,Spain White Wine,Spain White Wine
+wine,Spain Wine Spain Fruit and Dessert Wine,Spain Wine Spain Fruit and Dessert Wine
+wine,USA Red Wine (),USA Red Wine ()
+wine,USA Red Wine -,USA Red Wine -
+wine,USA Sake,USA Sake
+wine,USA Sparkling Wine (),USA Sparkling Wine ()
+wine,USA Sparkling Wine -173,USA Sparkling Wine -173
+wine,USA White Wine,USA White Wine
+wine,USA Wine USA Fruit and Dessert Wine,USA Wine USA Fruit and Dessert Wine
+wine,USA Wine USA Fruit and Dessert Wine 6 0 0 0,USA Wine USA Fruit and Dessert Wine 6 0 0 0
+wine,USA Wine USA Rose Wine,USA Wine USA Rose Wine
+wine,Vermouth Wine,Vermouth Wine
