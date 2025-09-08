@@ -420,8 +420,8 @@ fn_data_check <- function(data_check) {
   fyqtrs <- unique(data_check$fy_qtr)
   print(fyqtrs)
   data_smry_cat <- data_check %>% group_by(cat_type, fy_qtr) %>% 
-    summarize(netsales=sum(netsales),
-              litres=sum(litres)
+    summarize(netsales=sum(netsales, na.rm = TRUE),
+              litres=sum(litres, na.rm = TRUE)
     ) 
   # chart for each category, each qtr
   # net sales
@@ -452,8 +452,8 @@ fn_data_check <- function(data_check) {
   # summary data by category for all quarters
   # qtr summary
   data_smry_qtrs <- data_smry_cat %>% group_by(cat_type, fy_qtr) %>% 
-    summarize(netsales=sum(netsales),
-              litres=sum(litres)
+    summarize(netsales=sum(netsales, na.rm = TRUE),
+              litres=sum(litres, na.rm = TRUE)
     )
   # clumsy attempt at some formatting
   data_smry_qtrs$litres <- format(data_smry_qtrs$litres, big.mark=",", scientific=FALSE, trim=TRUE, justify=c("right"))
