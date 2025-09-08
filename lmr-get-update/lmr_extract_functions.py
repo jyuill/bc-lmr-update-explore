@@ -22,12 +22,12 @@ logger = logging.getLogger(__name__)
 class LMRExtractor:
     """Main class for extracting data from LMR PDFs"""
     
-    def __init__(self, input_folder: str = "lmr-get-update/input/"):
+    def __init__(self, input_folder: str = "input/"):
         self.input_folder = Path(input_folder)
         self.input_folder.mkdir(parents=True, exist_ok=True)
-        self.output_folder = Path("lmr-get-update/output/")
+        self.output_folder = Path("output/")
         self.output_folder.mkdir(parents=True, exist_ok=True)
-        self.data_folder = Path("data/")
+        self.data_folder = Path("../data/")
         self.data_folder.mkdir(exist_ok=True)
         
     def clean_filename_from_url(self, url: str) -> str:
