@@ -111,8 +111,7 @@ fn_db_qtrs <- function(tbl_upload) {
 }
 
 ## INSERT LMR DATA TO DB ####
-## set up as function for flexbility later - may want to call from other files/processes
-
+## set up as function for flexbility
 fn_db_upload <- function(db_tbl, tbl_upload) {
     # connection needed for upload
     # amazon postgresql

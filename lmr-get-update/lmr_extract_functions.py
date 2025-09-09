@@ -93,6 +93,7 @@ class LMRExtractor:
             
         return f"LMR_{year}_{month}_{fy_qtr}.pdf"
     
+    # NOT used...download pdf manually and save in input folder
     def download_pdf(self, url: str, force_download: bool = False) -> Tuple[str, str]:
         """Download PDF if not exists, return filename and path"""
         filename = self.clean_filename_from_url(url)
@@ -115,6 +116,7 @@ class LMRExtractor:
             
         return filename, str(filepath)
     
+    # NOT used
     def _update_file_list(self, filename: str, url: str):
         """Maintain list of files and URLs"""
         list_file = self.input_folder / "01_lmr_list.csv"
