@@ -90,7 +90,8 @@ fn_db_qtrs <- function(tbl_upload) {
                 end_qtr_dt,
                 cyr,
                 cqtr,
-                season
+                season,
+                created_at
               ) 
               VALUES('{fy_qtr_new}',
               {fyr_new},
@@ -99,7 +100,8 @@ fn_db_qtrs <- function(tbl_upload) {
               '{end_qtr_dt_new}',
               '{cyr_new}',
               '{cqtr_new}',
-              '{season_new}'
+              '{season_new}',
+              '{Sys.time()}'
               );"))
   }
   # get updated list of quarters covered
@@ -138,14 +140,16 @@ fn_db_upload <- function(db_tbl, tbl_upload) {
                 category,
                 subcategory,
                 litres,
-                netsales
+                netsales,
+                created_at
               ) 
               VALUES('{tbl_upload$fy_qtr[r]}',
               '{tbl_upload$cat_type[r]}',
               '{tbl_upload$category[r]}',
               '{tbl_upload$subcategory[r]}',
               {tbl_upload$litres[r]},
-              {tbl_upload$netsales[r]}
+              {tbl_upload$netsales[r]},
+              '{Sys.time()}'
               );"))
       cat("Inserted: ", r, tbl_upload$fy_qtr[r], 
           tbl_upload$cat_type[r],
@@ -170,6 +174,15 @@ fn_db_check <- function() {
   ## always disconnect when done
   dbDisconnect(con)
   
+  # check number of records by category for each qtr
+  # - to check for duplicates or missing
+  # - first filter for most recent 5 qtrs
+  recent_qtrs <- tail(unique(data_db$fy_qtr),6)
+  qtr_cat_count <- data_db %>% group_by(fy_qtr, cat_type) %>% tally() %>%
+    filter(fy_qtr %in% recent_qtrs) %>% pivot_wider(names_from = fy_qtr, values_from = n)
+  print(qtr_cat_count)
+
+  # summary data by category, each qtr
   data_smry_qtr_db <- data_db %>% group_by(cat_type, fy_qtr) %>% 
     summarize(
       netsales=sum(netsales),
@@ -182,14 +195,17 @@ fn_db_check <- function() {
   data_chart <- data_smry_qtr_db %>% ggplot(aes(x=cat_type, y=netsales))+
     geom_col(position = position_dodge())+
     scale_y_continuous(labels=comma_format())+
-    theme(axis.ticks.x = element_blank())+
-    labs(x="", title=max(fyqtrs))
+    coord_flip()+
+    theme(axis.ticks.y = element_blank())+
+    labs(x="", title=max(fyqtrs))+theme_bw()
   print(data_chart)
   
   # format fields for readability
   data_smry_qtr_db$netsales <- as.numeric(data_smry_qtr_db$netsales)
   data_smry_qtr_db$litres <- as.numeric(data_smry_qtr_db$litres)
-  data_smry_qtr_db$litres <- format(data_smry_qtr_db$litres, big.mark=",", scientific=FALSE)
-  data_smry_qtr_db$netsales <- format(data_smry_qtr_db$netsales, big.mark=",", scientific=FALSE)
+  data_smry_qtr_db$litres <- format(data_smry_qtr_db$litres, big.mark=",", scientific=FALSE, trim = TRUE, justify=c("right"))
+  data_smry_qtr_db$netsales <- format(data_smry_qtr_db$netsales, big.mark=",", scientific=FALSE, trim = TRUE, format='i', justify=c("right"))
+  # convert netsales to comma format with prefix $
+  data_smry_qtr_db$netsales <- paste0("$",data_smry_qtr_db$netsales)
   print(data_smry_qtr_db)
 }
