@@ -54,7 +54,7 @@ check_cat <- tables_all %>%
 # check SUBCAT totals for selected CATEGORY ----
 fy_period_select <- fy_period_select
 cat_type_select <- cat_type_select
-cat_select <- c('Fortified Wine','USA Wine')
+cat_select <- c('USA Wine')
 # check
 # all qtrs - all specified cat/subcat
 check_subcat <- tables_all %>% 

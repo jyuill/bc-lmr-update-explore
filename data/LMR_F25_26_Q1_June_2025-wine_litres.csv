@@ -40,7 +40,7 @@ Wine,China Wine,China Red Wine,4.0,9.0,22.0,122.0,4.0
 Wine,China Wine,China White Wine,4.0,4.0,9.0,0.0,225.0
 Wine,Fortified Wine,Other Fortified Domestic Wine,46328.0,47256.0,53022.0,44973.0,41468.0
 Wine,Fortified Wine,Other Fortified Import Wine,14655.0,12711.0,19180.0,14578.0,13742.0
-Wine,Fortified Wine,Other Fortified Import Wine,13320.0,14200.0,32098.0,14973.0,14468.0
+Wine,Fortified Wine,Port Wine,13320.0,14200.0,32098.0,14973.0,14468.0
 Wine,Fortified Wine,Sherry Wine,10388.0,9408.0,21825.0,11470.0,10146.0
 Wine,Fortified Wine,Vermouth Wine,58080.0,55300.0,68827.0,51524.0,55291.0
 Wine,France Wine,France Champagne Wine,32946.0,42437.0,77213.0,29818.0,39119.0
@@ -110,8 +110,6 @@ Wine,Spain Wine,Spain Sparkling Wine,58894.0,68700.0,106416.0,57021.0,64546.0
 Wine,Spain Wine,Spain White Wine,35298.0,29498.0,30390.0,65276.0,37506.0
 Wine,USA Wine,USA Fruit and Dessert Wine,6.0,0.0,0.0,1776.0,0.0
 Wine,USA Wine,USA Red Wine,937066.0,842283.0,1344069.0,623654.0,-46670.0
-Wine,As a result of Q inventory adjustments related to U.S. products U.S. wines,As a result of Q inventory adjustments related to U.S. products U.S. wines,1.0,,,,
 Wine,USA Wine,USA Rose Wine,63506.0,68895.0,57862.0,44886.0,21028.0
 Wine,USA Wine,USA Sparkling Wine,7987.0,20415.0,31718.0,10889.0,-173.0
 Wine,USA Wine,USA White Wine,400834.0,392368.0,383740.0,239307.0,11449.0
-Wine,As a result of Q inventory adjustments related to U.S. products U.S. wines,As a result of Q inventory adjustments related to U.S. products U.S. wines,1.0,,,,

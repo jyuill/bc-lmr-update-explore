@@ -269,14 +269,16 @@ class LMRExtractor:
         if data_start_idx and data_start_idx < len(lines):
             for line in lines[data_start_idx:]:
                 # Look for lines with numbers, dollar amounts, decimal values, or negatives
-                if re.search(r'(\([^)]*\$[0-9,]+\)|\$[0-9,]+|-[0-9,]+|[0-9,]+|[0-9]+\.[0-9]+)', line):
+                if re.search(r'(\([^)]*\$[0-9,]+\)|\$[0-9,]+|-[0-9,]+|(?<!\$)[0-9,]+|[0-9]+\.[0-9]+)', line):
                     # Skip summary rows, headers, and footer content
                     if not re.search(r'^(Summary|Total)', line, re.IGNORECASE):
                         # Skip footer lines with "BC Liquor Distribution Branch"
                         if not re.search(r'BC Liquor Distribution Branch.*Liquor Market Review', line, re.IGNORECASE):
-                            # Skip page number only lines
-                            if not re.match(r'^\s*\d{1,2}\s*$', line):
-                                data_rows.append(line)
+                            # Skip inventory adjustment footer notes
+                            if not re.search(r'As a result of.*inventory adjustments.*products', line, re.IGNORECASE):
+                                # Skip page number only lines
+                                if not re.match(r'^\s*\d{1,2}\s*$', line):
+                                    data_rows.append(line)
         
         if not data_rows:
             logger.warning(f"No data rows found on page {metadata['page_num']}")
@@ -332,8 +334,8 @@ class LMRExtractor:
         """Parse individual data row"""
         # Extract all dollar amounts and numbers first (including small numbers and negatives)
         numeric_values = []
-        # Updated regex to capture negatives and positives
-        # Captures: ($1,234), $1,234, -1,234, 1,234, 123
+        # Extract all numeric values in document order (left to right)
+        # Combined pattern that preserves order and handles all formats
         numeric_matches = re.findall(r'\([^)]*\$[0-9,]+\)|\$[0-9,]+|-[0-9,]+|[0-9,]+', row)
         
         for match in numeric_matches:
@@ -395,7 +397,12 @@ class LMRExtractor:
             cat_subset = self.category_reference[self.category_reference['cat_type'] == cat_type]
             
             if not cat_subset.empty:
-                # Try exact match first (substring in subcategory)
+                # Try exact match first (exact equality)
+                for _, row in cat_subset.iterrows():
+                    if category_text_clean.lower() == row['subcategory'].lower():
+                        return row['category'], row['subcategory']
+                
+                # Try exact substring match (category text is exactly in subcategory)
                 for _, row in cat_subset.iterrows():
                     if category_text_clean.lower() in row['subcategory'].lower():
                         return row['category'], row['subcategory']

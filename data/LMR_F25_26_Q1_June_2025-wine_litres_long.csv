@@ -128,7 +128,7 @@ Wine,China Wine,China Red Wine,FY2025Q1,4.0
 Wine,China Wine,China White Wine,FY2025Q1,4.0
 Wine,Fortified Wine,Other Fortified Domestic Wine,FY2025Q1,46328.0
 Wine,Fortified Wine,Other Fortified Import Wine,FY2025Q1,14655.0
-Wine,Fortified Wine,Other Fortified Import Wine,FY2025Q1,13320.0
+Wine,Fortified Wine,Port Wine,FY2025Q1,13320.0
 Wine,Fortified Wine,Sherry Wine,FY2025Q1,10388.0
 Wine,Fortified Wine,Vermouth Wine,FY2025Q1,58080.0
 Wine,Canada - BC,Canada - BC Sparkling Wine,FY2025Q2,218632.0
@@ -150,7 +150,7 @@ Wine,China Wine,China Red Wine,FY2025Q2,9.0
 Wine,China Wine,China White Wine,FY2025Q2,4.0
 Wine,Fortified Wine,Other Fortified Domestic Wine,FY2025Q2,47256.0
 Wine,Fortified Wine,Other Fortified Import Wine,FY2025Q2,12711.0
-Wine,Fortified Wine,Other Fortified Import Wine,FY2025Q2,14200.0
+Wine,Fortified Wine,Port Wine,FY2025Q2,14200.0
 Wine,Fortified Wine,Sherry Wine,FY2025Q2,9408.0
 Wine,Fortified Wine,Vermouth Wine,FY2025Q2,55300.0
 Wine,Canada - BC,Canada - BC Sparkling Wine,FY2025Q3,185179.0
@@ -172,7 +172,7 @@ Wine,China Wine,China Red Wine,FY2025Q3,22.0
 Wine,China Wine,China White Wine,FY2025Q3,9.0
 Wine,Fortified Wine,Other Fortified Domestic Wine,FY2025Q3,53022.0
 Wine,Fortified Wine,Other Fortified Import Wine,FY2025Q3,19180.0
-Wine,Fortified Wine,Other Fortified Import Wine,FY2025Q3,32098.0
+Wine,Fortified Wine,Port Wine,FY2025Q3,32098.0
 Wine,Fortified Wine,Sherry Wine,FY2025Q3,21825.0
 Wine,Fortified Wine,Vermouth Wine,FY2025Q3,68827.0
 Wine,Canada - BC,Canada - BC Sparkling Wine,FY2025Q4,113072.0
@@ -194,7 +194,7 @@ Wine,China Wine,China Red Wine,FY2025Q4,122.0
 Wine,China Wine,China White Wine,FY2025Q4,0.0
 Wine,Fortified Wine,Other Fortified Domestic Wine,FY2025Q4,44973.0
 Wine,Fortified Wine,Other Fortified Import Wine,FY2025Q4,14578.0
-Wine,Fortified Wine,Other Fortified Import Wine,FY2025Q4,14973.0
+Wine,Fortified Wine,Port Wine,FY2025Q4,14973.0
 Wine,Fortified Wine,Sherry Wine,FY2025Q4,11470.0
 Wine,Fortified Wine,Vermouth Wine,FY2025Q4,51524.0
 Wine,Canada - BC,Canada - BC Sparkling Wine,FY2026Q1,180008.0
@@ -216,7 +216,7 @@ Wine,China Wine,China Red Wine,FY2026Q1,4.0
 Wine,China Wine,China White Wine,FY2026Q1,225.0
 Wine,Fortified Wine,Other Fortified Domestic Wine,FY2026Q1,41468.0
 Wine,Fortified Wine,Other Fortified Import Wine,FY2026Q1,13742.0
-Wine,Fortified Wine,Other Fortified Import Wine,FY2026Q1,14468.0
+Wine,Fortified Wine,Port Wine,FY2026Q1,14468.0
 Wine,Fortified Wine,Sherry Wine,FY2026Q1,10146.0
 Wine,Fortified Wine,Vermouth Wine,FY2026Q1,55291.0
 Wine,France Wine,France Champagne Wine,FY2025Q1,32946.0
@@ -466,7 +466,6 @@ Wine,Spain Wine,Spain Sparkling Wine,FY2025Q1,58894.0
 Wine,Spain Wine,Spain White Wine,FY2025Q1,35298.0
 Wine,USA Wine,USA Fruit and Dessert Wine,FY2025Q1,6.0
 Wine,USA Wine,USA Red Wine,FY2025Q1,937066.0
-Wine,As a result of Q inventory adjustments related to U.S. products U.S. wines,As a result of Q inventory adjustments related to U.S. products U.S. wines,FY2025Q1,1.0
 Wine,Other Style Wine,Mead,FY2025Q2,11916.0
 Wine,Other Style Wine,Rice Wine,FY2025Q2,5602.0
 Wine,Portugal Wine,Portugal Fruit and Dessert Wine,FY2025Q2,14.0
@@ -489,7 +488,6 @@ Wine,Spain Wine,Spain Sparkling Wine,FY2025Q2,68700.0
 Wine,Spain Wine,Spain White Wine,FY2025Q2,29498.0
 Wine,USA Wine,USA Fruit and Dessert Wine,FY2025Q2,0.0
 Wine,USA Wine,USA Red Wine,FY2025Q2,842283.0
-Wine,As a result of Q inventory adjustments related to U.S. products U.S. wines,As a result of Q inventory adjustments related to U.S. products U.S. wines,FY2025Q2,
 Wine,Other Style Wine,Mead,FY2025Q3,6171.0
 Wine,Other Style Wine,Rice Wine,FY2025Q3,6446.0
 Wine,Portugal Wine,Portugal Fruit and Dessert Wine,FY2025Q3,44.0
@@ -512,7 +510,6 @@ Wine,Spain Wine,Spain Sparkling Wine,FY2025Q3,106416.0
 Wine,Spain Wine,Spain White Wine,FY2025Q3,30390.0
 Wine,USA Wine,USA Fruit and Dessert Wine,FY2025Q3,0.0
 Wine,USA Wine,USA Red Wine,FY2025Q3,1344069.0
-Wine,As a result of Q inventory adjustments related to U.S. products U.S. wines,As a result of Q inventory adjustments related to U.S. products U.S. wines,FY2025Q3,
 Wine,Other Style Wine,Mead,FY2025Q4,5850.0
 Wine,Other Style Wine,Rice Wine,FY2025Q4,6343.0
 Wine,Portugal Wine,Portugal Fruit and Dessert Wine,FY2025Q4,63.0
@@ -535,7 +532,6 @@ Wine,Spain Wine,Spain Sparkling Wine,FY2025Q4,57021.0
 Wine,Spain Wine,Spain White Wine,FY2025Q4,65276.0
 Wine,USA Wine,USA Fruit and Dessert Wine,FY2025Q4,1776.0
 Wine,USA Wine,USA Red Wine,FY2025Q4,623654.0
-Wine,As a result of Q inventory adjustments related to U.S. products U.S. wines,As a result of Q inventory adjustments related to U.S. products U.S. wines,FY2025Q4,
 Wine,Other Style Wine,Mead,FY2026Q1,6041.0
 Wine,Other Style Wine,Rice Wine,FY2026Q1,5390.0
 Wine,Portugal Wine,Portugal Fruit and Dessert Wine,FY2026Q1,76.0
@@ -558,24 +554,18 @@ Wine,Spain Wine,Spain Sparkling Wine,FY2026Q1,64546.0
 Wine,Spain Wine,Spain White Wine,FY2026Q1,37506.0
 Wine,USA Wine,USA Fruit and Dessert Wine,FY2026Q1,0.0
 Wine,USA Wine,USA Red Wine,FY2026Q1,-46670.0
-Wine,As a result of Q inventory adjustments related to U.S. products U.S. wines,As a result of Q inventory adjustments related to U.S. products U.S. wines,FY2026Q1,
 Wine,USA Wine,USA Rose Wine,FY2025Q1,63506.0
 Wine,USA Wine,USA Sparkling Wine,FY2025Q1,7987.0
 Wine,USA Wine,USA White Wine,FY2025Q1,400834.0
-Wine,As a result of Q inventory adjustments related to U.S. products U.S. wines,As a result of Q inventory adjustments related to U.S. products U.S. wines,FY2025Q1,1.0
 Wine,USA Wine,USA Rose Wine,FY2025Q2,68895.0
 Wine,USA Wine,USA Sparkling Wine,FY2025Q2,20415.0
 Wine,USA Wine,USA White Wine,FY2025Q2,392368.0
-Wine,As a result of Q inventory adjustments related to U.S. products U.S. wines,As a result of Q inventory adjustments related to U.S. products U.S. wines,FY2025Q2,
 Wine,USA Wine,USA Rose Wine,FY2025Q3,57862.0
 Wine,USA Wine,USA Sparkling Wine,FY2025Q3,31718.0
 Wine,USA Wine,USA White Wine,FY2025Q3,383740.0
-Wine,As a result of Q inventory adjustments related to U.S. products U.S. wines,As a result of Q inventory adjustments related to U.S. products U.S. wines,FY2025Q3,
 Wine,USA Wine,USA Rose Wine,FY2025Q4,44886.0
 Wine,USA Wine,USA Sparkling Wine,FY2025Q4,10889.0
 Wine,USA Wine,USA White Wine,FY2025Q4,239307.0
-Wine,As a result of Q inventory adjustments related to U.S. products U.S. wines,As a result of Q inventory adjustments related to U.S. products U.S. wines,FY2025Q4,
 Wine,USA Wine,USA Rose Wine,FY2026Q1,21028.0
 Wine,USA Wine,USA Sparkling Wine,FY2026Q1,-173.0
 Wine,USA Wine,USA White Wine,FY2026Q1,11449.0
-Wine,As a result of Q inventory adjustments related to U.S. products U.S. wines,As a result of Q inventory adjustments related to U.S. products U.S. wines,FY2026Q1,
