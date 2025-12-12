@@ -19,7 +19,7 @@ a.endpt <- Sys.getenv('AWS_ENDPT_PG')
 a.pwd <- Sys.getenv("AWS_PWD_PG")
 a.user <- Sys.getenv("AWS_USER_PG")
 a.port <- as.numeric(Sys.getenv("AWS_PORT_PG"))
-a.db_name <- Sys.getenv("AWS_DB_PG")
+a.db_name <- Sys.getenv("AWS_DB_NAME_PG")
 
 # old MySQL credentials
 #a.endpt <- Sys.getenv('AWS_ENDPT')

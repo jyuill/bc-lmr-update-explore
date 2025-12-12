@@ -13,7 +13,7 @@ source('credo_db.R')
 con_aws <- dbConnect( 
   RPostgres::Postgres(),
   host = a.endpt, 
-  dbname = database_name, #a.db_name,
+  dbname = a.db_name,
   port = a.port,
   user = a.user,
   password = a.pwd)

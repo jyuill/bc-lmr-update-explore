@@ -43,5 +43,5 @@ qtrs_check <- fn_db_qtrs(tbl_upload)
 ## RUN function to UPLOAD DATA ----
 fn_db_upload(db_tbl, tbl_upload)
 
-## CHECK: spot-check data by category
-fn_db_check()
+## CHECK: spot-check data by category for most recent quarters
+fn_db_check(min(tbl_upload$fy_qtr), max(tbl_upload$fy_qtr))

@@ -161,7 +161,7 @@ fn_db_upload <- function(db_tbl, tbl_upload) {
 }
 
 ## DATA CHECK ####
-fn_db_check <- function() {
+fn_db_check <- function(min_qtr, max_qtr) {
   # amazon postgresql
   con <- dbConnect(RPostgres::Postgres(),
                    dbname=database_name,
@@ -169,17 +169,20 @@ fn_db_check <- function() {
                    user=a.user,
                    password=a.pwd,
                    port=a.port)
-  # query
+  # query - filtering for most recent quarters
   data_db <- dbGetQuery(con, "SELECT * FROM lmr_data;")
   ## always disconnect when done
   dbDisconnect(con)
   
+  # filter data for most recent 5 qtrs
+  data_db <- data_db %>% filter(fy_qtr>= min_qtr)
   # check number of records by category for each qtr
   # - to check for duplicates or missing
   # - first filter for most recent 5 qtrs
-  recent_qtrs <- tail(unique(data_db$fy_qtr),6)
+  #recent_qtrs <- tail(unique(data_db$fy_qtr),5)
   qtr_cat_count <- data_db %>% group_by(fy_qtr, cat_type) %>% tally() %>%
-    filter(fy_qtr %in% recent_qtrs) %>% pivot_wider(names_from = fy_qtr, values_from = n)
+    #filter(fy_qtr %in% recent_qtrs) %>% 
+    pivot_wider(names_from = fy_qtr, values_from = n)
   print(qtr_cat_count)
 
   # summary data by category, each qtr
@@ -188,16 +191,17 @@ fn_db_check <- function() {
       netsales=sum(netsales),
       litres=sum(litres)
     ) 
-  fyqtrs <- unique(data_smry_qtr_db$fy_qtr)
-  # summary data by category for most recent quarter
-  data_smry_qtr_db <- data_smry_qtr_db %>% filter(fy_qtr==max(fyqtrs))
-  # chart for each category, each qtr
-  data_chart <- data_smry_qtr_db %>% ggplot(aes(x=cat_type, y=netsales))+
+  #fyqtrs <- unique(data_smry_qtr_db$fy_qtr)
+  # summary data by category for most recent quarter and earliest in current report
+  data_smry_qtr_db <- data_smry_qtr_db %>% filter(fy_qtr %in% c(min_qtr, max_qtr))
+  # chart for each category, most recent qtr
+  data_chart <- data_smry_qtr_db %>% filter(fy_qtr==max_qtr) %>% 
+    ggplot(aes(x=cat_type, y=netsales))+
     geom_col(position = position_dodge())+
     scale_y_continuous(labels=comma_format())+
     coord_flip()+
     theme(axis.ticks.y = element_blank())+
-    labs(x="", title=max(fyqtrs))+theme_bw()
+    labs(x="", title=max(recent_qtrs))+theme_bw()
   print(data_chart)
   
   # format fields for readability
@@ -207,5 +211,6 @@ fn_db_check <- function() {
   data_smry_qtr_db$netsales <- format(data_smry_qtr_db$netsales, big.mark=",", scientific=FALSE, trim = TRUE, format='i', justify=c("right"))
   # convert netsales to comma format with prefix $
   data_smry_qtr_db$netsales <- paste0("$",data_smry_qtr_db$netsales)
+  print("Summary of DB data by category for most recent quarter and same qtr prev yr:")
   print(data_smry_qtr_db)
 }

@@ -273,7 +273,7 @@ class LMRExtractor:
                 # Look for lines with numbers, dollar amounts, decimal values, or negatives
                 if re.search(r'(\([^)]*\$[0-9,]+\)|\$[0-9,]+|-[0-9,]+|(?<!\$)[0-9,]+|[0-9]+\.[0-9]+)', line):
                     # Skip summary rows, headers, and footer content
-                    if not re.search(r'^(Summary|Total)', line, re.IGNORECASE):
+                    if not re.search(r'Summary|Total', line, re.IGNORECASE):
                         # Skip footer lines with "BC Liquor Distribution Branch"
                         if not re.search(r'BC Liquor Distribution Branch.*Liquor Market Review', line, re.IGNORECASE):
                             # Skip inventory adjustment footer notes

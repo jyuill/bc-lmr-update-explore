@@ -9,10 +9,12 @@ To run:
 1. Download latest LMR PDF from BC LDB website: https://www.bcldb.com/publications/liquor-market-review
 2. Place PDF files in lmr-get-update/input/ folder
 3. In terminal, navigate to lmr-get-update/ folder
-4. Run: uv run python LMR-01-fetch-process-all.py
-5. Select PDF file interactively from the list
-6. Processed data saved to lmr-get-update/output/{filename}_db_upload.csv
-7. Use LMR-03_db_upload.R to upload data to database on AWS 
+4. Activate python virtual environment: source .venv/bin/activate
+5. Run: uv run python LMR-01-fetch-process-all.py (somehow won't just run from 'play' icon)
+6. Select PDF file interactively from the list.
+7. Processed data saved to: lmr-get-update/output/{filename}_db_upload.csv
+8. Check data using LMR-02-data-check files -> fix errors as needed.
+9. Use LMR-03_db_upload.R to upload data to database on AWS 
 """
 
 import pandas as pd

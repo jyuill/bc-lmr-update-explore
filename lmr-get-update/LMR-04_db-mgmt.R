@@ -1,4 +1,4 @@
-# Queries for database mgmt as needed
+# DEPRECATED: Queries for MySQL database mgmt as needed
 
 library(tidyverse)
 library(lubridate)

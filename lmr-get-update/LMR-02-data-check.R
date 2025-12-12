@@ -1,4 +1,5 @@
-## Test data - compare downloaded to online report
+## Check data - compare downloaded/saved to online report
+## DEPRECATED: use LMR-02-data-check-py.R
 
 library(tidyverse)
 library(lubridate)

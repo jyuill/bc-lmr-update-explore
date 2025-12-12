@@ -1,4 +1,6 @@
 ## GET lIQUOR SALES DATA FROM LDB - released quarterly in pdf format
+## DEPRECATED - use LMR-01-fetch-process-all.py 
+## ------------------------------------------------------------------
 ## Requires scraping data tables from within PDF docs
 ## references:
 ## pdftools vignette: https://cran.r-project.org/web/packages/pdftools/pdftools.pdf
