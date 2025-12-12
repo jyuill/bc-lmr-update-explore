@@ -40,5 +40,5 @@ When new LMR is published by BC LDB (typically within a couple of months of cale
     - use **LMR-03-db_upload_postgres.R** to upload data to Postgres database on AWS.
     - by default, will overwrite most recent 5 quarters (including new quarter just imported) in database - this is to ensure alignment with most recent published data, since previous quarters are often adjusted.
 5. Check / confirm correct data in database
-    - 
+    - Upload process includes function to summarize data in database after upload, for review.
 
