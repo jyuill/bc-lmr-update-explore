@@ -94,7 +94,7 @@ dbx_fetch_join_qtrs <- function() {
   return(lmr_data_db)
 }
 # get data with joined quarters & short names
-dbx_fetch_qtr_shortname <- function() {
+dbx_fetch_join_qtr_shortname <- function() {
   con <- dbx_get_con()
   lmr_data_db <- dbGetQuery(con, "SELECT 
                            lmr.*
@@ -122,7 +122,18 @@ dbx_fetch_qtr_shortname <- function() {
   # pass back data
   return(lmr_data_db)
 }
-
+# get data with joined quarters & short names
+# REPLACE original cat_type, category, subcategory with short names
+dbx_fetch_short_names_rep <- function() {
+  data_joined_short <- dbx_fetch_join_qtr_shortname()
+  data_replace_short <- data_joined_short %>% mutate(
+    cat_type = cat_type_short,
+    category = category_short,
+    subcategory = subcategory_short
+  ) %>% select(-cat_type_short, -category_short, -subcategory_short)
+  # pass back data
+  return(data_replace_short)
+}
 
 ## UPLOAD DATA ----
 
