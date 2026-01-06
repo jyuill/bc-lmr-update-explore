@@ -1,52 +1,55 @@
-# DEPRECATED: Queries for MySQL database mgmt as needed
+# Queries for database mgmt as needed
 
 library(tidyverse)
 library(lubridate)
-library(RMariaDB)
+library(RPostgres)
 library(glue)
 
-# add new column for calendar quarter: cqtr
-source('credo_db.R')
+# use functions from lmr_db_functions.R, incl authentication
+source('functions/lmr_db_functions.R')
 
-# connect to database
-con <- dbConnect(RMariaDB::MariaDB(), 
-                 user = a.user, 
-                 password = a.pwd, 
-                 dbname = database_name, 
-                 host = a.endpt, 
-                 port = a.port)
+# check tables
+dbx_list_tables()
+
+# check data in main table
+lmr_main <- dbx_fetch_basic()
+
+# lmr data with qtrs info
+lmr_main_qtrs <- dbx_fetch_join_qtrs()
+
+# lmr data with qtrs AND short names
+
+
 # check tblLDB_quarters
-dbListFields(con, 'tblLDB_quarter')
-qtr_db <- dbGetQuery(con, "SELECT * FROM bcbg.tblLDB_quarter;")
-# add new column cqtr to tblLDB_quarter
-qry <- "ALTER TABLE bcbg.tblLDB_quarter ADD COLUMN cqtr VARCHAR(6);"
-dbExecute(con, qry)
-# close connection
-dbDisconnect(con)
+dbListFields(dbx_get_con(), 'lmr_quarters')
+qtr_db <- dbGetQuery(dbx_get_con(), "SELECT * FROM public.lmr_quarters;")
 
 # determine calendar quarter from fiscal quarter field (qtr)
-qtr <- qtr %>% 
+# add cqtr field (already available)
+qtr <- qtr_db %>% 
   mutate(cqtr = case_when(
     qtr == 'Q1' ~ 'Q2',
     qtr == 'Q2' ~ 'Q3',
     qtr == 'Q3' ~ 'Q4',
     qtr == 'Q4' ~ 'Q1'
   ))
-# all below provided by copilot -> WORKED!!!
-# write query to update cqtr in tblLDB_quarter
+
+# UPDATE cqtr in lmr_quarters
+# - not needed, already done, keeping for reference
 qtr <- qtr %>% 
   select(qtr, cqtr) %>% 
   mutate(qtr = paste0("'",qtr,"'"),
          cqtr = paste0("'",cqtr,"'")) %>% 
-  mutate(qry = paste0("UPDATE bcbg.tblLDB_quarter SET cqtr = ",cqtr," WHERE qtr = ",qtr,";"))
+  mutate(qry = paste0("UPDATE lmr_quarters SET cqtr = ",cqtr," WHERE qtr = ",qtr,";"))
 # connect to database
-con <- dbConnect(RMariaDB::MariaDB(), 
-                 user = a.user, 
-                 password = a.pwd, 
-                 dbname = database_name, 
-                 host = a.endpt, 
-                 port = a.port)
+con_aws <- dbConnect( 
+  RPostgres::Postgres(),
+  host = a.endpt, 
+  dbname = a.db_name,
+  port = a.port,
+  user = a.user,
+  password = a.pwd)
 # update cqtr in tblLDB_quarter
 for(i in 1:nrow(qtr)){
-  dbExecute(con, qtr$qry[i])
+  dbExecute(con_aws, qtr$qry[i])
 }

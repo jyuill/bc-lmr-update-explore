@@ -1,5 +1,9 @@
 
 ## credentials #### 
+# NO LONGER NEEDED:
+# - load functions/lmr_db_functions.R
+# - includes dbx_get_con() function with credentials
+
 # using dotenv pkg and .env file
 # create a .env file in the root directory of the project
 # and add the following lines (no quotes!)

@@ -14,12 +14,12 @@
 # - UPLOAD functions called below - from lmr_db_functions_postgres.R 
 
 library(tidyverse)
-source('functions/lmr_db_functions_postgres.R') # get db functions
+source('functions/lmr_db_functions.R') # get db functions
 
 # LOAD data from database ----
 # - for reference
 # - can use function for other tables as well 
-lmr_data <- fn_db_fetch('lmr_data')
+lmr_data <- dbx_fetch_basic('lmr_data')
 
 # Get unique cat_type, category, subcategory values from lmr_data
 # - for reference
@@ -91,8 +91,8 @@ subcategory_short <- lmr_data %>% group_by(subcategory) %>% summarize(
 
 # UPLOAD TO POSTGRESQL DATABASE ----
 # cat_type short names ----
-fn_short_names(cat_type_short, "public.lmr_shortname_cat_type")
+dbx_short_name_insert(cat_type_short, "public.lmr_shortname_cat_type")
 # category short names ----
-fn_short_names(category_short, "public.lmr_shortname_category")
+dbx_short_name_insert(category_short, "public.lmr_shortname_category")
 # subcategory short names ----
-fn_short_names(subcategory_short, "public.lmr_shortname_subcategory")
+dbx_short_name_insert(subcategory_short, "public.lmr_shortname_subcategory")
