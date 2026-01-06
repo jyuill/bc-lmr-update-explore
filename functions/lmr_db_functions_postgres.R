@@ -1,4 +1,8 @@
-## Upload LMR data gathered from pdf report to MySQL database
+## VARIOUS FUNCTIONS FOR WORKING WITH LMR DATABASE 
+# PostgreSQL version
+# - Fetch data
+# - Upload new LMR data gathered from pdf report to MySQL database
+# - Check data in database
 
 library(tidyverse)
 library(lubridate)
@@ -8,7 +12,7 @@ library(readr) ## for easy conversion of $ characters to numeric
 library(RPostgres) ## for PostgreSQL
 library(dotenv)
 
-## Run from LMR_db_upload.R for convenience/functional
+## Source from LMR_db_upload.R (or elsewhere) for convenience/functional
 
 ## credentials #### 
 # using dotenv pkg and .env file
@@ -20,16 +24,53 @@ library(dotenv)
 # AWS_PORT = 3..6
 # AWS_USER= ...
 
-## save .env contents to system environment
+## save .env contents to system environment - only needs to be run once
 #dotenv::load_dot_env()
 # Load environment variables
 readRenviron('.env')
-
+# set vars for easy use
 a.endpt <- Sys.getenv('AWS_ENDPT_PG')
 a.pwd <- Sys.getenv("AWS_PWD_PG")
 a.user <- Sys.getenv("AWS_USER_PG")
 a.port <- as.numeric(Sys.getenv("AWS_PORT_PG"))
 database_name <- Sys.getenv("AWS_DB_NAME_PG")
+
+## Set connection string for easy use
+# Amazon RDS PostgreSQL
+# Define this once - use anywhere
+get_pg_con <- function() {
+  dbConnect(
+    RPostgres::Postgres(),
+    dbname   = database_name,
+    host     = a.endpt,
+    user     = a.user,
+    password = a.pwd,
+    port     = a.port
+  )
+}
+
+## FETCH DATA ----
+# get all the data - uses new get_pg_con function for ease of use
+fn_db_fetch <- function(db_tbl="public.lmr_data") {
+  con <- get_pg_con()
+  # query - get all data
+  data_db <- dbGetQuery(con, glue("SELECT * FROM {db_tbl};"))
+  ## always disconnect when done
+  dbDisconnect(con)
+  # pass back data
+  return(data_db)
+}
+
+## CHECK TABLES IN DB ----
+fn_db_list_tables <- function() {
+  con <- get_pg_con() ## use connection function
+  tables <- dbListTables(con) # check connection by getting list of tables
+  ## always disconnect when done
+  dbDisconnect(con)
+  return(tables)
+}
+
+## UPLOAD DATA ----
 
 ## TEST parameters for function
 #db_tbl <- "bcbg.tblLDB_lmr"
@@ -214,3 +255,25 @@ fn_db_check <- function(min_qtr, max_qtr) {
   print("Summary of DB data by category for most recent quarter and same qtr prev yr:")
   print(data_smry_qtr_db)
 }
+
+## SHORT NAME TABLES ####
+# function to upload based on: short name data frame and target db table
+# - assumes only 2 columns in data frame and target table
+# db_tbls: lmr_shortname_cat_type, lmr_shortname_category, lmr_shortname_subcategory
+fn_short_names <- function(tbl_upload, db_tbl) {
+  con <- get_pg_con() ## use connection function
+  cols <- paste0(colnames(tbl_upload), collapse = ",")
+  for(r in 1:nrow(tbl_upload)) {   
+    val_01 <- tbl_upload[r,1]
+    val_02 <- tbl_upload[r,2]
+  dbExecute(con, glue("INSERT INTO {db_tbl} (
+                  {cols}
+                ) 
+                VALUES('{val_01}',
+                '{val_02}'
+                );"))
+  }
+  dbDisconnect(con)
+}
+
+
