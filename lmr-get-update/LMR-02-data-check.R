@@ -11,14 +11,16 @@ library(formattable)
 ## CHECK DATA: TABLE COMPILED FROM PDF ####
 # ALSO AT END OF fetch-process
 ## assumes data available in final table for each report
-source('functions/ldb_extract_functions_v2.R')
-db_check(tables_all_fyqtr)
+source('functions/lmr_extract_functions_v2.R')
+fn_data_check(tables_all_fyqtr)
 
 ## CHECK DATA: DATABASE ####
 # ALSO AT END OF DB UPLOAD
-## load functions for MySQL queries
+## load functions for database queries
 source('functions/lmr_db_functions.R')
-fn_db_check()
+# add min_qtr and max_qtr parameters as needed to filter fy_qtr
+# - 'FY2024Q1' format
+lmr_check <- dbx_check_data()
 
 ## DEEP DIVE & FIX ####
 ## DEEP DIVE analysis if needed for specific issues detected

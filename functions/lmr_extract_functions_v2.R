@@ -1,4 +1,7 @@
-## functions for pulling tabular data out of LDB Quarterly Reports
+## functions for pulling tabular data out of LDB Quarterly LMR Reports
+# - functions should be renamed to reflect better practice:
+#   - drop 'fn_' prefix
+#   - add 'lmr_' prefix (or similar)
 
 library(pdftools)
 library(tidyverse)

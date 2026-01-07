@@ -8,18 +8,23 @@ library(glue)
 # use functions from lmr_db_functions.R, incl authentication
 source('functions/lmr_db_functions.R')
 
-# check tables
+# get list of tables
 dbx_list_tables()
 
-# check data in main table
+# fetch data in main table
 lmr_main <- dbx_fetch_basic()
+# fetch data in main table with filters
+lmr_main_filt <- dbx_fetch_basic_filter()
 
-# lmr data with qtrs info
+# fetch data inlmr data with qtrs info
 lmr_main_qtrs <- dbx_fetch_join_qtrs()
 
 # lmr data with qtrs AND short names
+lmr_main_qtrs_short <- dbx_fetch_join_qtr_shortname()
+# lmr doto w/ qtrs AND short names REPLACING original names
+lmr_main_qtrs_short_repl <- dbx_fetch_join_qtr_shortname(replace=TRUE)
 
-
+## QUARTERS ####
 # check tblLDB_quarters
 dbListFields(dbx_get_con(), 'lmr_quarters')
 qtr_db <- dbGetQuery(dbx_get_con(), "SELECT * FROM public.lmr_quarters;")
