@@ -15,7 +15,7 @@ options(scipen=999) # turn off scientific notation
 
 ## CHECK DATA: COMPILED FROM PDF ####
 ## assumes data saved from successful run of LMR-01-fetch-process-all.py
-source('functions/ldb_extract_functions_v2.R')
+source(here('functions/lmr_extract_functions_v2.R'))
 
 # generic file saved from LMR-01-fetch-process-all.py
 tables_all_fyqtr <- read_csv(here('lmr-get-update', 'output', 'lmr_data_latest.csv'))
@@ -35,7 +35,7 @@ fn_data_check(tables_all_fyqtr)
 ## CHECK DATA: DATABASE ####
 # ALSO AT END OF DB UPLOAD
 ## load functions for MySQL queries
-source('functions/lmr_db_functions.R')
+source(here('functions/lmr_db_functions.R'))
 fn_db_check()
 
 ## DEEP DIVE & FIX ####

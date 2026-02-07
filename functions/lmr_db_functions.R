@@ -253,12 +253,7 @@ dbx_fetch_qtr_short_filter <- function(replace=FALSE,
 ## will add latest quarter if not already present
 dbx_fetch_update_qtrs <- function(tbl_upload) {
   # amazon RDS PostgreSQL
-  con <- dbConnect(RPostgres::Postgres(),
-                     dbname=database_name,
-                     host=a.endpt,
-                     user=a.user,
-                     password=a.pwd,
-                     port=a.port)
+  con <- dbx_get_con()
   dbListTables(con) # check connection by getting list of tables
   # get list of quarters covered
   qtrs <- dbGetQuery(con, "SELECT * FROM lmr_quarters;")
@@ -328,12 +323,7 @@ dbx_fetch_update_qtrs <- function(tbl_upload) {
 dbx_upload <- function(db_tbl, tbl_upload) {
     # connection needed for upload
     # amazon postgresql
-    con <- dbConnect(RPostgres::Postgres(),
-                     dbname=database_name,
-                     host=a.endpt,
-                     user=a.user,
-                     password=a.pwd,
-                     port=a.port)
+    con <- dbx_get_con()
     # test if nec
     #dbGetQuery(con, "SELECT * FROM lmr_data;")
     

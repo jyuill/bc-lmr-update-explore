@@ -31,13 +31,14 @@ When new LMR is published by BC LDB (typically within a couple of months of cale
 2. Run **LMR-01-fetch-process-all.py** to extract data from PDF.
     - additional notes on operation in file
     - results saved to /lmr-get-update/output folder
+    - summary output in terminal for comparison with pdf
 3. Check results and cross-reference with pdf
     - **LMR-02-data-check-py.R** contains R code to assist with checking data, based on results from Python extract process.
     - summarize and manually cross-check with PDF.
     - if any discrepancies, use **DEEP DIVE** section in the file to identify and fix
     - if need to check on extraction process code, this is in **lmr_extract_functions.py**.
 4. Upload new data to Postgres database on AWS
-    - use **LMR-03-db_upload_postgres.R** to upload data to Postgres database on AWS.
+    - use **LMR-03-db_upload.R** to upload data to Postgres database on AWS.
     - by default, will overwrite most recent 5 quarters (including new quarter just imported) in database - this is to ensure alignment with most recent published data, since previous quarters are often adjusted.
 5. Check / confirm correct data in database
     - Upload process includes function to summarize data in database after upload, for review.
