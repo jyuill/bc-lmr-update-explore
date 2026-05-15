@@ -7,6 +7,8 @@
 # - using 'dbx_' prefix to avoid confusion with other db functions
 # SEVERAL OF THESE FUNCTIONS HAVE BEEN INCORPORATED INTO
 #  lmrtools PACKAGE - build out that package additionally as needed
+# TROUBLESHOOTING: most common issue is with IP address security on AWS RDS instance
+# - make sure to allow access from your current IP address
 
 library(tidyverse)
 library(lubridate)
@@ -35,6 +37,7 @@ readRenviron('.env')
 
 ## Set connection string for easy use
 # Define this once - use anywhere
+# if connection issues: ensure your current IP address is allowed in AWS RDS security settings
 #! lmrtools package
 dbx_get_con <- function() {
   dbConnect(
