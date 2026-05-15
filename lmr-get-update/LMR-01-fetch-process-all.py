@@ -11,7 +11,7 @@ To run:
 3. In terminal, navigate to lmr-get-update/ folder
 4. Activate python virtual environment: source .venv/bin/activate
 5. Run: uv run python LMR-01-fetch-process-all.py (somehow won't just run from 'play' icon)
-6. Select PDF file interactively from the list.
+6. Select PDF file interactively from the list (usu. 1).
 7. Processed data saved to: lmr-get-update/output/{filename}_db_upload.csv
 8. Check data using LMR-02-data-check files -> fix errors as needed.
 9. Use LMR-03_db_upload.R to upload data to database on AWS 

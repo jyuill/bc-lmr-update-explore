@@ -463,14 +463,27 @@ fn_data_check <- function(data_check) {
   # format netsales as dollars with $ sign and right justified
   data_smry_qtrs$netsales <- format(data_smry_qtrs$netsales, big.mark=",", scientific=FALSE, trim=TRUE, format='i', justify=c("right"))
   data_smry_qtrs$netsales <- paste0("$",data_smry_qtrs$netsales)
-  
+  # combo table in wide format with net sales and litres for each qtr
+  # - first convert to long format with separate rows for net sales and litres, then pivot wider to get separate cols for each metric by qtr
+  data_smry_qtrs_long <- data_smry_qtrs %>% pivot_longer(cols=c(netsales, litres), names_to='metric', values_to='value')
+  data_smry_qtrs_wide <- data_smry_qtrs_long %>% pivot_wider(names_from=fy_qtr, values_from=value)
+
   # net sales
   data_smry_qtrs_ns <- data_smry_qtrs %>% select(-litres) %>% 
     pivot_wider(names_from=fy_qtr, values_from=netsales)
   print(data_smry_qtrs_ns)
   #data_smry_qtrs_ns |> gt()
+
   # litres
   data_smry_qtrs_ltr <- data_smry_qtrs %>% select(-netsales) %>% 
     pivot_wider(names_from=fy_qtr, values_from=litres)
   print(data_smry_qtrs_ltr)
+
+  # return summary data for review
+  cat("summary tables available under VALUES > smry_data:
+      - [[1]]: data_smry_qtr: by cat most recent qtr
+      - [[2]]: data_smry_qtrs_wide: net sales, litres by cat all qtrs
+      - [[2]]: data_smry_qtrs_ns: net sales by cat recent qtrs
+      - [[3]]: data_smry_qtrs_ltr: litres by cat all qtrs")
+  return(list(data_smry_qtr, data_smry_qtrs_wide, data_smry_qtrs_ns, data_smry_qtrs_ltr))
 }

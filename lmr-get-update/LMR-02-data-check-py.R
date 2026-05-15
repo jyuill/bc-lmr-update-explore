@@ -29,7 +29,7 @@ tables_all_fyqtr <- read_csv(here('lmr-get-update', 'output', 'lmr_data_latest.c
 # summarize results:
 ## - data will be shown in table in console and bar charts in viewer
 ## - manually compare with PDF
-fn_data_check(tables_all_fyqtr)
+smry_data <- fn_data_check(tables_all_fyqtr)
 ## - if discrepancies: go down to DEEP DIVE & FIX section
 
 ## CHECK DATA: DATABASE ####
