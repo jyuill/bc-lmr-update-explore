@@ -1,0 +1,231 @@
+cat_type,category,subcategory,period,netsales
+Spirits,Asian Spirits,China Spirits,FY2026Q1,784261.0
+Spirits,Asian Spirits,Korea Spirits,FY2026Q1,1142377.0
+Spirits,Asian Spirits,Other Country Asian Spirits,FY2026Q1,111724.0
+Spirits,Gin,Dry Gin,FY2026Q1,13008408.0
+Spirits,Gin,Flavoured Gin,FY2026Q1,1282378.0
+Spirits,Gin,Other Gin,FY2026Q1,815542.0
+Spirits,Grape and Fruit Brandy,Armagnac,FY2026Q1,36832.0
+Spirits,Grape and Fruit Brandy,Brandy,FY2026Q1,1895696.0
+Spirits,Grape and Fruit Brandy,Cognac,FY2026Q1,1708396.0
+Spirits,Grape and Fruit Brandy,Eau de Vie,FY2026Q1,332568.0
+Spirits,Grape and Fruit Brandy,Grappa And Marc,FY2026Q1,51570.0
+Spirits,Grape and Fruit Brandy,Pisco,FY2026Q1,131034.0
+Spirits,Liqueurs,Anise And Herbal/Spice Liqueurs,FY2026Q1,9626771.0
+Spirits,Liqueurs,Coffee And Cocoa Liqueurs,FY2026Q1,1867029.0
+Spirits,Liqueurs,Cream/Dairy Liqueurs,FY2026Q1,5916616.0
+Spirits,Liqueurs,Fruit Liqueurs,FY2026Q1,6340770.0
+Spirits,Liqueurs,Nut Liqueurs,FY2026Q1,1496543.0
+Spirits,Liqueurs,Other Liqueurs,FY2026Q1,1167344.0
+Spirits,Liqueurs,Whiskey Liqueurs,FY2026Q1,1146481.0
+Spirits,Other Spirits,Cachaca,FY2026Q1,50903.0
+Spirits,Other Spirits,Flavoured Spirits,FY2026Q1,84093.0
+Spirits,Other Spirits,Miscellaneous/Other Spirits,FY2026Q1,229434.0
+Spirits,Asian Spirits,China Spirits,FY2026Q2,653141.0
+Spirits,Asian Spirits,Korea Spirits,FY2026Q2,1210496.0
+Spirits,Asian Spirits,Other Country Asian Spirits,FY2026Q2,132061.0
+Spirits,Gin,Dry Gin,FY2026Q2,13853407.0
+Spirits,Gin,Flavoured Gin,FY2026Q2,1196641.0
+Spirits,Gin,Other Gin,FY2026Q2,770759.0
+Spirits,Grape and Fruit Brandy,Armagnac,FY2026Q2,28701.0
+Spirits,Grape and Fruit Brandy,Brandy,FY2026Q2,1689896.0
+Spirits,Grape and Fruit Brandy,Cognac,FY2026Q2,1632822.0
+Spirits,Grape and Fruit Brandy,Eau de Vie,FY2026Q2,287544.0
+Spirits,Grape and Fruit Brandy,Grappa And Marc,FY2026Q2,47384.0
+Spirits,Grape and Fruit Brandy,Pisco,FY2026Q2,137626.0
+Spirits,Liqueurs,Anise And Herbal/Spice Liqueurs,FY2026Q2,9245551.0
+Spirits,Liqueurs,Coffee And Cocoa Liqueurs,FY2026Q2,2268556.0
+Spirits,Liqueurs,Cream/Dairy Liqueurs,FY2026Q2,7770609.0
+Spirits,Liqueurs,Fruit Liqueurs,FY2026Q2,6789694.0
+Spirits,Liqueurs,Nut Liqueurs,FY2026Q2,1697065.0
+Spirits,Liqueurs,Other Liqueurs,FY2026Q2,1401571.0
+Spirits,Liqueurs,Whiskey Liqueurs,FY2026Q2,1267211.0
+Spirits,Other Spirits,Cachaca,FY2026Q2,54329.0
+Spirits,Other Spirits,Flavoured Spirits,FY2026Q2,155719.0
+Spirits,Other Spirits,Miscellaneous/Other Spirits,FY2026Q2,222206.0
+Spirits,Asian Spirits,China Spirits,FY2026Q3,775096.0
+Spirits,Asian Spirits,Korea Spirits,FY2026Q3,1037735.0
+Spirits,Asian Spirits,Other Country Asian Spirits,FY2026Q3,144675.0
+Spirits,Gin,Dry Gin,FY2026Q3,13337774.0
+Spirits,Gin,Flavoured Gin,FY2026Q3,1083210.0
+Spirits,Gin,Other Gin,FY2026Q3,931590.0
+Spirits,Grape and Fruit Brandy,Armagnac,FY2026Q3,117021.0
+Spirits,Grape and Fruit Brandy,Brandy,FY2026Q3,2804936.0
+Spirits,Grape and Fruit Brandy,Cognac,FY2026Q3,2474501.0
+Spirits,Grape and Fruit Brandy,Eau de Vie,FY2026Q3,415001.0
+Spirits,Grape and Fruit Brandy,Grappa And Marc,FY2026Q3,74851.0
+Spirits,Grape and Fruit Brandy,Pisco,FY2026Q3,113961.0
+Spirits,Liqueurs,Anise And Herbal/Spice Liqueurs,FY2026Q3,9703192.0
+Spirits,Liqueurs,Coffee And Cocoa Liqueurs,FY2026Q3,3005825.0
+Spirits,Liqueurs,Cream/Dairy Liqueurs,FY2026Q3,18071172.0
+Spirits,Liqueurs,Fruit Liqueurs,FY2026Q3,6535359.0
+Spirits,Liqueurs,Nut Liqueurs,FY2026Q3,2133834.0
+Spirits,Liqueurs,Other Liqueurs,FY2026Q3,1258410.0
+Spirits,Liqueurs,Whiskey Liqueurs,FY2026Q3,1689152.0
+Spirits,Other Spirits,Cachaca,FY2026Q3,33515.0
+Spirits,Other Spirits,Flavoured Spirits,FY2026Q3,154327.0
+Spirits,Other Spirits,Miscellaneous/Other Spirits,FY2026Q3,357014.0
+Spirits,Asian Spirits,China Spirits,FY2026Q4,880468.0
+Spirits,Asian Spirits,Korea Spirits,FY2026Q4,1061689.0
+Spirits,Asian Spirits,Other Country Asian Spirits,FY2026Q4,148780.0
+Spirits,Gin,Dry Gin,FY2026Q4,9454457.0
+Spirits,Gin,Flavoured Gin,FY2026Q4,765372.0
+Spirits,Gin,Other Gin,FY2026Q4,594979.0
+Spirits,Grape and Fruit Brandy,Armagnac,FY2026Q4,76006.0
+Spirits,Grape and Fruit Brandy,Brandy,FY2026Q4,1842464.0
+Spirits,Grape and Fruit Brandy,Cognac,FY2026Q4,2074289.0
+Spirits,Grape and Fruit Brandy,Eau de Vie,FY2026Q4,293219.0
+Spirits,Grape and Fruit Brandy,Grappa And Marc,FY2026Q4,57442.0
+Spirits,Grape and Fruit Brandy,Pisco,FY2026Q4,156855.0
+Spirits,Liqueurs,Anise And Herbal/Spice Liqueurs,FY2026Q4,8254546.0
+Spirits,Liqueurs,Coffee And Cocoa Liqueurs,FY2026Q4,2190336.0
+Spirits,Liqueurs,Cream/Dairy Liqueurs,FY2026Q4,6109690.0
+Spirits,Liqueurs,Fruit Liqueurs,FY2026Q4,5477470.0
+Spirits,Liqueurs,Nut Liqueurs,FY2026Q4,1459326.0
+Spirits,Liqueurs,Other Liqueurs,FY2026Q4,876504.0
+Spirits,Liqueurs,Whiskey Liqueurs,FY2026Q4,1499785.0
+Spirits,Other Spirits,Cachaca,FY2026Q4,55344.0
+Spirits,Other Spirits,Flavoured Spirits,FY2026Q4,56307.0
+Spirits,Other Spirits,Miscellaneous/Other Spirits,FY2026Q4,206876.0
+Spirits,Asian Spirits,China Spirits,FY2027Q1,530392.0
+Spirits,Asian Spirits,Korea Spirits,FY2027Q1,1047929.0
+Spirits,Asian Spirits,Other Country Asian Spirits,FY2027Q1,135874.0
+Spirits,Gin,Dry Gin,FY2027Q1,12162935.0
+Spirits,Gin,Flavoured Gin,FY2027Q1,921787.0
+Spirits,Gin,Other Gin,FY2027Q1,824315.0
+Spirits,Grape and Fruit Brandy,Armagnac,FY2027Q1,21099.0
+Spirits,Grape and Fruit Brandy,Brandy,FY2027Q1,1816099.0
+Spirits,Grape and Fruit Brandy,Cognac,FY2027Q1,1460855.0
+Spirits,Grape and Fruit Brandy,Eau de Vie,FY2027Q1,303831.0
+Spirits,Grape and Fruit Brandy,Grappa And Marc,FY2027Q1,41200.0
+Spirits,Grape and Fruit Brandy,Pisco,FY2027Q1,158721.0
+Spirits,Liqueurs,Anise And Herbal/Spice Liqueurs,FY2027Q1,9247048.0
+Spirits,Liqueurs,Coffee And Cocoa Liqueurs,FY2027Q1,1896265.0
+Spirits,Liqueurs,Cream/Dairy Liqueurs,FY2027Q1,5326389.0
+Spirits,Liqueurs,Fruit Liqueurs,FY2027Q1,6587905.0
+Spirits,Liqueurs,Nut Liqueurs,FY2027Q1,1787382.0
+Spirits,Liqueurs,Other Liqueurs,FY2027Q1,1190637.0
+Spirits,Liqueurs,Whiskey Liqueurs,FY2027Q1,1161658.0
+Spirits,Other Spirits,Cachaca,FY2027Q1,63860.0
+Spirits,Other Spirits,Flavoured Spirits,FY2027Q1,64285.0
+Spirits,Other Spirits,Miscellaneous/Other Spirits,FY2027Q1,203944.0
+Spirits,Other Spirits,Moonshine Spirits,FY2026Q1,171715.0
+Spirits,Other Spirits,Ready to Mix Cocktails,FY2026Q1,573108.0
+Spirits,Other Spirits,Ready to Serve Cocktails,FY2026Q1,1348267.0
+Spirits,Other Spirits,Schnapps and Akvavit,FY2026Q1,45148.0
+Spirits,Rum,Amber Rum,FY2026Q1,4898619.0
+Spirits,Rum,Dark Rum,FY2026Q1,2554185.0
+Spirits,Rum,Flavoured Rum,FY2026Q1,315424.0
+Spirits,Rum,Spiced Rum,FY2026Q1,5292421.0
+Spirits,Rum,White Rum,FY2026Q1,6162394.0
+Spirits,Tequila,Blanco/Silver Tequila,FY2026Q1,10602184.0
+Spirits,Tequila,Flavoured Tequila,FY2026Q1,1257483.0
+Spirits,Tequila,Gold Tequila,FY2026Q1,11080863.0
+Spirits,Tequila,Mezcal,FY2026Q1,1114986.0
+Spirits,Vodka,Flavoured Vodka,FY2026Q1,3732642.0
+Spirits,Vodka,Straight Vodka,FY2026Q1,53800530.0
+Spirits,Whisky,American Whiskey,FY2026Q1,293896.0
+Spirits,Whisky,Blended Malt Scotch Whisky,FY2026Q1,253154.0
+Spirits,Whisky,Blended Scotch Whisky,FY2026Q1,6980436.0
+Spirits,Whisky,Bourbon Whiskey,FY2026Q1,419971.0
+Spirits,Whisky,Canadian Whisky,FY2026Q1,31325609.0
+Spirits,Whisky,Flavoured Whisky,FY2026Q1,399390.0
+Spirits,Whisky,Irish Whiskey,FY2026Q1,5314696.0
+Spirits,Whisky,Other Country Whisky,FY2026Q1,1377310.0
+Spirits,Whisky,Single Malt Scotch Whisky,FY2026Q1,8920136.0
+Spirits,Other Spirits,Moonshine Spirits,FY2026Q2,405561.0
+Spirits,Other Spirits,Ready to Mix Cocktails,FY2026Q2,601181.0
+Spirits,Other Spirits,Ready to Serve Cocktails,FY2026Q2,1675069.0
+Spirits,Other Spirits,Schnapps and Akvavit,FY2026Q2,43848.0
+Spirits,Rum,Amber Rum,FY2026Q2,5609819.0
+Spirits,Rum,Dark Rum,FY2026Q2,2645466.0
+Spirits,Rum,Flavoured Rum,FY2026Q2,374553.0
+Spirits,Rum,Spiced Rum,FY2026Q2,5583671.0
+Spirits,Rum,White Rum,FY2026Q2,6508124.0
+Spirits,Tequila,Blanco/Silver Tequila,FY2026Q2,11926629.0
+Spirits,Tequila,Flavoured Tequila,FY2026Q2,1212758.0
+Spirits,Tequila,Gold Tequila,FY2026Q2,11315329.0
+Spirits,Tequila,Mezcal,FY2026Q2,1135345.0
+Spirits,Vodka,Flavoured Vodka,FY2026Q2,3756626.0
+Spirits,Vodka,Straight Vodka,FY2026Q2,55872321.0
+Spirits,Whisky,American Whiskey,FY2026Q2,1246162.0
+Spirits,Whisky,Blended Malt Scotch Whisky,FY2026Q2,240879.0
+Spirits,Whisky,Blended Scotch Whisky,FY2026Q2,6696625.0
+Spirits,Whisky,Bourbon Whiskey,FY2026Q2,2361323.0
+Spirits,Whisky,Canadian Whisky,FY2026Q2,29306225.0
+Spirits,Whisky,Flavoured Whisky,FY2026Q2,629610.0
+Spirits,Whisky,Irish Whiskey,FY2026Q2,5417389.0
+Spirits,Whisky,Other Country Whisky,FY2026Q2,1199685.0
+Spirits,Whisky,Single Malt Scotch Whisky,FY2026Q2,8134385.0
+Spirits,Other Spirits,Moonshine Spirits,FY2026Q3,311408.0
+Spirits,Other Spirits,Ready to Mix Cocktails,FY2026Q3,519518.0
+Spirits,Other Spirits,Ready to Serve Cocktails,FY2026Q3,1317807.0
+Spirits,Other Spirits,Schnapps and Akvavit,FY2026Q3,62593.0
+Spirits,Rum,Amber Rum,FY2026Q3,7821087.0
+Spirits,Rum,Dark Rum,FY2026Q3,3743548.0
+Spirits,Rum,Flavoured Rum,FY2026Q3,394596.0
+Spirits,Rum,Spiced Rum,FY2026Q3,8373362.0
+Spirits,Rum,White Rum,FY2026Q3,7111530.0
+Spirits,Tequila,Blanco/Silver Tequila,FY2026Q3,8860974.0
+Spirits,Tequila,Flavoured Tequila,FY2026Q3,920685.0
+Spirits,Tequila,Gold Tequila,FY2026Q3,9747977.0
+Spirits,Tequila,Mezcal,FY2026Q3,884795.0
+Spirits,Vodka,Flavoured Vodka,FY2026Q3,3827179.0
+Spirits,Vodka,Straight Vodka,FY2026Q3,55916549.0
+Spirits,Whisky,American Whiskey,FY2026Q3,1502262.0
+Spirits,Whisky,Blended Malt Scotch Whisky,FY2026Q3,341884.0
+Spirits,Whisky,Blended Scotch Whisky,FY2026Q3,8719704.0
+Spirits,Whisky,Bourbon Whiskey,FY2026Q3,2516557.0
+Spirits,Whisky,Canadian Whisky,FY2026Q3,35798920.0
+Spirits,Whisky,Flavoured Whisky,FY2026Q3,480722.0
+Spirits,Whisky,Irish Whiskey,FY2026Q3,7077908.0
+Spirits,Whisky,Other Country Whisky,FY2026Q3,1960028.0
+Spirits,Whisky,Single Malt Scotch Whisky,FY2026Q3,13519330.0
+Spirits,Other Spirits,Moonshine Spirits,FY2026Q4,136790.0
+Spirits,Other Spirits,Ready to Mix Cocktails,FY2026Q4,492491.0
+Spirits,Other Spirits,Ready to Serve Cocktails,FY2026Q4,1109654.0
+Spirits,Other Spirits,Schnapps and Akvavit,FY2026Q4,48617.0
+Spirits,Rum,Amber Rum,FY2026Q4,5613213.0
+Spirits,Rum,Dark Rum,FY2026Q4,2802248.0
+Spirits,Rum,Flavoured Rum,FY2026Q4,252995.0
+Spirits,Rum,Spiced Rum,FY2026Q4,5159031.0
+Spirits,Rum,White Rum,FY2026Q4,4659761.0
+Spirits,Tequila,Blanco/Silver Tequila,FY2026Q4,8430473.0
+Spirits,Tequila,Flavoured Tequila,FY2026Q4,775369.0
+Spirits,Tequila,Gold Tequila,FY2026Q4,8132745.0
+Spirits,Tequila,Mezcal,FY2026Q4,949161.0
+Spirits,Vodka,Flavoured Vodka,FY2026Q4,3105147.0
+Spirits,Vodka,Straight Vodka,FY2026Q4,48698837.0
+Spirits,Whisky,American Whiskey,FY2026Q4,627304.0
+Spirits,Whisky,Blended Malt Scotch Whisky,FY2026Q4,342635.0
+Spirits,Whisky,Blended Scotch Whisky,FY2026Q4,7209710.0
+Spirits,Whisky,Bourbon Whiskey,FY2026Q4,1392892.0
+Spirits,Whisky,Canadian Whisky,FY2026Q4,29026551.0
+Spirits,Whisky,Flavoured Whisky,FY2026Q4,332931.0
+Spirits,Whisky,Irish Whiskey,FY2026Q4,6778137.0
+Spirits,Whisky,Other Country Whisky,FY2026Q4,2521810.0
+Spirits,Whisky,Single Malt Scotch Whisky,FY2026Q4,11175931.0
+Spirits,Other Spirits,Moonshine Spirits,FY2027Q1,142249.0
+Spirits,Other Spirits,Ready to Mix Cocktails,FY2027Q1,584001.0
+Spirits,Other Spirits,Ready to Serve Cocktails,FY2027Q1,1459129.0
+Spirits,Other Spirits,Schnapps and Akvavit,FY2027Q1,37853.0
+Spirits,Rum,Amber Rum,FY2027Q1,4849085.0
+Spirits,Rum,Dark Rum,FY2027Q1,2219363.0
+Spirits,Rum,Flavoured Rum,FY2027Q1,197619.0
+Spirits,Rum,Spiced Rum,FY2027Q1,5403911.0
+Spirits,Rum,White Rum,FY2027Q1,6105216.0
+Spirits,Tequila,Blanco/Silver Tequila,FY2027Q1,11448123.0
+Spirits,Tequila,Flavoured Tequila,FY2027Q1,1014617.0
+Spirits,Tequila,Gold Tequila,FY2027Q1,10746356.0
+Spirits,Tequila,Mezcal,FY2027Q1,1075145.0
+Spirits,Vodka,Flavoured Vodka,FY2027Q1,3637507.0
+Spirits,Vodka,Straight Vodka,FY2027Q1,52026333.0
+Spirits,Whisky,American Whiskey,FY2027Q1,170728.0
+Spirits,Whisky,Blended Malt Scotch Whisky,FY2027Q1,290079.0
+Spirits,Whisky,Blended Scotch Whisky,FY2027Q1,6776584.0
+Spirits,Whisky,Bourbon Whiskey,FY2027Q1,652927.0
+Spirits,Whisky,Canadian Whisky,FY2027Q1,29202975.0
+Spirits,Whisky,Flavoured Whisky,FY2027Q1,221225.0
+Spirits,Whisky,Irish Whiskey,FY2027Q1,5155426.0
+Spirits,Whisky,Other Country Whisky,FY2027Q1,1513877.0
+Spirits,Whisky,Single Malt Scotch Whisky,FY2027Q1,7712912.0

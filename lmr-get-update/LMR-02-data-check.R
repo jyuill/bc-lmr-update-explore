@@ -1,5 +1,8 @@
-## Check data - compare downloaded/saved to online report
-## DEPRECATED: use LMR-02-data-check-py.R
+## CHECK data - compare downloaded/saved to online report
+# replaces LMR-02-data-check.R
+# check data after being processed by Python script:
+# - LMR-01-fetch-process-all.py
+# - results saved in lmr-get-update/output
 
 library(tidyverse)
 library(lubridate)
@@ -7,51 +10,86 @@ library(scales)
 library(glue)
 library(here)
 library(formattable)
+library(gt)
+options(scipen=999) # turn off scientific notation
 
-## CHECK DATA: TABLE COMPILED FROM PDF ####
-# ALSO AT END OF fetch-process
-## assumes data available in final table for each report
-source('functions/lmr_extract_functions_v2.R')
-fn_data_check(tables_all_fyqtr)
+## CHECK DATA: COMPILED FROM PDF ####
+## assumes data saved from successful run of LMR-01-fetch-process-all.py
+source(here('functions/lmr_extract_functions_v2.R'))
 
-## CHECK DATA: DATABASE ####
+# generic file saved from LMR-01-fetch-process-all.py
+tables_all_fyqtr <- read_csv(here('lmr-get-update', 'output', 'lmr_data_latest.csv'))
+# OR to compare with what is currently in database:
+# use LMR-04_db-mgmt-postgres.R to import existing data
+  #tables_all_fyqtr <- lmr_pgt
+  ## filter for most recent quarters only
+  #tables_all_fyqtr <- tables_all_fyqtr %>% 
+  #  filter(fy_qtr >= 'FY2025Q1') # filter based on earliest qtr needed for comparison
+
+# 1. SUMMARIZE RESULTS:
+## - manually compare summarywith PDF
+## - data shown in table in console and bar charts in viewer
+smry_data <- fn_data_check(tables_all_fyqtr)
+# components of summary:
+# - 1. list of 5 most recent quarters
+# - 2. summary by category for most recent quarter
+# - 3. summary of net sales by category for all quarters
+# - 4. summary of litres by category for all quarters
+# for availability as data frame:
+smry_data_qtr <- smry_data[[1]]
+smry_data_ns <- smry_data[[2]]
+smry_data_ltr <- smry_data[[3]]
+## - if discrepancies: go down to DEEP DIVE & FIX section
+
+## 1a. (optional) CHECK DATA: DATABASE ####
 # ALSO AT END OF DB UPLOAD
 ## load functions for database queries
-source('functions/lmr_db_functions.R')
-# add min_qtr and max_qtr parameters as needed to filter fy_qtr
-# - 'FY2024Q1' format
-lmr_check <- dbx_check_data()
+source(here('functions/lmr_db_functions.R'))
+#fn_db_check() # deprecated/renamed
+#dbx_check_data() # is this used?
 
-## DEEP DIVE & FIX ####
-## DEEP DIVE analysis if needed for specific issues detected
+## 2. DEEP DIVE & FIX ####
+## IF NEEDED for errors detected:
+# DEEP DIVE analysis if needed for specific issues detected
 # FOCUS on MOST RECENT QUARTER
-# as of Sep 2024: ocr prone to random errors, sporadic and inconsistent
+# as of Sep 2024: OCR process with R prone to random errors, sporadic and inconsistent
 # - decided to only upload most recent quarter to save on error checking/fixing
 # enter filter values for troubleshooting
-fy_period_select <- 'FY2025Q3'
-col_select <- c(1,6)
+tables_all <- tables_all_fyqtr
 cat_type_select <- 'Wine'
+fy_period_select <- 'FY2026Q2'
+col_select <- c(1,6)
 
 # check CAT totals ----
-# selected qtr
-check_cat <- tables_all %>% 
-  filter(fy_qtr == fy_period_select & cat_type == cat_type_select) %>% 
-  group_by(category) %>% 
-  summarise(litres = sum(litres),
-            netsales = sum(netsales))
 # all qtrs
 check_cat <- tables_all %>% 
   filter(cat_type == cat_type_select) %>% 
   group_by(category, fy_qtr) %>% 
-  summarise(litres = sum(litres),
-            netsales = sum(netsales)) %>%
-  pivot_wider(names_from = fy_qtr, values_from = c(litres, netsales))
+  summarise(netsales = sum(netsales, na.rm = TRUE),
+            litres = sum(litres, na.rm = TRUE)) %>%
+  pivot_wider(names_from = fy_qtr, values_from = c(netsales,litres))
+check_cat %>% gt()
+# selected qtr
+check_cat <- tables_all %>% 
+  filter(fy_qtr == fy_period_select & cat_type == cat_type_select) %>% 
+  group_by(category) %>% 
+  summarise(litres = sum(litres, na.rm = TRUE),
+            netsales = sum(netsales, na.rm = TRUE)) %>%
+
 
 # check SUBCAT totals for selected CATEGORY ----
 fy_period_select <- fy_period_select
 cat_type_select <- cat_type_select
-cat_select <- c('Greece Wine')
+cat_select <- c('USA Wine')
 # check
+# all qtrs - all specified cat/subcat
+check_subcat <- tables_all %>% 
+  filter(cat_type %in% cat_type_select & category %in% cat_select) %>% 
+  group_by(category, subcategory, fy_qtr) %>% 
+  summarise(litres = sum(litres),
+            netsales = sum(netsales)) %>%
+  pivot_wider(names_from = fy_qtr, values_from = c(litres, netsales))
+# specified qtr
 check_subcat <- tables_all %>% 
   filter(fy_qtr == fy_period_select & 
            cat_type == cat_type_select & 
@@ -59,14 +97,7 @@ check_subcat <- tables_all %>%
   group_by(category, subcategory) %>% 
   summarise(litres = sum(litres),
             netsales = sum(netsales))
-# all qtrs - all cat/subcat
-check_subcat <- tables_all %>% 
-  filter(cat_type %in% cat_type_select & category %in% cat_select) %>% 
-  group_by(category, subcategory, fy_qtr) %>% 
-  summarise(litres = sum(litres),
-            netsales = sum(netsales)) %>%
-  pivot_wider(names_from = fy_qtr, values_from = c(litres, netsales)) %>%
-  select(col_select)
+
 
 # FIXES ----
 # add code for fixing specific report issues here -> most recent at top

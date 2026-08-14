@@ -421,7 +421,9 @@ fn_tidy_structure <- function(tbl, tbl_metric){
 # compare data processed to LMR report before uploading
 fn_data_check <- function(data_check) {
   fyqtrs <- unique(data_check$fy_qtr)
-  print(fyqtrs)
+  #print(fyqtrs)
+  cat("check 1. most recent qtrs: \n", fyqtrs, "\n")
+  # summarize by category and fy_qtr, for net sales and litres
   data_smry_cat <- data_check %>% group_by(cat_type, fy_qtr) %>% 
     summarize(netsales=sum(netsales, na.rm = TRUE),
               litres=sum(litres, na.rm = TRUE)
@@ -449,10 +451,12 @@ fn_data_check <- function(data_check) {
   data_smry_qtr <- data_smry_cat %>% filter(fy_qtr==max(fyqtrs))
   # format fields for readability
   data_smry_qtr$litres <- format(data_smry_qtr$litres, big.mark=",", scientific=FALSE, trim=TRUE, justify=c("right"))
-  data_smry_qtr$netsales <- format(data_smry_qtr$netsales, big.mark=",", scientific=FALSE, trim=TRUE, format='i', justify=c("right"))
+  data_smry_qtr$netsales <- format(data_smry_qtr$netsales, big.mark=",", scientific=FALSE, trim=TRUE, justify=c("right"))
+  cat("check 2: summary by category for most recent quarter")
   print(data_smry_qtr)
   
   # summary data by category for all quarters
+  cat('MAIN ITEMS FOR CROSS-REFERENCE WITH PDF reports: \n')
   # qtr summary
   data_smry_qtrs <- data_smry_cat %>% group_by(cat_type, fy_qtr) %>% 
     summarize(netsales=sum(netsales, na.rm = TRUE),
@@ -465,25 +469,25 @@ fn_data_check <- function(data_check) {
   data_smry_qtrs$netsales <- paste0("$",data_smry_qtrs$netsales)
   # combo table in wide format with net sales and litres for each qtr
   # - first convert to long format with separate rows for net sales and litres, then pivot wider to get separate cols for each metric by qtr
-  data_smry_qtrs_long <- data_smry_qtrs %>% pivot_longer(cols=c(netsales, litres), names_to='metric', values_to='value')
-  data_smry_qtrs_wide <- data_smry_qtrs_long %>% pivot_wider(names_from=fy_qtr, values_from=value)
+  #data_smry_qtrs_long <- data_smry_qtrs %>% pivot_longer(cols=c(netsales, litres), names_to='metric', values_to='value')
+  #data_smry_qtrs_wide <- data_smry_qtrs_long %>% pivot_wider(names_from=fy_qtr, values_from=value)
 
   # net sales
   data_smry_qtrs_ns <- data_smry_qtrs %>% select(-litres) %>% 
     pivot_wider(names_from=fy_qtr, values_from=netsales)
+  cat("check 3: summary by category for all quarters - net sales \n")
   print(data_smry_qtrs_ns)
-  #data_smry_qtrs_ns |> gt()
 
   # litres
   data_smry_qtrs_ltr <- data_smry_qtrs %>% select(-netsales) %>% 
     pivot_wider(names_from=fy_qtr, values_from=litres)
+  cat("check 4: summary by category for all quarters - litres \n")
   print(data_smry_qtrs_ltr)
 
   # return summary data for review
   cat("summary tables available under VALUES > smry_data:
       - [[1]]: data_smry_qtr: by cat most recent qtr
-      - [[2]]: data_smry_qtrs_wide: net sales, litres by cat all qtrs
       - [[2]]: data_smry_qtrs_ns: net sales by cat recent qtrs
       - [[3]]: data_smry_qtrs_ltr: litres by cat all qtrs")
-  return(list(data_smry_qtr, data_smry_qtrs_wide, data_smry_qtrs_ns, data_smry_qtrs_ltr))
+  return(list(data_smry_qtr, data_smry_qtrs_ns, data_smry_qtrs_ltr))
 }

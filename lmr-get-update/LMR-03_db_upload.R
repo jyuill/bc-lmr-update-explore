@@ -4,6 +4,7 @@ library(tidyverse)
 library(lubridate)
 library(scales)
 library(glue)
+library(here)
 library(readr) ## for easy conversion of $ characters to numeric
 library(RPostgres) ## for PostgreSQL
 

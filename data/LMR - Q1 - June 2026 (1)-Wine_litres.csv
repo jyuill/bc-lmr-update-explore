@@ -1,0 +1,114 @@
+cat_type,category,subcategory,FY2026Q1,FY2026Q2,FY2026Q3,FY2026Q4,FY2027Q1
+Wine,Argentina Wine,Argentina Red Wine,462123.0,398251.0,555210.0,455996.0,411234.0
+Wine,Argentina Wine,Argentina Rose Wine,7822.0,6614.0,3028.0,2690.0,7231.0
+Wine,Argentina Wine,Argentina Sparkling Wine,522.0,760.0,482.0,715.0,554.0
+Wine,Argentina Wine,Argentina White Wine,53850.0,66285.0,81223.0,83023.0,109328.0
+Wine,Australia Wine,Australia Fruit and Dessert Wine,21.0,10.0,4.0,6.0,6.0
+Wine,Australia Wine,Australia Red Wine,476629.0,410972.0,539002.0,497374.0,443043.0
+Wine,Australia Wine,Australia Rose Wine,23674.0,23804.0,23786.0,20894.0,23354.0
+Wine,Australia Wine,Australia Sparkling Wine,53501.0,44147.0,62918.0,40735.0,48572.0
+Wine,Australia Wine,Australia White Wine,397359.0,395170.0,359873.0,323410.0,384152.0
+Wine,Austria Wine,Austria Fruit and Dessert Wine,34.0,56.0,54.0,70.0,94.0
+Wine,Austria Wine,Austria Red Wine,878.0,1034.0,1088.0,1317.0,1202.0
+Wine,Austria Wine,Austria Rose Wine,346.0,274.0,180.0,243.0,598.0
+Wine,Austria Wine,Austria Sparkling Wine,86.0,224.0,108.0,148.0,90.0
+Wine,Austria Wine,Austria White Wine,4022.0,3972.0,3292.0,4162.0,4751.0
+Wine,Bulgaria Wine,Bulgaria Red Wine,0.0,0.0,0.0,0.0,0.0
+Wine,Bulgaria Wine,Bulgaria White Wine,0.0,0.0,0.0,0.0,0.0
+Wine,Canada - BC,Canada - BC Dessert Wine,3759.0,5437.0,3216.0,1789.0,2514.0
+Wine,Canada - BC,Canada - BC Fruit Wine,48424.0,76845.0,74330.0,34371.0,47210.0
+Wine,Canada - BC,Canada - BC Ice Wine,6944.0,7682.0,7483.0,4225.0,3735.0
+Wine,Canada - BC,Canada - BC Red Wine,3484390.0,3625983.0,4859262.0,3169503.0,3126581.0
+Wine,Canada - BC,Canada - BC Rose Wine,634039.0,709387.0,477651.0,397993.0,683875.0
+Wine,Canada - BC,Canada - BC Sparkling Wine,182495.0,251124.0,253471.0,131504.0,171008.0
+Wine,Canada - BC,Canada - BC White Wine,4337680.0,4427693.0,4669249.0,3452419.0,4106927.0
+Wine,Canada - Other,Canada - Other Dessert Wine,34.0,84.0,99.0,18.0,59.0
+Wine,Canada - Other,Canada - Other Fruit Wine,38.0,19.0,0.0,0.0,0.0
+Wine,Canada - Other,Canada - Other Ice Wine,5801.0,15352.0,9776.0,11144.0,11024.0
+Wine,Canada - Other,Canada - Other Red Wine,28870.0,37210.0,41014.0,30724.0,27257.0
+Wine,Canada - Other,Canada - Other Rose Wine,10668.0,8048.0,4857.0,5389.0,5166.0
+Wine,Canada - Other,Canada - Other Sparkling Wine,65560.0,66778.0,82617.0,55528.0,62876.0
+Wine,Canada - Other,Canada - Other White Wine,54724.0,61698.0,52564.0,48293.0,44525.0
+Wine,Chile Wine,Chile Fruit and Dessert Wine,14.0,13.0,32.0,9.0,4.0
+Wine,Chile Wine,Chile Red Wine,610363.0,627173.0,696104.0,714658.0,621949.0
+Wine,Chile Wine,Chile Rose Wine,56358.0,73165.0,18955.0,30052.0,57291.0
+Wine,Chile Wine,Chile Sparkling Wine,2175.0,1450.0,2396.0,1958.0,1322.0
+Wine,Chile Wine,Chile White Wine,356461.0,366906.0,338508.0,402254.0,426101.0
+Wine,China Wine,China Fruit and Dessert Wine,114.0,44.0,293.0,221.0,159.0
+Wine,China Wine,China Red Wine,4.0,14.0,14.0,72.0,99.0
+Wine,China Wine,China White Wine,225.0,0.0,18.0,9.0,58.0
+Wine,Fortified Wine,Other Fortified Domestic Wine,41512.0,48316.0,46917.0,33636.0,27541.0
+Wine,Fortified Wine,Other Fortified Import Wine,13742.0,11921.0,17484.0,16544.0,11306.0
+Wine,Fortified Wine,Port Wine,14468.0,14350.0,29500.0,16641.0,14033.0
+Wine,Fortified Wine,Sherry Wine,10146.0,9374.0,14957.0,13602.0,13091.0
+Wine,Fortified Wine,Vermouth Wine,55291.0,55298.0,61514.0,51593.0,56790.0
+Wine,France Wine,France Champagne Wine,39119.0,46515.0,73054.0,39709.0,45394.0
+Wine,France Wine,France Fruit and Dessert Wine,190.0,237.0,216.0,218.0,294.0
+Wine,France Wine,France Red Wine,321136.0,312951.0,387302.0,344432.0,303677.0
+Wine,France Wine,France Rose Wine,229633.0,284794.0,107641.0,117536.0,262590.0
+Wine,France Wine,France Sparkling Wine,48043.0,49901.0,52039.0,40057.0,46420.0
+Wine,France Wine,France White Wine,207349.0,220115.0,214383.0,198083.0,213798.0
+Wine,Georgia Wine,Georgia Red Wine,3584.0,2821.0,3334.0,4480.0,2286.0
+Wine,Georgia Wine,Georgia Rose Wine,14.0,9.0,4.0,36.0,36.0
+Wine,Georgia Wine,Georgia Sparkling Wine,27.0,21.0,14.0,9.0,0.0
+Wine,Georgia Wine,Georgia White Wine,655.0,548.0,539.0,580.0,526.0
+Wine,Germany Wine,Germany Fruit and Dessert Wine,0.0,0.0,0.0,0.0,0.0
+Wine,Germany Wine,Germany Red Wine,1285.0,1354.0,1040.0,1952.0,1287.0
+Wine,Germany Wine,Germany Rose Wine,68.0,94.0,9.0,112.0,130.0
+Wine,Germany Wine,Germany Sparkling Wine,34091.0,28577.0,53664.0,23918.0,31682.0
+Wine,Germany Wine,Germany White Wine,48673.0,47596.0,52786.0,44599.0,42242.0
+Wine,Greece Wine,Greece Fruit and Dessert Wine,0.0,0.0,18.0,24.0,15.0
+Wine,Greece Wine,Greece Red Wine,6226.0,4974.0,4976.0,5510.0,4755.0
+Wine,Greece Wine,Greece Rose Wine,602.0,796.0,370.0,393.0,916.0
+Wine,Greece Wine,Greece Sparkling Wine,225.0,68.0,194.0,81.0,202.0
+Wine,Greece Wine,Greece White Wine,7914.0,8792.0,4744.0,5866.0,7107.0
+Wine,Hungary Wine,Hungary Fruit and Dessert Wine,157.0,378.0,474.0,495.0,252.0
+Wine,Hungary Wine,Hungary Red Wine,1134.0,801.0,1112.0,459.0,176.0
+Wine,Hungary Wine,Hungary Rose Wine,0.0,4.0,0.0,9.0,0.0
+Wine,Hungary Wine,Hungary Sparkling Wine,4352.0,5985.0,4594.0,3564.0,4405.0
+Wine,Hungary Wine,Hungary White Wine,5332.0,7810.0,6250.0,5943.0,4329.0
+Wine,Israel Wine,Israel Red Wine,1278.0,853.0,1035.0,1017.0,1134.0
+Wine,Israel Wine,Israel Rose Wine,180.0,81.0,54.0,180.0,72.0
+Wine,Israel Wine,Israel White Wine,482.0,297.0,198.0,315.0,270.0
+Wine,Italy Wine,Italy Fruit and Dessert Wine,122.0,106.0,143.0,71.0,90.0
+Wine,Italy Wine,Italy Red Wine,539982.0,522563.0,646589.0,586399.0,508904.0
+Wine,Italy Wine,Italy Rose Wine,20491.0,23978.0,10883.0,14925.0,22955.0
+Wine,Italy Wine,Italy Sparkling Wine,113389.0,123493.0,104024.0,91560.0,109485.0
+Wine,Italy Wine,Italy White Wine,425687.0,403462.0,333688.0,342382.0,415060.0
+Wine,Italy Wine,Prosecco Wine,383285.0,364939.0,484489.0,271778.0,376978.0
+Wine,New Zealand Wine,New Zealand Fruit and Dessert Wine,0.0,0.0,0.0,0.0,0.0
+Wine,New Zealand Wine,New Zealand Red Wine,27203.0,26138.0,36961.0,24376.0,28366.0
+Wine,New Zealand Wine,New Zealand Rose Wine,26762.0,24318.0,10537.0,10843.0,25732.0
+Wine,New Zealand Wine,New Zealand Sparkling Wine,2835.0,4724.0,7378.0,4301.0,2321.0
+Wine,New Zealand Wine,New Zealand White Wine,835325.0,771430.0,765229.0,578654.0,830264.0
+Wine,Other Country Wine,Other Country Fruit and Dessert Wine,7782.0,7846.0,7714.0,9484.0,7102.0
+Wine,Other Country Wine,Other Country Red Wine,4010.0,2964.0,3574.0,5495.0,3166.0
+Wine,Other Country Wine,Other Country Rose Wine,457.0,924.0,380.0,597.0,572.0
+Wine,Other Country Wine,Other Country Sparkling Wine,1393.0,979.0,1047.0,940.0,738.0
+Wine,Other Country Wine,Other Country White Wine,2072.0,1969.0,1514.0,2658.0,2353.0
+Wine,Other Style Wine,Aperitif And Flavoured Wine,2645.0,3155.0,4294.0,3051.0,3282.0
+Wine,Other Style Wine,Mead,6091.0,10948.0,8423.0,5917.0,6677.0
+Wine,Other Style Wine,Rice Wine,5390.0,4831.0,4519.0,5104.0,4032.0
+Wine,Portugal Wine,Portugal Fruit and Dessert Wine,76.0,38.0,140.0,45.0,47.0
+Wine,Portugal Wine,Portugal Red Wine,86871.0,84354.0,84054.0,105908.0,86348.0
+Wine,Portugal Wine,Portugal Rose Wine,16999.0,28643.0,14590.0,15849.0,27140.0
+Wine,Portugal Wine,Portugal Sparkling Wine,72.0,76.0,72.0,144.0,108.0
+Wine,Portugal Wine,Portugal White Wine,49834.0,48308.0,30158.0,37616.0,48097.0
+Wine,Sake,Japan Sake,74605.0,102080.0,100554.0,118226.0,99137.0
+Wine,Sake,Other Country Sake,4433.0,5218.0,4573.0,3181.0,4086.0
+Wine,Sake,USA Sake,16204.0,4981.0,1737.0,1491.0,263.0
+Wine,South Africa Wine,South Africa Fruit and Dessert Wine,0.0,0.0,2.0,27.0,11.0
+Wine,South Africa Wine,South Africa Red Wine,49047.0,36766.0,53090.0,56503.0,35174.0
+Wine,South Africa Wine,South Africa Rose Wine,2574.0,2508.0,1328.0,1659.0,2223.0
+Wine,South Africa Wine,South Africa Sparkling Wine,81.0,202.0,251.0,166.0,225.0
+Wine,South Africa Wine,South Africa White Wine,78773.0,84720.0,63895.0,73726.0,69674.0
+Wine,Spain Wine,Spain Fruit and Dessert Wine,304.0,360.0,284.0,277.0,285.0
+Wine,Spain Wine,Spain Red Wine,225308.0,261364.0,287932.0,276753.0,240382.0
+Wine,Spain Wine,Spain Rose Wine,23188.0,43057.0,26989.0,20828.0,24992.0
+Wine,Spain Wine,Spain Sparkling Wine,64546.0,66140.0,93016.0,58398.0,55945.0
+Wine,Spain Wine,Spain White Wine,37506.0,63443.0,53190.0,44153.0,47639.0
+Wine,USA Wine,USA Fruit and Dessert Wine,0.0,0.0,6.0,0.0,0.0
+Wine,USA Wine,USA Red Wine,-47288.0,188625.0,257272.0,151822.0,150287.0
+Wine,USA Wine,USA Rose Wine,21028.0,21059.0,7097.0,4230.0,1590.0
+Wine,USA Wine,USA Sparkling Wine,-375.0,1214.0,1238.0,1015.0,440.0
+Wine,USA Wine,USA White Wine,11448.0,84947.0,48878.0,44310.0,38529.0
