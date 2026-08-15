@@ -1,4 +1,4 @@
-## Upload LMR data gathered from pdf report to MySQL database
+## Upload LMR data gathered from pdf report to online database
 
 library(tidyverse)
 library(lubridate)
@@ -20,7 +20,8 @@ db_tbl <- "public.lmr_data"
 # Python process doesn't create a data frame in the session
 # - instead, data is saved to output folder
 # - use lmr_data_latest.csv (as below)
-# if table available produced frm LMR-fetch-process-all_vX.R in current/recent session
+# first check if table frm LMR-fetch-process-all_vX.R 
+#   available in current session - if not, import
 if(exists('tables_all')){
   tbl_upload <- tables_all 
 } else if(exists('tbl_upload')) {
@@ -47,7 +48,8 @@ unique(tbl_upload$cat_type)
 #tbl_upload <- tbl_upload %>% filter(fy_qtr == max(fy_qtr))
 
 ## Quarters ----
-## check/add data to LDB_quarters tbl -> automatically add if not present
+## check/add data to LDB_quarters tbl
+#   - automatically add if not present
 qtrs_check <- dbx_fetch_update_qtrs(tbl_upload)
 
 ## RUN function to UPLOAD DATA ----
@@ -55,3 +57,5 @@ dbx_upload(db_tbl, tbl_upload)
 
 ## CHECK: spot-check data by category for most recent quarters
 dbx_check_data(min(tbl_upload$fy_qtr), max(tbl_upload$fy_qtr))
+# could add output to VALUES and then import to dataframe
+#  for easier comparison (if using single screen)
