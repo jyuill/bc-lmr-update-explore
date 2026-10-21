@@ -4,13 +4,27 @@ library(tidyverse)
 library(lubridate)
 library(RPostgres)
 library(glue)
+# if lmrtools pkg available, can replace some queries below
+library(lmrtools)
 
 # use functions from lmr_db_functions.R, incl authentication
 source('functions/lmr_db_functions.R')
 
 # get list of tables
 dbx_list_tables()
+# lmrtools version:
+lmrtools::list_tables()
 
+## DATA
+# lmrtools version
+lt_data_all <- lmrtools::fetch_lmr_complete_filter(replace = TRUE)
+# apply filters if desired
+lt_data_filter <- lmrtools::fetch_lmr_complete_filter(replace = TRUE,
+                                                  min_end_qtr_dt = '2025-12-31',
+                                                  max_end_qtr_dt = '2026-06-30',
+                                                  cat_type = 'Beer')
+
+# only use if lmrtools NOT available:
 # fetch data in main table
 lmr_main <- dbx_fetch_basic()
 # fetch data in main table with filters
@@ -25,6 +39,7 @@ lmr_main_qtrs_short <- dbx_fetch_join_qtr_shortname()
 lmr_main_qtrs_short_repl <- dbx_fetch_join_qtr_shortname(replace=TRUE)
 
 ## QUARTERS ####
+# might be able to use lmrtools - need to check
 # check tblLDB_quarters
 dbListFields(dbx_get_con(), 'lmr_quarters')
 qtr_db <- dbGetQuery(dbx_get_con(), "SELECT * FROM public.lmr_quarters;")

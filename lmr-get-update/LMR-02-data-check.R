@@ -13,14 +13,14 @@ library(formattable)
 library(gt)
 options(scipen=999) # turn off scientific notation
 
-## CHECK DATA: COMPILED FROM PDF ####
+## CHECK DATA: COMPILED FROM QMR PDF ####
 ## assumes data saved from successful run of LMR-01-fetch-process-all.py
 source(here('functions/lmr_extract_functions_v2.R'))
 
 # generic file saved from LMR-01-fetch-process-all.py
 tables_all_fyqtr <- read_csv(here('lmr-get-update', 'output', 'lmr_data_latest.csv'))
 # OR to compare with what is currently in database:
-# use LMR-04_db-mgmt-postgres.R to import existing data
+# use LMR-04_db-mgmt.R to import existing data
   #tables_all_fyqtr <- lmr_pgt
   ## filter for most recent quarters only
   #tables_all_fyqtr <- tables_all_fyqtr %>% 

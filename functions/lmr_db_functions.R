@@ -59,6 +59,8 @@ dbx_list_tables <- function() {
   dbDisconnect(con)
   return(tables)
 }
+# get/display list of tables
+dbx_list_tables()
 
 ## FETCH DATA ----
 #! lmrtools package
